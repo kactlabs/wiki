@@ -18,15 +18,3 @@
 | 7️⃣    | 1,701–2,000 hrs     | **General**            | 🏅 star + laurel wreath     | Recognized GenAI expert/leader                | Hall of Fame Entry + Cash Reward / Swag Kit |
 
 ---
-
-## 🧩 Alternate Fun Titles (Optional)
-
-| Military Rank | Alternate Title Suggestion     |
-|---------------|--------------------------------|
-| Cadet         | Prompt Rookie                  |
-| Corporal      | Token Tactician                |
-| Sergeant      | Chain Commander                |
-| Lieutenant    | RAG Ranger                     |
-| Captain       | Agent Architect                |
-| Major         | LLMOps Operator                |
-| General       | GenAI Grandmaster              |
