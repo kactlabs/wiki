@@ -99,7 +99,7 @@
 ---
 
 ## 💬 Alumni Testimonials
-🎓 **View testimonials from our alumni:** [https://wiki.kactii.com/testimonials.html](https://wiki.kactii.com/testimonials.html)
+🎓 **View testimonials from our alumni:** [Alumni Testimonials](testimonials.md)
 
 ---
 
