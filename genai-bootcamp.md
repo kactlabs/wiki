@@ -61,6 +61,15 @@
 - **PostgreSQL** - Relational database
   - **SQLAlchemy** - ORM
   - **Alembic** - Database migrations
+- **Supabase** - Open source Firebase alternative
+- **SQLiteDB** - Lightweight relational database
+
+#### Vector Databases
+- **Qdrant** - High-performance vector search engine
+- **Weaviate** - Open-source vector database
+- **FAISS** - Facebook AI Similarity Search
+- **Milvus** - Cloud-native vector database
+- **Chroma** - AI-native open-source embedding database
 
 ### ⚙️ Background Job Processing
 - **Dramatiq** - Distributed task processing
@@ -116,4 +125,4 @@ This comprehensive bootcamp will equip you with cutting-edge skills in Generativ
 
 ---
 
-*Last Updated: [Current Date]*
+*Last Updated: [June 25, 2025]*
