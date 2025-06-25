@@ -449,6 +449,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI RoadMap](genai-roadmap.md)
   * [Agent Requirements](agent-requirements.md)
   * [GenAI Daily - Community](genai-daily.md)
+  * [GenAI Bootcamp / Applied Research Bootcamp](genai-bootcamp.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
