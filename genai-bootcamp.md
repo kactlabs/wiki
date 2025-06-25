@@ -2,7 +2,7 @@
 
 ## 📚 Program Overview
 
-**Duration:** 3-4 months  
+**Duration:** 3-6 months  
 **Level:** Level 1  
 **Time Commitment:** 10 hours/week
 
@@ -12,8 +12,8 @@
 
 | Category | Price |
 |----------|-------|
-| **Regular Fee** | ₹10,000 |
-| **After Discount** | ₹7,000 |
+| **Regular Fee** | ₹20,000 |
+| **Student Discount** | ₹7,000 |
 | **Group Discount** | Contact us at [info@kactii.com](mailto:info@kactii.com) |
 
 ---
