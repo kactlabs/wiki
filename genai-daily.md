@@ -46,3 +46,10 @@ You can contribute **any GenAI-related project** or content, such as:
 **💡 Tip**: You must be referred by an existing member to join the group.  
 Spread innovation, build projects, and get rewarded!
 
+
+
+## Winners History
+
+| Week | Winner | College | Amount | Date |
+|------|--------|---------|--------|------|
+| 1 | Afia Jahan | TBD | 600 INR | June 22, 2025 |
