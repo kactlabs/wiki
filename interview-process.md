@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Tactlabs Interview Process
+# Kactlabs Interview Process
 
 1. Coding Offline Test
 

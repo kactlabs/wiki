@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Requests
+# KactSay Tech: Requests
 
 1. The Requests library provides a simple API for interacting with HTTP operations such as GET, POST, etc.
 

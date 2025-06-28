@@ -45,5 +45,5 @@ Start Zorin OS Installation>>
 - Provide your name, computer name, username, and password for the Zorin OS user account.
 - give a small and hard password because you will be asked for password everytime whenever you try to install new software on your zorin os.
 
-## Freshers Installation for Tactii
+## Freshers Installation for Kactii
 - go to wikki page and follow the instruction given in the freshers installation...

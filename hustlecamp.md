@@ -98,4 +98,4 @@ More than 180 students gradudated from our training and internship program.
 50-80K INR (upto 70% scholarship available)
 
 ### Reach us out:
-Email info@tactii.com if you want to know more information about the scholarship program
+Email info@kactii.com if you want to know more information about the scholarship program

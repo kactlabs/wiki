@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: PIL
+# KactSay Tech: PIL
 
 
 1. Python Imaging Library(PIL) is a free and open-source additional library for the Python programming language.

@@ -52,7 +52,7 @@
 * [Visualize a Solar System with Python](https://thecleverprogrammer.com/2020/10/07/visualize-a-solar-system-with-python/)
 * [Hate Speech Detection Model](https://thecleverprogrammer.com/2020/08/19/hate-speech-detection-model/)
 * [Instagram Filters with Python](https://thecleverprogrammer.com/2020/09/24/instagram-filters-with-python/)
-* [Contact Tracing with Machine Learning](https://thecleverprogrammer.com/2020/08/20/contact-tracing-with-machine-learning/)
+* [Conkact Tracing with Machine Learning](https://thecleverprogrammer.com/2020/08/20/conkact-tracing-with-machine-learning/)
 * [Deploy a Chatbot with Python](https://thecleverprogrammer.com/2020/08/21/deploy-a-chatbot-with-python/)
 * [Summarize Text with Machine Learning](https://thecleverprogrammer.com/2020/08/24/summarize-text-with-machine-learning/)
 * [Language Classification with Python](https://thecleverprogrammer.com/2020/10/08/language-classification-with-python/)

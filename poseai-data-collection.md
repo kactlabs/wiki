@@ -15,7 +15,7 @@ Mukesh      196
 
 Total       1380
 
-Tact Credits given:
+Kact Credits given:
 Santhosh    ?
 Sarumathy   ?
 Chaaya      ?  

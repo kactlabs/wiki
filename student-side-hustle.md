@@ -21,4 +21,4 @@ title: Student Side Hustle
 5. Convert your credits to Amazon Gifts and order with us
 
 
-talk to us if any questions at info@tactii.com
+talk to us if any questions at info@kactii.com

@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Case Study: Enhancing FindFilipinay’s Platform with Tact’s Expertise
+## Case Study: Enhancing FindFilipinay’s Platform with Kact’s Expertise
 
 **Client:** FindFilipinay (Findfilipinay.com)<br>
 **Industry:** Social/Dating<br>
@@ -10,7 +10,7 @@
 FindFilipinay aimed to improve its platform's performance and user engagement but needed targeted expertise to optimize its features and enhance the user experience.
 
 ### Solution
-Tact partnered with FindFilipinay to deliver a tailored solution that addressed their goals:
+Kact partnered with FindFilipinay to deliver a tailored solution that addressed their goals:
 
 1. **Platform Optimization:**
    We identified key areas for improvement and implemented performance enhancements, making the platform faster and more responsive to user interactions.
@@ -24,7 +24,7 @@ Tact partnered with FindFilipinay to deliver a tailored solution that addressed 
 ---
 
 ### Client Testimonial
-*"Working with Tact has been transformative for FindFilipinay. Their expertise and strategic guidance have significantly enhanced our platform, helping us reach new levels of efficiency and user engagement. Tact's team brought innovative solutions that directly addressed our challenges, enabling FindFilipinay to deliver a smoother, more responsive experience to our users. We are thrilled to continue this partnership and look forward to further growth together."*
+*"Working with Kact has been transformative for FindFilipinay. Their expertise and strategic guidance have significantly enhanced our platform, helping us reach new levels of efficiency and user engagement. Kact's team brought innovative solutions that directly addressed our challenges, enabling FindFilipinay to deliver a smoother, more responsive experience to our users. We are thrilled to continue this partnership and look forward to further growth together."*
 
 — **FindFilipinay Representative**
 

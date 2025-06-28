@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Among Us
+## Kact Among Us
 
 ### Description
 

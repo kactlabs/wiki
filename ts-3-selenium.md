@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Selenium
+# KactSay Tech: Selenium
 
 1. Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
 

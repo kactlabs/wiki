@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: SQL Alchemy
+# KactSay Tech: SQL Alchemy
 
 1. SQLAlchemy is an open-source SQL toolkit
 

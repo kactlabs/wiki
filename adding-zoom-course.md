@@ -2,9 +2,9 @@
 
 ## Downloading Videos from Zoom
 
-* Create a 'tact-videos' folder in Videos.
+* Create a 'kact-videos' folder in Videos.
 * Rename each  zoom recording as 'Event - Host - Month date, Year'
-* Download the videos with the same filename into '/Videos/tact-videos' folder.
+* Download the videos with the same filename into '/Videos/kact-videos' folder.
 * Save and run this code as app.py from the current folder.
 
 
@@ -12,7 +12,7 @@
 ```
 import os
 # List all files in a directory using os.listdir
-basepath = '/home/...../Videos/tact-videos'
+basepath = '/home/...../Videos/kact-videos'
 for entry in os.listdir(basepath):
     if os.path.isfile(os.path.join(basepath, entry)):
         print(entry)
@@ -22,12 +22,12 @@ for entry in os.listdir(basepath):
 
 ## Uploading in Vimeo:
 
-* Clone 'tact-vimeo-upload' repository and install the packages.
+* Clone 'kact-vimeo-upload' repository and install the packages.
 
 ****
 ```
-git clone git@github.com:tactlabs/tact-vimeo-uploader.git
-cd tact-vimeo-uploader
+git clone git@github.com:kactlabs/kact-vimeo-uploader.git
+cd kact-vimeo-uploader
 pip install -r requirements.txt
 ```
 ****
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 * Add .env and update the 'FILE_BASE_PATH'
 * Fill the all the coloumns with the required details in VimeoVideoUpload base sheet.
 ( Note: Only the filename must be with 'filename.mp4' format)
-* Replace the current sheet with the existing sheet in 'tact-vimeo-upload' folder.
+* Replace the current sheet with the existing sheet in 'kact-vimeo-upload' folder.
 * Run app.py and paste all the links in VimeoVideoUpload upload-history sheet.
 (Note : After updating in upload-history sheet, the base sheet must be empty)
 

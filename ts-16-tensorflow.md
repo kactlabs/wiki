@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Tensorflow
+# KactSay Tech: Tensorflow
 
 1. TensorFlow is an end-to-end open source platform for machine learning.
 

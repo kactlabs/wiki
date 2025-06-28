@@ -5,7 +5,7 @@
 
 1. Gateway Adapter
 
-https://github.com/tactlabs/Tovexity/tree/aws-integration
+https://github.com/kactlabs/Tovexity/tree/aws-integration
 
 This has AWS dependency, Remvoe the AWS dependency and keep vanialla Gateway adapter
 
@@ -50,4 +50,4 @@ print(get_above_5([]))
 
 
 3. I need to collect Medium articles by using Brave (BraveArticleCollector). If 10 articles not collected, recurse it.
-https://github.com/tactlabs/genainewsagent/blob/main/brave_article_collector.py
+https://github.com/kactlabs/genainewsagent/blob/main/brave_article_collector.py

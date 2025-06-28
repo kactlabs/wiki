@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Pandas 
+# KactSay Tech: Pandas 
 
 
 1. The pandas package is the most important tool at the disposal of Data Scientists and Analysts working in Python today.

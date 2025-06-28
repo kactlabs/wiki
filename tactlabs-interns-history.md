@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# TactLabs Interns History
+# KactLabs Interns History
 
 **Note:** This is only for employer verification purpose
 

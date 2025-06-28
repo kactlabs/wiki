@@ -95,7 +95,7 @@ The task is to write a program to find all the EC2 instances running in all regi
 GPU, CPU
 
 ref:
-https://github.com/tactlabs/release-notes-analyzer
+https://github.com/kactlabs/release-notes-analyzer
 ```
 
 12. Flask vs FastAPI Benchmarking
@@ -113,7 +113,7 @@ How much time is it taking
 13. Linktree
 
 ```
-https://github.com/tactlabs/linktree-clone/tree/ivq
+https://github.com/kactlabs/linktree-clone/tree/ivq
 branch: ivq
 
 readme.md will have more details

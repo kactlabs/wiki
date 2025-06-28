@@ -11,7 +11,7 @@
 4. W
 
 ## Old Version: How it works?
-1. For the entry fee (50 Tact Credits), we will subscribe a course for you. 
+1. For the entry fee (50 Kact Credits), we will subscribe a course for you. 
 2. You will have to start learning the course in 6 days.
 3. You should appear for the Tech battle on Saturday evening 6pm IST
 4. Whoever gets the top score in the Tech Battle game will win the Prize (29000 TC)
@@ -19,7 +19,7 @@
 ## Old Version: How to win the Game?
 1. You will be given the specific topic which is related to the course and given 15 minutes time to collect the questions online.
 2. You should Collect Interview Questions related to the topic within 15 minutes.
-3. During the battle time, you should post your question on Tact Info (https://tactinfo.herokuapp.com/admin) and tell the question as well
+3. During the battle time, you should post your question on Kact Info (https://kactinfo.herokuapp.com/admin) and tell the question as well
 4. Based on your question complexity, our Human and ML Judges will score your factor between 1 to 10.
 5. Assume your factor is 7/10 and someone answered your question within 60 seconds, they will get 10 fold of the factor which is 70 points.
 6. If no opponents answered your questions in 60 seconds, you will be given 5 fold of your factor which is 35.
@@ -30,4 +30,4 @@
 
 ### Reference
 
-* [Juz ClaudeIt](https://github.com/tactlabs/just-claude-it) 
+* [Juz ClaudeIt](https://github.com/kactlabs/just-claude-it) 

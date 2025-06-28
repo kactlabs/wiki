@@ -6,7 +6,7 @@
 
  ---
 
-1. Go to [T-Scraper](https://github.com/tactlabs/t-scraper)
+1. Go to [T-Scraper](https://github.com/kactlabs/t-scraper)
 2. Clone the repo
 3. Install JDK by 
 ```

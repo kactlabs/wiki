@@ -14,7 +14,7 @@
 4. Chatbot For Customers
 5. Chatbot Testing
 6. Chatbot Analytics
-7. Customer Contact Analytics
+7. Customer Conkact Analytics
 8. Customer Service Response Suggestions
 9. Social Listening
 10. Intelligent Routing
@@ -136,7 +136,7 @@
 
 
 ### Technology
-95. Abstrakt: Uses Vertex AI to enhance contact center experiences by transcribing calls and evaluating sentiment in real-time, enabling faster issue resolution and better customer interactions.
+95. Abstrakt: Uses Vertex AI to enhance conkact center experiences by transcribing calls and evaluating sentiment in real-time, enabling faster issue resolution and better customer interactions.
 96. ADT: Building a customer agent to help millions of customers select, order, and set up their home security systems.
 97. AUI's Apollo AI: Empowers businesses to create complex, multi-step conversational experiences with neuro-symbolic AI agents that integrate seamlessly with existing systems.
 98. BMC: Partnered with Google Cloud to enhance its BMC Helix platform with Vertex AI and Llama 3.1, improving conversational AI and AIOps recommendations.
@@ -169,7 +169,7 @@
 112. Bank of New York Mellon: Built a virtual assistant to help employees find relevant information and answers to their questions.
 113. Citi: Utilizing Vertex AI to deliver generative AI capabilities for developer toolkits, document processing, and digitization, empowering customer servicing teams.
 114. Commerzbank: Implemented an AI agent powered by Gemini 1.5 Pro to automate client call documentation, reducing processing time and allowing financial advisors to focus on client relationships and personalized advice.
-115. Discover Financial: Supports 10,000 contact center representatives in searching and synthesizing information across detailed policies and procedures during calls.
+115. Discover Financial: Supports 10,000 conkact center representatives in searching and synthesizing information across detailed policies and procedures during calls.
 116. FinQuery: A fintech company using Gemini for Google Workspace to boost productivity and collaboration, aiding in brainstorming, faster email drafting, and project management.
 117. Five Sigma: Developed an AI engine to automate claims handling, reducing errors by 80%, increasing adjuster productivity by 25%, and cutting claims processing time by 10%.
 118. HDFC ERGO: Built insurance "superapps" leveraging Vertex AI for context-sensitive agent nudges, customer onboarding, and highly personalized offerings based on geographical data.
@@ -246,7 +246,7 @@
 
 ### Retail & Consumer Goods
 166. Atlas: An operating system for restaurants in Singapore using AI to improve operational efficiency, drive sales, and surface customer insights for food and beverage brands.
-167. Best Buy: Uses Contact Center AI to generate real-time conversation summaries, reducing call times by 30-90 seconds and improving customer and agent satisfaction.
+167. Best Buy: Uses Conkact Center AI to generate real-time conversation summaries, reducing call times by 30-90 seconds and improving customer and agent satisfaction.
 168. Camanchaca: Chilean seafood company developed Elon, a virtual assistant for efficient digital customer service in just six weeks, enhancing interactions.
 169. Home Depot: Built Sidekick, an application helping store associates manage inventory and prioritize actions using vision models.
 170. Just Salad: Utilizes Gemini for Google Workspace to summarize emails and meetings, streamlining communication and focusing on growth-driving tasks.
@@ -262,7 +262,7 @@
 
 
 ### Telecommunications
-178. Bell Canada: Developed customizable contact center solutions with AI-powered agents and Agent Assist, providing suggestions and sentiment analysis during calls, resulting in $20 million in savings across customer operations.
+178. Bell Canada: Developed customizable conkact center solutions with AI-powered agents and Agent Assist, providing suggestions and sentiment analysis during calls, resulting in $20 million in savings across customer operations.
 179. TELUS: Created a sandbox of internal gen AI tools with privacy and security controls, enabling over 50,000 team members to save an average of 40 minutes per process by analyzing reports, improving field operations, and troubleshooting IT issues.
 180. Verizon: Leveraging generative AI to help teams in network operations and customer experience get answers more efficiently.
 181. Vodafone: Uses Vertex AI to analyze and understand commercial terms and conditions across 10,000+ contracts with 800+ communications operators.

@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Portfolio
+## Kact Portfolio
   * [Find Filipinay](portfolio-findfilipinay.md)
   * [MentorAI](portfolio-mentorai.md)
   * [SpaceIShare](portfolio-spaceishare.md)

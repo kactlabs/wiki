@@ -101,7 +101,7 @@ if __name__ == '__main__':
     start() 
 
 ```
-[ref](https://github.com/teamtact/simple-crud-python-sqlite)
+[ref](https://github.com/teamkact/simple-crud-python-sqlite)
 
 ```
 

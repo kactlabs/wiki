@@ -18,4 +18,4 @@ and you have to guess it correctly.
 
 ### Reference
 
-* [K-object](https://github.com/tactlabs/k-object)
+* [K-object](https://github.com/kactlabs/k-object)

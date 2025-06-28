@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Scikit Learn
+# KactSay Tech: Scikit Learn
 
 
 1. scikit-learn is a free software machine learning library for the Python programming language.

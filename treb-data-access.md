@@ -5,7 +5,7 @@ Login with the client's credentials here -  http://profile.torontomls.net/oas/co
 Then click on New tab and click on Desired option (IDX Data Agreement, VOW Data Agreement) and click continue
 Read the terms and agreements.
 
-Specify the third party's contact and email.
+Specify the third party's conkact and email.
 
 Then enter intended URL where the data will be used.
 

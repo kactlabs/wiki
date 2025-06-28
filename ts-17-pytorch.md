@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Pytorch
+# KactSay Tech: Pytorch
 
 1. Transition seamlessly between eagerand graph modes with TorchScript, and accelerate the path to production with TorchServe.
 

@@ -17,10 +17,10 @@ How to share the NAS Data Location?
 	
 
 - When you are asked for a location, they might be expecting like these:
-	/Tact/datasets-private/housilon_data
+	/Kact/datasets-private/housilon_data
 		https://prnt.sc/_TvDrx88q2B6
 
-	/Tact/Tact_videos/Serkinti/Serkinti 4
+	/Kact/Kact_videos/Serkinti/Serkinti 4
 		https://prnt.sc/mdTC2ejzDVQS
 
 - 
@@ -30,8 +30,8 @@ How to share the NAS Data Location?
 How to share NAS data?
 ```
 
-Share this format when you mention to Tactiians or update them GitHub:
-/Tact/datasets-private/us-postal-codes/AK-zipcodes.json
+Share this format when you mention to Kactiians or update them GitHub:
+/Kact/datasets-private/us-postal-codes/AK-zipcodes.json
 http://gofile.me/6UZP3/HhqAB4MdM
 
 ```

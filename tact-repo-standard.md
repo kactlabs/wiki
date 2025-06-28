@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## TactLabs Repo Standard
+## KactLabs Repo Standard
 
 **Note:** Following some rules will make us to create a better group
 
@@ -12,7 +12,7 @@
 - readme.md should explain about the project in 2-3 lines
 - readme.md should explain how to run the project
 - Every repo should have .gitignore file 
-- For sample .gitignore, check here: [.gitignore](https://wiki.tactii.com/gitignore.html)
+- For sample .gitignore, check here: [.gitignore](https://wiki.kactii.com/gitignore.html)
 - Every Python repo should contain .env ad .env.sample (if any sensitive info used in the project)
 - Every Python repo should contain requirements.txt file
 - if requirements.txt available, it should have clear version mentioned (sample: flask==1.2.2)
@@ -36,7 +36,7 @@ html: webinar-one.html - is right
 
 * .gitignore
 
-    - You can get the sample .gitignore content from [.gitignore](https://wiki.tactii.com/gitignore.html)
+    - You can get the sample .gitignore content from [.gitignore](https://wiki.kactii.com/gitignore.html)
     - Make sure .env is in .gitignore file when you have .env file available in your project
     <br>
 * .env.sample if the project has an env

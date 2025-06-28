@@ -47,7 +47,7 @@ Prepare reports and presentations to communicate your findings and progress.
 - Monthly stipend will be provided
 
 ### Application Process:
-- Interested candidates should submit a resume to info@tactii.com
+- Interested candidates should submit a resume to info@kactii.com
 - Make sure your resume has github, linkedin, kaggle links.
 
 

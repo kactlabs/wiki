@@ -12,7 +12,7 @@ Serkinti - Lexical Brawl:
 
 [Serkinti](https://www.youtube.com/watch?v=p6BJzeEvWRI)
 
-Besides our strength in technical knowledge, we are looking for someone to provide us with tactical and marketing knowledge.
+Besides our strength in technical knowledge, we are looking for someone to provide us with kactical and marketing knowledge.
 
 Our main target audience is college students and/or people trying for entry level IT jobs.
 
@@ -25,7 +25,7 @@ What should you do?
 - Discuss with our management to bring in more revenue
 - Write eye-catching content about the event.
 - Should be able to do digital marketing in Instagram and LinkedIn
-- Occasionally Contacting colleges and universities for events (cold calling).
+- Occasionally Conkacting colleges and universities for events (cold calling).
 - Regularly monitor engagements and bring leads to the events.
 - Must create design posters for social media.
 - Editing intro and outro for videos (Good to have beginner level editing skills).

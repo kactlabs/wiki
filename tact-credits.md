@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Tact Credits
+# Kact Credits
 
 **Note:** Make your way to get credits
 
@@ -28,5 +28,5 @@
 
 ### Option 4:
 ```
-- Play games (AOE 2, Poker, Any Tact Games) with our Tech Experts and get Tact Credits
+- Play games (AOE 2, Poker, Any Kact Games) with our Tech Experts and get Kact Credits
 ```

@@ -1,11 +1,11 @@
 / [Home](index.md)
 
-# TactSay
+# KactSay
 
 **Note:** Say or Pay
 
 
-![TactSay](https://github.com/tactlabs/wiki/blob/master/images/tactsay-2.1.jpg?raw=true)
+![KactSay](https://github.com/kactlabs/wiki/blob/master/images/kactsay-2.1.jpg?raw=true)
 
 ### Bottom (Left to Right):
 [https://prnt.sc/5CTklUB3UOhj](https://prnt.sc/5CTklUB3UOhj)

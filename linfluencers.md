@@ -34,7 +34,7 @@ GPT:
 			https://www.semanticscholar.org/author/Alec-Radford/38909097
 		https://www.linkedin.com/in/alecradford/
 
-		TactRating: 9/10
+		KactRating: 9/10
 
 		https://openai.com/blog/authors/alec/
 

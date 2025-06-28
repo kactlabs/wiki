@@ -1,6 +1,6 @@
 / [Home](index.md) 
 
-# Tact AWS Rules 
+# Kact AWS Rules 
 
 - Secret key and Access key must not be committed in git, even if you are working on a private repo.
 

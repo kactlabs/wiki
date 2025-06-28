@@ -9,7 +9,7 @@
 ### How to setup?
 ```
 1. Go to this url
-    https://github.com/tactlabs/sigpy
+    https://github.com/kactlabs/sigpy
 
 2. Create a new repository under "Use this template" option
 

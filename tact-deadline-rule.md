@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Tact Deadline Rule
+# Kact Deadline Rule
 
 **Note:** Without a concrete deadline, we can't make any progress~
 

@@ -31,6 +31,6 @@ Create daily logs github repo (private)
 
 Jupyter Lab
 
-Download titanic dataset in Kaggle and keep it under c:/<username>/tact/datasets/
+Download titanic dataset in Kaggle and keep it under c:/<username>/kact/datasets/
 ```
 

@@ -201,4 +201,4 @@
 
 
 #### Ref:
-* [https://tactii.atlassian.net/wiki/spaces/~638e689e00cb2fc3f98b7c85/pages/52461569/Python+Basics+for+Beignners](https://tactii.atlassian.net/wiki/spaces/~638e689e00cb2fc3f98b7c85/pages/52461569/Python+Basics+for+Beignners)
+* [https://kactii.atlassian.net/wiki/spaces/~638e689e00cb2fc3f98b7c85/pages/52461569/Python+Basics+for+Beignners](https://kactii.atlassian.net/wiki/spaces/~638e689e00cb2fc3f98b7c85/pages/52461569/Python+Basics+for+Beignners)

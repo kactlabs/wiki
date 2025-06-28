@@ -129,7 +129,7 @@ https://www.alluva.com/contributor.html
 
 
 Nice screens
-https://app.mode.com/home/tactlabs/starred
+https://app.mode.com/home/kactlabs/starred
 
 
 https://rossum.ai

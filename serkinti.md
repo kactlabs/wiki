@@ -13,6 +13,6 @@
 ![image](images/serkinti.png)
 ### Reference  
 
-* [Serkinti-API](https://github.com/tactlabs/serkinti-api)
-* [Serkinti-UI](https://github.com/tactlabs/serkinti-ui)
-* [Serkinti-deployment](https://github.com/tactlabs/serkinti-deployment)
+* [Serkinti-API](https://github.com/kactlabs/serkinti-api)
+* [Serkinti-UI](https://github.com/kactlabs/serkinti-ui)
+* [Serkinti-deployment](https://github.com/kactlabs/serkinti-deployment)

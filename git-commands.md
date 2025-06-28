@@ -771,11 +771,11 @@ git push origin qa
 
 ### How to mirror github repo?
 ```
-git clone --bare https://github.com/tactLabs/tactKMNETL.git
-cd tactKMNETL.git
-git push --mirror https://github.com/rajasgs/tactKMNETLDec2019.git
+git clone --bare https://github.com/kactLabs/kactKMNETL.git
+cd kactKMNETL.git
+git push --mirror https://github.com/rajasgs/kactKMNETLDec2019.git
 cd ..
-rm -rf tactKMNETL.git
+rm -rf kactKMNETL.git
 ```
 [Duplicating a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)
 
@@ -808,8 +808,8 @@ https://chatgpt.com/share/6c4af7db-f6cd-4bcf-956a-1b550b4b882e
 git remote -v
 
 you will something like this
-origin	git@github.com:tactlabs/reponame.git (fetch)
-origin	git@github.com:tactlabs/reponame.git (push)
+origin	git@github.com:kactlabs/reponame.git (fetch)
+origin	git@github.com:kactlabs/reponame.git (push)
 ```
 
 

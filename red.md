@@ -16,7 +16,7 @@ Points:
 
 -Predicting food choices based on a single food item(sivaraam)
 
--Tact bot 100 questions
+-Kact bot 100 questions
   samples:
    top 5 restaurants at this cost range
    restaurants near a particular location

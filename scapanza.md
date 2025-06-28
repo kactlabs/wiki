@@ -16,4 +16,4 @@
 
 ### Reference 
 
-* [Scapanza](https://github.com/tactlabs/scapanza-s2) 
+* [Scapanza](https://github.com/kactlabs/scapanza-s2) 

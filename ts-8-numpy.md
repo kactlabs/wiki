@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Numpy 
+# KactSay Tech: Numpy 
 
 1. NumPy is a Python library used for working with arrays.
 

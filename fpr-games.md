@@ -6,7 +6,7 @@ Featurepreneur Games
 
   01. [Serkinti](serkinti.md)
   02. [Mythraki](mythraki.md)
-  03. [Tact-Say](tactsay.md)
+  03. [Kact-Say](kactsay.md)
   04. [Chromatius](chromatius.md)
   05. [K-Object](kobject.md)
   06. [Scapanza](scapanza.md)
@@ -16,7 +16,7 @@ Featurepreneur Games
   10. [Juz Claude It](juz-claude-it.md)
   11. [Kricket](kricket.md)
   12. [Story-weaving](storyweaving.md)
-  13. [Tact Among Us](tactamongus.md)
+  13. [Kact Among Us](kactamongus.md)
   14. [CronMe](cronme.md)
   15. [Regexpresso](regexpresso.md)
   16. [LinRights](linrights.md)

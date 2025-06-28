@@ -5,7 +5,7 @@
 **Note:** Acting like a fool is the best way to learn programming
 
 **Learn with RJ CSP:**
-(A new initiative from Tact Labs)
+(A new initiative from Kact Labs)
 
 Learning is hard when you do it alone. But there are some ways to learn them properly. Especially guy like RJ CSP is ready to learn with you by **ROLE PLAYING** of a fresher and a fool who is with curiosity but makes more mistakes!
 

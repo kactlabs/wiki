@@ -18,7 +18,7 @@ docker run -d --name=mysql2 -e MYSQL_ROOT_PASSWORD=’mypassword’ -v /storage/
 
 #### Mysql Setup - Mac - Docker:
 ```
-docker run -p 3306:3306 --name tactmysql -e MYSQL_ROOT_PASSWORD=kaipulla -d mysql:latest
+docker run -p 3306:3306 --name kactmysql -e MYSQL_ROOT_PASSWORD=kaipulla -d mysql:latest
 
 mysql -uroot -pkaipulla -h127.0.0.1 -P3306
 ```
@@ -32,10 +32,10 @@ brew services restart mysql
 
 #### Create DB and Table
 ```
-Create database tactdb;
-GRANT ALL PRIVILEGES ON tactdb.* TO 'root'@'localhost';
+Create database kactdb;
+GRANT ALL PRIVILEGES ON kactdb.* TO 'root'@'localhost';
 flush privileges;
-use tactdb;
+use kactdb;
 
 CREATE TABLE CITY(
   ID SERIAL PRIMARY KEY,
@@ -60,7 +60,7 @@ import MySQLdb
 db = MySQLdb.connect(host="127.0.0.1", 
                      user="root",      
                      passwd="kaipulla",
-                     db="tactdb")     
+                     db="kactdb")     
 
 cur = db.cursor()
 

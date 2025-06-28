@@ -188,13 +188,13 @@ http://localhost:8888/lab
 
 **How to mirror github repo / how to git-mirror?**
 ``` 
-git clone --bare https://github.com/tactLabs/tactKMNETL.git
-cd tactKMNETL.git
-git push --mirror https://github.com/rajasgs/tactKMNETLDec2019.git
+git clone --bare https://github.com/kactLabs/kactKMNETL.git
+cd kactKMNETL.git
+git push --mirror https://github.com/rajasgs/kactKMNETLDec2019.git
 cd ..
-rm -rf tactKMNETL.git    
+rm -rf kactKMNETL.git    
 ```
-* [How to Mirror Sample repo](https://github.com/tactLabs/tactKMNETL)
+* [How to Mirror Sample repo](https://github.com/kactLabs/kactKMNETL)
 * [Duplicating a Repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)
 
 

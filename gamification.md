@@ -8,7 +8,7 @@
 - Battle with your fellow learners
 - 30 - 60 minutes battle
 - LA will make eligibility
-- Any one of 20 Tact Games will be conducted
+- Any one of 20 Kact Games will be conducted
 
 
 #### How to be eligible?

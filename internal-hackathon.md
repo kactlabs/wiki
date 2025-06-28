@@ -2,7 +2,7 @@
 
 # Internal Hackathon
 
-**Note:** Applicable only for Tactiians
+**Note:** Applicable only for Kactiians
 
 
 

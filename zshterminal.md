@@ -36,7 +36,7 @@ Make sure you have a custom folder
 echo $ZSH_CUSTOM
 
 it should should show like this
-/Users/tactlabs/.oh-my-zsh/custom
+/Users/kactlabs/.oh-my-zsh/custom
 ```
 
 

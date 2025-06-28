@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Alumni list
+## Kact Alumni list
 
 
 ### Season 1
@@ -166,15 +166,15 @@ https://www.linkedin.com/in/ishitagopalakrishnan/
 Apr 2021 - Jun 2022 · 1 yr 3 mos
 
 
-https://github.com/orgs/tactvee/people/chaayagirimon
+https://github.com/orgs/kactvee/people/chaayagirimon
 
-https://github.com/orgs/tactvee/people/elakiavm
+https://github.com/orgs/kactvee/people/elakiavm
 
-https://github.com/orgs/tactvee/people/Nagulraj
+https://github.com/orgs/kactvee/people/Nagulraj
 
-https://github.com/orgs/tactvee/people/sudir-hash
+https://github.com/orgs/kactvee/people/sudir-hash
 
-https://github.com/orgs/tactvee/people/Blazekiller8
+https://github.com/orgs/kactvee/people/Blazekiller8
 
 
 

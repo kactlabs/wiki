@@ -2,7 +2,7 @@
 
 # Give 'em a Laptop
 
-**Note:** a new initiative from Tact Labs
+**Note:** a new initiative from Kact Labs
 
 
 
@@ -10,7 +10,7 @@
 
 We want to give school kids and see what do they learn in th laptop!
 
-It's a simple curiosity based social research program initiated by Tact Labs.
+It's a simple curiosity based social research program initiated by Kact Labs.
 
 #### How it works?
 We will give a kid laptop for 3 weeks and ask them to learn anything they want. 

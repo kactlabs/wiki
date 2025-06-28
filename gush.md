@@ -39,7 +39,7 @@ git_push_with_chatgpt()
     git add .
 
     # path to the file
-    file_path="/Users/fpr11/tact/gitmagic/gcommit-chatgpt.txt"
+    file_path="/Users/fpr11/kact/gitmagic/gcommit-chatgpt.txt"
 
     # using wc command to count number of lines
     number_of_lines=`wc -l < $file_path`

@@ -11,7 +11,7 @@
 The gaming company needed a specialized machine learning solution for accurate weapon classification within their app, but lacked an in-house ML team to develop and implement it. This gap limited their ability to improve player experience, especially around events and seasonal content.
 
 ### Solution
-In 2019, Tact provided an end-to-end machine learning solution to address this need:
+In 2019, Kact provided an end-to-end machine learning solution to address this need:
 
 1. **Cutting-Edge Weapon Classification ML Model:**
    We developed a custom ML model that effectively classified in-game weapons, enhancing gameplay dynamics and overall user experience.
@@ -25,6 +25,6 @@ In 2019, Tact provided an end-to-end machine learning solution to address this n
 ---
 
 ### Client Testimonial
-*"The expertise and dedication Tact brought to our project were invaluable. Their machine learning solution for weapon classification was a game-changer for us, enabling us to elevate our app’s appeal and significantly boost user engagement. Tact's support played a major role in our seasonal success, and we couldn’t be more appreciative."*
+*"The expertise and dedication Kact brought to our project were invaluable. Their machine learning solution for weapon classification was a game-changer for us, enabling us to elevate our app’s appeal and significantly boost user engagement. Kact's support played a major role in our seasonal success, and we couldn’t be more appreciative."*
 
 — **Gaming Company Representative**

@@ -21,8 +21,8 @@ https://somang1418.github.io/
 https://github.com/somang1418/somang1418.github.io
 
 
-https://tactlabs.github.io/
-https://github.com/tactlabs/resume-base1
+https://kactlabs.github.io/
+https://github.com/kactlabs/resume-base1
 
 https://rsk2327.github.io/
 

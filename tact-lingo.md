@@ -1,9 +1,9 @@
 / [Home](index.md)
 
-## Tact Lingo
+## Kact Lingo
 
 1. KT   - Knowledge Transfer
-2. TACT - Tact Labs
+2. TACT - Kact Labs
 3. VaM  - Vanilla Microservices
 4. SVaM - Single repo based VaM
 5. DoM  - Docker Microsercices (regular Microservices)
@@ -18,7 +18,7 @@
 
 
 
-## Tact Mythraki:
+## Kact Mythraki:
 1. Jestor - Admin
 2. Leplatz - Playground
 

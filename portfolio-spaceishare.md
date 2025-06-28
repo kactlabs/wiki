@@ -14,7 +14,7 @@
 SpaceIShare, a startup in the sharing economy, faced challenges in collecting and analyzing data effectively. Their existing systems struggled to meet the demands for scalable data insights, which impacted operational efficiency and revenue growth.
 
 ### Solution
-Tact, through our 2019 service project, provided a tailored solution to solve these challenges:
+Kact, through our 2019 service project, provided a tailored solution to solve these challenges:
 
 1. **Custom In-House Data Collection Tool:**
    We designed and built a modern, scalable tool to automate data collection processes, ensuring accuracy and efficiency.
@@ -28,7 +28,7 @@ Tact, through our 2019 service project, provided a tailored solution to solve th
 ---
 
 ### Founder Testimonial
-*"The Tact team was instrumental in helping us overcome our data challenges. Their expertise in data collection and machine learning gave us the tools we needed to move forward. Thanks to their support, we were able to streamline our operations and drive indirect revenue growth. We are truly grateful for the impact they made at SpaceIShare."*
+*"The Kact team was instrumental in helping us overcome our data challenges. Their expertise in data collection and machine learning gave us the tools we needed to move forward. Thanks to their support, we were able to streamline our operations and drive indirect revenue growth. We are truly grateful for the impact they made at SpaceIShare."*
 
 — **Sarah, Founder, SpaceIShare**
 

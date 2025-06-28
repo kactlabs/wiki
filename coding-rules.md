@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Coding Rules
+## Kact Coding Rules
 
 
 ```

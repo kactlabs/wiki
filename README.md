@@ -2,7 +2,7 @@
 
 # TACT Labs Wiki
 
-## TactLabs
+## KactLabs
 
 ### Documentation
 

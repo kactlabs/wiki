@@ -2,7 +2,7 @@
 
 # Setting terminal colors
 
-Tactlabs recommends using their own theme for your terminal as it is contrasting and clear.
+Kactlabs recommends using their own theme for your terminal as it is contrasting and clear.
 
 the colors used are:
 

@@ -15,7 +15,7 @@ Install 'code' command in PATH** command.
 #### VSCode Extensions
 ```
 admin:
-  NALs:/Tact/datasets-private/linkedin-notes/vscode-extensions.pdf
+  NALs:/Kact/datasets-private/linkedin-notes/vscode-extensions.pdf
 ```
 
 

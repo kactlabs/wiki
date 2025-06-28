@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Bokeh
+# KactSay Tech: Bokeh
 
 1. Bokeh makes it simple to create common plots, but also can handle custom or specialized use-cases.
 

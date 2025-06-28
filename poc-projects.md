@@ -35,7 +35,7 @@ Capstone Projects / POC:
 
 	Once the processing is done, we will send an email to the group
 		Group 1
-			raja@tactii.com
+			raja@kactii.com
 			vijitha@gmail.com
 
 		Group 2

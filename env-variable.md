@@ -8,7 +8,7 @@
 
 Settting environment variable option 1
 ```
-export TACT_ENV='local_tact_env'
+export TACT_ENV='local_kact_env'
 
 verify:
 printenv TACT_ENV

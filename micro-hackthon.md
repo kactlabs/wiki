@@ -2,7 +2,7 @@
 
 # Micro Hackathon
 
-**Note:** This is applicable only for Tactiians
+**Note:** This is applicable only for Kactiians
 
 
 

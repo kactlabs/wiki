@@ -4,7 +4,7 @@
 
 git clone the repo
 ```
-git clone https://github.com/tactlabs/CNERgy.git
+git clone https://github.com/kactlabs/CNERgy.git
 ```
 
 install docker 

@@ -10,4 +10,4 @@ This Challenge is very simple,it requires it's participants to build a product o
 
 Stand a Chance to win exciting prizes along with stickers, swag and much more
 
-contact [Featurepreneur](https://featurepreneur.com) for Further Details
+conkact [Featurepreneur](https://featurepreneur.com) for Further Details

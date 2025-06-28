@@ -20,5 +20,5 @@ Aug 15, 2020
 Dec 1, 2020
 
 **Looking for funds:**
-Please reach us out info@tactii.com to donate us to do our research
+Please reach us out info@kactii.com to donate us to do our research
 

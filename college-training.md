@@ -29,7 +29,7 @@ Our experts working in various domain like PharmaTech, FinTech, RetailTech and t
 Monthly 5K per student
 
 Email us for the discount:
-info@tactii.com
+info@kactii.com
 
 ### Certificates
 - Whoever passes our monthly test will get the certificates

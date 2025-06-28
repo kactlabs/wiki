@@ -14,4 +14,4 @@
     3. 3200 TC - random wheel 
     4. 4350 TC - efficient collector
 * How can I cash out?
-    - You can't cash out. However, you can convert your Tact Credits
+    - You can't cash out. However, you can convert your Kact Credits

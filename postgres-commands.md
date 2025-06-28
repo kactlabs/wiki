@@ -356,7 +356,7 @@ if you face pycopg2 issue in alpine:
 https://github.com/uroybd/python3-psycopg2-alpine/issues/2
 
 Sample App:
-https://github.com/teamtact/flask-rest-city-crud-postgresql/
+https://github.com/teamkact/flask-rest-city-crud-postgresql/
 
 Flask - AWS RDS - Postgres - CRUD
 flask-aws-rds-postgres-crud-sqlite
@@ -432,7 +432,7 @@ order by cityid
 ;
 ----------------------------------------------------------------------------------------------------
 
-https://github.com/tactlabs/flask-migrate-postgres/tree/master
+https://github.com/kactlabs/flask-migrate-postgres/tree/master
 
 python manage.py db init
 

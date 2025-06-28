@@ -48,7 +48,7 @@ Features:
 
 - focus on communication skills
 
-- mentors - extra tact coins (based on learners votes)
+- mentors - extra kact coins (based on learners votes)
 
 - learners get diff tasks  
 

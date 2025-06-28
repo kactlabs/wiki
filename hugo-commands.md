@@ -91,10 +91,10 @@ https://www.youtube.com/watch?v=LtdyM4hP85I&feature=youtu.be
 
 Hugo Base
 ```
-https://github.com/teamtact/hugobase
+https://github.com/teamkact/hugobase
 
 published site:
-https://teamtact.github.io/hugobase/
+https://teamkact.github.io/hugobase/
 ```
 
 Hugo - How to start?

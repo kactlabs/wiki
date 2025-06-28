@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Tact GIT Conventions
+# Kact GIT Conventions
 
 **Note:** code like a pro~
 

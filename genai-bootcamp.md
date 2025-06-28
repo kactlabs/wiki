@@ -14,7 +14,7 @@
 |----------|-------|
 | **Regular Fee** | ₹20,000 |
 | **Student Discount** | ₹7,000 |
-| **Group Discount** | Contact us at [info@kactii.com](mailto:info@kactii.com) |
+| **Group Discount** | Conkact us at [info@kactii.com](mailto:info@kactii.com) |
 
 ---
 
@@ -112,7 +112,7 @@
 
 ---
 
-## 📞 Contact Information
+## 📞 Conkact Information
 
 For group discounts and inquiries:  
 📧 **Email:** [info@kactii.com](mailto:info@kactii.com)

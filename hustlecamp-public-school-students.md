@@ -95,4 +95,4 @@ Remote (connect training on Zoom)
 - You should have proper internet
 
 ### Reach us out:
-Email info@tactii.com if you want to know more information about the scholarship program
+Email info@kactii.com if you want to know more information about the scholarship program

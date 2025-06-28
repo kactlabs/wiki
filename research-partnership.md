@@ -5,9 +5,9 @@
 **Note:** Partner with us in our Research work
 
 
-TactLabs is looking for Research Partners to support our research
+KactLabs is looking for Research Partners to support our research
 
-TactLabs can hire upto 4 students per season from our Research Partners
+KactLabs can hire upto 4 students per season from our Research Partners
 
 In the first 2 months, rigorous training will be provided on our Research Areas & Web Stack:
 	
@@ -43,4 +43,4 @@ Interns will have to stay minimum of 3 months to get the full benefits including
 
 Research Partners can use our company brand for any benefits which is related to Education and Research.
 
-For further info, please reach out raja@tactii.com
+For further info, please reach out raja@kactii.com

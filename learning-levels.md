@@ -10,7 +10,7 @@
 | Level | Learning Hours     | Military Rank         | Badge/Icon Suggestion     | Meaning in Learning                          | Reward                                     |
 |-------|---------------------|------------------------|----------------------------|-----------------------------------------------|---------------------------------------------|
 | 1️⃣    | 0–100 hrs           | **Cadet**              | 🎓 or 🟢 chevron             | Just enlisted into GenAI journey              | Welcome Badge + Level-1 Certificate         |
-| 2️⃣    | 101–300 hrs         | **Corporal**           | 🔰 or double chevrons       | Basic command of GenAI skills                 | Access to Tact-python repo access () + XP Boost          |
+| 2️⃣    | 101–300 hrs         | **Corporal**           | 🔰 or double chevrons       | Basic command of GenAI skills                 | Access to Kact-python repo access () + XP Boost          |
 | 3️⃣    | 301–600 hrs         | **Sergeant**           | 🔵 or triple chevrons       | Leading own small projects                    | GenAI T-shirt / GitHub shoutout             |
 | 4️⃣    | 601–1,000 hrs       | **Lieutenant**         | 🟡 single bar               | Solid mid-level builder in GenAI              | LinkedIn Skill Badge + Resume Review        |
 | 5️⃣    | 1,001–1,400 hrs     | **Captain**            | ⭐ single star              | Handling end-to-end GenAI workflows           | Project Spotlight + Access to Interview Sim |
@@ -21,6 +21,6 @@
 
 
 
-### Tact Python Repo:
+### Kact Python Repo:
 - 51 User contributed code base
 - 3732 Industrial based Python code snippets

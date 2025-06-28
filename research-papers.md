@@ -2,7 +2,7 @@
 
 # Research Papers
 
-**Note:** Tact Research Paper History
+**Note:** Kact Research Paper History
 
 
 1. [Stack Index Prediction Using Time-Series Analysis - August 2021](https://arxiv.org/abs/2108.08120)

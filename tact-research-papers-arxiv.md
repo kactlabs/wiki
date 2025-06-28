@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Research Papers on Arxiv
+## Kact Research Papers on Arxiv
 
 
 ### 1
@@ -16,7 +16,7 @@ https://arxiv.org/abs/2108.08120
 	https://ar5iv.labs.arxiv.org/html/2108.08120
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 2
@@ -32,7 +32,7 @@ https://arxiv.org/abs/2205.04876
 	https://ar5iv.labs.arxiv.org/html/2205.04876
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 3
@@ -48,7 +48,7 @@ https://arxiv.org/abs/2205.15320
 	https://ar5iv.labs.arxiv.org/html/2205.15320
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 4
@@ -64,7 +64,7 @@ https://arxiv.org/abs/2303.08660
 	https://ar5iv.labs.arxiv.org/html/2303.08660
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 5
@@ -81,7 +81,7 @@ https://arxiv.org/abs/2310.02759
 	https://ar5iv.labs.arxiv.org/html/2310.02759
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 6
@@ -100,7 +100,7 @@ https://arxiv.org/abs/2404.06339
 	https://ar5iv.labs.arxiv.org/html/2404.06339
 
 	Note:
-	published with raja@tactii.com
+	published with raja@kactii.com
 ```
 
 ### 7
@@ -114,7 +114,7 @@ https://arxiv.org/abs/2404.10678
 	Published: April 2024
 
 	https://arxiv.org/pdf/2404.10678.pdf
-	https://github.com/tactlabs/test-case-generation
+	https://github.com/kactlabs/test-case-generation
 
 	Note:
 	published with raja.csp@gmail.com

@@ -12,7 +12,7 @@
 - [Previous Research Papers](research-papers.md)
 
 ### How to submit?
-- Email us (info@tactii.com) with your details:
+- Email us (info@kactii.com) with your details:
   - Resume (PDF)
   - LinkedIn Link
   - Github Link

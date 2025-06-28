@@ -13,11 +13,11 @@
 2. Select 'Internet Site' General type of mail configuration
 	
 3. In system mail name, type your domain name
-	tactti.com
+	kactti.com
 	
 4. Once the installation is complete, confirm myhostname param in /etc/postfix/main.cf
 ```
-myhostname = tactii.com
+myhostname = kactii.com
 ```
 
 
@@ -25,14 +25,14 @@ myhostname = tactii.com
 
 **Veriy myhostname**
 ```
-cat /etc/postfix/main.cf | grep "tactii"
-myhostname = tactii.com
+cat /etc/postfix/main.cf | grep "kactii"
+myhostname = kactii.com
 ```
 
 **Open sasl_password and update your Gmail app password**
 ```
 vi /etc/postfix/sasl/sasl_passwd
-[smtp.gmail.com]:587 xyz@tactii.com:enssmudsibcssagu
+[smtp.gmail.com]:587 xyz@kactii.com:enssmudsibcssagu
 ```
 
 **Create a hash db file for Postfix**

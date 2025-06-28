@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Tact Research
+## Kact Research
 
 
 - [Peer Effect](peer-effect.md)

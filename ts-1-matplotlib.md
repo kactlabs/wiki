@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Matplotlib
+# KactSay Tech: Matplotlib
 
 
 1. It's a plotting library in Python with Numpy included.

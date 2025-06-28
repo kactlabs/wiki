@@ -34,7 +34,7 @@ julia
 
 
 #### Julia Basic samples
-[Juliavil - TactLabs](https://github.com/tactlabs/juliavil)
+[Juliavil - KactLabs](https://github.com/kactlabs/juliavil)
 
 
 #### How to run a file in Julia?

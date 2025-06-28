@@ -1,12 +1,12 @@
 / [Home](index.md)
 
-# Tact OS and Git Rules
+# Kact OS and Git Rules
 
 **Note:** We apply these rules every day!
 
 
 
-At Tact & TactLabs, 
+At Kact & KactLabs, 
 ```
 we are NOT supposed to see **Windows** while screen sharing or at work
 

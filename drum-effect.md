@@ -12,6 +12,6 @@ These two communities suffer like anything as they get beaten up by the views of
 
 As helping both communities, we do extra care on these community based students and we help them to start their IT/ML careers with us.
 
-If you know any one who is from either one of these communities and they are struggling to upgrade in IT/ML, please talk to us by simple eamil info@tactii.com.
+If you know any one who is from either one of these communities and they are struggling to upgrade in IT/ML, please talk to us by simple eamil info@kactii.com.
 
 We will schedule a meeting with the candidates and start helping to shape up their career.

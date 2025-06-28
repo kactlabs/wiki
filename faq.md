@@ -12,13 +12,13 @@
 2. What is job shadowing ?
     Job shadowing is when you observe and learn from other interns work and help them.
 
-3. Why do tactii prefer linux (ubuntu ) Operating system ?
+3. Why do kactii prefer linux (ubuntu ) Operating system ?
     As it is easier to program and operate with linux. Windows is only used by people with no programming background.
 
-4. What are the basic knowledge required to join tact labs as an intern ?
+4. What are the basic knowledge required to join kact labs as an intern ?
     Basic programming skills in python, HTML, JS
 
-5. When will I be elligible for the tact labs internship's certificate ?
+5. When will I be elligible for the kact labs internship's certificate ?
     you will have to work for 550 hours for 3 months or more and 10 medium articles on the topic you have learned.
 
 6. How long can we take break as an intern ?
@@ -36,8 +36,8 @@
 10. What is social team ?
     The social team discuss about current social and political issues
 
-11. Is there any certain holidays in tactii ?
-    No, there aren't specific holidays in tact
+11. Is there any certain holidays in kactii ?
+    No, there aren't specific holidays in kact
 
 12. Do I have to work on weekends ?
     Interns are expected to work more on weekends
@@ -48,7 +48,7 @@
 14. How many days can I use the MAC BOOK ?
     2 weeks
 
-15. Does tactii conduct any competitions ?
+15. Does kactii conduct any competitions ?
     Yes, we conduct competitions once in 2 weeks
 
 16. How is serkinti competition played ?
@@ -57,16 +57,16 @@
 17. What is AOE ?
     AGE OF EMPIRES is a strategic game on building kingdoms. It is used to help improve team coordination
 
-18. Does tactii empower women ?
-    Yes. 60% of the interns in tactii are women
+18. Does kactii empower women ?
+    Yes. 60% of the interns in kactii are women
 
-19. What are the apps developed by tactlabs ?
-    Serkinti, chromatuis, tact info, tact timer, tact wheel, learning analytics extension, tamizhai
+19. What are the apps developed by kactlabs ?
+    Serkinti, chromatuis, kact info, kact timer, kact wheel, learning analytics extension, tamizhai
 
-20. What is the difference between tactlabs and feartureprenuer ?
-    Featurepreneur is a community that is for people who are interested in coding and programming whereas tactlabs is a Canadian based startup company
+20. What is the difference between kactlabs and feartureprenuer ?
+    Featurepreneur is a community that is for people who are interested in coding and programming whereas kactlabs is a Canadian based startup company
 
-21. How often hackathons are conducted in tactii ?
+21. How often hackathons are conducted in kactii ?
     Every other week
 
 22. Do I get stipend for working as an intern ?
@@ -81,13 +81,13 @@
 25. What happens if my laptop crashes while installing ubuntu ?
     We will help you fix it, but if there is any further damage we will cover the cost
 
-26. Do I get certificate for completing tact courses ?
+26. Do I get certificate for completing kact courses ?
     No, you dont get a certificate
 
 27. Can I share my Featurepreneur Credits with my friends ?
     Yes, you can donate upto 70% of your Featurepreneur Credits to your friends
 
-28. Can I quit tact labs without completing 550 hours of time span ?
+28. Can I quit kact labs without completing 550 hours of time span ?
     Yes you can quit but you would not get your certificate
 
 29. Will the social team get any extra credits ?

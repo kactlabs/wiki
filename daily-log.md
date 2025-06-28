@@ -5,14 +5,14 @@
 **Note:** Document your everyday learning!
 
 
-## Tact Daily Log (DL) Standard:
+## Kact Daily Log (DL) Standard:
 - You shoul have the file name username_dl.txt
     - Sample: raja_dl.txt
 
-- Use the Tact DL Template from below
+- Use the Kact DL Template from below
 
 
-### Tact DL Template
+### Kact DL Template
 ```
 --------------------------------------------------
 Day # 01 - Jan 03, 2022 - Monday
@@ -64,10 +64,10 @@ IVQ:
 
 
 ------------------------
-https://github.com/tactlabs/CNERgy
+https://github.com/kactlabs/CNERgy
 Custom Named Entity Recognizer - NLP Annotator for Spacy 
 
-https://github.com/tactlabs/prettymetrics
+https://github.com/kactlabs/prettymetrics
 Pretty Metrics - Quick Accuracy finder for various datasets against 74 ML Algorithms
 ------------------------/
 

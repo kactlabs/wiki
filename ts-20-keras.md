@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: Keras
+# KactSay Tech: Keras
 
 1. Keras is an API designed for human beings, not machines.
 

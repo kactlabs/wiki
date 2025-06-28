@@ -1,6 +1,6 @@
-/ [Home](index.md) / [TactSay](tactsay.md)
+/ [Home](index.md) / [KactSay](kactsay.md)
 
-# TactSay Tech: General Python
+# KactSay Tech: General Python
 
 
 1. Python is a high-level, general-purpose programming language.

@@ -5,7 +5,7 @@
 
 
 ```
-git clone https://github.com/tactlabs/speedtest-python
+git clone https://github.com/kactlabs/speedtest-python
 
 activate conda
 

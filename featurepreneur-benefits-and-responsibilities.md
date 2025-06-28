@@ -20,7 +20,7 @@
 - Eligible for Book Wheel
 - Certificate after 100 Hours (Level 1)
 - 10 articles and get a gift payment
-- Possible Job Shadowing opportunity with TactLabs Interns/Employees
+- Possible Job Shadowing opportunity with KactLabs Interns/Employees
 - Possible Internship opportunities
 
 

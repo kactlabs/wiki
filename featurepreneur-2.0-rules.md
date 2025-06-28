@@ -43,7 +43,7 @@
 
 ### 7.Migration:
 
-> - Tactlabs slack will no longer be used
+> - Kactlabs slack will no longer be used
 > - All communication will be done in Featurepreneur slack
 
 ### 8.LA weekly:
@@ -117,7 +117,7 @@
 > - You need to write a convincing letter + reference letter (2 teachers)  
 > - budget 50K INR
 > - We'll also sell used Mac for 40k INR
-    **We won't contact the referral teachers**
+    **We won't conkact the referral teachers**
 
 ### 20.AMA bi-weekly sessions:
 

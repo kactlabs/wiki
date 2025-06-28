@@ -1,6 +1,6 @@
-# Tact Labs Wiki
+# Kact Labs Wiki
 
-TactLabs is a research unit of Tactii (formerly TalentAccurate) dedicated to work on trendy technologies like Keras, Tensorflow, Microservices, AWS ECS, Kubernetes and Julia.
+KactLabs is a research unit of Kactii (formerly TalentAccurate) dedicated to work on trendy technologies like Keras, Tensorflow, Microservices, AWS ECS, Kubernetes and Julia.
 
 We do simple and smart apps mostly for POC purposes with scaling options which can be put it on PROD within a few hours.
 
@@ -14,18 +14,18 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [APScheduler](apscheduler.md)
   * [MinIO](minio-commands.md)
   * [RabbitMQ Commands](rabbitmq-commands.md)
-  * [TACT Tools](tact-tools.md)
+  * [TACT Tools](kact-tools.md)
   * [CURL Basics](curl-basics.md)
   * [What is my IP - CURL and others](what-is-my-ip.md)
   * [Python Snippets](python-snippets.md)
   * [Markdown Cheatsheet](markdown-cheatsheet.md)
-  * [Tact Alias](tact-alias.md)
+  * [Kact Alias](kact-alias.md)
   * [How to Gmail App Password](how-to-setup-gmail-app-password)
   * [Postfix Setup - Ubuntu](postfix-setup-ubuntu.md)
   * [Nice Web Pages](nice-web-pages.md)
   * [Flask Migrate Commands](flask-migrate-commands.md)
   * [Environment variable](env-variable.md)
-  * [Tact S3 file upload and CloudFront](tact-s3-cloudfront.md)
+  * [Kact S3 file upload and CloudFront](kact-s3-cloudfront.md)
   * [Conda Commands](conda-commands.md)
   * [Miniconda Commands](miniconda.md)
   * [Linux Misc Commands](linux-misc-commands.md)
@@ -45,7 +45,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Learning Analytics](Learning-analytics.md)
   * [AWS Exam](aws_exam.md)
   * [Error Log / Error Archive](error-log.md)
-  * [New Profile creation in Terminal](tact-terminal-profile.md)
+  * [New Profile creation in Terminal](kact-terminal-profile.md)
   * [Snap Issues](snap-issues.md)
   * [Journalctl](journalctl.md)
   * [Zoom Installation](zoom.md)
@@ -54,14 +54,14 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Accessing TREB data](treb-data-access.md)
   * [SBT Installation](sbtInstall.md)
   * [FAQ / Frequently Asked Questions](faq.md)
-  * [Changing zsh terminal color](tact-terminal-color.md)
+  * [Changing zsh terminal color](kact-terminal-color.md)
   * [Python Code Template](python-code-template.md)
   * [Requirements Template](requirements-template.md)
   * [DBeaver Installation](dbeaver.md)
   * [Pbcopy](Pbcopy.md)
   * [NAS Drive](nas-drive.md)
   * [HTTP response status code](http_response.md)
-  * [Tact Credits](tact-credits.md)
+  * [Kact Credits](kact-credits.md)
   * [VScode and Extensions](vscode-and-extensions.md)
   * [SpeedTest](speedtest.md)
   * [Podman Commands](podman-commands.md)
@@ -138,37 +138,37 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Git
   * [Git Commands](git-commands.md)
   * [.gitignore Template](gitignore.md)
-  * [Tact OS and Git Rules](tact-os-and-git-rules.md)
-  * [Tact Git Conventions](tact-git-conventions.md)
+  * [Kact OS and Git Rules](kact-os-and-git-rules.md)
+  * [Kact Git Conventions](kact-git-conventions.md)
   * [Gush - One way quick Git Push](gush.md)
   * [Git ssh connection error fix](git-ssh-fix.md)
 
-## Tact Rules / Core Values / Policies
-  * [Tact Rules](tact-rules.md)
-  * [Tact Deadline Rules](tact-deadline-rule.md)
+## Kact Rules / Core Values / Policies
+  * [Kact Rules](kact-rules.md)
+  * [Kact Deadline Rules](kact-deadline-rule.md)
   * [Availability Schedule](availability-schedule.md)
   * [Intern Working Hours](intern-working-hours.md)
   * [Recording Session](recording-session.md)
   * [Equality](equality.md)
-  * [Tact Intern Day Off](Intern-day-off.md)
+  * [Kact Intern Day Off](Intern-day-off.md)
   * [Updates - How to Ask?](how-to-ask-for-updates.md)
   * [Learning Report](learning-report.md)
   * [How To Avoid a Tourist Learner](tourist-learner.md)
   * [Featurepreneur 2.0 Rules](featurepreneur-2.0-rules.md)
-  * [Tact Alumni Interns](alumni-intern.md)
+  * [Kact Alumni Interns](alumni-intern.md)
   * [Show And Tell](show-and-tell.md)
-  * [Tact Repo Standard / Rules](tact-repo-standard.md)
+  * [Kact Repo Standard / Rules](kact-repo-standard.md)
   * [.env.sample template](env.sample.md)
   * [Feedback - 41 PI](feedback-41pi.md)
   * [Break Rules](break-rules.md)
   * [Python coding standard](coding-standard.md)
   * [Admin publishing Medium](publish-medium.md)
-  * [Tact Coding Rules](coding-rules.md)
+  * [Kact Coding Rules](coding-rules.md)
   * [Productivity Improvements Guideliness](Productivity-Guideliness.md)
 
 
 ## Interview
-  * [Tact Interview Process: TIP](interview-process.md)
+  * [Kact Interview Process: TIP](interview-process.md)
   * [Interview Assignments](interview-assignments.md)
 
 ## React Native
@@ -176,7 +176,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [APK File Generation](apk-file.md)
 
 ## TACT ML / DL
-  * [TACT ML Wiki / mlwiki](https://tactlabs.github.io/mlwiki/)
+  * [TACT ML Wiki / mlwiki](https://kactlabs.github.io/mlwiki/)
   * [100 ML Libraries](100-ml-libraries.md)
   * [100 Python Libraries](100-python-libraries.md)
   * [ML Libraries](ml-libraries.md)
@@ -208,8 +208,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Troubleshooting Guide
   * [Fixing 504 Gateway Timeout Error](timeout504.md)
-## Tact Internship/Certificates
-  * [Intern Opportunity](tact-internship.md)
+## Kact Internship/Certificates
+  * [Intern Opportunity](kact-internship.md)
   * [Intern Checklist](intern-checklist.md)
   * [Intern Levels](intern-levels.md)
   * [Commonality Test](commonality-test.md)
@@ -235,13 +235,13 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## TACT Research
   * [Research papers](research-papers.md)
-  * [Tact Reserach Papers on Arxiv - Detailed Info](tact-research-papers-arxiv.md)
+  * [Kact Reserach Papers on Arxiv - Detailed Info](kact-research-papers-arxiv.md)
   * [Research Partnership](research-partnership.md)
   * [Research Paper Internship](research-paper-internship.md)
   * [Research Alumni](researcher-alumni.md)
   * [Arxiv Commands](arxiv-commands.md)
   * [Research Paper Work - Rules](research-paper-work-rules.md)
-  * [Tact Learning Research](tact-learning-research.md)
+  * [Kact Learning Research](kact-learning-research.md)
   * [ML Research Papers Ideas](ml-research-papers-ideas.md)
 
 ## Testimonials
@@ -319,9 +319,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Interactive Micro Learning](interactive-micro-learning.md)
   * [AWS Cohort Season 1](aws-cohort-s01.md)
 
-## TactLab Interns / Online Resumes
-  * [Tact Labs Interns History](tactlabs-interns-history.md)
-  * [Interns with High GRIT Score](tactlabs-grittier-interns.md)
+## KactLab Interns / Online Resumes
+  * [Kact Labs Interns History](kactlabs-interns-history.md)
+  * [Interns with High GRIT Score](kactlabs-grittier-interns.md)
   * [Online Sample Resumes](online-sample-resumes.md)
 
 ## Zsh Terminal
@@ -340,10 +340,10 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Gift Policy](gift-policy.md)
   * [Featurepreneur Tasks](fpr-tasks.md)
 
-## Tact Deployment / Repos
-  * [Tact AWS Accounts](tact-aws-accounts.md)
-  * [Tact AWS Rules](tact-aws-rules.md)
-  * [Tact Repo Info](tact-repo-into.md)
+## Kact Deployment / Repos
+  * [Kact AWS Accounts](kact-aws-accounts.md)
+  * [Kact AWS Rules](kact-aws-rules.md)
+  * [Kact Repo Info](kact-repo-into.md)
 
 ## Mythraki Languages
   * [Mythraki languages for building event names](mythraki_languages.md)
@@ -366,7 +366,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Database Analysis](database-analysis.md)
   * [Data Collection Sequence](data-collection-sequence.md)
   * [Escalation Template](escalation-template.md)
-  * [Tact Lingo](tact-lingo.md)
+  * [Kact Lingo](kact-lingo.md)
   * [Mock Interviews](mock-interviews.md)
   * [IIT Secrets](iit-secrets.md)
   * [AIML Roadmap](aiml-roadmap.md)
@@ -429,8 +429,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Azure
   * [Azure Container Apps Commands](azure-container-apps-commands.md)
 
-## Tact Portfolio
-  * [Tact Portfolio](tact-portfolio.md)
+## Kact Portfolio
+  * [Kact Portfolio](kact-portfolio.md)
 
 ## Courses
   * [Python Basic to Intermediate](python-course-topics.md)

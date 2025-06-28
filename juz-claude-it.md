@@ -24,4 +24,4 @@ R - Relevant
 ```
 
 ### Reference
-* [Juz ClaudeIt](https://github.com/tactlabs/just-claude-it) 
+* [Juz ClaudeIt](https://github.com/kactlabs/just-claude-it) 

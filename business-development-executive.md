@@ -47,7 +47,7 @@ We are seeking a highly motivated and skilled Business Development Executive to 
 
 
 ### Application Process:
-Interested candidates should submit a resume and a cover letter outlining their suitability for the role to info@tactii.com.
+Interested candidates should submit a resume and a cover letter outlining their suitability for the role to info@kactii.com.
 
 ### Deadline for Application: 
 Feb 20, 2024
