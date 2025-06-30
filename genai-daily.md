@@ -52,4 +52,5 @@ Spread innovation, build projects, and get rewarded!
 
 | Week | Winner | College | Amount | Date |
 |------|--------|---------|--------|------|
-| 1 | Afia Jahan | TBD | 600 INR | June 22, 2025 |
+| 1 | Afia Jahan | B.S. Abdur Rahman Crescent Institute of Science and Technology  | 600 INR | June 22, 2025 |
+| 2 | Afia Jahan | B.S. Abdur Rahman Crescent Institute of Science and Technology  | 800 INR | June 30, 2025 |
