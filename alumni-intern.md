@@ -5,9 +5,9 @@
 
 ### Season 1
 ```
-2016:
+2019: Nov 2018 - Jan 2019: Sathyabama
 1. Divya - AP - Settled down in California
-2. TBd
+2. Vinay - https://www.linkedin.com/in/srivinaya/
 3. TBD
 ```
 
@@ -16,7 +16,10 @@
 ```
 2019:
 
-4. Samyuktha Prasanna
+4. Samyuktha Prasanna 
+    - https://bluerosepublishers.com/product/count-my-lucky-stars/
+    - https://www.linkedin.com/in/samyuktha-prasanan-94532b173/?originalSubdomain=in
+    - https://writewithsamyu.wordpress.com/
 5. Sudha
 6. TBD
 7. Purnima
