@@ -294,6 +294,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Hustlers' Club](hustlers-club.md)
   * [HustlerML](hustlerml.md)
   * [Drum Effect](drum-effect.md)
+  * [Student Developer Advocates](student-developer-advocate.md)
 
 ## Events
   * [Micro Hackathon - Internal](micro-hackthon.md)
