@@ -49,14 +49,10 @@ You’ll help students learn, build, and grow by organizing events, sharing know
 
 ## 📅 **How to Apply**
 
-Interested? We’d love to hear from you!  
-📌 **Apply here:** [Add your application link]  
-📌 **Deadline:** [Add deadline if any]  
-
-For any questions, reach out to us at **info@kactii.com**.
+Interested? Send your profile/resume to **info+fpr@kactii.com**.
 
 ---
 
 **Let’s empower students together—one code, one jam, one project at a time. 🚀**
 
-**#Featurepreneur #StudentDeveloperAdvocate #TechCommunity**
+**#Featurepreneur #FPR #StudentDeveloperAdvocate #TechCommunity**
