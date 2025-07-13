@@ -4,7 +4,7 @@
 
 **Duration:** 3-6 months  
 **Level:** Level 1  
-**Time Commitment:** 10 hours/week
+**Time Commitment:** 7 hours/week
 
 ---
 
@@ -12,16 +12,16 @@
 
 | Category | Price |
 |----------|-------|
-| **Regular Fee** | ₹20,000 |
-| **Student Discount** | ₹7,000 |
+| **Regular Fee** | Email us |
+| **Student Discount** | Email us |
 | **Group Discount** | Conkact us at [info@kactii.com](mailto:info@kactii.com) |
 
 ---
 
 ## ⏰ Time Allocation
 
-- **Classes:** 5 hours/week
-- **Assignments:** 5 hours/week
+- **Classes:** 3 hours/week
+- **Assignments:** 4 hours/week
 
 ---
 
