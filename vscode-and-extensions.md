@@ -33,6 +33,8 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cweijan
 
 Downloads: 688,258
 Stars: 77
+
+This will copy your clibboard into separate location to keep the images in a spefific folder
 ```
 
 
