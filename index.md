@@ -461,3 +461,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ### Pypi
   * [Pypi - How to publish](pypi-publishing-steps.md)
   * [Pypi - Library Contribution](pypi-python-library-contribution.md)
+
+### Git and GitHub
+  * [GitHub](github.md)
