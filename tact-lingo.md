@@ -3,7 +3,7 @@
 ## Kact Lingo
 
 1. KT   - Knowledge Transfer
-2. TACT - Kact Labs
+2. KACT / Tact - Kact Labs
 3. VaM  - Vanilla Microservices
 4. SVaM - Single repo based VaM
 5. DoM  - Docker Microsercices (regular Microservices)
@@ -14,7 +14,12 @@
 10. CG  - ChatGPT
 11. Jestor - Admin
 12. SiMS - Single repo based Micro Service
-13.
+13. BRB - Be Right Back
+14. MRP - Main Room Please
+15. C2MR - Come to Main Room
+16. CTMR - Come to Main Room
+17. WA - WhatsApp
+18. 
 
 
 
