@@ -96,6 +96,10 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Daily Log](daily-log.md)
   * [Employee Orientation](employee-orientation.md)
 
+## Documentation
+  * [Docker with Langfuse Local Setup Guide](docker-with-langfuse-local-setup-guide.md)
+
+
 ## Docker Projects / Tools :
   * [Docker - How to Install?](docker-how-to-install.md)
   * [Docker Commands](docker-commands.md)
