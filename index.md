@@ -414,6 +414,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Topic Exploring Questions / Topic Learning Questions](topic-exploring-questions.md)
   * [Checklist](checklist.md)
   * [My LinkedIn Data](my-linkedin-data.md)
+  * [Logo Format](logo-format.md)
 
 ## Social Support
   * [DFI - District Forward Index](dfi.md)

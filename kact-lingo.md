@@ -19,7 +19,7 @@
 15. C2MR - Come to Main Room
 16. CTMR - Come to Main Room
 17. WA - WhatsApp
-18. 
+18. BDB - Big Data Boss / Bigg Data Boss
 
 
 
