@@ -459,6 +459,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Bootcamp / Applied Research Bootcamp](genai-bootcamp.md)
   * [PyNotes](pynotes.md)
   * [TeachTN](teachtn.md)
+  * [Student Mentor Levels](student-mentor-levels.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
