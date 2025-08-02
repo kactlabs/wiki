@@ -27,16 +27,16 @@
 ![H](images/testimonial-hari-20250218.png)
 
 7. Alvis
-![Alvis Testimonial](https://www.youtube.com/watch?v=e_fSWl56OPM)
+[Alvis Testimonial](https://www.youtube.com/watch?v=e_fSWl56OPM)
 
 8. Godlin Hilda
-![Godlin](https://www.youtube.com/watch?v=HtmbKCfHRBM)
+[Godlin](https://www.youtube.com/watch?v=HtmbKCfHRBM)
 
 9. Sharmila Testimonial
-![Sharmila Testimonial](https://www.youtube.com/watch?v=Nkpy8a-aMoQ)
+[Sharmila Testimonial](https://www.youtube.com/watch?v=Nkpy8a-aMoQ)
 
 10. Praabindh
-![Featureprenuer Workshop Review](https://www.youtube.com/watch?v=G7MYLawFD7c)
+[Featureprenuer Workshop Review](https://www.youtube.com/watch?v=G7MYLawFD7c)
 
 11. Anonymous - Aug 2, 2025
 ![1754148497311](image/testimonials/1754148497311.png)
