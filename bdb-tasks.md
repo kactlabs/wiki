@@ -18,6 +18,7 @@
 3. Create a simple MCP Server for any small business in Tamil Nadu
 4. Develop 1 page website for a small business in Tamil Nadu
 5. Teach public school students GenAI basics for 1 hr
+6. Find Tech logo (with disguised format)
 
 ### Sample Fun Tasks:
 1. Trailer/Song Reaction Meter by using ML/GenAI Visual
