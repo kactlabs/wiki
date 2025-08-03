@@ -2,7 +2,7 @@
 
 ## Bigg Data Boss Tasks
 
-**Note:** Tech Reality Show for Geeks: 
+**Note:** Tech Reality Show for Geeks
 
 ## Tech, Fun, Weird Tasks
 
