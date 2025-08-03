@@ -472,3 +472,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Git and GitHub
   * [GitHub](github.md)
+
+### Bigg Data Boss
+  * [Bigg Data Boss Tasks](bdb-tasks.md)
