@@ -25,7 +25,7 @@
 3. Code in the coffee shop for 8 hrs
 4. Code in the airport for 5 hrs
 
-### SampleWeird Tasks:
+### Sample Weird Tasks:
 1. Sing a Finnish song in TN bus loud
 2. Wear Cross - Shoe and walk in the beach
 3. Call your school teach at 1am and ask for a doubt
