@@ -35,3 +35,6 @@
 6. Keep old and funny movie dialogue as your ring tone
 7. Give foreign (old currency) to the petty shop and ask for the balance
 8. Go to Gym with your laptop and start working over there
+
+### How to Join Bigg Data Boss?
+Either our admins will reach you out on LinkedIn or your friend/teacher/professor has to refer you via referral link. You can't self nominate yourself for this program. Someone has to approve your skills.
