@@ -460,6 +460,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [PyNotes](pynotes.md)
   * [TeachTN](teachtn.md)
   * [Student Mentor Levels](student-mentor-levels.md)
+  * [GenAI RoadMap - 2026](genai-roadmap-2026.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
