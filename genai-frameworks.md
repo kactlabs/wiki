@@ -33,7 +33,7 @@ Instructor is a popular library to get structured LLM outputs.Instructor makes i
 https://python.useinstructor.com/
 
 ### 9: LangChain
-TBD
+LangChain is an open-source framework for building applications powered by large language models (LLMs), available in both Python and JavaScript. It provides modular components like chains, agents, memory, and retrieval to connect LLMs with data, tools, and workflows. Its ecosystem also includes LangSmith (observability), LangGraph (agent orchestration), and LangServe (deployment).
 
 ### 10: LiteLLM
 Use any LLM as a drop in replacement for GPT. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs). The LiteLLM SDK is a Python library that allows you to use any LLM as a drop in replacement for the OpenAI SDK.
