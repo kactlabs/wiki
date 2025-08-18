@@ -462,6 +462,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Student Mentor Levels](student-mentor-levels.md)
   * [GenAI RoadMap - 2026](genai-roadmap-2026.md)
   * [GenAI Frameworks](genai-frameworks.md)
+  * [AI Tools 2025](ai-tools-2025.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
