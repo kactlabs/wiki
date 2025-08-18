@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Alias for TACTiians
+# Alias for KACTiians
 
 **Note:** Alias applicable for Kactiians
 
