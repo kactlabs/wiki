@@ -341,7 +341,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Course Video Rules](course-video-rules.md)
   * [Featurepreneur FAQ](featurepreneur-faq.md)
   * [HustleCamp](hustlecamp.md)
-  * [Business Development Executive](business-development-executive.md)
+  * [Business Development Executive- FPR](business-development-executive-fpr.md)
   * [Gift Policy](gift-policy.md)
   * [Featurepreneur Tasks](fpr-tasks.md)
 
@@ -464,6 +464,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Frameworks](genai-frameworks.md)
   * [AI Tools 2025](ai-tools-2025.md)
   * [How to take session notes](how-to-take-session-notes.md)
+  * [Business Development Executive](business-development-executive.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)

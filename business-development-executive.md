@@ -1,53 +1,50 @@
 / [Home](index.md)
 
-## Business Development Executive
+## Business Development Executive (BDE) - Kactii
 
+**Location:** Remote/Hybrid (India)  
+**Employment Type:** Full-time / Internship-to-hire  
 
+---
 
-### Job Title: Business Development Executive - Featurepreneur
+## About Kactii  
+Kactii is building the future of work through **customizable Generative AI agents**.  
+- Our **GenAI marketplace** enables SMEs to create, share, and deploy AI agents that automate repetitive tasks, boosting efficiency and innovation.  
+- **Kactii Academy** empowers Gen Z talent with the *“GenAI 4 GenZs”* campaign—offering 3-month training and internships to nurture future AI leaders.  
 
-### Location: Tamilnadu (Remote)
+We’re looking for an energetic **Business Development Executive (BDE)** to drive customer acquisition, partnerships, and growth in India and Canada.  
 
-### Company Description:
-Featurepreneur is a dynamic and innovative EdTech company dedicated to transforming the educational landscape through technology. We specialize in developing cutting-edge digital learning solutions that engage, inspire, and empower learners of all ages.
+---
 
-### Job Description:
-We are seeking a highly motivated and skilled Business Development Executive to join our team. The ideal candidate will be responsible for driving growth and expanding our reach in the education sector. This role involves strategic planning, market analysis, and the development of strong relationships with clients and partners.
+## Key Responsibilities  
+- Identify, generate, and qualify new business opportunities for **Kactii’s GenAI marketplace** (SME clients in India & Canada).  
+- Build and maintain relationships with SME decision-makers (founders, managers, tech leads).  
+- Educate prospects on the **value of AI agent automation** and Kactii’s marketplace offerings.  
+- Collaborate with the **Kactii Academy team** to drive corporate training partnerships, campus outreach, and GenAI upskilling initiatives.  
+- Research and map target industries (manufacturing, retail, services, startups, etc.) for AI adoption opportunities.  
+- Pitch Kactii’s solutions through demos, presentations, and proposals.  
+- Achieve and exceed sales/revenue targets, report weekly on pipeline progress.  
+- Collect customer feedback to help the product team refine marketplace features.  
+- Represent Kactii at networking events, startup forums, and SME associations.  
 
-### Key Responsibilities:
+---
 
-- Identify and develop new business opportunities in the EdTech sector.
-- Conduct market research to understand industry trends, competitor activities, and potential client needs.
-- Develop and maintain strong relationships with educational institutions, corporate clients, and other stakeholders.
-- Present and demonstrate our EdTech products to prospective clients, highlighting their benefits and features.
-- Collaborate with the marketing team to develop strategies for increasing brand awareness and product adoption.
-- Negotiate and close deals, ensuring alignment with company objectives and client needs.
-- Attend industry events, conferences, and networking events to build a strong professional network and represent the company.
-- Provide regular feedback to the product development team based on client insights and market trends to enhance product offerings.
-- Achieve and exceed sales targets and performance metrics.
+## Requirements  
+- Bachelor’s degree in Business, Marketing, or related field (MBA is a plus but not mandatory).  
+- 2–3 years of experience in **sales, business development, or client relations** (freshers with strong communication skills are welcome).  
+- Excellent written and verbal communication (English mandatory; Hindi/Tamil/French is a plus for regional outreach).  
+- Strong interpersonal and negotiation skills.  
+- Interest in **AI, SaaS, and digital transformation**.  
+- Ability to work independently in a startup environment with minimal supervision.  
+- Comfortable with CRM tools, LinkedIn outreach, and lead-generation techniques.  
+- Enthusiasm for both **SME business challenges** and **GenAI education initiatives**.  
 
-### Qualifications:
+---
 
-- Bachelor’s degree in Business, Marketing, Education, or a related field.
-- Proven experience in business development, sales, or a similar role, preferably in the EdTech or education sector.
-- Strong understanding of the educational technology market and digital learning trends.
-- Excellent communication, negotiation, and presentation skills.
-- Ability to build and maintain positive relationships with clients and partners.
-- Strategic thinker with strong analytical and problem-solving skills.
-- Self-motivated and capable of working independently as well as part of a team.
-- Willingness to travel as needed for client meetings and industry events.
-
-
-### What We Offer:
-
-- Competitive salary and performance-based incentives.
-- Opportunity to work in a fast-paced, innovative environment.
-- Professional development and career growth opportunities.
-- Collaborative and supportive team culture.
-
-
-### Application Process:
-Interested candidates should submit a resume and a cover letter outlining their suitability for the role to info@kactii.com.
-
-### Deadline for Application: 
-Feb 20, 2024
+## What We Offer  
+- Competitive base + performance-based incentives.  
+- Exposure to **AI-driven SaaS** in a high-growth startup.  
+- Opportunities to work across **India and Canada markets**.  
+- Direct mentorship from the founder and leadership team.  
+- Career growth: option to transition into **Senior BDE / Growth Manager** within 12–18 months.  
+- Contribution to both **business innovation** and **Gen Z education impact** through Kactii Academy.  
