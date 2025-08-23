@@ -480,3 +480,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Bigg Data Boss
   * [Bigg Data Boss Tasks](bdb-tasks.md)
+
+### Investment
+  * [Kactii Investment Plan](kactii-investment-plan.md)
