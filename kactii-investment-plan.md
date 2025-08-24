@@ -33,3 +33,7 @@
 ### Final Result
 - **Total Value after 2 years:** ₹13,09,880.25 (≈ ₹13.10 Lakh)  
 - **Total Gain:** ₹3,09,880.25
+
+
+### Check our Roadmp here
+[Kactii Revenue Roadmap](kactii-revenue-roadmap.md)
