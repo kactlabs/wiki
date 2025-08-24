@@ -21,3 +21,7 @@ His passion for nurturing talent continues through the Featurepreneur slack comm
 When he's not shaping the future of tech education, you might find him unwinding with a John Grisham novel - a small glimpse into the human side of this inspiring tech mentor who has dedicated his life to lifting others as he climbs.
 
 For aspiring technologists, Raja's journey shows that true success isn't just about personal achievement - it's about creating pathways for others to succeed. Through his blend of technical expertise, practical industry experience, and unwavering commitment to education, he continues to light the way for the next generation of tech innovators.
+
+
+Profile Pic:
+![image](image/rajacsp-profile.jpeg)
