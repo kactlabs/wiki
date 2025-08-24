@@ -465,6 +465,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [AI Tools 2025](ai-tools-2025.md)
   * [How to take session notes](how-to-take-session-notes.md)
   * [Business Development Executive](business-development-executive.md)
+  * [GenAI AWS Guides](genai-aws-guides.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
