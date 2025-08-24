@@ -5,65 +5,129 @@
 **Note:** Revenue Roadmap of Kactii and Kact Academy
 
 
-## 2. Strategic Focus by Year
+# 📈 Kactii Investment Roadmap (2025–2027)
 
-### Year 1 (Academy-Led Foundation)
+## 1. Revenue Streams
 
-**Focus Split:** 70% Academy | 30% Product  
+### Kactii Academy (Early Cash Engine – 70% focus Year 1)
+- 3-month bootcamps for students & professionals (₹8K–₹15K fee).  
+- Corporate workshops (₹1L–₹5L/program).  
+- Trains future marketplace creators (pipeline).  
 
-**Team Utilization:**
-- **4 Full-Time Engineers**: Contribute to product improvements while acting as bootcamp mentors.  
-- **1–2 Business Development Executives (BDEs)**: Drive student intake for bootcamps and explore SME early interest for marketplace adoption.  
-- **10–15 Guest Mentors**: Add credibility and industry exposure to bootcamps.  
-- **Video Editors (Contract)**: Create promotional content, recap videos, and highlight reels for marketing.  
-
-**Revenue Engine:**
-- Bootcamps as the major revenue driver.  
-- Example projection: ~300 students enrolled @ ₹12K average fee = **~₹36L revenue**.  
-- Consistent inflow via 3-month cohorts (4 batches per year).  
-
-**Product Roadmap (Foundation Stage):**
-- Build **agent creation workflow** (basic UI + backend).  
-- Implement **subscription billing system** (monthly/annual plans).  
-- Develop **basic analytics dashboard** for creators.  
-- Start **internal alpha testing** with early adopters.  
-
-**Marketing & Growth:**
-- Heavy focus on **social media campaigns** (Instagram, LinkedIn, YouTube Shorts).  
-- Leverage student testimonials and success stories as content.  
-- Partnerships with 5–10 colleges for steady intake pipeline.  
+### Kactii Marketplace (Scalable Long-Term Engine – 70% focus Year 2)
+- Subscription rentals of GenAI agents (B2C).  
+- Commission on agent revenues (20–30%).  
+- Private/enterprise white-label solutions (B2B).  
 
 ---
 
-### Year 2 (Product-Led Expansion)
+## 2. Team & Hiring Plan
 
+### Core Team
+- **4 Full-time Engineers (Y1)** → Marketplace dev, product stability, infra. Double as bootcamp mentors.  
+- **1–2 BDEs (Y1 → 3–5 in Y2)** → Drive student intake + SME/enterprise sales.  
+- **Video Editors (Contract)** → Content for bootcamps & social media.  
+- **10–15 Guest Mentors (Y1 → 20+ in Y2)** → Industry credibility, part-time, paid monthly.  
+
+### Growth Plan
+- **Year 1:** Lean but effective team; focus on Academy-led revenue.  
+- **Year 2:** Scale product + marketing teams, add specialized engineers (AI research, UI/UX).  
+
+---
+
+## 3. Strategic Focus by Year
+
+### Year 1 – Academy-Led Foundation (2025–26)
+**Focus Split:** 70% Academy | 30% Product  
+
+**Academy**
+- Run 3–5 bootcamps (avg 100 students per cohort).  
+- Guest mentors for specialized modules.  
+- Heavy content push: bootcamp reels, success stories, YouTube demos.  
+
+**Marketplace**
+- Build MVP: agent creation, subscriptions, analytics.  
+- Onboard first 50–100 creators.  
+
+**Marketing**
+- Social-first: Instagram reels, LinkedIn student stories, YouTube explainers.  
+- Video editors create 100+ content pieces.  
+
+**Team Utilization**
+- Engineers split time (product + bootcamps).  
+- BDEs drive academy admissions & SME awareness.  
+- Mentors handle sessions, while editors + marketing amplify reach.  
+
+---
+
+### Year 2 – Marketplace-Led Scaling (2026–27)
 **Focus Split:** 70% Product | 30% Academy  
 
-**Team Utilization:**
-- **4 Full-Time Engineers**: Prioritize scaling marketplace features and integrations.  
-- **1–2 BDEs**: Shift focus from student intake to onboarding SMEs & creators.  
-- **10–20 Guest Mentors**: Continue bootcamps with reduced frequency but high quality.  
-- **Video Editors & Social Media Budget**: Expand content strategy to focus on agent use-cases and customer success.  
+**Marketplace**
+- Scale from 500 → 2,500 paid users.  
+- Launch enterprise white-label solution for SMEs.  
+- Add monetization features for creators (leaderboards, payouts, analytics).  
 
-**Revenue Engine:**
-- Bootcamps: Reduced but steady contribution (~150 students = ~₹18L).  
-- Marketplace: Early monetization begins.  
-  - Subscription tiers for creators.  
-  - User rentals for agents.  
-  - Target: 200–300 paying subscribers in pilot phase = **₹25–30L ARR**.  
+**Academy**
+- Run fewer but higher-quality bootcamps (~1,000 students/year).  
+- Add corporate training packages for SMEs.  
+- Guest mentors expanded to 20+, covering frontier GenAI topics.  
 
-**Product Roadmap (Expansion Stage):**
-- Launch **public/private agent marketplace**.  
-- Enhance **agent monetization workflows** (revenue share, creator payouts).  
-- Add **team/workspace features** for SMEs.  
-- Strengthen infrastructure: deploy scalable cloud infra with DevOps pipelines.  
+**Marketing**
+- Shift to brand building: showcase SME case studies, creator success stories.  
+- Canada market entry → localized campaigns.  
+- Contract video editors scale content output (interviews, corporate showcases).  
 
-**Marketing & Growth:**
-- Showcase **success stories of creators monetizing agents**.  
-- College pipeline + industry partnerships = hybrid funnel.  
-- Expand digital marketing spend to target **SMEs in India & Canada**.  
-- Host webinars + demo days for B2B leads.  
+**Team Utilization**
+- Engineers mostly on product (new features, infra scaling).  
+- BDEs: now 3–5, focus on corporate & SME deals.  
+- Mentors + video editors: ensure academy still contributes ~20–30% of revenue.  
 
+---
+
+## 4. Investment Utilization (Budget Allocation)
+
+### Year 1
+- **Academy Ops & Mentors** → 30% (bootcamp delivery, mentor payouts)  
+- **Product Development (engineers)** → 25% (MVP + stability)  
+- **Sales & Marketing (BDEs)** → 10%  
+- **Social Media Marketing + Video Editors** → 15% (content-driven growth)  
+- **Community & Outreach** → 10% (student ambassadors, events)  
+- **Ops & Compliance** → 10%  
+
+### Year 2
+- **Product Scaling (engineers + infra)** → 35%  
+- **Academy (bootcamps + corporate training)** → 20%  
+- **Sales Growth (3–5 BDEs)** → 15%  
+- **Social Media Marketing + Video Editors** → 15%  
+- **Community Expansion (India + Canada)** → 10%  
+- **Ops & Compliance** → 5%  
+
+---
+
+## 5. Revenue & Profit Projections
+
+### Year 1 (2025–26) – Academy Heavy
+- **Academy Revenue:** 300 students × ₹12K avg = ₹36L  
+- **Marketplace Revenue:** 500 users × ₹1,000/mo × 12 = ₹60L  
+- **Total Revenue:** ~₹96L  
+- **Net Margin:** ~15–18% after salaries + marketing  
+
+### Year 2 (2026–27) – Marketplace Scaling
+- **Academy Revenue:** 1,000 students × ₹12K avg = ₹1.2Cr  
+- **Marketplace Revenue:** 2,500 users × ₹1,500/mo × 12 = ₹4.5Cr  
+- **Total Revenue:** ~₹5.7Cr  
+- **Net Margin:** ~25–30% (scale efficiency)  
+
+---
+
+## 6. Investor Returns
+- **Lock-in:** 2 years  
+- **Returns:** 14% annualized, funded from Academy + Marketplace profits  
+- **Upside:** Early investors may convert into equity during future VC rounds
+
+
+<hr>
 
 ## Revenue Roadmap
 
