@@ -1,10 +1,5 @@
 / [Home](index.md)
 
-## Kactii Revenue Roadmap
-
-**Note:** Revenue Roadmap of Kactii and Kact Academy
-
-
 # 📈 Kactii Investment Roadmap (2025–2027)
 
 ## 1. Revenue Streams
