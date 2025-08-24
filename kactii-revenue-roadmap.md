@@ -63,3 +63,68 @@
 - College pipeline + industry partnerships = hybrid funnel.  
 - Expand digital marketing spend to target **SMEs in India & Canada**.  
 - Host webinars + demo days for B2B leads.  
+
+
+## Revenue Roadmap
+
+## 3-Year Revenue & Profit Roadmap
+
+### Year 1: Academy-Led Foundation (~₹40L)
+**Focus Split:** 70% Academy | 30% Product  
+
+**Revenue Drivers:**
+- **Bootcamps:** 4 cohorts × 75 students × ₹12K avg = ~₹36L  
+- **Marketplace Pilot:** 10–15 creators × early subscriptions = ~₹4L  
+
+**Total Revenue:** ~₹40L  
+**Expected Net Profit Margin:** ~15–18%  
+> Bootcamps drive initial cash flow; Marketplace MVP prepares for Year 2 scaling.
+
+---
+
+### Year 2: Marketplace-Led Transition (~₹43–48L)
+**Focus Split:** 70% Product | 30% Academy  
+
+**Revenue Drivers:**
+- **Marketplace Growth:** 200–300 paid subscribers × ₹1,000/mo avg = ~₹25–30L ARR  
+- **Bootcamps:** 2 cohorts × 75 students × ₹12K = ~₹18L  
+
+**Total Revenue:** ~₹43–48L  
+**Expected Net Profit Margin:** ~25–30%  
+> Marketplace starts generating sustainable recurring revenue; Academy continues to feed creators.
+
+---
+
+### Year 3: Marketplace Scaling (~₹5–6Cr)
+**Focus Split:** 80% Product | 20% Academy  
+
+**Revenue Drivers:**
+- **Marketplace:**  
+  - 2,500–3,000 paid subscribers × ₹1,500/month = ~₹4.5–5.4Cr ARR  
+  - Enterprise/SME private marketplaces = ~₹50–70L  
+  - Creator monetization & premium subscriptions = ~₹20–30L  
+- **Academy:**  
+  - Focus on corporate workshops + high-value cohorts  
+  - Revenue ~₹1.2–1.5Cr  
+
+**Total Revenue:** ~₹5.7–6.0Cr  
+**Expected Net Profit Margin:** ~25–30%  
+> Marketplace now drives majority revenue, Academy acts as talent funnel.  
+> Break-even achieved early Year 3; investor returns fully covered by EBITDA.
+
+---
+
+### Summary Table
+
+| Year | Academy Revenue | Marketplace Revenue | Total Revenue | Net Profit Margin |
+|------|-----------------|--------------------|---------------|-----------------|
+| Year 1 | ~₹36L | ~₹4L  | ~₹40L | 15–18% |
+| Year 2 | ~₹18L | ~₹25–30L | ~₹43–48L | 25–30% |
+| Year 3 | ~₹1.2–1.5Cr | ~₹4.7–5.5Cr | ~₹5.7–6Cr | 25–30% |
+
+---
+
+**Investor Takeaways:**
+- **Year 1:** Bootcamps generate reliable early cash flow; Marketplace MVP validated.  
+- **Year 2:** Marketplace becomes sustainable; Academy ensures continued creator pipeline.  
+- **Year 3:** Marketplace scales to majority revenue; break-even reached; 14% investor return covered with upside potential from growth.
