@@ -1036,3 +1036,1029 @@
 998. Safe space  
 999. Salt in the wound  
 1000. Same page, different book  
+
+### 1001 - 1100:
+1001. Say the quiet part out loud  
+1002. Scare up some business  
+1003. Scope creep  
+1004. Screw the pooch  
+1005. Seal the deal  
+1006. Second fiddle  
+1007. See stars  
+1008. Sell like gangbusters  
+1009. Shake the tree  
+1010. Sharp as a tack  
+1011. Ship has sailed  
+1012. Shoot blanks  
+1013. Shoot from the hip  
+1014. Shooting fish in a barrel  
+1015. Short leash  
+1016. Shot caller  
+1017. Shoulder the blame  
+1018. Shout from the rooftops  
+1019. Show your cards  
+1020. Silver bullet  
+1021. Sing for your supper  
+1022. Sink your teeth into  
+1023. Sit this one out  
+1024. Six feet under  
+1025. Skate by  
+1026. Skid row  
+1027. Sleep with the fishes  
+1028. Slippery slope  
+129. Slow your roll  
+1030. Small world  
+1031. Smoke and mirrors  
+1032. Snake oil salesman  
+1033. Snitches get stitches  
+1034. Snowball effect  
+1035. So far, so good  
+1036. Social butterfly  
+1037. Soft launch  
+1038. Sound off  
+1039. Spare me  
+1040. Speak of the devil  
+1041. Speed run  
+1042. Spin doctor  
+1043. Spirit animal  
+1044. Spitball an idea  
+1045. Split the tab  
+1046. Spoiler alert  
+1047. Spray and pray  
+1048. Square deal  
+1049. Stack the deck  
+1050. Stand-down order  
+1051. Staple diet  
+1052. State of the art  
+1053. Stay in your lane  
+1054. Steal the spotlight  
+1055. Step up to the plate  
+1056. Stick to your guns  
+1057. Sticky wicket  
+1058. Stir-crazy  
+1059. Stone-cold sober  
+1060. Straight shooter  
+1061. Street cred  
+1062. Stretch the truth  
+1063. Strike a chord  
+1064. Stuck in a rut  
+1065. Stump the chump  
+1066. Sucker punch  
+1067. Sugar high  
+1068. Sunday driver  
+1069. Sunshine and rainbows  
+1070. Super-size me  
+1071. Swear on a stack of Bibles  
+1072. Swipe right  
+1073. Swing for the fences  
+1074. Swing the vote  
+1075. Table stakes  
+1076. Take a chill pill  
+1077. Take a rain check  
+1078. Take it offline  
+1079. Take the cake  
+1080. Take the high road  
+1081. Take the mickey  
+1082. Take the sting out  
+1083. Talk is cheap  
+1084. Tank the market  
+1085. Teach an old dog new tricks  
+1086. Tear-jerker  
+1087. Tech-savvy  
+1088. Tell it like it is  
+1089. That dog don’t hunt  
+1090. That ship has sailed  
+1091. The 411  
+1092. The elephant in the room  
+1093. The final straw  
+1094. The real McCoy  
+1095. The struggle is real  
+1096. Thick as a brick  
+1097. Throw shade  
+1098. Throw spaghetti at the wall  
+1099. Throw the baby out with the bathwater  
+1100. Tick all the boxes  
+
+
+### 1101 - 1200:
+1101. Tight ship  
+1102. Tighten the screws  
+1103. Time crunch  
+1104. Time is of the essence  
+1105. Tip of the iceberg  
+1106. Tipping point  
+1107. Toe the party line  
+1108. Tone-deaf  
+1109. Tongue-lashing  
+1110. Top of mind  
+1111. Touch grass  
+1112. Trailblazer  
+1113. Train wreck  
+1114. Truth bomb  
+1115. Turn back the clock  
+1116. Turn heads  
+1117. Turn the page  
+1118. Turn up the heat  
+1119. Two cents worth  
+1120. Two steps forward, one step back  
+1121. Under the microscope  
+1122. Under the radar  
+1123. Under the table (secret payment)  
+1124. Under wraps  
+1125. Unforced error  
+1126. Unwritten rule  
+1127. Up the ante  
+1128. Up to snuff  
+1129. Uphill battle  
+1130. Upper hand  
+1131. Vibe check  
+1132. Viral moment  
+1133. Walk back comments  
+1134. Walk the plank  
+1135. Wallet biopsy  
+1136. Warp speed  
+1137. Wash your hands of it  
+1138. Waste of space  
+1139. Watched pot never boils  
+1140. Wave the white flag  
+1141. Way to go!  
+1142. Weak sauce  
+1143. Wear many hats  
+1144. Web-slinging (multitasking online)  
+1145. Well-oiled machine  
+1146. Went belly-up  
+1147. Went sideways  
+1148. Wet your whistle  
+1149. Whale in the room  
+1150. What you see is what you get  
+1151. Wheels fall off  
+1152. Wheels up  
+1153. When push comes to shove  
+1154. Whip up  
+1155. White-knuckle ride  
+1156. Whole hog  
+1157. Wild goose chase  
+1158. Window dressing  
+1159. Wing it  
+1160. Winner winner chicken dinner  
+1161. Wipe the slate clean  
+1162. Within arm’s reach  
+1163. Wolf down  
+1164. Word salad  
+1165. Work the room  
+1166. World-class  
+1167. Worth its weight in gold  
+1168. Write off  
+1169. Yadda yadda yadda  
+1170. Yellow-bellied  
+1171. Yes-man  
+1172. You betcha  
+1173. You snooze, you lose  
+1174. Zero chill  
+1175. Zero-sum game  
+1176. Zip it  
+1177. Zone defense  
+1178. Zoom out  
+1179. A cut above  
+1180. A sight for sore eyes  
+1181. Ahead of the curve  
+1182. All bets are off  
+1183. All systems go  
+1184. At face value  
+1185. Back on the horse  
+1186. Backroom deal  
+1187. Bad optics  
+1188. Ballpark it  
+1189. Bang for your buck  
+1190. Bare-knuckle  
+1191. Barrel of laughs  
+1192. Basket case  
+1193. Bat an eye  
+1194. Beat the odds  
+1195. Behind the times  
+1196. Best-case scenario  
+1197. Better late than never  
+1198. Big ask  
+1199. Black-and-white issue  
+1200. Blast radius  
+
+
+
+### 1201 - 1300:
+1201. Blaze of glory  
+1202. Bleeding-heart liberal  
+1203. Blind spot  
+1204. Blink-and-you-miss-it  
+1205. Blood, sweat, and gears  
+1206. Blow a gasket  
+1207. Blow off some steam  
+1208. Blue-sky thinking  
+1209. Boiling point  
+1210. Bolt cutter solution  
+1211. Bone up on  
+1212. Book it  
+1213. Boots on the ground  
+1214. Born yesterday  
+1215. Bottom dollar  
+1216. Boxed into a corner  
+1217. Boy wonder  
+1218. Brain freeze  
+1219. Brass tacks  
+1220. Bread and circuses  
+1221. Break bread  
+1222. Break the internet  
+1223. Breathe down someone’s neck  
+1224. Bridge too far  
+1225. Bright lights, big city  
+1226. Bring down the house  
+1227. Broken record  
+1228. Bubble up  
+1229. Buckle down  
+1230. Buffer zone  
+1231. Bug out  
+1232. Build castles in the air  
+1233. Built like a tank  
+1234. Bullet points  
+1235. Bump and grind  
+1236. Burn notice  
+1237. Burn rubber  
+1238. Bury the lead  
+1239. Business end  
+1240. Buttoned up  
+1241. Buzzworthy  
+1242. By a whisker  
+1243. Call the question  
+1244. Canary in a data mine  
+1245. Cap and trade  
+1246. Carbon footprint  
+1247. Carry the torch  
+1248. Cash cow  
+1249. Cat got your tongue?  
+1250. Cat nap  
+1251. Catch-22  
+1252. Center of gravity  
+1253. Chain of command  
+1254. Change gears  
+1255. Cheap thrills  
+1256. Chew scenery  
+1257. Chicken-and-egg problem  
+1258. Chip away at  
+1259. Chomping at the bit  
+1260. Choose your battles  
+1261. Circle back  
+1262. City that never sleeps  
+1263. Clean getaway  
+1264. Clickbait headline  
+1265. Cliff notes  
+1266. Clock out mentally  
+1267. Close ranks  
+1268. Cloud of suspicion  
+1269. Clutch performer  
+1270. Coast through  
+1271. Coffee run  
+1272. Cold day in hell  
+1273. Cold open  
+1274. Color me surprised  
+1275. Come full circle  
+1276. Come out of left field  
+1277. Come to a head  
+1278. Comfort zone  
+1279. Common thread  
+1280. Cookie jar accounting  
+1281. Cool beans  
+1282. Copy that  
+1283. Couch lock  
+1284. Count your lucky stars  
+1285. Crash pad  
+1286. Crunch the numbers  
+1287. Crystal clear  
+1288. Curb appeal  
+1289. Curveball question  
+1290. Cut bait or fish  
+1291. Cut from a different cloth  
+1292. Cut the cheese  
+1293. Cut the fluff  
+1294. Cut your teeth on  
+1295. Cyber Monday  
+1296. Dab hand  
+1297. Daily grind  
+1298. Dark comedy  
+1299. Data dump  
+1300. Day late, dollar short  
+
+
+### 1301 - 1400:
+1301. Dead on arrival  
+1302. Deal with the devil  
+1303. Deep dive  
+1304. Deep end  
+1305. Deep state  
+1306. Deer in the headlights  
+1307. Delicate balance  
+1308. Deliver the goods  
+1309. Dial it back  
+1310. Dickens to pay  
+1311. Digital detox  
+1312. Dim the lights  
+1313. Dirt nap  
+1314. Dirty money  
+1315. Dish duty  
+1316. Dive bar  
+1317. Do the legwork  
+1318. Do the trick  
+1319. Do or die  
+1320. Dog whistle politics  
+1321. Dog-eared  
+1322. Dollar-store quality  
+1323. Domino effect  
+1324. Don’t @ me  
+1325. Don’t get it twisted  
+1326. Don’t poke the bear  
+1327. Don’t yuck my yum  
+1328. Done and dusted  
+1329. Done deal  
+1330. Double-edged sword  
+1331. Double whammy  
+1332. Down bad  
+1333. Down the hatch  
+1334. Down to brass tacks  
+1335. Drag race  
+1336. Drama llama  
+1337. Draw the short straw  
+1338. Dream big  
+1339. Drink the Kool-Aid  
+1340. Drive the point home  
+1341. Drop a bombshell  
+1342. Drop dead gorgeous  
+1343. Drop the mic  
+1344. Dropping like flies  
+1345. Dry run  
+1346. Dumpster diving  
+1347. Dutch uncle  
+1348. Early bird special  
+1349. Earn brownie points  
+1350. Earth-shattering  
+1351. Easy pickings  
+1352. Echo chamber  
+1353. Edge case  
+1354. Egg on your face  
+1355. Elevator pitch  
+1356. Empty calories  
+1357. Empty nest syndrome  
+1358. End run around  
+1359. Epic proportions  
+1360. Eternal optimist  
+1361. Even Stevens  
+1362. Every dog has its day  
+1363. Exceed expectations  
+1364. Excuse my French  
+1365. Exit strategy  
+1366. Eye candy  
+1367. Eye of the tiger  
+1368. Eye-popping numbers  
+1369. Face the music  
+1370. Face time  
+1371. Fact check  
+1372. Fail whale  
+1373. Fair shake  
+1374. Fake news  
+1375. Fall flat on your face  
+1376. False start  
+1377. Family jewels  
+1378. Fast and loose  
+1379. Fast lane  
+1380. Fat cat  
+1381. Faux pas  
+1382. Feast or famine  
+1383. Feather ruffling  
+1384. Fed to the wolves  
+1385. Feel the burn  
+1386. Fiddle while Rome burns  
+1387. Fifth column  
+1388. Fighting chance  
+1389. Figure it out on the fly  
+1390. File under “never”  
+1391. Fill the void  
+1392. Final countdown  
+1393. Fire sale  
+1394. First world problems  
+1395. Fish or cut bait  
+1396. Flash sale  
+1397. Flat out like a lizard drinking  
+1398. Flip side of the coin  
+1399. Float someone’s boat  
+1400. Flood the zone  
+
+
+### 1401 - 1500:
+1401. Fly off the handle  
+1402. Foam at the mouth  
+1403. FOMO (fear of missing out)  
+1404. Food for thought  
+1405. Fool’s errand  
+1406. Foot the bill  
+1407. For crying out loud  
+1408. For the birds  
+1409. Force to be reckoned with  
+1410. Fork over the cash  
+1411. Fortune smiles  
+1412. Four-letter word  
+1413. Free agent  
+1414. Free fall  
+1415. Fresh start  
+1416. Friday feeling  
+1417. Fried and true  
+1418. Friend zone  
+1419. Full court press  
+1420. Full monty  
+1421. Full throttle  
+1422. Game changer  
+1423. Garbage time  
+1424. Garden variety  
+1425. Gaslighting  
+1426. Gatekeeper  
+1427. Gear up  
+1428. Get a grip  
+1429. Get back in the saddle  
+1430. Get bent out of shape  
+1431. Get ghost  
+1432. Get lost in the weeds  
+1433. Get on my level  
+1434. Get schooled  
+1435. Get the ax  
+1436. Get the memo  
+1437. Get the runaround  
+1438. Get with the program  
+1439. Ghosted  
+1440. Gig economy  
+1441. Give me a break  
+1442. Glass ceiling  
+1443. Glass half full  
+1444. Go bananas  
+1445. Go big or go home  
+1446. Go ham  
+1447. Go nuclear  
+1448. Go off half-cocked  
+1449. Go rogue  
+1450. Go the distance  
+1451. Go to bat for  
+1452. Go viral  
+1453. Godspeed  
+1454. Gold digger  
+1455. Golden handcuffs  
+1456. Golden ticket  
+1457. Good riddance  
+1458. Good vibes only  
+1459. Goose egg (zero)  
+1460. Grab the bull by the horns  
+1461. Grand slam home run  
+1462. Grasp at straws  
+1463. Grass is greener  
+1464. Graveyard shift  
+1465. Gray area  
+1466. Grease the skids  
+1467. Great minds think alike  
+1468. Green around the gills  
+1469. Green light  
+1470. Greenlit project  
+1471. Grind to a halt  
+1472. Grindset  
+1473. Grip it and rip it  
+1474. Guilt trip  
+1475. Gut check  
+1476. Hack the system  
+1477. Hail Mary pass  
+1478. Hair of the dog  
+1479. Half-measure  
+1480. Hammer time  
+1481. Hand in your notice  
+1482. Hands down  
+1483. Hard pass  
+1484. Hard pill to swallow  
+1485. Hardwired  
+1486. Hashtag goals  
+1487. Hat in hand  
+1488. Have a field day  
+1489. Have your cake and eat it too  
+1490. Head in the sand  
+1491. Head over heels  
+1492. Heads-up play  
+1493. Heart of gold  
+1494. Heavy is the head  
+1495. Hell week  
+1496. Herculean task  
+1497. High and mighty  
+1498. High stakes  
+1499. Hit a wall  
+1500. Hit me up  
+
+### 1501 - 1600:
+1501. Hit the brakes  
+1502. Hit the fan  
+1503. Hit the ground running  
+1504. Hit the hay  
+1505. Hit the motherlode  
+1506. Hit the road  
+1507. Hit the roof  
+1508. Hit the sweet spot  
+1509. Hit your stride  
+1510. Hockey stick growth  
+1511. Hold the line  
+1512. Hole in one  
+1513. Home stretch  
+1514. Hooked from the get-go  
+1515. Hope springs eternal  
+1516. Hot minute  
+1517. Hot take  
+1518. House money  
+1519. How the sausage gets made  
+1520. Humble brag  
+1521. Hype man  
+1522. Hype train  
+1523. Ice-cold take  
+1524. Iconic moment  
+1525. In a pickle  
+1526. In a tailspin  
+1527. In cahoots  
+1528. In the black  
+1529. In the cards  
+1530. In the clear  
+1531. In the hole  
+1532. In the hot seat  
+1533. In the loop  
+1534. In the red  
+1535. In the zone  
+1536. In your wheelhouse  
+1537. Inflection point  
+1538. Inside baseball  
+1539. Instant classic  
+1540. Iron out  
+1541. It’s lit  
+1542. Janky setup  
+1543. Jaw-dropping  
+1544. Jazz it up  
+1545. Jet-setter  
+1546. Job lock  
+1547. Join the club  
+1548. Jump the queue  
+1549. Jump the shark  
+1550. Jump through hoops  
+1551. Junk in the trunk  
+1552. Keep it 100  
+1553. Keep it on the hush  
+1554. Keep the ball rolling  
+1555. Keep the lights on  
+1556. Keep your cool  
+1557. Keep your powder dry  
+1558. Keep your shirt on  
+1559. Keyed up  
+1560. Kick the can  
+1561. Kick the tires  
+1562. Kick up dust  
+1563. Kicking and screaming  
+1564. Kid gloves  
+1565. Kill switch  
+1566. Kill the vibe  
+1567. Kill two birds  
+1568. King of the hill  
+1569. Kiss and tell  
+1570. Kitchen sink  
+1571. Knocked out of the park  
+1572. Knock-down-drag-out fight  
+1573. Know the drill  
+1574. Lag behind  
+1575. Land a whale client  
+1576. Land the plane  
+1577. Lap it up  
+1578. Last laugh  
+1579. Late bloomer  
+1580. Late to the party  
+1581. Laugh all the way to the bank  
+1582. Law of the jungle  
+1583. Lay low  
+1584. Lead balloon  
+1585. Lean into it  
+1586. Leave it all on the table  
+1587. Leave no trace  
+1588. Legend in your own time  
+1589. Lemon law  
+1590. Let it ride  
+1591. Let sleeping dogs lie  
+1592. Level up  
+1593. Life hack  
+1594. Light at the end of the tunnel  
+1595. Lighten the load  
+1596. Like a bat out of hell  
+1597. Like a boss  
+1598. Like a kid in a candy store  
+1599. Like herding cats  
+1600. Like shooting fish in a barrel  
+
+
+### 1601 - 1700:
+1601. Like white on rice  
+1602. Lip service  
+1603. Liquid courage  
+1604. Live and let live  
+1605. Living rent-free in my head  
+1606. Lock horns  
+1607. Lock it up  
+1608. Lock, stock, and barrel  
+1609. Long game  
+1610. Loose cannon  
+1611. Lose your marbles  
+1612. Lose your shirt  
+1613. Love bombing  
+1614. Low blow  
+1615. Low-hanging fruit  
+1616. Luck of the draw  
+1617. Lucky break  
+1618. Mad as a hatter  
+1619. Magic bullet  
+1620. Make a mountain out of a molehill  
+1621. Make bank  
+1622. Make it pop  
+1623. Make or break  
+1624. Make waves  
+1625. Man cave  
+1626. Man of the hour  
+1627. March to the beat of your own drum  
+1628. Marker on the field  
+1629. Mass exodus  
+1630. Master of none  
+1631. Match made in heaven  
+1632. Meal ticket  
+1633. Meat and potatoes  
+1634. Meet your match  
+1635. Melt down  
+1636. Micromanager  
+1637. Midas touch  
+1638. Milk it for all it’s worth  
+1639. Mind the gap  
+1640. Mind-blowing  
+1641. Miss the boat  
+1642. Moment of truth  
+1643. Monday-morning quarterback  
+1644. Money pit  
+1645. Monkey business  
+1646. Monkey see, monkey do  
+1647. Moot point  
+1648. Mother of all…  
+1649. Move the goalposts  
+1650. Move the needle  
+1651. Muddy waters  
+1652. Murphy’s law  
+1653. Nail biter  
+1654. Nail it  
+1655. Name dropper  
+1656. Navel-gazing  
+1657. Needle in a haystack  
+1658. Netflix and chill  
+1659. Never say die  
+1660. New lease on life  
+1661. New normal  
+1662. Next in line  
+1663. Next-level thinking  
+1664. Night and day difference  
+1665. No brainer  
+1666. No love lost  
+1667. No man’s land  
+1668. No room to swing a cat  
+1669. No sweat  
+1670. No-brainer  
+1671. Not a ghost of a chance  
+1672. Not all it’s cracked up to be  
+1673. Not by a long shot  
+1674. Not playing with a full deck  
+1675. Not rocket science  
+1676. Not the brightest bulb  
+1677. Nothing to write home about  
+1678. Old hat  
+1679. Old-school  
+1680. On a silver platter  
+1681. On autopilot  
+1682. On cloud nine  
+1683. On edge  
+1684. On fire (figurative)  
+1685. On point  
+1686. On the back burner  
+1687. On the brink  
+1688. On the clock  
+1689. On the down-low  
+1690. On the fritz  
+1691. On the hook  
+1692. On the house  
+1693. On the lam  
+1694. On the level  
+1695. On the loose  
+1696. On the money  
+1697. On the nose  
+1698. On the same page  
+1699. On the skids  
+1700. On thin ice  
+
+### 1701 - 1800:
+1701. On your last legs  
+1702. On-point fashion  
+1703. One-hit wonder  
+1704. One-liner  
+1705. One-off  
+1706. One-trick pony  
+1707. Open a can of worms  
+1708. Open secret  
+1709. Open the floodgates  
+1710. Order of magnitude  
+1711. Out in left field  
+1712. Out like a light  
+1713. Out of commission  
+1714. Out of left field  
+1715. Out of pocket (unavailable)  
+1716. Out of sight, out of mind  
+1717. Out of steam  
+1718. Out of the gate  
+1719. Out of the loop  
+1720. Out of the picture  
+1721. Out of this world  
+1722. Out of whack  
+1723. Out on a limb  
+1724. Over a barrel  
+1725. Over and above  
+1726. Over my dead body  
+1727. Over the hump  
+1728. Over the top  
+1729. Over-index on  
+1730. Own the libs  
+1731. Pack it in  
+1732. Pain point  
+1733. Paint yourself into a corner  
+1734. Paper tiger  
+1735. Par for the course  
+1736. Part and parcel  
+1737. Pass the buck  
+1738. Pass the sniff test  
+1739. Pat on the back  
+1740. Pay dirt  
+1741. Pay through the nose  
+1742. Peak cringe  
+1743. Penny for your thoughts  
+1744. Penny-wise, pound-foolish  
+1745. People person  
+1746. Pet project  
+1747. Phone tag  
+1748. Pick your brain  
+1749. Pick-me-up  
+1750. Picture-perfect  
+1751. Piece of work  
+1752. Piggy bank  
+1753. Pile on the pressure  
+1754. Pinch pennies  
+1755. Pink slip  
+1756. Pipe dream  
+1757. Pitch in  
+1758. Pizza face  
+1759. Plain Jane  
+1760. Plain sailing  
+1761. Play catch-up  
+1762. Play dirty  
+1763. Play favorites  
+1764. Play it cool  
+1765. Play the field  
+1766. Play the long game  
+1767. Play with fire  
+1768. Playbook  
+1769. Plug and play  
+1770. Plug the leak  
+1771. Pocket dial  
+1772. Point blank  
+1773. Point of no return  
+1774. Point the finger  
+1775. Poison pill  
+1776. Pop off  
+1777. Pop the bubble  
+1778. Pork-barrel politics  
+1779. Post up  
+1780. Powder keg  
+1781. Power lunch  
+1782. Power nap  
+1783. Power play  
+1784. Power user  
+1785. Preach to the choir  
+1786. Press your luck  
+1787. Price gouging  
+1788. Prime time  
+1789. Pull a fast one  
+1790. Pull rank  
+1791. Pull the plug  
+1792. Pull the wool over your eyes  
+1793. Pull up stakes  
+1794. Punch above your weight  
+1795. Punch in/out  
+1796. Punch line  
+1797. Punch-drunk love  
+1798. Pure gold  
+1799. Push the envelope  
+1800. Put a bow on it  
+
+### 1801 - 1900:
+1801. Put a lid on it  
+1802. Put it on my tab  
+1803. Put on airs  
+1804. Put on blast  
+1805. Put on ice  
+1806. Put on the back burner  
+1807. Put skin in the game  
+1808. Put the cart before the horse  
+1809. Put the pedal to the metal  
+1810. Put your money where your mouth is  
+1811. Quick buck  
+1812. Quick draw  
+1813. Quick on the uptake  
+1814. Quiet quitting  
+1815. Quit cold turkey  
+1816. Rags to riches  
+1817. Rain check  
+1818. Rain or shine  
+1819. Raise the stakes  
+1820. Rank and file  
+1821. Rat race  
+1822. Read the room  
+1823. Reality check  
+1824. Reboot your life  
+1825. Red flag  
+1826. Red herring  
+1827. Red-letter day  
+1828. Red state / blue state  
+1829. Reinvent the wheel  
+1830. Resting on laurels  
+1831. Ride shotgun  
+1832. Right on the money  
+1833. Right out of the gate  
+1834. Ring a bell  
+1835. Ring fence  
+1836. Ripple effect  
+1837. Rise and grind  
+1838. Road rage  
+1839. Rob Peter to pay Paul  
+1840. Rock and a hard place  
+1841. Rock star parking  
+1842. Roll call  
+1843. Roll credits  
+1844. Roll with it  
+1845. Rolling stone gathers no moss  
+1846. Root of all evil  
+1847. Rough around the edges  
+1848. Rough patch  
+1849. Round robin  
+1850. Rub elbows  
+1851. Rule of thumb  
+1852. Run a tight ship  
+1853. Run interference  
+1854. Run it up the flagpole  
+1855. Run like clockwork  
+1856. Run of the mill  
+1857. Run the gamut  
+1858. Run the numbers  
+1859. Run the table  
+1860. Run with it  
+1861. Running on fumes  
+1862. Running on empty  
+1863. Safe harbor  
+1864. Salt of the earth  
+1865. Same difference  
+1866. Save face  
+1867. Say the word  
+1868. Scale up  
+1869. Scare tactics  
+1870. Scattershot approach  
+1871. School of hard knocks  
+1872. Scoop the competition  
+1873. Scrape the bottom of the barrel  
+1874. Scratch the surface  
+1875. Screw loose  
+1876. Sea change  
+1877. Seal of approval  
+1878. Second-guess  
+1879. See eye to eye  
+1880. See the light  
+1881. Sell the farm  
+1882. Send packing  
+1883. Set in stone  
+1884. Set the bar high  
+1885. Set the record straight  
+1886. Set your teeth on edge  
+1887. Seventh-inning stretch  
+1888. Shake it off  
+1889. Shake the dust off  
+1890. Shape up or ship out  
+1891. Share the wealth  
+1892. Sharp cookie  
+1893. Shell game  
+1894. Shell out  
+1895. Ship has sailed  
+1896. Shirt off your back  
+1897. Shoot for the stars  
+1898. Shoot hoops  
+1899. Shoot straight  
+1900. Shop till you drop  
+
+### 1901 - 2000:
+1901. Short end of the stick  
+1902. Shot in the dark  
+1903. Shoulder surfing  
+1904. Show me the money  
+1905. Show your true colors  
+1906. Shrinking violet  
+1907. Shut the front door  
+1908. Sick as a dog  
+1909. Side hustle  
+1910. Sight for sore eyes  
+1911. Silver lining  
+1912. Singing the blues  
+1913. Sink or swim  
+1914. Sit tight  
+1915. Six degrees of separation  
+1916. Skate on thin ice  
+1917. Skid marks  
+1918. Skunked (scoreless)  
+1919. Slam dunk  
+1920. Sleight of hand  
+1921. Slippery slope  
+1922. Slow burn  
+1923. Slow your roll  
+1924. Small potatoes  
+1925. Small world  
+1926. Smell blood in the water  
+1927. Smoke and mirrors  
+1928. Snake in the grass  
+1929. Snap judgment  
+1930. Snitches get stitches  
+1931. Snow job  
+1932. Snowball’s chance in hell  
+1933. So far, so good  
+1934. Social currency  
+1935. Soft launch  
+1936. Soldier on  
+1937. Song and dance  
+1938. Sound the alarm  
+1939. Spare me the drama  
+1940. Speak volumes  
+1941. Speed demon  
+1942. Spin your wheels  
+1943. Spitting image  
+1944. Split the difference  
+1945. Split the ticket  
+1946. Spot on  
+1947. Square deal  
+1948. Square one  
+1949. Squeeze play  
+1950. Stand your ground  
+1951. Staple diet  
+1952. Star power  
+1953. State-of-the-art  
+1954. Stay in your lane  
+1955. Stay woke  
+1956. Steal the show  
+1957. Step on a landmine  
+1958. Step up your game  
+1959. Stick in the mud  
+1960. Stick the landing  
+1961. Still waters run deep  
+1962. Stir the pot  
+1963. Stock answer  
+1964. Stone-cold sober  
+1965. Stop the presses  
+1966. Straight from the horse’s mouth  
+1967. Straight shooter  
+1968. Strapped for cash  
+1969. Straw man argument  
+1970. Street smart  
+1971. Stretch goal  
+1972. Strike a nerve  
+1973. Strong suit  
+1974. Stuck in traffic  
+1975. Stump speech  
+1976. Sucker for punishment  
+1977. Sugarcoat it  
+1978. Sunday scaries  
+1979. Super-spreader event  
+1980. Swear like a sailor  
+1981. Swipe left/right  
+1982. Swing state  
+1983. Swings and roundabouts  
+1984. Table stakes  
+1985. Take a chill pill  
+1986. Take a knee  
+1987. Take a page from  
+1988. Take a powder  
+1989. Take a stand  
+1990. Take it easy  
+1991. Take it on the chin  
+1992. Take it to the bank  
+1993. Take no prisoners  
+1994. Take the bait  
+1995. Take the cake  
+1996. Take the edge off  
+1997. Take the fall  
+1998. Take the high road  
+1999. Take the mickey  
+2000. Take the plunge  
