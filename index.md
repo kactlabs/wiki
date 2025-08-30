@@ -99,7 +99,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Documentation
   * [Docker with Langfuse Local Setup Guide](docker-with-langfuse-local-setup-guide.md)
 
-
+## Agent Demo Day :
+  * [Agent Demo Winner](agent-demo-day-rules.md)
+  
 ## Docker Projects / Tools :
   * [Docker - How to Install?](docker-how-to-install.md)
   * [Docker Commands](docker-commands.md)
