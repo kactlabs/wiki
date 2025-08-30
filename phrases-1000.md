@@ -6,7 +6,7 @@
 
 
 
-
+### 1 - 100:
 1. Hold your horses  
 2. Cut to the chase  
 3. That’s the way the cookie crumbles  
@@ -57,8 +57,6 @@
 48. Walk on eggshells  
 49. When pigs fly  
 50. Wild-goose chase  
-
-### 50 - 100:
 51. A dime a dozen  
 52. All bark and no bite  
 53. Back on your feet  
