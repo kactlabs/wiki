@@ -28,4 +28,3 @@ Featurepreneur Games
   22. [Data Bee Game](index.md)
   23. [Book Reading Game](book-reading-game.md)
   24. [Phrase Genius](phrase-genius.md)
-  25. [Phrases 1000](phrases-1000.md)

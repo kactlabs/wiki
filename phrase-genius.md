@@ -1,27 +1,11 @@
 / [Home](index.md)
 
-## Template
+## Phrase Genius
 
-**Note:** tbw
-
-
+**Note:** Learn Phrases in a gamified way
 
 
 ```
-
+Every team should pick their phrase and other teams should tell the meaning of it. 
+This game should be done within 10 minutes max.
 ```
-
-![image](images/Chromatius.png)
-
-### Subtitlte:
-
-* [ABC](link)
-
-* [XYZ](link)
-
-### Ref :
-
-  * []()
-
-
-![1753337625129](image/zzemplate/1753337625129.png)
