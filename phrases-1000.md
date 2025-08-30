@@ -729,13 +729,312 @@
 
 
 ### 701 - 800:
-
+701. Cold call  
+702. Cold shoulder  
+703. Come out swinging  
+704. Cookie-cutter approach  
+705. Copy-and-paste job  
+706. Corner office  
+707. Cost of doing business  
+708. Couch change  
+709. Cover your bases  
+710. Crash course  
+711. Crash the gate  
+712. Crickets (dead silence)  
+713. Cross my heart  
+714. Cross that bridge when I get to it  
+715. Cry me a river  
+716. Cup of joe  
+717. Cut a check  
+718. Cut and run  
+719. Cut from the same cloth  
+720. Cut the cord  
+721. Cut your losses  
+722. Dead giveaway  
+723. Dead weight  
+724. Deep dive  
+725. Deep pockets  
+726. Dime store  
+727. Dinosaur (outdated tech)  
+728. Dirt cheap  
+729. Dish the dirt  
+730. Do a 180  
+731. Do the math  
+732. Dog and pony show  
+733. Dog-eat-dog world  
+734. Don’t cry over spilled milk  
+735. Don’t flip your wig  
+736. Don’t get your wires crossed  
+737. Don’t hold your breath  
+738. Don’t put all your eggs in one basket  
+739. Double down  
+740. Down pat  
+741. Drag race  
+742. Draw a line in the sand  
+743. Dream team  
+744. Dress to kill  
+745. Drink the Kool-Aid  
+746. Drive time  
+747. Drop a dime (snitch)  
+748. Drop-dead gorgeous  
+749. Duck soup (easy task)  
+750. Dump and run  
+751. Dumpster fire  
+752. Dutch courage  
+753. Early adopter  
+754. Earn your stripes  
+755. Easy as pie  
+756. Eat your heart out  
+757. Egg on your face  
+758. Eleventh-hour decision  
+759. Empty suit  
+760. End of story  
+761. Epic fail  
+762. Fair game  
+763. Fake it till you make it  
+764. Fall guy  
+765. Fast-track  
+766. Fat chance  
+767. Feather your nest egg  
+768. Fed up  
+769. Feel-good moment  
+770. Fender bender  
+771. Fifth wheel  
+772. Filthy rich  
+773. Fine print  
+774. Fire drill (chaotic rush)  
+775. Fire on all cylinders  
+776. Fish story  
+777. Flash in the pan  
+778. Flat out  
+779. Flip the bird  
+780. Flip the switch  
+781. Float a trial balloon  
+782. Floor it  
+783. Fly under the radar  
+784. Food coma  
+785. Foot in the door  
+786. Fork in the road  
+787. Free ride  
+788. Fresh off the boat  
+789. Front runner  
+790. Full-court press  
+791. Full plate  
+792. Game on  
+793. Garbage in, garbage out  
+794. Get a reality check  
+795. Get cracking  
+796. Get off scot-free  
+797. Get the ax  
+798. Ghost town  
+799. Give it the green light  
+800. Go bonkers  
 
 
 
 ### 801 - 900:
+801. Go down the rabbit hole  
+802. Go out with a bang  
+803. Go postal  
+804. Go the extra mile  
+805. Go to pieces  
+806. Go whole hog  
+807. Golden handcuffs  
+808. Golden parachute  
+809. Good to go  
+810. Grand slam  
+811. Gray area  
+812. Green light  
+813. Green thumb  
+814. Grin and bear it  
+815. Ground zero  
+816. Gut punch  
+817. Hack it  
+818. Hair-splitting  
+819. Half-baked  
+820. Hammer out a deal  
+821. Hand over fist  
+822. Handle with kid gloves  
+823. Happy camper  
+824. Happy-go-lucky  
+825. Hard stop  
+826. Hardwired  
+827. Hashtag blessed  
+828. Hat trick  
+829. Hatchet job  
+830. Have a dog in the fight  
+831. Have your head in the clouds  
+832. Head-scratcher  
+833. Heads will roll  
+834. Heart-to-heart  
+835. Heavy lifting  
+836. Hell on wheels  
+837. High five  
+838. High horse  
+839. Hit a snag  
+840. Hit pay dirt  
+841. Hit the ceiling  
+842. Hit the ground running  
+843. Hit the hay  
+844. Hit the jackpot  
+845. Hit the panic button  
+846. Hit the roof  
+847. Hold your fire  
+848. Hook, line, and sinker  
+849. Hot mess  
+850. Hot potato  
+851. Hot take  
+852. House on fire (doing well)  
+853. Hustle culture  
+854. IRL (in real life)  
+855. Ice in your veins  
+856. In a bind  
+857. In a jam  
+858. In a nutshell  
+859. In cahoots  
+860. In hot water  
+861. In the crosshairs  
+862. In the doghouse  
+863. In the know  
+864. In the weeds  
+865. It is what it is  
+866. It’s a toss-up  
+867. Jackpot moment  
+868. Jump ship  
+869. Jump the shark  
+870. Jury’s still out  
+871. Keep it 100  
+872. Keep it on the DL  
+873. Keep the lights on  
+874. Kick the tires  
+875. Kill shot  
+876. Knock it out of the park  
+877. Knock some sense into  
+878. Know the score  
+879. Land the plane  
+880. Last hurrah  
+881. Laugh all the way to the bank  
+882. Lay it on thick  
+883. Lean in  
+884. Leave it at the door  
+885. Leave money on the table  
+886. Left holding the bag  
+887. Level playing field  
+888. Life hack  
+889. Lightbulb moment  
+890. Like clockwork  
+891. Lion’s share  
+892. Lip service  
+893. Live wire  
+894. Lock it down  
+895. Long game  
+896. Loop in  
+897. Lose your cool  
+898. Low-hanging fruit  
+899. Make a splash  
+900. Make bank  
 
 
 
 
 ### 901 - 1000:
+901. Make it rain  
+902. Make or break  
+903. Make waves  
+904. Man up  
+905. Marbles in your mouth  
+906. March to the beat of your own drum  
+907. Mark my words  
+908. Meal ticket  
+909. Meet your Waterloo  
+910. Mic drop  
+911. Mile a minute  
+912. Milk run  
+913. Mind blown  
+914. Miss the memo  
+915. Monday blues  
+916. Money shot  
+917. Move the needle  
+918. Muddy the waters  
+919. Murphy’s law  
+920. Nail-biter  
+921. Name of the game  
+922. Needle mover  
+923. Neighborhood watch  
+924. Netflix and chill  
+925. Never saw it coming  
+926. New kid on the block  
+927. Next-level  
+928. Night owl  
+929. No cap  
+930. No harm, no foul  
+931. No strings attached  
+932. Nose to the grindstone  
+933. Not in Kansas anymore  
+934. Not my first rodeo  
+935. Not rocket science  
+936. Nothing burger  
+937. Off-brand  
+938. Off like a prom dress  
+939. Off the chain  
+940. Off the reservation  
+941. Old-school cool  
+942. On brand  
+943. On fleek  
+944. On the bubble  
+945. On the DL  
+946. On the grind  
+947. On the money  
+948. On the ropes  
+949. One-trick pony  
+950. Open the floodgates  
+951. Out like a light  
+952. Out of gas  
+953. Out of pocket  
+954. Out of sight, out of mind  
+955. Over the moon  
+956. Over-index on  
+957. Own the room  
+958. Pack heat  
+959. Pain point  
+960. Paper trail  
+961. Par for the course  
+962. Party foul  
+963. Pass the torch  
+964. Pay dirt  
+965. Pay the piper  
+966. Peak cringe  
+967. Penny-wise, pound-foolish  
+968. Phone it in  
+969. Pick your battles  
+970. Pigs might fly  
+971. Pipe dream  
+972. Pivot hard  
+973. Plain Jane  
+974. Play catch-up  
+975. Plug and play  
+976. Plug the leak  
+977. Point of no return  
+978. Pop the question  
+979. Power move  
+980. Press the flesh  
+981. Put a pin in it  
+982. Put lipstick on a pig  
+983. Put on blast  
+984. Quick fix  
+985. Quit cold turkey  
+986. Raise the roof  
+987. Reboot your life  
+988. Red flag  
+989. Red tape  
+990. Ride or die  
+991. Right out of the gate  
+992. Rise to the occasion  
+993. Rock bottom  
+994. Room to breathe  
+995. Rub shoulders with  
+996. Rule of thumb  
+997. Run it up the flagpole  
+998. Safe space  
+999. Salt in the wound  
+1000. Same page, different book  
