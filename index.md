@@ -485,3 +485,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ### Investment
   * [Kactii Investment Plan](kactii-investment-plan.md)
   * [Kactii Revenue Roadmap](kactii-revenue-roadmap.md)
+
+### Communication
+  * [Phrases 1000](phrases-1000.md)
