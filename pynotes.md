@@ -16,11 +16,10 @@
 
 
 ### Windows:
-- [Part 1](https://www.loom.com/share/db27a7d9408442d586a0f3c7b0d738cb?sid=d0734cf8-8133-426c-b565-e8ae7822ddd6)
+- [Part 1](https://www.loom.com/share/f1b5f66211ec4f28a6eea286a3f012c9?sid=dbd2f51d-27ae-4498-8f7d-87ab667a3288)
 
-- [Part 2](https://www.loom.com/share/20354512481640ceab335395ff65cc0a?sid=940a6642-7aad-408d-b208-d810593fc0ac)
+- [Part 2](https://www.loom.com/share/09db8e955132406e9aab18998999a28f?sid=5064842f-cc34-4a3f-bbe6-87a0523bbae2)
 
-- [Part 3](https://www.loom.com/share/0188b2ac982c48e18cc54275926db39d?sid=be730371-7c88-4d03-b990-5e5359013309)
 
 
 ## Sample PyNotes:
