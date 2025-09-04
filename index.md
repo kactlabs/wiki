@@ -101,6 +101,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Agent Demo Day :
   * [Agent Demo Winner](agent-demo-day-rules.md)
+
+## Activepieces setup
+  * [AP Setup] (activepieces.md)
   
 ## Docker Projects / Tools :
   * [Docker - How to Install?](docker-how-to-install.md)
