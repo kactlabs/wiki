@@ -471,6 +471,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [How to take session notes](how-to-take-session-notes.md)
   * [Business Development Executive](business-development-executive.md)
   * [GenAI AWS Guides](genai-aws-guides.md)
+  * [Prompting - Kollywood Style](prompting-kollywood.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
