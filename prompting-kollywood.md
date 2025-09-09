@@ -48,6 +48,28 @@ Prompting is the method of giving instructions to a Generative AI model (like Ch
 
 ### Nmeonics: Tiffen Coffee Ready, Eat Immediately
 
+---
+
+# 🔹 5-Step Framework of Prompt Engineering (Thalapathy Vijay Edition)  
+
+1. **Task** – Define what you want.  
+   - Example: "Write a short movie review of Vijay’s *Master* in 5 lines."  
+
+2. **Context** – Provide background for better answers.  
+   - Example: "Assume the audience are college students who love mass scenes."  
+
+3. **References** – Add examples or style to guide output.  
+   - Example: "Here’s a style sample: 'Ghilli is a thrilling sports-action film that mixes humor with action.'  
+   Now review *Leo* in the same style."  
+
+4. **Evaluate** – Check if the AI’s output matches what you need.  
+   - Example: Did it capture Vijay’s screen presence, dialogues, and fan moments?  
+
+5. **Iterate** – Refine the prompt for improvements.  
+   - Example: If the review is too generic, update:  
+     "Focus on Vijay’s performance, action choreography, and music by Anirudh."  
+---
+
 ## 🔹 Prompting Techniques  
 1. **Instructional Prompting** – Direct and clear commands.  
    - Example: “Summarize this article in 3 bullet points.”  
