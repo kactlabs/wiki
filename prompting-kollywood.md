@@ -37,6 +37,17 @@ Prompting is the method of giving instructions to a Generative AI model (like Ch
 
 ---
 
+
+## 🔹 5-Step Framework of Prompt Engineering  
+
+1. **Task** – Clearly define what you want the AI to do.  
+2. **Context** – Provide background details to guide the response.  
+3. **References** – Add examples, data, or style instructions for accuracy.  
+4. **Evaluate** – Check the output for relevance, clarity, and correctness.  
+5. **Iterate** – Refine the prompt step by step until you get the best result.  
+
+### Nmeonics: Tiffen Coffee Ready, Eat Immediately
+
 ## 🔹 Prompting Techniques  
 1. **Instructional Prompting** – Direct and clear commands.  
    - Example: “Summarize this article in 3 bullet points.”  
