@@ -9,6 +9,8 @@
 
 ```
 
+Brave
+
 Slack
 
 Sublime
