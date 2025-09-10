@@ -333,6 +333,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact Labs Interns History](kactlabs-interns-history.md)
   * [Interns with High GRIT Score](kactlabs-grittier-interns.md)
   * [Online Sample Resumes](online-sample-resumes.md)
+  * [Newcomer - Setup - Windows](new-comer-setup-windows.md)
 
 ## Zsh Terminal
   * [Zsh Terminal](zshterminal.md)
