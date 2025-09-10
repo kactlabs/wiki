@@ -334,6 +334,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Interns with High GRIT Score](kactlabs-grittier-interns.md)
   * [Online Sample Resumes](online-sample-resumes.md)
   * [Newcomer - Setup - Windows](new-comer-setup-windows.md)
+  * [Newcomer - Setup - Ubuntu](new-comer-setup-ubuntu.md)
+  * [Newcomer - Setup - Mac](new-comer-setup-mac.md)
 
 ## Zsh Terminal
   * [Zsh Terminal](zshterminal.md)
