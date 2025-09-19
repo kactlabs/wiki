@@ -10,7 +10,7 @@
 <br>
 ➣ Gain confidence spotting opportunities and avoiding hype
 <br>
-Link: https://www.elementsofai.com/
+Link: [https://www.elementsofai.com/](https://www.elementsofai.com/)
 
 
 
@@ -22,7 +22,7 @@ Link: https://www.elementsofai.com/
 <br>
 ➣ Save hours, generate content at startup speed
 <br>
-Link: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+Link: [https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
 
 
@@ -35,7 +35,7 @@ Link: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-d
 <br>
 ➣ Content generation and practical adoption at scale
 <br>
-Link: https://www.cloudskillsboost.google/course_templates/536
+Link: [https://www.cloudskillsboost.google/course_templates/536](https://www.cloudskillsboost.google/course_templates/536)
 <br>
 
 
@@ -46,7 +46,7 @@ Link: https://www.cloudskillsboost.google/course_templates/536
 <br>
 ➣ Essential for scaling AI across products
 <br>
-Link: https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
+Link: [https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/)
 <br>
 
 
@@ -59,7 +59,7 @@ Link: https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azu
 <br>
 ➣ Level up from "user" to "creator"
 <br>
-Link: https://course.fast.ai/
+Link: [https://course.fast.ai/](https://course.fast.ai/)
 
 
 
@@ -70,7 +70,7 @@ Link: https://course.fast.ai/
 <br>
 ➣ Evaluate vendors and development opportunities
 <br>
-Link: https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python
+Link: [https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python](https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python)
 <br>
 
 7. Language Models by LangChain – Development Framework
@@ -81,7 +81,7 @@ Link: https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-
 <br>
 ➣ Learn costs and partnership planning
 <br>
-Link: https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
+Link: [https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 
 
 
@@ -93,7 +93,7 @@ Link: https://www.deeplearning.ai/short-courses/langchain-for-llm-application-de
 <br>
 ➣ Perfect for personal brands or creative products
 <br>
-Link: https://learn.microsoft.com/en-us/training/paths/get-started-generative-ai/
+Link: [https://learn.microsoft.com/en-us/training/paths/get-started-generative-ai/](https://learn.microsoft.com/en-us/training/paths/get-started-generative-ai/)
 
 
 
@@ -103,8 +103,9 @@ Link: https://learn.microsoft.com/en-us/training/paths/get-started-generative-ai
 <br>
 ➣ Smart choices for hosting, scaling, and costs
 <br>
-Link: https://www.amazon.science/latest-news/
-machine-learning-course-free-online-from-amazon-machine-learning-university
+Link: [https://www.amazon.science/latest-news/
+machine-learning-course-free-online-from-amazon-machine-learning-university](https://www.amazon.science/latest-news/
+machine-learning-course-free-online-from-amazon-machine-learning-university)
 
 10. AI Leadership & Strategy – Business Overview
 <br>
@@ -114,7 +115,7 @@ AI for Everyone (Andrew Ng, DeepLearning.AI)
 <br>
 ➣ Team-building and aligning AI with strategy
 <br>
-Link: https://www.deeplearning.ai/courses/ai-for-everyone/
+Link: [https://www.deeplearning.ai/courses/ai-for-everyone/](https://www.deeplearning.ai/courses/ai-for-everyone/)
 
 Ref:
 [AI Courses](https://www.linkedin.com/posts/khizer-abbas_ai-courses-for-founders-ugcPost-7374425997288480768-5mRx/?utm_source=share&utm_medium=member_ios&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
