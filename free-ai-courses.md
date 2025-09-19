@@ -115,3 +115,6 @@ AI for Everyone (Andrew Ng, DeepLearning.AI)
 ➣ Team-building and aligning AI with strategy
 <br>
 Link: https://www.deeplearning.ai/courses/ai-for-everyone/
+
+Ref:
+[AI Courses](https://www.linkedin.com/posts/khizer-abbas_ai-courses-for-founders-ugcPost-7374425997288480768-5mRx/?utm_source=share&utm_medium=member_ios&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
