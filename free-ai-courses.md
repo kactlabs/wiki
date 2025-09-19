@@ -4,7 +4,6 @@
 
 **Note:** Learning is Free
 
-
 1. AI Essentials – University of Helsinki Elements of AI
 ➣ Clear, non-technical explanations of what AI is
 ➣ Gain confidence spotting opportunities and avoiding hype
@@ -36,27 +35,27 @@ Link: https://course.fast.ai/
 6. Machine Learning by Harvard – Strategic Foundation CS50's Introduction to AI with Python (Harvard)
 ➣ Understand algorithms behind AI
 ➣ Evaluate vendors and development opportunities
-Link: https://lnkd.in/dHUT62k3
+Link: https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python
 
 7. Language Models by LangChain – Development Framework
 ➣LangChain for LLM Application Development (DeepLearning.AI)
 ➣ Custom AI apps exploration
 ➣ Learn costs and partnership planning
-Link: https://lnkd.in/dQcTCdTz
+Link: https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
 
 8. Generative AI by Microsoft – Creative Applications
 ➣Get Started with Generative AI (Microsoft Learn)
 ➣ AI for creative problem-solving and content
 ➣ Perfect for personal brands or creative products
-Link: https://lnkd.in/dK7nmdT4
+Link: https://learn.microsoft.com/en-us/training/paths/get-started-generative-ai/
 
 9. AWS AI Foundations – Infrastructure Understanding Machine Learning University (AWS)
 ➣ ML/AI infrastructure backbone
 ➣ Smart choices for hosting, scaling, and costs
-Link: https://lnkd.in/dVWQYh9p
+Link: https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
 
 10. AI Leadership & Strategy – Business Overview
 AI for Everyone (Andrew Ng, DeepLearning.AI)
 ➣ Strategic AI view for business leaders
 ➣ Team-building and aligning AI with strategy
-Link: https://lnkd.in/dEyZzF6w
+Link: https://www.deeplearning.ai/courses/ai-for-everyone/
