@@ -475,6 +475,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Business Development Executive](business-development-executive.md)
   * [GenAI AWS Guides](genai-aws-guides.md)
   * [Prompting - Kollywood Style](prompting-kollywood.md)
+  * [Free AI Courses](free-ai-courses.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
