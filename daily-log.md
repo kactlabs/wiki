@@ -6,8 +6,8 @@
 
 
 ## Kact Daily Log (DL) Standard:
-- You shoul have the file name username_dl.txt
-    - Sample: raja_dl.txt
+- You shoul have the file name dl-username.txt
+    - Sample: dl-raja.txt
 
 - Use the Kact DL Template from below
 
