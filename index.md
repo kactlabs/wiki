@@ -227,6 +227,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Intern Day Off](Intern-day-off.md)
   * [Intern Levels](intern-levels.md)
   * [Commonality Test](commonality-test.md)
+  * [Throw the ball](throw-the-ball.md)
 
 ## TACT PaaS / BaaS
   * [PaaS](paas.md)
