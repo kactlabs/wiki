@@ -223,6 +223,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Kact Internship/Certificates
   * [Intern Opportunity](kact-internship.md)
   * [Intern Checklist](intern-checklist.md)
+  * [Intern Rules](intern-rules.md)
+  * [Intern Day Off](Intern-day-off.md)
   * [Intern Levels](intern-levels.md)
   * [Commonality Test](commonality-test.md)
 
