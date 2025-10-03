@@ -13,6 +13,7 @@
 - Any planned leave or absence must be informed and approved in advance.
 - Interns should respond to messages or requests from their team leads within a reasonable timeframe.
 - Interns must not share any company data, credentials, or internal processes with outsiders.
+- Hand-written notes should be taken for each session and share the SS to the group they are belonging too.
 - All work-related documents must be saved on company-approved platforms.
 - Interns are encouraged to take initiative and participate in learning sessions, code reviews, etc.
 - Interns must not be absent without prior notice for more than 2–3 consecutive days.
