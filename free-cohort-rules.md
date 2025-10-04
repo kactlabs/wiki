@@ -7,7 +7,7 @@
 
 
 
-# 📌 Rules for "Python 4 EarlyZBirds" Program
+# 📌 Rules for all "Free" Programs at KactLabs
 
 We want only serious and consistent learners. Please follow these rules strictly.  
 Violators will be removed immediately. 🚫
