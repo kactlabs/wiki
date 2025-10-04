@@ -20,6 +20,7 @@
 16. CTMR - Come to Main Room
 17. WA - WhatsApp
 18. BDB - Big Data Boss / Bigg Data Boss
+19. IA - Independent Agent
 
 
 
