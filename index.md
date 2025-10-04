@@ -415,7 +415,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Internal Hackathon](internal-hackathon.md)
   * [Internal Team Discussions](internal-team-discussions.md)
   * [How to use ChatGPT at work](how-to-use-chatgpt.md)
-  * [Linx Installation History](linux-installation-history.md)
+  * [Linux Installation History](linux-installation-history.md)
   * [file-upload-storage-types.md](file-upload-storage-types.md)
   * [MentorAI Internal](mentorai-internal.md)
   * [Ngrok](ngrok.md)
@@ -485,11 +485,12 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [AI Coding Tools](ai-coding-tools.md)
   * [GenAI Tools](genai-tools.md)
   * [Free Cohort Rules](free-cohort-rules.md)
+  * [Industiral Strength Agents](industrial-strength-agents.md)
+  * [Student Salary Predictor](student-salary-predictor-research.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
   * [Expert Coding Assignments](expert-coding-assignments.md)
-
 
 ### Pypi
   * [Pypi - How to publish](pypi-publishing-steps.md)
