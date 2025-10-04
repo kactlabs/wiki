@@ -487,6 +487,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Free Cohort Rules](free-cohort-rules.md)
   * [Industiral Strength Agents](industrial-strength-agents.md)
   * [Student Salary Predictor](student-salary-predictor-research.md)
+  * [Kactii Agents](kactii-agents.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
