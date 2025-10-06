@@ -488,6 +488,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Industiral Strength Agents](industrial-strength-agents.md)
   * [Student Salary Predictor](student-salary-predictor-research.md)
   * [Kactii Agents](kactii-agents.md)
+  * [Voice Agents](voice-agents.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
