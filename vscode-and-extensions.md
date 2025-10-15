@@ -379,6 +379,9 @@ Version: 1.4.5
 Publisher: telesoho
 VS Marketplace Link: https://open-vsx.org/vscode/item?itemName=telesoho.vscode-markdown-paste-image
 
+Ctrl + Alt + V
+or
+Cmd + Alt + V
 ```
 
 
