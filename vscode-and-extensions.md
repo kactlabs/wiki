@@ -370,6 +370,18 @@ https://chatgpt.com/share/678c9533-7158-8002-a23a-abd81233cb10
 ```
 
 
+#### 1020: Markdown Paste
+```
+Name: Markdown Paste
+Id: telesoho.vscode-markdown-paste-image
+Description: A smartly paste for markdown.
+Version: 1.4.5
+Publisher: telesoho
+VS Marketplace Link: https://open-vsx.org/vscode/item?itemName=telesoho.vscode-markdown-paste-image
+
+```
+
+
 ### Ref :
 https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
 
