@@ -370,8 +370,6 @@ https://chatgpt.com/share/678c9533-7158-8002-a23a-abd81233cb10
 ```
 
 
-
-
 ### Ref :
 https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
 
