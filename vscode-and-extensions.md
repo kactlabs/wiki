@@ -355,7 +355,7 @@ Downloads:
 Stars:
 ```
 
-#### 1019: Python
+#### 1019: Paste Image
 ```
 Name: Paste Image
 Id: mushan.vscode-paste-image
