@@ -63,6 +63,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [HTTP response status code](http_response.md)
   * [Kact Credits](kact-credits.md)
   * [VScode and Extensions](vscode-and-extensions.md)
+  * [Chrome Brave Plugins](chrome-brave-extensions.md)
   * [SpeedTest](speedtest.md)
   * [Podman Commands](podman-commands.md)
   * [Py Env Management](py-env-management.md)

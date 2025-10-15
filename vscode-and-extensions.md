@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# How to install VS Code
+# VSCode Extensions
 
 **Updated Date: Nov 30, 2024**
 
