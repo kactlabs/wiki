@@ -355,6 +355,20 @@ Downloads:
 Stars:
 ```
 
+#### 1019: Python
+```
+Name: Paste Image
+Id: mushan.vscode-paste-image
+Description: paste image from clipboard directly
+Version: 1.0.4
+Publisher: mushan
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
+
+Markdown paste:
+https://chatgpt.com/share/678c9533-7158-8002-a23a-abd81233cb10
+
+```
+
 
 
 
