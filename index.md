@@ -188,6 +188,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [React Native Installation](react-native-installation-commands.md)
   * [APK File Generation](apk-file.md)
 
+## Linkedin 
+  * [Linkedin profile Update](linkedin-profile-update.md)
 ## TACT ML / DL
   * [TACT ML Wiki / mlwiki](https://kactlabs.github.io/mlwiki/)
   * [100 ML Libraries](100-ml-libraries.md)
