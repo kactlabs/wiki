@@ -121,4 +121,30 @@ readme.md will have more details
 
 
 14. TBD
+```
+suggest AI logo based on text (name /initials) , photo of a person. 
+```
 
+
+15. 
+```
+suggest AI signature design
+```
+
+16. 
+```
+suggest business card AI design
+```
+
+
+17. 
+```
+Image 2 Line Drawing Converter
+```
+
+
+18. 
+```
+Garbage Classifier with severity
+
+```
