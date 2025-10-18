@@ -384,6 +384,16 @@ or
 Cmd + Alt + V
 ```
 
+#### 1021: VSCode PDF
+```
+Name: vscode-pdf
+Id: tomoki1207.pdf
+Description: Display pdf file in VSCode.
+Version: 1.2.2
+Publisher: tomoki1207
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
+```
+
 
 ### Ref :
 https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
