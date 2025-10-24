@@ -5,7 +5,7 @@
 
 
 ### Go to Gemini
-  * [Gemini](https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_source=google&utm_medium=paid-media&utm_medium=cpc&utm_campaign=bkws&utm_campaign=2024enIN_gemfeb&pt=9008&mt=8&ct=p-growth-sem-bkws&gad_source=1&gad_campaignid=22909912692&gbraid=0AAAAApk5BhmD2pk2mAwhHrO39O4VSy5RI&gclid=CjwKCAjwr8LHBhBKEiwAy47uUoszAL7UhSULlVg2C-T8qgmkXiFlNqYqiVrjJwhFunDQFBcNKjFsIhoCafgQAvD_BwE&gclsrc=aw.ds)
+ * [Gemini](https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_source=google&utm_medium=paid-media&utm_medium=cpc&utm_campaign=bkws&utm_campaign=2024enIN_gemfeb&pt=9008&mt=8&ct=p-growth-sem-bkws&gad_source=1&gad_campaignid=22909912692&gbraid=0AAAAApk5BhmD2pk2mAwhHrO39O4VSy5RI&gclid=CjwKCAjwr8LHBhBKEiwAy47uUoszAL7UhSULlVg2C-T8qgmkXiFlNqYqiVrjJwhFunDQFBcNKjFsIhoCafgQAvD_BwE&gclsrc=aw.ds)
 
 - Upload your image 
 - And give one the prompts from the below 
@@ -18,7 +18,6 @@
 ```
 "prompt": "A professional headshot of a person, against a simple, clean, and elegant background. The lighting should be soft, even, and flattering, highlighting the facial features without harsh shadows. The subject should be well-groomed, wearing professional attire. The overall mood of the image should be confident, approachable, and sophisticated. The photograph should be high-resolution with sharp focus on the face.",
 "negative_prompt": "Low-quality, blurry, amateur, grainy, poor lighting, harsh shadows, unflattering angles, distracting background, unprofessional attire, messy hair, tired expression, closed eyes, watermark, text, out of frame."
-}
 ```
 - prompt 2
 ```
