@@ -53,4 +53,5 @@ i want my face to be more realistic that cant be found as ai generated.... maint
 
 
 ### Sample
- - [https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/](https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/)
+- ![alt text](image-18.png) 
+- [https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/](https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/)
