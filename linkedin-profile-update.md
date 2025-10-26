@@ -50,3 +50,8 @@ i want my face to be more realistic that cant be found as ai generated
 i want my face to be more realistic that cant be found as ai generated.... maintain my natural face
 ```
 
+
+
+### Sample
+- ![alt text](image-18.png) 
+- [https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/](https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/)

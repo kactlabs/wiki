@@ -394,6 +394,16 @@ Publisher: tomoki1207
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
 ```
 
+#### 1022: TLDraw
+```
+Name: tldraw
+Id: tldraw-org.tldraw-vscode
+Description: The tldraw extension for VS Code.
+Version: 2.143.0
+Publisher: tldraw
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tldraw-org.tldraw-vscode
+```
+
 
 ### Ref :
 https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
