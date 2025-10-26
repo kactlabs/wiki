@@ -123,6 +123,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Commands to remove sudo](remove-sudo-commands.md)
   * [Commands to delete Docker](delete-docker-commands.md)
   * [Jenkins setup](jenkins-local.md)
+  * [n8n Installation](n8n-installation.md)
 
 ### Ubuntu
   * [Ubuntu Commands](ubuntu-commands.md)
