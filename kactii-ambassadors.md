@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Benefits For Agenthon Ambassadors
+# Benefits For Kactii Ambassadors
 
 - 🎓 **Free Basic Python Course for All Ambassadors**  
   Gain hands-on coding experience and strengthen your technical foundation with expert-led sessions.

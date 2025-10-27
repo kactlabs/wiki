@@ -518,4 +518,4 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Phrases 1000](phrases-1000.md)
 
 ## Agenthon
-  * [Benfits of Ambassadors](agenthon-ambassadors.md)
+  * [Benfits of Ambassadors](kactii-ambassadors.md)
