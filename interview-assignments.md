@@ -148,3 +148,10 @@ Image 2 Line Drawing Converter
 Garbage Classifier with severity
 
 ```
+
+19.
+```
+Learn and make a POC on this:
+
+https://docs.mem0.ai/cookbooks/overview
+```
