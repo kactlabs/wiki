@@ -494,6 +494,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Student Salary Predictor](student-salary-predictor-research.md)
   * [Kactii Agents](kactii-agents.md)
   * [Voice Agents](voice-agents.md)
+  * [GenAI with Document](genai-with-document.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
