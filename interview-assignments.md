@@ -155,3 +155,8 @@ Learn and make a POC on this:
 
 https://docs.mem0.ai/cookbooks/overview
 ```
+
+20. 
+```
+IG pics - remove top and bottom section
+```
