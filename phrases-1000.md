@@ -2062,3 +2062,7 @@
 1998. Take the high road  
 1999. Take the mickey  
 2000. Take the plunge  
+
+
+### Ref:
+- [https://www.phrases.org.uk/](https://www.phrases.org.uk/)
