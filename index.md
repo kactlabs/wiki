@@ -89,6 +89,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [FPR Mac History](fpr-mac-history.md)
   * [Mac Club](mac-club.md)
 
+
 ## Zorin OS
 
   * [Zorin OS Installation](zorin-install.md)
@@ -495,6 +496,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kactii Agents](kactii-agents.md)
   * [Voice Agents](voice-agents.md)
   * [GenAI with Document](genai-with-document.md)
+  * [Ollama](ollama.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
