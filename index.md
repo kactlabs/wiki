@@ -497,6 +497,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Voice Agents](voice-agents.md)
   * [GenAI with Document](genai-with-document.md)
   * [Ollama](ollama.md)
+  * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
