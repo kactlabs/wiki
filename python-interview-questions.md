@@ -159,13 +159,6 @@
 99. What are common performance bottlenecks in Python and how do you profile them?
 100. When should you use C extensions, Cython, or `numpy` for performance-critical code?
 
-Excellent 🔥 — here’s the **final batch of 50 advanced-to-expert level Python interview questions (101–150)**, covering topics such as design patterns, metaprogramming, async internals, data structures, testing, optimization, and practical coding scenarios — all in **Markdown** format.
-
----
-
-# 🧠 Python Interview Questions (Advanced → Expert)
-
----
 
 ## 🏗️ Design Patterns & Architecture
 
@@ -239,5 +232,213 @@ Excellent 🔥 — here’s the **final batch of 50 advanced-to-expert level Pyt
 148. What are Python’s built-in heap and priority queue utilities?
 149. What’s the difference between shallow and deep copying for nested data?
 150. How do you store large numeric arrays efficiently in Python (e.g., using `array` or `numpy`)?
+
+---
+
+
+## 🧺 Lists
+
+151. What is a list in Python?
+152. How do you create a list?
+153. How do you access elements from a list using indexes?
+154. How do you change the value of an element in a list?
+155. How do you add an item to a list?
+156. What is the difference between `append()` and `insert()`?
+157. How do you remove elements from a list?
+158. What is the difference between `remove()`, `pop()`, and `del`?
+159. How can you get the length of a list?
+160. How do you check if an element exists in a list?
+161. How do you iterate through a list?
+162. How can you copy a list properly?
+163. What happens if you use `list1 = list2`?
+164. What is list slicing?
+165. How do you reverse a list?
+166. How do you sort a list in ascending or descending order?
+167. What is the difference between `sort()` and `sorted()`?
+168. How can you concatenate two lists?
+169. How do you find the maximum and minimum values in a list?
+170. How can you remove duplicates from a list?
+
+---
+
+## 🧱 Tuples
+
+171. What is a tuple in Python?
+172. How is a tuple different from a list?
+173. How do you create a tuple with a single element?
+174. How do you access elements in a tuple?
+175. Are tuples mutable or immutable?
+176. How do you convert a list to a tuple and vice versa?
+177. How can you find the index of an element in a tuple?
+178. How can you count how many times an element appears in a tuple?
+179. When should you prefer using a tuple over a list?
+180. Can a tuple contain mutable objects?
+
+---
+
+## 🧮 Sets
+
+181. What is a set in Python?
+182. How do you create a set?
+183. What are the main characteristics of sets?
+184. How do you add an element to a set?
+185. How do you remove an element from a set?
+186. What is the difference between `discard()` and `remove()` in sets?
+187. How do you find the union of two sets?
+188. How do you find the intersection of two sets?
+189. How do you find the difference between two sets?
+190. How do you check if a set is a subset or superset of another?
+191. Can a set contain duplicate elements?
+192. What happens if you try to add a duplicate element to a set?
+193. How can you check if two sets are disjoint?
+194. What is a frozen set?
+195. When would you use a frozen set instead of a normal set?
+
+---
+
+## 🗂️ Dictionaries
+
+196. What is a dictionary in Python?
+197. How do you create a dictionary?
+198. How do you access values using keys in a dictionary?
+199. How do you add or update an entry in a dictionary?
+200. How do you remove a key-value pair from a dictionary?
+
+---
+
+
+## 🧩 Functions (Core Concepts)
+
+201. What is a function in Python?
+202. How do you define a function in Python?
+203. How do you call a function?
+204. What is the purpose of the `return` statement?
+205. What happens if a function doesn’t have a `return` statement?
+206. What is the difference between a function that returns a value and one that doesn’t?
+207. What are positional arguments in a function?
+208. What are keyword arguments?
+209. What are default arguments in Python functions?
+210. What are variable-length arguments (`*args` and `**kwargs`)?
+211. What is the difference between `*args` and `**kwargs`?
+212. What happens when you call a function with missing arguments?
+213. How can you specify both positional and keyword-only arguments?
+214. What is scope in Python?
+215. What are local and global variables?
+216. How do you modify a global variable inside a function?
+217. What is the `nonlocal` keyword used for?
+218. What are anonymous (lambda) functions?
+219. How do lambda functions differ from normal functions?
+220. When should you use a lambda function?
+
+---
+
+## 🔁 Loops and Iteration
+
+221. What is the difference between `for` and `while` loops?
+222. How does the `range()` function work?
+223. How can you loop through both index and value in a list?
+224. What is the difference between `break` and `continue`?
+225. What happens when you use `else` with a `for` or `while` loop?
+226. How can you iterate over a dictionary’s keys and values?
+227. How can you iterate over a string character by character?
+228. How can you iterate through a list in reverse order?
+229. What is the purpose of the `enumerate()` function?
+230. How do nested loops work in Python?
+
+---
+
+## 🧮 Conditional Statements
+
+231. What are conditional statements in Python?
+232. How does the `if` statement work?
+233. What is the purpose of `elif`?
+234. What is the difference between `if` and `elif`?
+235. What happens when no condition in an `if-elif` chain is true?
+236. How do you write a one-line conditional (ternary) expression?
+237. Can you nest `if` statements?
+238. How do you combine multiple conditions using logical operators?
+239. What is the difference between `and` and `or` in conditions?
+240. What is the difference between `is`, `in`, and `==` in condition checks?
+
+---
+
+## 📥 Input / Output (I/O)
+
+241. How do you get user input from the keyboard?
+242. What data type does `input()` return?
+243. How do you convert user input into integers or floats?
+244. How do you print output in Python?
+245. How do you print multiple variables in one line?
+246. What does the `end` parameter in `print()` do?
+247. How do you format output strings using f-strings?
+248. How do you read from a file in Python?
+249. How do you write data to a file in Python?
+250. What happens if you try to read a file that doesn’t exist?
+
+---
+
+
+## ⚠️ Exception Handling
+
+251. What is an exception in Python?
+252. How does Python handle runtime errors?
+253. What is the purpose of the `try` and `except` blocks?
+254. What happens if an exception is not handled?
+255. How do you catch multiple exceptions in a single block?
+256. How can you execute code after an exception, no matter what happens?
+257. What is the `finally` block used for?
+258. What is the `else` block in exception handling used for?
+259. How can you raise an exception manually?
+260. How do you create custom exception classes in Python?
+261. What is the difference between `raise` and `assert`?
+262. What are common built-in exceptions in Python?
+263. How do you handle file-related exceptions?
+264. What is the purpose of `try...finally` without an `except`?
+265. What is exception chaining?
+266. How do you log exceptions using the `logging` module?
+267. Can you catch exceptions inside a `lambda` function?
+268. How does Python propagate exceptions through the call stack?
+269. What is the difference between syntax errors and runtime errors?
+270. How can you suppress specific exceptions using `contextlib.suppress()`?
+
+---
+
+## 📦 Modules and Imports
+
+271. What is a module in Python?
+272. How do you import a module in Python?
+273. What is the difference between `import module` and `from module import name`?
+274. How do you import multiple names from a module?
+275. How do you rename an imported module or function?
+276. What is the purpose of the `as` keyword in imports?
+277. How do you import everything from a module?
+278. Why is using `from module import *` not recommended?
+279. What is the `__name__` variable used for in a Python file?
+280. What happens when you run a module directly versus importing it?
+281. What are built-in Python modules?
+282. How can you see all available modules in your Python installation?
+283. How do you install an external Python package?
+284. What is `pip`, and how does it work?
+285. How do you uninstall a package using pip?
+286. What is the purpose of a virtual environment in Python?
+287. How do you create and activate a virtual environment?
+288. What is the difference between `requirements.txt` and `pyproject.toml`?
+289. How do you reload a module in Python without restarting the interpreter?
+290. How can you check the version of an installed module?
+
+---
+
+## 🧮 Basic Coding Logic & Practice
+
+291. How do you check if a number is even or odd in Python?
+292. How do you find the largest of three numbers?
+293. How do you swap two variables without using a temporary variable?
+294. How do you find the factorial of a number?
+295. How do you check if a number is prime?
+296. How do you find all prime numbers in a given range?
+297. How do you find the sum of all digits of a number?
+298. How do you reverse an integer number in Python?
+299. How do you count the number of vowels in a string?
+300. How do you check if a string is a palindrome?
 
 ---
