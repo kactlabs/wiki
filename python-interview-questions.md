@@ -787,4 +787,5 @@
 998. Write a function to reverse a dictionary (keys become values).
 999. Write a function to print Pascal’s triangle.
 999. Write a program to simulate a basic login system.
+
 ---
