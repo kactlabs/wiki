@@ -786,5 +786,5 @@
 997. Write a function to find the intersection of multiple sets.
 998. Write a function to reverse a dictionary (keys become values).
 999. Write a function to print Pascal’s triangle.
-1000. Write a program to simulate a basic login system.
+999. Write a program to simulate a basic login system.
 ---
