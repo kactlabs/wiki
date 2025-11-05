@@ -1,7 +1,5 @@
 / [Home](index.md)
 
-/ [Home](index.md)
-
 # n8n Workspace Overview
 
 This section explains the n8n workspace UI and common terminologies to help you understand how to build workflows efficiently.
