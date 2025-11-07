@@ -201,7 +201,7 @@ https://docs.mem0.ai/cookbooks/overview
 IG pics - remove top and bottom section
 ```
 
-21. TBD
+21. Product Compare with LangChain
 
 ```
 By using LangChain and Gemaini, compare product Quote version 1 and version 2.
