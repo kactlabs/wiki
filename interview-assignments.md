@@ -160,3 +160,11 @@ https://docs.mem0.ai/cookbooks/overview
 ```
 IG pics - remove top and bottom section
 ```
+
+21.
+```
+By using LangChain and Gemaini, compare product Quote version 1 and version 2.
+
+Should be done as IA (Independent Agent)
+```
+![product-quote1.pdf](product-quote1.pdf)
