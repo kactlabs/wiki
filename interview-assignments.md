@@ -96,12 +96,9 @@ The task is to write a program to find all the EC2 instances running in all regi
 
 2. I need to collect "Release Notes" on public libs
 	Sentry
-
 	python script to collect reelase notes
 
 3. Use this delim
-
----------------------------------------------------------------------------
 
 4. files:
 		sentry_rn.txt
@@ -111,8 +108,6 @@ The task is to write a program to find all the EC2 instances running in all regi
 	No OpenAI
 
 6. ReleaseNotes Chatbot
-
-
 	source: sentry_rn
 	q:
 	tell me which version has the reccent "slice quantization" implemented?
@@ -122,13 +117,9 @@ The task is to write a program to find all the EC2 instances running in all regi
 
 
 7. Flask, Jinja
-
 	select source in UI
-
 	q: text area
-
 	a:
-
 	Execution time.
 
 
