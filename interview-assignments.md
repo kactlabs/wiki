@@ -90,7 +90,7 @@ The task is to write a program to find all the EC2 instances running in all regi
 
 
 
-11. LangChain + Ollama
+11. LangChain and Ollama
 ```
 1. Setup Ollama in local machine
 
