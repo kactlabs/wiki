@@ -208,4 +208,6 @@ By using LangChain and Gemaini, compare product Quote version 1 and version 2.
 
 Should be done as IA (Independent Agent)
 ```
-![product-quote1.pdf](product-quote1.pdf)
+
+[product-quote1.pdf](product-quote1.pdf)
+[product-quote2.pdf](product-quote2.pdf)
