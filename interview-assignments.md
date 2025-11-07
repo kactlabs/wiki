@@ -100,6 +100,7 @@ TDB
 
 
 12. Flask vs FastAPI Benchmarking
+
 ```
 simple benchmarking:
 
@@ -129,6 +130,7 @@ readme.md will have more details
 
 
 14. TBD
+
 ```
 suggest AI logo based on text (name /initials) , photo of a person. 
 ```
@@ -138,7 +140,8 @@ suggest AI logo based on text (name /initials) , photo of a person.
 
 
 
-15. 
+15. TBD
+
 ```
 suggest AI signature design
 ```
@@ -147,7 +150,8 @@ suggest AI signature design
 
 
 
-16. 
+16. TBD
+
 ```
 suggest business card AI design
 ```
@@ -157,7 +161,8 @@ suggest business card AI design
 
 
 
-17. 
+17. TBD
+
 ```
 Image 2 Line Drawing Converter
 ```
@@ -167,7 +172,8 @@ Image 2 Line Drawing Converter
 
 
 
-18. 
+18. TBD
+
 ```
 Garbage Classifier with severity
 
@@ -177,7 +183,8 @@ Garbage Classifier with severity
 
 
 
-19.
+19. TBD
+
 ```
 Learn and make a POC on this:
 
@@ -188,12 +195,14 @@ https://docs.mem0.ai/cookbooks/overview
 
 
 
-20. 
+20. TBD
+
 ```
 IG pics - remove top and bottom section
 ```
 
-21.
+21. TBD
+
 ```
 By using LangChain and Gemaini, compare product Quote version 1 and version 2.
 
