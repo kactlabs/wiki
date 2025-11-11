@@ -404,6 +404,29 @@ Publisher: tldraw
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tldraw-org.tldraw-vscode
 ```
 
+### 1023: Cline
+```
+Name: Cline
+Id: saoudrizwan.claude-dev
+Description: Autonomous coding agent right in your IDE, capable of creating/editing files, running commands, using the browser, and more with your permission every step of the way.
+Version: 3.36.1
+Publisher: Cline
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+```
+
+
+### 1024: Roo Code
+```
+Publisher: Roo Code
+https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
+
+Name: Roo Code
+Id: RooVeterinaryInc.roo-cline
+Description: A whole dev team of AI agents in your editor.
+Version: 3.25.17
+Publisher: Roo Code
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
+```
 
 ### Ref :
 https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
