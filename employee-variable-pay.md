@@ -11,7 +11,7 @@
 **Kactii Technologies Private Limited** (“**Kactii**” or “**Company**”), a startup entity duly incorporated under applicable laws, having its principal office at [Insert Address],
 
 **And**
-**[Employee Full Name]** (“**Employee**”), residing at [Insert Address].
+**Employee
 
 The Company and the Employee may hereinafter be referred to **collectively as the “Parties”** and **individually as a “Party.”**
 
