@@ -194,3 +194,17 @@ conda create --name py312 python=3.12
 ## Install kiro 
 
  * download kiro [kiro](https://kiro.dev/)
+
+ ## Worksheet
+
+ * everyday before you leave make sure to update the worksheet 
+
+ * Worksheet link [Worksheet](https://docs.google.com/spreadsheets/d/1elZ90et8sd8ogFFKjPwEbx8S14Vts8BEmNkXrW0GGcU/edit?usp=sharing)
+
+ * Duplicate the template sheet and rename it with your name like in the sample image i gave
+
+ * Get access from your mentor for the link 
+
+ ![alt text](worksheet-1.png)
+
+ 
