@@ -8,7 +8,7 @@
 
 **Effective Date:** (will be shared in a separate document)
 **Between:**
-**Kactii Technologies Private Limited** (“**Kactii**” or “**Company**”), a startup entity duly incorporated under applicable laws, having its principal office at [Insert Address],
+**Kactii Technologies Private Limited** (“**Kactii**” or “**Company**”), a startup entity duly incorporated under applicable laws, having its principal office in Ontario, Canada,
 
 **And**
 **Employee
@@ -99,14 +99,14 @@ The Employee further affirms that this deferred remuneration model reflects an *
 
 ## **6. Termination**
 
-Either Party may terminate this Agreement by providing [Insert Number] days’ written notice.
+Either Party may terminate this Agreement by providing 30 days’ written notice.
 Upon termination, the Employee shall be entitled solely to the Base Component accrued up to the termination date, and any **unreleased Variable Component shall be deemed automatically forfeited.**
 
 ---
 
 ## **7. Governing Law and Jurisdiction**
 
-This Agreement shall be governed by and construed in accordance with the laws of [Insert Jurisdiction — e.g., “The Republic of India” or “The Province of Ontario, Canada”].
+This Agreement shall be governed by and construed in accordance with the laws of “The Province of Ontario, Canada”.
 Any disputes arising hereunder shall be subject to the **exclusive jurisdiction** of the courts located within such jurisdiction.
 
 ---
