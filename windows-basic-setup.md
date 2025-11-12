@@ -148,6 +148,7 @@ Tools in LangGraph – Tool use and orchestration in LangGraph
 * Create another file as logs.txt and store your effort logs in it 
 
 * logs.txt file sample 
+
 ```
 Jerin
 November 07
@@ -161,6 +162,7 @@ Total Hours: 10 Hours
 
 ------------------------------------------------------------------------------------------------------------------
 ```
+
 *Note*
 
 In your daily you have to keep the task details and any meeting notes and resources and any references you are collecting while working 
@@ -189,6 +191,6 @@ conda create --name py312 python=3.12
 
 * Use the "code" command in the anaconda prompt to open VSCode
  
- ## Install kiro 
+## Install kiro 
 
  * download kiro [kiro](https://kiro.dev/)
