@@ -1,10 +1,5 @@
 / [Home](index.md)
 
-## Kactii Employee Variable Pay
-
----
-
-
 # **KACTII PART-TIME EMPLOYMENT AGREEMENT**
 
 ---
