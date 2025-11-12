@@ -2,11 +2,6 @@
 
 ## Kactii Employee Variable Pay
 
-
-
-Got it ✅ — you follow a **monthly pay policy**.
-Here’s the **refined agreement section** for your Kactii part-time employee contracts, incorporating your **10% monthly pay** and **90% deferred variable structure** in a professional, legally clear format.
-
 ---
 
 ## **Compensation and Payment Terms**
