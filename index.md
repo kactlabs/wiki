@@ -226,6 +226,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Troubleshooting Guide
   * [Fixing 504 Gateway Timeout Error](timeout504.md)
+  
 ## Kact Internship/Certificates
   * [Intern Opportunity](kact-internship.md)
   * [Intern Checklist](intern-checklist.md)
