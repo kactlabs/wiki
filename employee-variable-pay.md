@@ -6,7 +6,7 @@
 
 ## **This Part-Time Employment Agreement (“Agreement”)**
 
-**Effective Date:** [Insert Effective Date]
+**Effective Date:** (will be shared in a separate document)
 **Between:**
 **Kactii Technologies Private Limited** (“**Kactii**” or “**Company**”), a startup entity duly incorporated under applicable laws, having its principal office at [Insert Address],
 
