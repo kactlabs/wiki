@@ -195,7 +195,7 @@ conda create --name py312 python=3.12
 
  * download kiro [kiro](https://kiro.dev/)
 
- ## Worksheet
+## Worksheet
 
  * everyday before you leave make sure to update the worksheet 
 
@@ -207,4 +207,3 @@ conda create --name py312 python=3.12
 
  ![alt text](worksheet-1.png)
 
- 
