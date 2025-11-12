@@ -438,6 +438,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [My LinkedIn Data](my-linkedin-data.md)
   * [Logo Format](logo-format.md)
   * [Certificate Processing](certificate-processing.md)
+  * [Daily Habits](daily-habits.md)
 
 ## Social Support
   * [DFI - District Forward Index](dfi.md)
