@@ -347,7 +347,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Newcomer - Setup - Windows](new-comer-setup-windows.md)
   * [Newcomer - Setup - Ubuntu](new-comer-setup-ubuntu.md)
   * [Newcomer - Setup - Mac](new-comer-setup-mac.md)
-
+  * [windows basic setup guide](windows-basic-setup.md)
 ## Zsh Terminal
   * [Zsh Terminal](zshterminal.md)
 
