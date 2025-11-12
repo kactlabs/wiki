@@ -6,11 +6,11 @@
 
 ## **Compensation and Payment Terms**
 
-### 1. **Base Monthly Compensation**
+**Section 1. Base Monthly Compensation**
 
 The Employee shall receive a **Base Salary equivalent to ten percent (10%)** of the total agreed compensation for their role (“Base Salary”). This Base Salary shall be paid on a **monthly basis**, in accordance with Kactii’s standard payroll schedule.
 
-### 2. **Deferred Variable Compensation**
+**Section 2. Deferred Variable Compensation**
 
 In addition to the Base Salary, the Employee shall be entitled to a **Deferred Variable Compensation equivalent to ninety percent (90%)** of the total agreed compensation (“Variable Pay”).
 
@@ -19,11 +19,11 @@ In addition to the Base Salary, the Employee shall be entitled to a **Deferred V
 * The Employee must be **actively engaged with Kactii** at the time of payout initiation and throughout the disbursement period to remain eligible for continued Variable Pay payments.
 * In the event the Funding Threshold is **not achieved**, the Variable Pay shall remain deferred until such milestone is met, or may be **forfeited** if Kactii ceases or restructures its operations.
 
-### 3. **Performance Alignment and Transparency**
+**Section 3. Performance Alignment and Transparency**
 
 Kactii follows a transparent compensation policy that links employee rewards with company performance and growth milestones. Employees will receive **written notice** once the Funding Threshold has been met and the Variable Pay release schedule begins.
 
-### 4. **No Guarantee Clause**
+**Section 4. No Guarantee Clause**
 
 The Employee acknowledges that the Variable Pay is **conditional** and **not guaranteed**, being contingent upon the company achieving the Funding Threshold. The Employee agrees that the deferred structure represents Kactii’s startup-stage compensation model, aligning individual contributions with future company success.
 
