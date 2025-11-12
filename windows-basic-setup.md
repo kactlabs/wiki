@@ -27,13 +27,16 @@
 
  * paste the following commands on gitbash
 
+
  ```
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+
  * instead of "Your Name" and "your.email@example.com" replace with your github user name and email
 
  * after this use the below commands 
+
  ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
@@ -48,11 +51,7 @@ cat ~/.ssh/id_rsa.pub
  * once you enter the first command keep on pressing the enter 
  * after that paste the next commands one by one
  * once you enter the last command you will get ssh key as a result copy the key and store it in the txt file
- * below is the sample ssh key you will get as a result 
 
- ```
- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDZDp5LZqTc6ulagkDGRBGchyj6v/CJSogO+nSsu/SEp0Nmq0uzfaBCKZ1Hwyl3s/LBdM3D1W0giWCdAF7PBSIflFN9y2ZbQGu/xHc+JjXQkk9vZqV+pNB5rrhea2sc/yq15mqaIqxpAYaPxqE1N2E4Uecu1uUFZu3PFiHnPVlf1V0fGS9dje2GAeeWm5hyhVM23psPHilEyXoPzPnwZ1fUGhvADuR1FXN1TY7qrwlqcoVHd2knit0ng+2CaizbtBZ3gAv7J8Gj4fSyleLMsOlF+GdaqO8Gph7IfSWr6OzycMEw98ZTBdoma4MEi18GngPD0YKEEJGoX2afSN3GsIIuQf3GywJTKr/5iGkI2HwNblo3tMh+aDiLwnbd1+tYlgjoCANluQhRKB1+xtsr94L54wHGk+hM+dHgLuJTicVp5nVlqf6d0pZsy8eutO8d/+8PCIZ7NCcTG12/bs6skzUIuVme1lbWgybNYvNviwQDMgO2n/0B1wp8iGilMzxmlBx0V00D3WWiZhkgumr2yIoOyoovyBz5wOOy8On00CpAiDq9xVUH1Kq6rXfR8X+iqfhlYTelhCWGQ83UB9asAVNe++TcGL5QsY3aY9mhxu+rrKXF1+Y7qjRhBge6iY3xudJiqVNy/k3ZCRO6JDyihJp0r4XlcwmdIBLfPy9Rxw== your@gmail.com
- ```
 
 ## paste the ssh key in the github
 
