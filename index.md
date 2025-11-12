@@ -436,6 +436,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Checklist](checklist.md)
   * [My LinkedIn Data](my-linkedin-data.md)
   * [Logo Format](logo-format.md)
+  * [Certificate Processing](certificate-processing.md)
 
 ## Social Support
   * [DFI - District Forward Index](dfi.md)
