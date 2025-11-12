@@ -439,7 +439,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Logo Format](logo-format.md)
   * [Certificate Processing](certificate-processing.md)
   * [Daily Habits](daily-habits.md)
-  * [Employee Variable Pay](employee-variable-pay.md)
+  * [Employee Variable Pay](employee-variable-pay-and-agreement.md)
 
 ## Social Support
   * [DFI - District Forward Index](dfi.md)
