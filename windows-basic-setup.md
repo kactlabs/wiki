@@ -2,6 +2,10 @@
 
 # Windows Basic Setup
 
+## Install Browser
+
+* Install Brave browser do not use the chrome 
+
 ## join slack
 
  * first join the slack using the invite link.
@@ -163,3 +167,29 @@ Total Hours: 10 Hours
 In your daily you have to keep the task details and any meeting notes and resources and any references you are collecting while working 
 but in the logs.txt you have to maintain only the Task Details 
 
+* Create one more file and as error-archive.txt and store the errors you get while working
+
+## Install VSCode 
+
+* Download VSCode [VSCode](https://code.visualstudio.com/download)
+
+* And download the extensions from the following link [Extensions](https://wiki.kactii.com/vscode-and-extensions.html) 
+
+## Install miniconda 
+
+* Click this link and download miniconda [miniconda](https://www.anaconda.com/download/success)
+
+* once you download do the normal setup for the application and open it.
+
+* And after that enter the below commands in the anaconda prompt
+
+```
+conda create --name py312 python=3.12
+```
+* The above command used to create a python 12 environment
+
+* Use the "code" command in the anaconda prompt to open VSCode
+ 
+ ## Install kiro 
+
+ * download kiro [kiro](https://kiro.dev/)
