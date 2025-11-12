@@ -152,15 +152,15 @@ Tools in LangGraph – Tool use and orchestration in LangGraph
 ```
 Jerin
 November 07
-Task 1: basic setup                                              			   - L2 - Success - 10:00 - 12:00
-Task 2: Langchain notes          											   - L2 - Success - 12:00 - 14:00
-Task 3: kactii-hustlecamp-learning-analytic deployed in vercel                 - L2 - Success - 15:00 - 16:30
-Task 4: kactii-hustlecamp-learning-analytic- Mongodb connection issue in vercel- L2 - Failure - 16:30 - 18:30 
-Task 5: Select query performed in vercel deploment                             - L3 - Success - 18:30 - 21:30
+Task 1: basic setup                         - L2 - Success - 10:00 - 12:00
+Task 2: Langchain notes          			- L2 - Success - 12:00 - 14:00
+Task 3: kactii-hustlecamp-learning          - L2 - Success - 15:00 - 16:30
+Task 4: kactii-hustlecamp-learning          - L2 - Failure - 16:30 - 18:30 
+Task 5: query performed in vercel deploment - L3 - Success - 18:30 - 21:30
 
 Total Hours: 10 Hours
 
-------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 ```
 
 *Note*
