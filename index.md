@@ -241,7 +241,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Newcomer - Setup - Mac](new-comer-setup-mac.md)
   * [windows basic setup guide](windows-basic-setup.md)
   * [Intern Working Hours](intern-working-hours.md)
-
+  * [Kact Intern Day Off](Intern-day-off.md)
+  * [Kact Alumni Interns](alumni-intern.md)
 
 ## TACT PaaS / BaaS
   * [PaaS](paas.md)
