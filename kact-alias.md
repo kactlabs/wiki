@@ -53,7 +53,234 @@ alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
 ```
 
 
-CSP Alias
+CSP Alias - Mac - 2025 Nov
+```
+# Define a variable for the common path
+USER_BASE_PATH="$HOME/rj"
+KACT_BASE_PATH="$HOME/kact"
+
+alias py="python"
+alias soume="source ~/.zshrc"
+alias sourcez="soume"
+alias gh="gush"
+alias txts="cd /Users/tactlabs/d/txts"
+alias txti="cd /Users/tactlabs/d/txts"
+alias txt="cd /Users/tactlabs/d/txts"
+alias tactxi="cd /Users/tactlabs/d/tact_space/tact_txts"
+alias wip="curl https://ifconfig.me/ -w '\n'"
+alias ip="curl https://ifconfig.me/ -w '\n'"
+alias bashing="code ~/.zshrc"
+alias bashin="code ~/.zshrc"
+alias zsin="code ~/.zshrc"
+alias bashcat="cat ~/.bash_profile"
+alias pipi="pip install -r requirements.txt"
+alias piper="pipi"
+alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
+alias tip="python /Users/tactlabs/d/kaipulla_space/pythonvil/tactpip/tinstaller.py -p "
+alias cate="conda activate"
+alias nb="jupyter notebook"
+alias jlab="jupyter lab"
+alias jlad="jlab --debug"
+alias eli="clear"
+alias app="py app.py"
+alias play="py cricket.py"
+alias cls="clear"
+alias cde="conda deactivate"
+alias ls2="ls -hal"
+alias ho38="conda activate ho38"
+alias ktl="kubectl"
+alias ktx="kubectx"
+alias kai="cd /Users/tactlabs/d/kaipulla_space"
+alias awsl="aws --endpoint-url=http://localhost:4566"
+alias codez="code ~/.zshrc"
+alias kexec="ktl exec -it"
+alias dexec="docker exec -it"
+alias goprod="ssh -i ~/.tact/creds/tact1_key.pem ubuntu@54.186.8.196"
+alias co="code"
+alias ko="kiro"
+
+# kactii
+alias goka="ssh -i /Users/csp/.creds/kactii/kactii-2025.pem azureuser@57.151.97.192"
+alias gok="goka"
+alias gk1="gok"
+alias goka2="ssh -i /Users/csp/.creds/kactii/kactii-2025.pem azureuser@20.55.89.108"
+alias gok2="goka2"
+alias gk2="goka2"
+
+# docker
+alias dcup="docker-compose up"
+alias dcub="docker-compose up --build"
+alias dps="docker ps"
+alias dipsy='docker ps --format "table {{.Names}}\t{{.Status}}" | while read line; do 
+    if [[ "$line" =~ "Up" ]]; then
+        echo -e "\033[32m$line\033[0m"  # Green for running containers
+    elif [[ "$line" =~ "Exited" ]]; then
+        echo -e "\033[31m$line\033[0m"  # Red for stopped containers
+    else
+        echo -e "$line"
+    fi
+done'
+alias dpy="dipsy"
+
+alias genbranch="$USER_BASE_PATH/myshell/generate_branches_md.sh"
+alias genb="genbranch"
+
+# borrowed from tact
+alias zshco="code ~/.zshrc"
+alias zeco="zshco"
+alias soume="source ~/.zshrc"
+alias sourcez="soume"
+alias gush="/Users/csp/kact/tools/gitmagic/gu.sh"
+alias gh="gush"
+alias ghi="gh ignorechatgpt"
+alias rmf="rm -rf"
+
+# conda
+alias ml312="conda activate ml312"
+alias ml12="ml312"
+alias py39="conda activate py39"
+alias py37="conda activate py37"
+alias c39="conda activate py39"
+alias ml39="conda activate ml39"
+alias py38="conda activate py38"
+alias py311="conda activate py311"
+alias py11="conda activate py311"
+alias p11="conda activate py311"
+alias ml38="conda activate ml38"
+alias cact="conda activate"
+alias clist="conda env list"
+alias cvl="clist"
+
+# git alias - borrowed from tact
+alias gsus="git status"
+alias gacm="gad && gcm"
+alias gbra="git branch -a"
+alias gull="git pull"
+alias gul="gull"
+alias gad="git add ."
+alias gcm="git commit -m"
+alias gish="git push"
+alias gush="$USER_BASE_PATH/gitmagic/gu.sh"
+alias gimmit="git commit -m "
+alias gull="git pull"
+alias gcm="gimmit"
+alias gp="git pull"
+alias gck="git checkout"
+alias gcl="git clone"
+alias gus="git status"
+alias gid="git diff"
+alias gpl="git pull"
+alias gdiff="git diff"
+alias gdf="gdiff"
+alias gip="git pull"
+alias rmg="rm -rf .git"
+alias git-https-url="git remote get-url --push origin | sed 's/git@github.com:/https:\/\/github.com\//' | sed 's/\.git$//'"
+alias gurl="git-https-url"
+alias gl2="git log -2"
+alias grh="git reset --hard"
+alias gcf="git clean -fd"
+alias gsh="git stash"
+alias gsa="gsh apply"
+
+# zshco 
+alias sme="soume"
+
+
+# csp personal
+alias csp="cd $USER_BASE_PATH"
+alias plogs="cd $USER_BASE_PATH/dailylogs"
+alias plog="plogs"
+alias plg="plog"
+
+# mysh
+alias zshbkp="cp ~/.zshrc $USER_BASE_PATH/myshell/."
+alias cignore="$USER_BASE_PATH/myshell/cignore.sh"
+alias czem="$USER_BASE_PATH/myshell/czem.sh"
+alias ctem="$USER_BASE_PATH/myshell/ctem.sh"
+alias myshel="cd $USER_BASE_PATH/myshell"
+alias mysh="cd $USER_BASE_PATH/myshell"
+alias libfinder="$USER_BASE_PATH/myshell/libenv.sh"
+alias lf="libfinder"
+alias rdf="$USER_BASE_PATH/myshell/rdf.sh"
+alias lsfull="$USER_BASE_PATH/myshell/lsfull.sh"
+alias gitbase="$USER_BASE_PATH/myshell/gitbase.sh"
+alias pshow2="$USER_BASE_PATH/myshell/pshow2.sh"
+alias pshow3="$USER_BASE_PATH/myshell/pshow3.sh"
+alias pshow4="$USER_BASE_PATH/myshell/pshow4.sh"
+alias ps2="pshow2"
+alias ps3="pshow3"
+alias ps4="pshow4"
+alias gilly="gitbase kactlabs"
+alias gcsp="gitbase rajacsp"
+alias mir="mkdir"
+alias branches="$USER_BASE_PATH/myshell/branch_finder.sh"
+alias bes="branches"
+alias smon="$USER_BASE_PATH/myshell/submodule_or_not.sh"
+
+# git 
+alias gow="git show"
+alias gl="git log"
+alias gl2="gl -2"
+alias gl2="gl -2"
+alias gmirror="$USER_BASE_PATH/myshell/gmirror.sh"
+alias gmr="gmirror"
+
+# 
+alias tct="$HOME/kact"
+alias tt="tct"
+alias pyv="python version"
+alias cpe="cp .env.sample .env"
+
+# 
+alias cu="cursor"
+
+# fastapi
+alias uvan="uvicorn app:app"
+alias uv="uvan"
+alias uvr="uv --reload"
+
+# venv
+alias ded="deactivate"
+
+# ollama
+alias ol="ollama"
+
+# misc
+alias tp="cd ~/kact/tact-python"
+alias pipi="pip install -r requirements.txt"
+alias pi="pipi"
+
+# 
+alias grepa="alias | grep"
+alias gpa="grepa"
+
+# vercel
+alias vpr="vercel --prod"
+
+# odin 
+# alias od="cd ~/odin"
+# alias odp="cd ~/odin/odin-playground"
+# alias dow="~/Downloads"
+# alias wenv='[ -f .env ] && source .env && echo "${SERVER_ENV:-staging}" | tr "[:upper:]" "[:lower:]"'
+# alias goprod="cp .env.prod .env"
+# alias gop="goprod"
+# alias gostage="cp .env.staging .env"
+# alias gost="gostage"
+# alias gos="gost"
+unset gostage
+unset gost
+
+# 
+alias wiki="cd $KACT_BASE_PATH/wiki"
+alias html="cd $KACT_BASE_PATH/tact-html"
+
+# kact
+alias ta="cd $KACT_BASE_PATH/"
+alias tct="ta"
+```
+
+
+CSP Alias - Old - 2025 Oct
 ```
 alias gad="git add ."
 alias gcm="git commit -m"
