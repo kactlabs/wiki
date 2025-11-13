@@ -503,7 +503,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI with Document](genai-with-document.md)
   * [Ollama](ollama.md)
   * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
-
+  * [LinkedIn GenAI Influencers](linkedin-genai-influencers.md)
+  * [Lowkey Founders](lowkey-founders-1.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
