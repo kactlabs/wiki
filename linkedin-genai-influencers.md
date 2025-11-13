@@ -25,3 +25,8 @@
 | 17 | Anoop Kunchukuttan | [linkedin.com/in/anoopkunchukuttan](https://www.linkedin.com/in/anoopkunchukuttan/) | [Location] |
 | 18 | Andrew Ng | [linkedin.com/in/andrewyng](https://www.linkedin.com/in/andrewyng/) | [Location] |
 | 19 | Adam Kovacs | [linkedin.com/in/adaamko](https://www.linkedin.com/in/adaamko/) | [Location] | 
+
+
+
+Pending:
+https://www.linkedin.com/in/ivan-nardini/
