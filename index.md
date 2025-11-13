@@ -1,6 +1,6 @@
 # Kact Labs Wiki
 
-KactLabs is a research unit of Kactii (formerly TalentAccurate) dedicated to work on trendy technologies like Keras, Tensorflow, Microservices, AWS ECS, Kubernetes and Julia.
+KactLabs is a research unit of Kactii (formerly TalentAccurate) dedicated to work on trendy technologies.
 
 We do simple and smart apps mostly for POC purposes with scaling options which can be put it on PROD within a few hours.
 
