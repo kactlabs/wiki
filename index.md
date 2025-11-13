@@ -163,15 +163,12 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact Rules](kact-rules.md)
   * [Kact Deadline Rules](kact-deadline-rule.md)
   * [Availability Schedule](availability-schedule.md)
-  * [Intern Working Hours](intern-working-hours.md)
   * [Recording Session](recording-session.md)
   * [Equality](equality.md)
-  * [Kact Intern Day Off](Intern-day-off.md)
   * [Updates - How to Ask?](how-to-ask-for-updates.md)
   * [Learning Report](learning-report.md)
   * [How To Avoid a Tourist Learner](tourist-learner.md)
   * [Featurepreneur 2.0 Rules](featurepreneur-2.0-rules.md)
-  * [Kact Alumni Interns](alumni-intern.md)
   * [Show And Tell](show-and-tell.md)
   * [Kact Repo Standard / Rules](kact-repo-standard.md)
   * [.env.sample template](env.sample.md)
@@ -235,9 +232,20 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Intern Levels](intern-levels.md)
   * [Commonality Test](commonality-test.md)
   * [Throw the ball](throw-the-ball.md)
+  * [Intern Stipend Structure](intern-stipend-structure.md)
+  * [Kact Labs Interns History](kactlabs-interns-history.md)
+  * [Interns with High GRIT Score](kactlabs-grittier-interns.md)
+  * [Online Sample Resumes](online-sample-resumes.md)
+  * [Newcomer - Setup - Windows](new-comer-setup-windows.md)
+  * [Newcomer - Setup - Ubuntu](new-comer-setup-ubuntu.md)
+  * [Newcomer - Setup - Mac](new-comer-setup-mac.md)
+  * [windows basic setup guide](windows-basic-setup.md)
+  * [Intern Working Hours](intern-working-hours.md)
+
 
 ## TACT PaaS / BaaS
   * [PaaS](paas.md)
+
 ## TACT Micro Brainstorming
   * [Heroku Basics](heroku-basics.md)
 
@@ -342,14 +350,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Interactive Micro Learning](interactive-micro-learning.md)
   * [AWS Cohort Season 1](aws-cohort-s01.md)
 
-## KactLab Interns / Online Resumes
-  * [Kact Labs Interns History](kactlabs-interns-history.md)
-  * [Interns with High GRIT Score](kactlabs-grittier-interns.md)
-  * [Online Sample Resumes](online-sample-resumes.md)
-  * [Newcomer - Setup - Windows](new-comer-setup-windows.md)
-  * [Newcomer - Setup - Ubuntu](new-comer-setup-ubuntu.md)
-  * [Newcomer - Setup - Mac](new-comer-setup-mac.md)
-  * [windows basic setup guide](windows-basic-setup.md)
 ## Zsh Terminal
   * [Zsh Terminal](zshterminal.md)
 
@@ -416,7 +416,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Workshops
   * [Microserices Workshop](microservices-training.md)
-
 
 ## Internal
   * [Internal Hackathon](internal-hackathon.md)
@@ -503,7 +502,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI with Document](genai-with-document.md)
   * [Ollama](ollama.md)
   * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
-  * [Intern Stipend Structure](intern-stipend-structure.md)
+
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
