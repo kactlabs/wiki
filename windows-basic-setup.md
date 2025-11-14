@@ -288,12 +288,14 @@ pip install -r requirements.txt
 * next step is to use the following command 
 
 * use these commands in anaconda prompt
+
 ```
 python make.py
 
 pelican content
 
 ```
+
 * use these commands in the git bash 
 
 ```
