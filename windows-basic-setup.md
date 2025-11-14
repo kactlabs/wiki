@@ -207,3 +207,163 @@ conda create --name py312 python=3.12
 
  ![alt text](worksheet-1.png)
 
+
+## Pynotes setup
+
+* click on the following link and go to the repository [Link](https://github.com/tactlabs/sigpy)
+
+* Once you go to the link choose the "Use this template" button and click on "create new repository" 
+
+![alt text](pynotes-1.png)
+
+* Name the repository as "pynotes" and click on create repository
+
+![alt text](pynotes-2.png)
+
+* Once you created it click on the code button and copy the ssh link 
+
+![alt text](pynotes-3.png)
+
+* once you copy the ssh link open your gitbash and make the directory as kact if not following is the command to create a kact directory
+
+* Once create directory move to that kact directory
+
+```
+mkdir kact
+
+cd kact
+
+```
+* i have added the images for your reference
+
+![alt text](pynotes-4.png)
+
+![alt text](pynotes-5.png)
+
+* once you copy the ssh link clone it in the kact folder like in the sample image i gave 
+
+![alt text](pynotes-6.png)
+
+* once you clone it give "cd pynotes" command and open pynotes in vscode using "code ." command
+
+* go to pelicanconfig.py and change the below details for your reference i have added the image.
+
+```
+AUTHOR          = 'Your name'  # use your name
+SITENAME        = 'My Python Notes' # use title
+GITHUB_USERNAME = 'github username' # use your username
+
+
+# Blogroll
+LINKS = (
+    # ("Pelican", "https://getpelican.com/"),
+)
+
+# Social widget
+SOCIAL = (
+    ("GitHub", "https://github.com/username/"),
+    ("LinkedIn", "<linkedin handle>"),
+)
+
+```
+![alt text](pynotes-7.png)
+
+* Once you are done with it open your anaconda prompt and activate python==12
+
+```
+conda activate py312
+```
+* And install the requirements file 
+
+```
+pip install -r requirements.txt
+```
+* go to your pynotes repository on github and click on the settings option 
+![alt text](pynotes-8.png)
+
+* And click on the pages in the left menu and it change the build and deployment section as show in the image 
+
+![alt text](pynotes-9.png)
+
+* next step is to use the following command 
+
+* use these commands in anaconda prompt
+```
+python make.py
+
+pelican content
+
+```
+* use these commands in the git bash 
+
+```
+git add .
+
+git commit -m "my first pyotes commit"
+
+git push
+```
+* than go to your gitub repository and go to action section and click on "Pages build and deployment"
+
+![alt text](pynotes-10.png)
+
+* after clicking on the pages build and deploymeny clikc on the deploy link 
+
+![alt text](pynotes-11.png)
+
+* after clicking the link you will see this page click the archives in the right side menu there you view your pynotes score
+
+![alt text](pynotes-12.png)
+
+* if your not able to see the page as shown in the image try adding one "ipynb" file in the notebook folder and add simple python code and commit it in the github
+
+## steps to create and commit and commit the file in the github
+
+* open pynotes in jupyter lab use the following command 
+
+```
+jupyter lab
+```
+
+![alt text](pynotes-13.png)
+
+* you will see the page like this in image click on the notebooks folder in the left menu
+
+![alt text](pynotes-14.png)
+
+* after clicking it choose existing folder create a new one 
+
+![alt text](pynotes-15.png)
+
+* and start creating the "ipynb" file
+
+![alt text](pynotes-16.png)
+
+* once created stat adding the python code in it 
+
+![alt text](pynotes-17.png)
+
+* once you are done wi the above steps you must do the following five commands.
+* first two commands in your anaconda prompt and another 3 commands in your git bash
+
+```
+python make.py
+
+pelican content
+
+git add .
+
+git commit -m "new files added" 
+
+git push
+```
+
+* you can add your own commands in the git commit message
+
+```
+git commit -m "your own message"
+```
+
+* after you could able to see the normal image i shown above
+
+
