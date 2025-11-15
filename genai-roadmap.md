@@ -65,3 +65,79 @@
 8. Implementing RAG in Agents
     - Building & Evaluating Advanced RAG Apps by DeepLearning.AI, LlamaIndex & TruEra
     - [https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+
+
+
+
+---------
+
+## Set 2:
+
+⏩ 𝗣𝘆𝘁𝗵𝗼𝗻 𝘀𝗸𝗶𝗹𝗹𝘀
+✅ 𝗙𝗮𝘀𝘁𝗔𝗣𝗜 
+– Build lightweight, production-ready APIs in no time
+🔗 Video1: https://www.youtube.com/watch?v=iWS9ogMPOI0
+🔗 Video2: https://fastapi.tiangolo.com/tutorial/
+
+✅ 𝗔𝘀𝘆𝗻𝗰 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 
+– Speed up agents by handling multiple tasks asynchronously
+🔗 Video: https://www.youtube.com/watch?v=Qb9s3UiMSTA
+
+✅ 𝗣𝘆𝗱𝗮𝗻𝘁𝗶𝗰 
+– Data validation and settings management that keeps your agent robust and reliable
+🔗 Video: https://www.youtube.com/watch?v=XIdQ6gO3Anc
+
+✅ 𝗟𝗼𝗴𝗴𝗶𝗻𝗴 
+– Debugging agents without good logs? Nearly impossible.
+🔗 Video: https://www.youtube.com/watch?v=9L77QExPmI0
+
+✅ 𝗧𝗲𝘀𝘁𝗶𝗻𝗴 
+– Unit and integration tests will save you when agents become complex.
+🔗 Unit test: https://www.youtube.com/watch?v=YbpKMIUjvK8
+🔗 Integration test: https://www.youtube.com/watch?v=7dgQRVqF1N0
+
+✅ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 (SQLAlchemy + Alembic) 
+– Essential for RAG and storing agent memories
+🔗 Video: https://www.youtube.com/watch?v=i9RX03zFDHU
+
+⏩ 𝗥𝗔𝗚 𝘀𝗸𝗶𝗹𝗹𝘀
+✅ 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗥𝗔𝗚 
+– Learn what RAG is and why it matters
+🔗 Video - https://www.youtube.com/watch?v=T-D1OfcDW1M
+
+✅ 𝗧𝗲𝘅𝘁 𝗘𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 
+– Foundation of search and retrieval in RAG systems
+🔗 Video - https://www.youtube.com/watch?v=vlcQV4j2kTo
+
+✅ 𝗩𝗲𝗰𝘁𝗼𝗿 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 
+– Store and retrieve embeddings efficiently
+🔗 Video - https://www.youtube.com/watch?v=gl1r1XV0SLw
+
+✅ 𝗖𝗵𝘂𝗻𝗸𝗶𝗻𝗴 𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗲𝘀 
+– Split data smartly for better retrieval quality
+🔗 Video - https://www.youtube.com/watch?v=8OJC21T2SL4
+
+✅ 𝗥𝗔𝗚 𝘄𝗶𝘁𝗵 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟
+– RAG without expensive vector DBs? Yes, possible.
+🔗 Video - https://www.youtube.com/watch?v=hAdEuDBN57g
+
+✅ 𝗥𝗔𝗚 𝘄𝗶𝘁𝗵 𝗟𝗮𝗻𝗴𝗖𝗵𝗮𝗶𝗻 
+– Chain together retrieval, LLMs, and prompts easily
+🔗 Video - https://www.youtube.com/watch?v=sVcwVQRHIc8
+
+✅ 𝗥𝗔𝗚 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻𝘀 
+– Know if your retrieval and answers are actually good
+🔗 Video - https://www.youtube.com/watch?v=mEv-2Xnb_Wk 
+
+✅ 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗥𝗔𝗚 𝗧𝗲𝗰𝗵𝗻𝗶𝗾𝘂𝗲𝘀 
+– Fine-tune your RAG system for real-world performance
+🔗 Video - https://www.youtube.com/watch?v=sGvXO7CVwc0 
+
+⏩ 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸
+✅ 𝗟𝗮𝗻𝗴𝗚𝗿𝗮𝗽𝗵 
+– This one is mainly used in organisations to build production ready AI Agents.
+🔗 Video - https://www.youtube.com/watch?v=jGg_1h0qzaM
+
+✅ 𝗣𝗿𝗼𝗺𝗽𝘁 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗴𝘂𝗶𝗱𝗲 
+– It's also good to follow specific guides from the LLM providers.
+🔗 Link - https://github.com/dair-ai/Prompt-Engineering-Guide
