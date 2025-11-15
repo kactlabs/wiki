@@ -158,6 +158,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact Git Conventions](kact-git-conventions.md)
   * [Gush - One way quick Git Push](gush.md)
   * [Git ssh connection error fix](git-ssh-fix.md)
+  * [Git LFS](git-lfs.md)
 
 ## Kact Rules / Core Values / Policies
   * [Kact Rules](kact-rules.md)
