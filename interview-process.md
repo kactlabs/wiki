@@ -10,8 +10,8 @@
 
 4. Listening Test
   - We will play 10 minutes Standup meeting audio and they will have to summarize it.
-<br>
-5. - Reading Comprehension Test: 
+
+5. Reading Comprehension Test: 
     - HBR Article
     - Tech Reading Test
       - Understand this document and explain it to us
