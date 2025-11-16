@@ -5054,3 +5054,1627 @@ if __name__ == "__main__":
 2. How does this differ from grouping all equal values regardless of adjacency?
 3. Modify to return `(key, group)` pairs instead of lists.
 
+
+
+
+
+
+
+## Q151
+
+### merge_intervals.py
+
+```python
+def merge_intervals(intervals):
+    """
+    Merge overlapping intervals. Intervals are list of (start, end).
+    """
+    if not intervals:
+        return []
+    intervals = sorted(intervals, key=lambda x: x[0])
+    out = []
+    cur_start, cur_end = intervals[0]
+    for s, e in intervals[1:]:
+        if s <= cur_end:
+            cur_end = max(cur_end, e)
+        else:
+            out.append((cur_start, cur_end))
+            cur_start, cur_end = s, e
+    out.append((cur_start, cur_end))
+    return out
+
+if __name__ == "__main__":
+    print(merge_intervals([(1,3),(2,6),(8,10),(15,18)]))
+```
+
+### Questions
+
+1. What merged intervals are produced for the example?
+2. Explain why sorting by start is necessary.
+3. Modify to merge intervals in-place if the input is large and memory is constrained.
+
+---
+
+## Q152
+
+### random_walk.py
+
+```python
+import random
+
+def random_walk(steps):
+    """
+    Simulate 1D random walk starting at 0 for given number of steps.
+    Return list of positions including origin.
+    """
+    pos = 0
+    path = [pos]
+    for _ in range(steps):
+        step = 1 if random.random() < 0.5 else -1
+        pos += step
+        path.append(pos)
+    return path
+
+if __name__ == "__main__":
+    print(random_walk(10))
+```
+
+### Questions
+
+1. What is the length of the returned path for `steps=10`?
+2. How would you compute mean squared displacement from many trials?
+3. Modify to allow biased probability `p` for stepping +1.
+
+---
+
+## Q153
+
+### binary_search.py
+
+```python
+def binary_search(a, target):
+    lo, hi = 0, len(a) - 1
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        if a[mid] == target:
+            return mid
+        if a[mid] < target:
+            lo = mid + 1
+        else:
+            hi = mid - 1
+    return -1
+
+if __name__ == "__main__":
+    print(binary_search([1,3,5,7,9], 5))
+```
+
+### Questions
+
+1. What index is returned for target 5?
+2. What precondition must `a` satisfy?
+3. Modify to return the insertion index when target is not present.
+
+---
+
+## Q154
+
+### chunked_map.py
+
+```python
+def chunked_map(func, iterable, chunk_size=10):
+    it = iter(iterable)
+    out = []
+    while True:
+        chunk = []
+        try:
+            for _ in range(chunk_size):
+                chunk.append(next(it))
+        except StopIteration:
+            pass
+        if not chunk:
+            break
+        out.append([func(x) for x in chunk])
+    return out
+
+if __name__ == "__main__":
+    print(chunked_map(lambda x: x*x, range(1,21), 7))
+```
+
+### Questions
+
+1. How many sublists are returned for range 1..20 with chunk size 7?
+2. Explain the StopIteration handling pattern here.
+3. Rewrite to yield mapped chunks lazily as a generator.
+
+---
+
+## Q155
+
+### median_stream.py
+
+```python
+import heapq
+
+class RunningMedian:
+    def __init__(self):
+        self.lo = []  # max-heap via negation
+        self.hi = []  # min-heap
+
+    def add(self, x):
+        if not self.lo or x <= -self.lo[0]:
+            heapq.heappush(self.lo, -x)
+        else:
+            heapq.heappush(self.hi, x)
+        # rebalance
+        if len(self.lo) > len(self.hi) + 1:
+            heapq.heappush(self.hi, -heapq.heappop(self.lo))
+        elif len(self.hi) > len(self.lo):
+            heapq.heappush(self.lo, -heapq.heappop(self.hi))
+
+    def median(self):
+        if not self.lo:
+            return None
+        if len(self.lo) > len(self.hi):
+            return -self.lo[0]
+        return (-self.lo[0] + self.hi[0]) / 2.0
+
+if __name__ == "__main__":
+    rm = RunningMedian()
+    for x in [5,2,3,4,1,6]:
+        rm.add(x)
+        print("median now:", rm.median())
+```
+
+### Questions
+
+1. How does this class maintain the running median?
+2. What is output sequence of medians for the sample list?
+3. Modify `median` to return integer median when all inputs are ints and an integer median exists.
+
+---
+
+## Q156
+
+### file_diff_lines.py
+
+```python
+def diff_lines(a_path, b_path):
+    with open(a_path, "r", encoding="utf-8") as fa, open(b_path, "r", encoding="utf-8") as fb:
+        a_lines = fa.readlines()
+        b_lines = fb.readlines()
+    diffs = []
+    n = max(len(a_lines), len(b_lines))
+    for i in range(n):
+        a = a_lines[i].rstrip("\n") if i < len(a_lines) else None
+        b = b_lines[i].rstrip("\n") if i < len(b_lines) else None
+        if a != b:
+            diffs.append((i+1, a, b))
+    return diffs
+
+if __name__ == "__main__":
+    # example: files not provided
+    print(diff_lines("a.txt", "b.txt"))
+```
+
+### Questions
+
+1. What does each tuple in `diffs` represent?
+2. How are differing lengths handled?
+3. Modify to run as a unified diff (context lines) instead of line-by-line tuples.
+
+---
+
+## Q157
+
+### find_cycle_graph.py
+
+```python
+from collections import defaultdict
+
+def find_cycle(edges):
+    g = defaultdict(list)
+    nodes = set()
+    for u, v in edges:
+        g[u].append(v)
+        nodes.add(u); nodes.add(v)
+
+    visited = set()
+    stack = []
+
+    def dfs(u):
+        visited.add(u)
+        stack.append(u)
+        for v in g[u]:
+            if v not in visited:
+                res = dfs(v)
+                if res:
+                    return res
+            elif v in stack:
+                # cycle found: return cycle path
+                return stack[stack.index(v):] + [v]
+        stack.pop()
+        return None
+
+    for n in nodes:
+        if n not in visited:
+            cyc = dfs(n)
+            if cyc:
+                return cyc
+    return None
+
+if __name__ == "__main__":
+    print(find_cycle([("a","b"),("b","c"),("c","a")]))
+```
+
+### Questions
+
+1. What does the function return for the sample cycle?
+2. Explain how the cycle path is reconstructed.
+3. Modify to return all cycles up to a given length.
+
+---
+
+## Q158
+
+### sum_matrix.py
+
+```python
+def sum_matrix(mat):
+    total = 0
+    for row in mat:
+        for v in row:
+            total += v
+    return total
+
+if __name__ == "__main__":
+    print(sum_matrix([[1,2,3],[4,5,6]]))
+```
+
+### Questions
+
+1. What sum does the example return?
+2. How would you handle non-rectangular matrices?
+3. Modify to accept an iterator of rows (not necessarily list) and compute sum lazily.
+
+---
+
+## Q159
+
+### batch_scheduler.py
+
+```python
+import time
+import heapq
+
+class Scheduler:
+    def __init__(self):
+        self.pq = []  # (run_at, func, args, kwargs)
+
+    def schedule(self, delay, func, *args, **kwargs):
+        run_at = time.time() + delay
+        heapq.heappush(self.pq, (run_at, func, args, kwargs))
+
+    def run_pending(self):
+        now = time.time()
+        while self.pq and self.pq[0][0] <= now:
+            _, func, args, kwargs = heapq.heappop(self.pq)
+            try:
+                func(*args, **kwargs)
+            except Exception:
+                pass
+
+if __name__ == "__main__":
+    s = Scheduler()
+    s.schedule(0.1, print, "hello")
+    time.sleep(0.2)
+    s.run_pending()
+```
+
+### Questions
+
+1. How does `schedule` and `run_pending` coordinate timed execution?
+2. What happens if a scheduled function raises an exception?
+3. Add a `cancel(func)` method to remove scheduled entries for a given function.
+
+---
+
+## Q160
+
+### count_subarrays_with_sum.py
+
+```python
+def count_subarrays_with_sum(nums, target):
+    """
+    Count contiguous subarrays summing to target using prefix-sum hashmap.
+    """
+    seen = {0:1}
+    s = 0
+    count = 0
+    for x in nums:
+        s += x
+        count += seen.get(s - target, 0)
+        seen[s] = seen.get(s, 0) + 1
+    return count
+
+if __name__ == "__main__":
+    print(count_subarrays_with_sum([1,1,1], 2))
+```
+
+### Questions
+
+1. What is the returned value for the example?
+2. Explain why prefix-sum counts provide O(n) time.
+3. Modify to return the actual subarray index ranges instead of count.
+
+---
+
+## Q161
+
+### levenshtein.py
+
+```python
+def levenshtein(a, b):
+    """
+    Compute Levenshtein distance (edit distance) between strings a and b.
+    """
+    n, m = len(a), len(b)
+    if n == 0:
+        return m
+    if m == 0:
+        return n
+    prev = list(range(m+1))
+    for i in range(1, n+1):
+        cur = [i] + [0]*m
+        for j in range(1, m+1):
+            cost = 0 if a[i-1] == b[j-1] else 1
+            cur[j] = min(prev[j] + 1, cur[j-1] + 1, prev[j-1] + cost)
+        prev = cur
+    return prev[m]
+
+if __name__ == "__main__":
+    print(levenshtein("kitten", "sitting"))
+```
+
+### Questions
+
+1. What distance does the example compute?
+2. Explain memory optimization used (only two rows).
+3. Modify to also return the alignment/edits sequence.
+
+---
+
+## Q162
+
+### find_local_extrema.py
+
+```python
+def local_extrema(nums):
+    """
+    Return list of (index, value, type) where type is 'min' or 'max' for strict local extrema.
+    """
+    out = []
+    n = len(nums)
+    for i in range(1, n-1):
+        if nums[i] > nums[i-1] and nums[i] > nums[i+1]:
+            out.append((i, nums[i], 'max'))
+        if nums[i] < nums[i-1] and nums[i] < nums[i+1]:
+            out.append((i, nums[i], 'min'))
+    return out
+
+if __name__ == "__main__":
+    print(local_extrema([1,3,2,4,3,5]))
+```
+
+### Questions
+
+1. What extrema are identified in the example?
+2. How to handle plateaus (equal neighbors)?
+3. Modify to optionally include endpoints as extrema based on neighbor.
+
+---
+
+## Q163
+
+### mean_median_mode.py
+
+```python
+from collections import Counter
+import statistics
+
+def mean_median_mode(nums):
+    mean = sum(nums)/len(nums)
+    median = statistics.median(nums)
+    cnt = Counter(nums)
+    mode = cnt.most_common(1)[0][0]
+    return mean, median, mode
+
+if __name__ == "__main__":
+    print(mean_median_mode([1,2,2,3,4]))
+```
+
+### Questions
+
+1. What triple is returned for the example?
+2. What if multiple modes exist? How does `most_common` behave?
+3. Modify to return all modes in case of ties.
+
+---
+
+## Q164
+
+### find_duplicates_in_file.py
+
+```python
+def find_duplicates(path):
+    seen = set()
+    dups = set()
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if line in seen:
+                dups.add(line)
+            else:
+                seen.add(line)
+    return sorted(dups)
+
+if __name__ == "__main__":
+    # file not provided; example only
+    print(find_duplicates("lines.txt"))
+```
+
+### Questions
+
+1. What does the function return?
+2. How does memory scale with unique lines?
+3. Modify to stream and write duplicates to an output file instead of returning list.
+
+---
+
+## Q165
+
+### lru_cache_simple.py
+
+```python
+from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.cache = OrderedDict()
+
+    def get(self, key):
+        if key not in self.cache:
+            return None
+        val = self.cache.pop(key)
+        self.cache[key] = val
+        return val
+
+    def put(self, key, value):
+        if key in self.cache:
+            self.cache.pop(key)
+        elif len(self.cache) >= self.capacity:
+            self.cache.popitem(last=False)
+        self.cache[key] = value
+
+if __name__ == "__main__":
+    c = LRUCache(2)
+    c.put(1,1); c.put(2,2)
+    print(c.get(1))
+    c.put(3,3)
+    print(c.get(2))
+```
+
+### Questions
+
+1. What outputs are printed by the example?
+2. Explain why `OrderedDict` is useful for LRU.
+3. Add a `delete(key)` method and thread-safety using a lock.
+
+---
+
+## Q166
+
+### split_sentences.py
+
+```python
+import re
+
+def split_sentences(text):
+    """
+    Naive sentence splitter splitting on .!? followed by space and capital letter.
+    """
+    parts = re.split(r'([.!?])\s+(?=[A-Z])', text)
+    out = []
+    for i in range(0, len(parts)-1, 2):
+        out.append(parts[i] + parts[i+1])
+    if len(parts) % 2 == 1:
+        out.append(parts[-1])
+    return [s.strip() for s in out if s.strip()]
+
+if __name__ == "__main__":
+    print(split_sentences("Hello world. This is a test! Is it ok? yes."))
+```
+
+### Questions
+
+1. What sentences are produced by the example?
+2. Why is this approach brittle for abbreviations?
+3. Modify to use `nltk.sent_tokenize` if available, with fallback to the naive splitter.
+
+---
+
+## Q167
+
+### rotate_matrix.py
+
+```python
+def rotate_matrix_90(mat):
+    """
+    Rotate square matrix 90 degrees clockwise in-place.
+    """
+    n = len(mat)
+    for layer in range(n//2):
+        first = layer
+        last = n - layer - 1
+        for i in range(first, last):
+            offset = i - first
+            top = mat[first][i]
+            # left -> top
+            mat[first][i] = mat[last - offset][first]
+            # bottom -> left
+            mat[last - offset][first] = mat[last][last - offset]
+            # right -> bottom
+            mat[last][last - offset] = mat[i][last]
+            # top -> right
+            mat[i][last] = top
+    return mat
+
+if __name__ == "__main__":
+    M = [[1,2,3],[4,5,6],[7,8,9]]
+    print(rotate_matrix_90(M))
+```
+
+### Questions
+
+1. What does the rotated matrix look like?
+2. Why must matrix be square for this in-place method?
+3. Modify to return a rotated copy and support rectangular matrices.
+
+---
+
+## Q168
+
+### cluster_points_kmeans.py
+
+```python
+import random
+import math
+
+def kmeans(points, k, iterations=10):
+    centroids = random.sample(points, k)
+    for _ in range(iterations):
+        clusters = [[] for _ in range(k)]
+        for p in points:
+            dists = [math.dist(p, c) for c in centroids]
+            idx = dists.index(min(dists))
+            clusters[idx].append(p)
+        for i in range(k):
+            if clusters[i]:
+                xs = [p[0] for p in clusters[i]]
+                ys = [p[1] for p in clusters[i]]
+                centroids[i] = (sum(xs)/len(xs), sum(ys)/len(ys))
+    return centroids, clusters
+
+if __name__ == "__main__":
+    pts = [(random.random(), random.random()) for _ in range(50)]
+    print(kmeans(pts, 3))
+```
+
+### Questions
+
+1. What do `centroids` and `clusters` represent?
+2. Why is k-means sensitive to initial centroids?
+3. Modify to allow `max_restarts` and pick the best clustering by inertia.
+
+---
+
+## Q169
+
+### longest_increasing_subseq.py
+
+```python
+import bisect
+
+def lis_length(seq):
+    tails = []
+    for x in seq:
+        i = bisect.bisect_left(tails, x)
+        if i == len(tails):
+            tails.append(x)
+        else:
+            tails[i] = x
+    return len(tails)
+
+if __name__ == "__main__":
+    print(lis_length([10,9,2,5,3,7,101,18]))
+```
+
+### Questions
+
+1. What length does the example return?
+2. Explain why `tails` does not store an actual subsequence but helps compute length.
+3. Modify to reconstruct one actual increasing subsequence (not just length).
+
+---
+
+## Q170
+
+### windowed_average.py
+
+```python
+from collections import deque
+
+def windowed_average(seq, k):
+    if k <= 0:
+        raise ValueError("k positive")
+    dq = deque()
+    s = 0
+    for i, x in enumerate(seq):
+        dq.append(x); s += x
+        if i >= k:
+            s -= dq.popleft()
+        if i >= k-1:
+            yield s / k
+
+if __name__ == "__main__":
+    print(list(windowed_average([1,2,3,4,5], 3)))
+```
+
+### Questions
+
+1. What averages are yielded for the example?
+2. How does deque help keep O(1) per-step updates?
+3. Modify to support variable window sizes per position.
+
+---
+
+## Q171
+
+### snake_case_to_camel.py
+
+```python
+def snake_to_camel(s):
+    parts = s.split("_")
+    return parts[0] + "".join(p.capitalize() for p in parts[1:])
+
+if __name__ == "__main__":
+    print(snake_to_camel("this_is_a_test"))
+```
+
+### Questions
+
+1. What does the function return for the example?
+2. How to handle leading/trailing underscores or multiple underscores?
+3. Modify to convert to `PascalCase` optionally.
+
+---
+
+## Q172
+
+### dir_tree_size.py
+
+```python
+import os
+
+def dir_size(path):
+    total = 0
+    for root, dirs, files in os.walk(path):
+        for f in files:
+            try:
+                total += os.path.getsize(os.path.join(root, f))
+            except OSError:
+                pass
+    return total
+
+if __name__ == "__main__":
+    # example directory not provided
+    print(dir_size("."))
+```
+
+### Questions
+
+1. How does this compute directory size?
+2. Why catch `OSError` for each file?
+3. Modify to skip certain file extensions and optionally follow symlinks.
+
+---
+
+## Q173
+
+### json_path_get.py
+
+```python
+import json
+
+def json_get(obj, path):
+    """
+    Path like 'a.b[2].c' supports dict keys and list indices.
+    """
+    cur = obj
+    for token in path.replace("]", "").split("."):
+        if "[" in token:
+            key, idx = token.split("[")
+            cur = cur[key]
+            cur = cur[int(idx)]
+        else:
+            cur = cur[token]
+    return cur
+
+if __name__ == "__main__":
+    data = {"a":{"b":[{"c":1},{"c":2}]}}
+    print(json_get(data, "a.b[1].c"))
+```
+
+### Questions
+
+1. What value is returned by the example?
+2. What exceptions can occur for invalid paths?
+3. Modify to return a default value instead of raising when path missing.
+
+---
+
+## Q174
+
+### balanced_partition.py
+
+```python
+def can_partition(nums):
+    total = sum(nums)
+    if total % 2 != 0:
+        return False
+    target = total // 2
+    dp = {0}
+    for x in nums:
+        new = set()
+        for s in dp:
+            if s + x == target:
+                return True
+            if s + x < target:
+                new.add(s + x)
+        dp |= new
+    return target in dp
+
+if __name__ == "__main__":
+    print(can_partition([1,5,11,5]))
+```
+
+### Questions
+
+1. What is returned for the example and why?
+2. Explain time complexity and DP state size.
+3. Modify to actually return the two partitions if possible.
+
+---
+
+## Q175
+
+### count_inversions.py
+
+```python
+def count_inversions(arr):
+    """
+    Count number of inversions using merge-sort style approach.
+    """
+    def merge_count(a):
+        n = len(a)
+        if n <= 1:
+            return a, 0
+        m = n//2
+        left, lc = merge_count(a[:m])
+        right, rc = merge_count(a[m:])
+        merged = []
+        i = j = 0
+        inv = lc + rc
+        while i < len(left) and j < len(right):
+            if left[i] <= right[j]:
+                merged.append(left[i]); i += 1
+            else:
+                merged.append(right[j]); j += 1
+                inv += len(left) - i
+        merged.extend(left[i:]); merged.extend(right[j:])
+        return merged, inv
+    _, cnt = merge_count(arr)
+    return cnt
+
+if __name__ == "__main__":
+    print(count_inversions([2,4,1,3,5]))
+```
+
+### Questions
+
+1. What inversion count does the example produce?
+2. Why is merge-based method O(n log n)?
+3. Modify to return the sorted array as well as inversion count.
+
+---
+
+## Q176
+
+### detect_language_simple.py
+
+```python
+from collections import Counter
+import re
+
+def detect_language(text):
+    """
+    Very naive language detector using frequency of stopwords for a few languages.
+    """
+    tokens = re.findall(r"[a-zA-Z]+", text.lower())
+    freq = Counter(tokens)
+    english = sum(freq[w] for w in ("the","and","is","in","it"))
+    french = sum(freq[w] for w in ("le","et","est","dans","il"))
+    if english > french:
+        return "en"
+    if french > english:
+        return "fr"
+    return "unknown"
+
+if __name__ == "__main__":
+    print(detect_language("This is an example in English."))
+```
+
+### Questions
+
+1. What language does the example return?
+2. Explain why this approach is unreliable.
+3. Modify to accept language profiles and compute cosine similarity.
+
+---
+
+## Q177
+
+### sparse_matrix_dot.py
+
+```python
+def sparse_dot(A, B):
+    """
+    A and B are dicts mapping (i,j) -> value. Return dict of product.
+    Naive multiplication: for each (i,k) in A and (k,j) in B accumulate.
+    """
+    res = {}
+    B_by_row = {}
+    for (k, j), v in B.items():
+        B_by_row.setdefault(k, []).append((j, v))
+    for (i, k), va in A.items():
+        for j, vb in B_by_row.get(k, []):
+            res[(i, j)] = res.get((i, j), 0) + va * vb
+    return res
+
+if __name__ == "__main__":
+    A = {(0,0):1, (1,0):2}
+    B = {(0,1):3}
+    print(sparse_dot(A,B))
+```
+
+### Questions
+
+1. What product dictionary is returned for the sample A and B?
+2. Explain why grouping B by row improves efficiency.
+3. Modify to accept and return CSR (compressed sparse row) representation.
+
+---
+
+## Q178
+
+### random_subset.py
+
+```python
+import random
+
+def random_subset(seq, p):
+    """
+    Return subset of seq including each element with probability p independently.
+    """
+    out = []
+    for x in seq:
+        if random.random() < p:
+            out.append(x)
+    return out
+
+if __name__ == "__main__":
+    print(random_subset(range(10), 0.3))
+```
+
+### Questions
+
+1. What is expected length of returned subset in expectation?
+2. How to make sampling reproducible?
+3. Modify to use numpy for vectorized performance on large arrays.
+
+---
+
+## Q179
+
+### flatten_html_text.py
+
+```python
+from html.parser import HTMLParser
+import html
+
+class SimpleText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+def html_to_text(html_str):
+    p = SimpleText()
+    p.feed(html_str)
+    return html.unescape(" ".join(part.strip() for part in p.parts if part.strip()))
+
+if __name__ == "__main__":
+    print(html_to_text("<p>Hello &amp; welcome</p>"))
+```
+
+### Questions
+
+1. What is the output for the example?
+2. Why use `html.unescape`?
+3. Modify to collapse multiple whitespace and preserve paragraph breaks as `\n\n`.
+
+---
+
+## Q180
+
+### topological_group.py
+
+```python
+from collections import defaultdict, deque
+
+def group_tasks(edges):
+    """
+    Given dependency edges u->v, return list of task groups that can run in parallel (levels).
+    """
+    g = defaultdict(list)
+    indeg = defaultdict(int)
+    nodes = set()
+    for u, v in edges:
+        g[u].append(v)
+        indeg[v] += 1
+        nodes.add(u); nodes.add(v)
+        indeg.setdefault(u, indeg.get(u,0))
+    q = deque([n for n in nodes if indeg[n] == 0])
+    groups = []
+    while q:
+        level_size = len(q)
+        level = []
+        for _ in range(level_size):
+            x = q.popleft()
+            level.append(x)
+            for nb in g[x]:
+                indeg[nb] -= 1
+                if indeg[nb] == 0:
+                    q.append(nb)
+        groups.append(level)
+    if sum(len(g) for g in groups) != len(nodes):
+        raise ValueError("cycle")
+    return groups
+
+if __name__ == "__main__":
+    print(group_tasks([("a","b"),("a","c"),("b","d"),("c","d")]))
+```
+
+### Questions
+
+1. What groups are produced for the example?
+2. Explain how this produces levelized parallel batches.
+3. Modify to include nodes with zero degree provided in an optional `nodes` parameter.
+
+---
+
+## Q181
+
+### remove_kth_from_end.py
+
+```python
+class ListNode:
+    def __init__(self, val=0, nxt=None):
+        self.val = val; self.next = nxt
+
+def remove_kth_from_end(head, k):
+    dummy = ListNode(0, head)
+    slow = fast = dummy
+    for _ in range(k):
+        if not fast.next:
+            return head  # k too large
+        fast = fast.next
+    while fast.next:
+        slow = slow.next
+        fast = fast.next
+    # remove slow.next
+    slow.next = slow.next.next
+    return dummy.next
+
+if __name__ == "__main__":
+    # example building list omitted
+    pass
+```
+
+### Questions
+
+1. Explain two-pointer technique used here.
+2. What happens if `k` equals list length?
+3. Modify to return the removed node's value as well.
+
+---
+
+## Q182
+
+### sparse_lu_solve.py
+
+```python
+def forward_sub(L, b):
+    n = len(b)
+    y = [0]*n
+    for i in range(n):
+        s = b[i]
+        for j, v in L.get(i, []):
+            if j < i:
+                s -= v * y[j]
+        y[i] = s
+    return y
+
+def backward_sub(U, y):
+    n = len(y)
+    x = [0]*n
+    for i in range(n-1, -1, -1):
+        s = y[i]
+        for j, v in U.get(i, []):
+            if j > i:
+                s -= v * x[j]
+        diag = dict(U.get(i, [])).get(i, None)
+        if diag is None:
+            raise ValueError("missing diagonal")
+        x[i] = s / diag
+    return x
+
+if __name__ == "__main__":
+    # sparse L and U omitted for brevity
+    pass
+```
+
+### Questions
+
+1. What do forward and backward substitution compute?
+2. Why must U have diagonal entries?
+3. Modify to accept CSR-like structures for efficiency.
+
+---
+
+## Q183
+
+### unique_prefixes.py
+
+```python
+def shortest_unique_prefixes(words):
+    """
+    For each word, find the shortest prefix distinguishing it from others.
+    """
+    prefixes = {}
+    for i, w in enumerate(words):
+        for L in range(1, len(w)+1):
+            p = w[:L]
+            if sum(1 for x in words if x.startswith(p)) == 1:
+                prefixes[w] = p
+                break
+        else:
+            prefixes[w] = w
+    return prefixes
+
+if __name__ == "__main__":
+    print(shortest_unique_prefixes(["dog","cat","car","cart"]))
+```
+
+### Questions
+
+1. What prefixes are returned for the example set?
+2. Explain why this naive approach is O(n^2 * m).
+3. Modify to build a trie to compute prefixes in O(total chars) time.
+
+---
+
+## Q184
+
+### find_missing_ranges.py
+
+```python
+def missing_ranges(nums, lo, hi):
+    """
+    Given sorted unique nums, return ranges missing in [lo,hi].
+    """
+    out = []
+    prev = lo - 1
+    nums = [n for n in nums if lo <= n <= hi]
+    for n in nums:
+        if n - prev > 1:
+            start = prev + 1
+            end = n - 1
+            out.append((start, end))
+        prev = n
+    if hi - prev >= 1:
+        out.append((prev+1, hi))
+    return out
+
+if __name__ == "__main__":
+    print(missing_ranges([0,1,3,50,75], 0, 99))
+```
+
+### Questions
+
+1. What missing ranges are returned for the example?
+2. Why filter nums into [lo,hi]?
+3. Modify to format single-number ranges as "x" and multi-number as "x->y" strings.
+
+---
+
+## Q185
+
+### text_stats.py
+
+```python
+import re
+
+def text_stats(text):
+    words = re.findall(r"\b\w+\b", text)
+    num_words = len(words)
+    num_chars = len(text)
+    avg_word_len = sum(len(w) for w in words)/num_words if num_words else 0
+    return {"words": num_words, "chars": num_chars, "avg_word_len": avg_word_len}
+
+if __name__ == "__main__":
+    print(text_stats("Hello world!"))
+```
+
+### Questions
+
+1. What stats are produced for "Hello world!"?
+2. Why use regex `\b\w+\b` instead of `split()`?
+3. Modify to also return top 5 most frequent words.
+
+---
+
+## Q186
+
+### find_closest_pair.py
+
+```python
+import math
+
+def closest_pair(points):
+    """
+    Naive O(n^2) closest-pair computation returning distance and pair.
+    """
+    best = float("inf")
+    pair = None
+    n = len(points)
+    for i in range(n):
+        for j in range(i+1, n):
+            d = math.dist(points[i], points[j])
+            if d < best:
+                best = d
+                pair = (points[i], points[j])
+    return best, pair
+
+if __name__ == "__main__":
+    pts = [(0,0),(1,1),(2,2),(0,1)]
+    print(closest_pair(pts))
+```
+
+### Questions
+
+1. What closest pair is found for the sample points?
+2. Explain why O(n log n) divide-and-conquer algorithms are used for large n.
+3. Modify to return indices instead of point coordinates.
+
+---
+
+## Q187
+
+### redact_sensitive.py
+
+```python
+import re
+
+def redact(text, patterns):
+    """
+    Replace occurrences of patterns (regex strings) with [REDACTED].
+    """
+    out = text
+    for p in patterns:
+        out = re.sub(p, "[REDACTED]", out)
+    return out
+
+if __name__ == "__main__":
+    print(redact("My card 4111-1111-1111-1111", [r"\b\d{4}(?:-\d{4}){3}\b"]))
+```
+
+### Questions
+
+1. How does the example redact the card number?
+2. Why must regex be carefully chosen to avoid false positives?
+3. Modify to preserve last 4 digits and replace preceding digits with `*`.
+
+---
+
+## Q188
+
+### sliding_window_maximum_generator.py
+
+```python
+from collections import deque
+
+def sliding_max_gen(seq, k):
+    dq = deque()
+    for i, x in enumerate(seq):
+        while dq and dq[0] <= i - k:
+            dq.popleft()
+        while dq and seq[dq[-1]] < x:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            yield seq[dq[0]]
+
+if __name__ == "__main__":
+    print(list(sliding_max_gen([1,3,-1,-3,5,3,6,7], 3)))
+```
+
+### Questions
+
+1. What are the yielded maximums for the example?
+2. Why is this approach O(n)?
+3. Modify to return tuples `(window_start, max_value)`.
+
+---
+
+## Q189
+
+### paginate_list.py
+
+```python
+def paginate(items, page_size):
+    """
+    Yield pages (sublists) of size page_size.
+    """
+    it = iter(items)
+    while True:
+        page = []
+        try:
+            for _ in range(page_size):
+                page.append(next(it))
+        except StopIteration:
+            pass
+        if not page:
+            break
+        yield page
+
+if __name__ == "__main__":
+    for p in paginate(range(1,13), 5):
+        print(p)
+```
+
+### Questions
+
+1. What pages are printed for range 1..12 with page_size 5?
+2. How to support a `page_number` parameter to directly fetch a page?
+3. Modify to return an iterator object with `.next_page()` and `.has_next()` methods.
+
+---
+
+## Q190
+
+### approximate_percentile.py
+
+```python
+import random
+import math
+
+def approximate_percentile(seq, q, sample_frac=0.1):
+    """
+    Approximate q-th percentile by sampling a fraction of seq.
+    """
+    if not 0 <= q <= 1:
+        raise ValueError("q between 0 and 1")
+    n = len(seq)
+    if n == 0:
+        return None
+    sample = random.sample(seq, max(1, int(n * sample_frac)))
+    sample.sort()
+    idx = int(q * (len(sample)-1))
+    return sample[idx]
+
+if __name__ == "__main__":
+    print(approximate_percentile(list(range(1000)), 0.95, 0.05))
+```
+
+### Questions
+
+1. What does this function approximate and what are limitations?
+2. Explain trade-offs of sample_frac choice.
+3. Modify to use reservoir sampling when seq is an iterator.
+
+---
+
+## Q191
+
+### serialize_tree.py
+
+```python
+class Node:
+    def __init__(self, val, children=None):
+        self.val = val
+        self.children = children or []
+
+def serialize(root):
+    """
+    Preorder serialize with brackets: val [ child1 child2 ... ]
+    """
+    if root is None:
+        return ""
+    parts = [str(root.val)]
+    if root.children:
+        parts.append("[")
+        for c in root.children:
+            parts.append(serialize(c))
+        parts.append("]")
+    return " ".join(p for p in parts if p)
+
+if __name__ == "__main__":
+    t = Node(1, [Node(2), Node(3, [Node(4)])])
+    print(serialize(t))
+```
+
+### Questions
+
+1. What string is produced for the sample tree?
+2. How to implement `deserialize` corresponding to this format?
+3. Modify to produce and consume JSON for portability.
+
+---
+
+## Q192
+
+### bracket_sequence_count.py
+
+```python
+def count_valid_sequences(n):
+    """
+    Count number of valid parentheses sequences of length 2n (Catalan number).
+    """
+    from math import comb
+    return comb(2*n, n) // (n+1)
+
+if __name__ == "__main__":
+    print(count_valid_sequences(3))
+```
+
+### Questions
+
+1. What is returned for n=3?
+2. Explain combinatorial derivation for Catalan numbers.
+3. Modify to generate all valid sequences rather than count.
+
+---
+
+## Q193
+
+### multi_key_sort.py
+
+```python
+def multi_sort(items, keys):
+    """
+    Sort items (dicts) by sequence of keys (key, reverse=False) tuples.
+    """
+    for key, rev in reversed(keys):
+        items.sort(key=lambda x: x.get(key, None), reverse=rev)
+    return items
+
+if __name__ == "__main__":
+    data = [{"a":2,"b":1},{"a":1,"b":5},{"a":2,"b":0}]
+    print(multi_sort(data, [("a", False), ("b", True)]))
+```
+
+### Questions
+
+1. What sorted order results from the example?
+2. Explain why keys are applied in reversed order.
+3. Modify to accept key functions instead of key names.
+
+---
+
+## Q194
+
+### nearest_neighbors_bruteforce.py
+
+```python
+import math
+
+def k_nearest(points, query, k):
+    dists = [(math.dist(p, query), i, p) for i, p in enumerate(points)]
+    dists.sort()
+    return [p for _, _, p in dists[:k]]
+
+if __name__ == "__main__":
+    pts = [(0,0),(1,1),(2,2),(5,5)]
+    print(k_nearest(pts, (1.5,1.5), 2))
+```
+
+### Questions
+
+1. What two nearest points are returned for the example?
+2. When does brute-force become impractical?
+3. Modify to use KD-tree (scipy.spatial.KDTree or a simple implementation) for faster queries.
+
+---
+
+## Q195
+
+### safe_open.py
+
+```python
+import os
+
+def safe_open(path, mode="r", max_size=None):
+    if "w" in mode and os.path.exists(path) and os.path.getsize(path) > (max_size or 0):
+        raise ValueError("file too large to overwrite")
+    return open(path, mode, encoding="utf-8" if "b" not in mode else None)
+
+if __name__ == "__main__":
+    # example only
+    pass
+```
+
+### Questions
+
+1. What safety check does this provide before opening for write?
+2. Why is encoding chosen conditionally?
+3. Modify to create parent directories if missing when writing.
+
+---
+
+## Q196
+
+### find_subsequence.py
+
+```python
+def is_subsequence(s, t):
+    """
+    Return True if s is a subsequence of t (characters in order, not necessarily contiguous).
+    """
+    it = iter(t)
+    return all(c in it for c in s)
+
+if __name__ == "__main__":
+    print(is_subsequence("ace", "abcde"))
+```
+
+### Questions
+
+1. What does the example return and why?
+2. Explain why `all(c in it for c in s)` works for subsequence check.
+3. Modify to return indices in `t` where subsequence characters were matched.
+
+---
+
+## Q197
+
+### url_normalize.py
+
+```python
+from urllib.parse import urlparse, urlunparse
+
+def normalize_url(url):
+    p = urlparse(url)
+    scheme = p.scheme.lower() or "http"
+    netloc = p.netloc.lower().rstrip("/")
+    path = p.path or "/"
+    return urlunparse((scheme, netloc, path, "", "", ""))
+
+if __name__ == "__main__":
+    print(normalize_url("HTTP://Example.COM/Path/"))
+```
+
+### Questions
+
+1. What normalized URL is returned for the example?
+2. What parts are intentionally dropped? Why?
+3. Modify to preserve query string sorted by parameter name.
+
+---
+
+## Q198
+
+### replace_in_file.py
+
+```python
+def replace_in_file(path, old, new, inplace=True):
+    with open(path, "r", encoding="utf-8") as f:
+        data = f.read()
+    data2 = data.replace(old, new)
+    if inplace:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(data2)
+    return data2
+
+if __name__ == "__main__":
+    # example usage omitted
+    pass
+```
+
+### Questions
+
+1. What are risks of doing inplace replace (partial write)?
+2. How to make operation atomic (avoid data loss on crash)?
+3. Modify to write to a temporary file and rename atomically.
+
+---
+
+## Q199
+
+### rank_transform.py
+
+```python
+def rank_transform(arr):
+    """
+    Replace each value by its rank (starting at 1) among unique sorted values.
+    """
+    uniq = sorted(set(arr))
+    ranks = {v: i+1 for i, v in enumerate(uniq)}
+    return [ranks[v] for v in arr]
+
+if __name__ == "__main__":
+    print(rank_transform([40,10,20,40]))
+```
+
+### Questions
+
+1. What transformed array does the example produce?
+2. Explain how ties are handled.
+3. Modify to use 0-based ranks and to handle streaming input.
+
+---
+
+## Q200
+
+### sliding_window_find_sum.py
+
+```python
+def find_window_with_sum(nums, k, target):
+    """
+    Return starting index of a window of size k whose sum equals target, or -1.
+    """
+    n = len(nums)
+    if k > n:
+        return -1
+    s = sum(nums[:k])
+    if s == target:
+        return 0
+    for i in range(k, n):
+        s += nums[i] - nums[i-k]
+        if s == target:
+            return i - k + 1
+    return -1
+
+if __name__ == "__main__":
+    print(find_window_with_sum([1,2,3,4,5], 3, 9))
+```
+
+### Questions
+
+1. What index is returned for the example and why?
+2. Explain why sliding sum update is O(1) per step.
+3. Modify to return all starting indices matching the target instead of first match.
+
+
