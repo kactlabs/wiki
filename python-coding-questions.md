@@ -4,6 +4,7 @@
 
 **Note:** tbd
 
+tcode: pyq10092
 
 
 ### Q0. Instance vs Class
@@ -2713,5 +2714,2343 @@ if __name__ == "__main__":
 2. Why is the `while True` loop potentially dangerous in scripts, and how would you make it stoppable?
 3. Modify `watch_file` to accept a `stop_event` (e.g., `threading.Event`) so the loop can be cleanly terminated.
 
+
+
+## Q76
+
+### json_diff.py
+
+```python
+import json
+
+def json_diff(a, b, path=""):
+    """
+    Return list of differences between two JSON-like dicts as tuples:
+    (path, value_in_a, value_in_b)
+    """
+    diffs = []
+    if a == b:
+        return diffs
+    if isinstance(a, dict) and isinstance(b, dict):
+        keys = set(a.keys()) | set(b.keys())
+        for k in keys:
+            pa = path + "." + str(k) if path else str(k)
+            diffs.extend(json_diff(a.get(k), b.get(k), pa))
+    else:
+        diffs.append((path, a, b))
+    return diffs
+
+if __name__ == "__main__":
+    x = {"a": 1, "b": {"c": 2}}
+    y = {"a": 1, "b": {"c": 3}, "d": 4}
+    for d in json_diff(x, y):
+        print(d)
+```
+
+### Questions
+
+1. What differences are printed for the example `x` and `y`?
+2. How does this function handle nested dictionaries and missing keys?
+3. Extend `json_diff` to handle lists by comparing by index and include index in the path.
+
 ---
+
+## Q77
+
+### mutex_pool.py
+
+```python
+import threading
+import time
+
+class MutexPool:
+    """
+    Simple pool that acquires a lock from a pool of locks for a given key.
+    Useful to serialize operations per-key.
+    """
+    def __init__(self):
+        self._locks = {}
+        self._global_lock = threading.Lock()
+
+    def _get_lock(self, key):
+        with self._global_lock:
+            if key not in self._locks:
+                self._locks[key] = threading.Lock()
+            return self._locks[key]
+
+    def run_with_lock(self, key, func, *args, **kwargs):
+        lock = self._get_lock(key)
+        with lock:
+            return func(*args, **kwargs)
+
+if __name__ == "__main__":
+    pool = MutexPool()
+    def work(x):
+        time.sleep(0.01)
+        print("done", x)
+    pool.run_with_lock("k", work, 1)
+```
+
+### Questions
+
+1. Explain how `MutexPool` ensures serial access per key.
+2. Are there any memory or cleanup concerns with the `_locks` dict? How would you mitigate them?
+3. Modify `MutexPool` to remove locks for keys when no longer used (weak references or reference counting).
+
+---
+
+## Q78
+
+### pretty_print_table.py
+
+```python
+def pretty_print_table(rows, headers=None):
+    """
+    Print rows (list of lists) as a simple aligned table.
+    """
+    if headers:
+        rows = [headers] + rows
+    # compute column widths
+    cols = max(len(r) for r in rows)
+    widths = [0] * cols
+    for r in rows:
+        for i, v in enumerate(r):
+            widths[i] = max(widths[i], len(str(v)))
+    # print rows
+    for r in rows:
+        parts = []
+        for i in range(cols):
+            val = str(r[i]) if i < len(r) else ""
+            parts.append(val.ljust(widths[i]))
+        print(" | ".join(parts))
+
+if __name__ == "__main__":
+    data = [[1, "Alice", 3.2], [2, "Bob", 4.5]]
+    pretty_print_table(data, headers=["id", "name", "score"])
+```
+
+### Questions
+
+1. What output is produced for the example `data`? Describe alignment behavior.
+2. How does the code handle rows with missing columns?
+3. Add an option to right-align numeric columns while left-aligning text columns.
+
+---
+
+## Q79
+
+### csv_chunker.py
+
+```python
+import csv
+
+def chunk_csv(input_path, output_prefix, rows_per_file=1000):
+    """
+    Split a CSV into multiple files with header preserved.
+    """
+    with open(input_path, "r", newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        file_idx = 0
+        rows = []
+        for row in reader:
+            rows.append(row)
+            if len(rows) >= rows_per_file:
+                out_name = f"{output_prefix}_{file_idx}.csv"
+                with open(out_name, "w", newline="", encoding="utf-8") as out:
+                    writer = csv.writer(out)
+                    writer.writerow(header)
+                    writer.writerows(rows)
+                file_idx += 1
+                rows = []
+        if rows:
+            out_name = f"{output_prefix}_{file_idx}.csv"
+            with open(out_name, "w", newline="", encoding="utf-8") as out:
+                writer = csv.writer(out)
+                writer.writerow(header)
+                writer.writerows(rows)
+
+if __name__ == "__main__":
+    # example usage (file not provided)
+    chunk_csv("big.csv", "part", 500)
+```
+
+### Questions
+
+1. Why is `newline=""` used when opening CSV files?
+2. How does this preserve the CSV header across chunks?
+3. Modify `chunk_csv` to optionally gzip each output file (use `gzip.open` when enabled).
+
+---
+
+## Q80
+
+### html_table_parser.py
+
+```python
+from html.parser import HTMLParser
+
+class TableParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_td = False
+        self.current = []
+        self.rows = []
+        self._text = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == "td" or tag.lower() == "th":
+            self.in_td = True
+            self._text = []
+
+    def handle_endtag(self, tag):
+        if tag.lower() in ("td", "th"):
+            self.in_td = False
+            self.current.append("".join(self._text).strip())
+        if tag.lower() == "tr":
+            if self.current:
+                self.rows.append(self.current)
+            self.current = []
+
+    def handle_data(self, data):
+        if self.in_td:
+            self._text.append(data)
+
+def parse_tables(html):
+    parser = TableParser()
+    parser.feed(html)
+    return parser.rows
+
+if __name__ == "__main__":
+    html = "<table><tr><td>A</td><td>B</td></tr><tr><td>1</td><td>2</td></tr></table>"
+    print(parse_tables(html))
+```
+
+### Questions
+
+1. What list of rows is returned for the sample HTML?
+2. Identify limitations of this simple parser (e.g., nested tables, attributes).
+3. Extend `TableParser` to optionally capture header rows separately and return `(headers, rows)`.
+
+---
+
+## Q81
+
+### secure_filename.py
+
+```python
+import os
+import re
+
+def secure_filename(fname):
+    """
+    Return a filesystem-safe filename by removing dangerous characters and normalizing.
+    """
+    fname = os.path.basename(fname)
+    # replace spaces with underscore
+    fname = fname.replace(" ", "_")
+    # remove .. sequences
+    fname = re.sub(r"\.\.+", ".", fname)
+    # allow only safe characters
+    fname = re.sub(r"[^A-Za-z0-9._-]", "", fname)
+    if not fname:
+        raise ValueError("invalid filename")
+    return fname
+
+if __name__ == "__main__":
+    print(secure_filename("../some dir/fi le!!.txt"))
+```
+
+### Questions
+
+1. What does `secure_filename` return for the example input?
+2. Discuss whether this approach is safe across different filesystems and locales.
+3. Modify `secure_filename` to preserve file extension and limit base name length to 255 characters.
+
+---
+
+## Q82
+
+### lockfile_guard.py
+
+```python
+import os
+import time
+
+class LockFile:
+    def __init__(self, path):
+        self.path = path
+        self.fd = None
+
+    def acquire(self, timeout=5):
+        start = time.time()
+        while True:
+            try:
+                self.fd = os.open(self.path, os.O_CREAT | os.O_EXCL | os.O_RDWR)
+                return True
+            except FileExistsError:
+                if time.time() - start > timeout:
+                    return False
+                time.sleep(0.1)
+
+    def release(self):
+        if self.fd:
+            os.close(self.fd)
+            try:
+                os.unlink(self.path)
+            except OSError:
+                pass
+            self.fd = None
+
+if __name__ == "__main__":
+    lk = LockFile("my.lock")
+    if lk.acquire():
+        print("locked")
+        lk.release()
+```
+
+### Questions
+
+1. Explain how this lockfile mechanism avoids race conditions.
+2. What issues arise if a process crashes while holding the lock? Suggest improvements.
+3. Modify `LockFile` to write the PID into the lock file when acquired and add a method to stale-check and break locks older than a threshold.
+
+---
+
+## Q83
+
+### xml_to_dict.py
+
+```python
+import xml.etree.ElementTree as ET
+
+def xml_to_dict(xml_str):
+    root = ET.fromstring(xml_str)
+    def node_to_dict(node):
+        d = {}
+        for k, v in node.attrib.items():
+            d["@" + k] = v
+        text = (node.text or "").strip()
+        if text:
+            d["#text"] = text
+        for child in node:
+            name = child.tag
+            val = node_to_dict(child)
+            if name in d:
+                if isinstance(d[name], list):
+                    d[name].append(val)
+                else:
+                    d[name] = [d[name], val]
+            else:
+                d[name] = val
+        return d
+    return {root.tag: node_to_dict(root)}
+
+if __name__ == "__main__":
+    xml = "<person id='1'><name>Alice</name><age>30</age></person>"
+    print(xml_to_dict(xml))
+```
+
+### Questions
+
+1. What dictionary results from the sample XML?
+2. How are attributes and text nodes represented in the output?
+3. Modify `xml_to_dict` to handle namespaces by stripping them from tag names.
+
+---
+
+## Q84
+
+### top_k_stream.py
+
+```python
+import heapq
+
+def top_k_stream(iterable, k):
+    """
+    Return k largest items from an iterable in ascending order.
+    """
+    if k <= 0:
+        return []
+    heap = []
+    for x in iterable:
+        if len(heap) < k:
+            heapq.heappush(heap, x)
+        else:
+            if x > heap[0]:
+                heapq.heapreplace(heap, x)
+    return sorted(heap)
+
+if __name__ == "__main__":
+    print(top_k_stream(range(100), 5))
+```
+
+### Questions
+
+1. What does `top_k_stream(range(100), 5)` return?
+2. Explain why a min-heap of size `k` is used here.
+3. Modify `top_k_stream` to accept a key function similar to `heapq.nlargest`.
+
+---
+
+## Q85
+
+### sync_dirs.py
+
+```python
+import os
+import shutil
+
+def sync_dirs(src, dst):
+    """
+    Simple directory sync: copy files from src to dst, overwriting if newer or missing.
+    """
+    if not os.path.isdir(src):
+        raise ValueError("src must be a directory")
+    os.makedirs(dst, exist_ok=True)
+    for root, dirs, files in os.walk(src):
+        rel = os.path.relpath(root, src)
+        target_dir = os.path.join(dst, rel) if rel != "." else dst
+        os.makedirs(target_dir, exist_ok=True)
+        for f in files:
+            s = os.path.join(root, f)
+            d = os.path.join(target_dir, f)
+            if not os.path.exists(d) or os.path.getmtime(s) > os.path.getmtime(d):
+                shutil.copy2(s, d)
+
+if __name__ == "__main__":
+    # example usage (directories not provided)
+    sync_dirs("src_dir", "dst_dir")
+```
+
+### Questions
+
+1. What behavior does `sync_dirs` implement regarding file modification times?
+2. Identify potential pitfalls (symlinks, permissions, deletions) and how to address them.
+3. Add an option to delete files in `dst` that are no longer present in `src` (mirror mode).
+
+---
+
+## Q86
+
+### pretty_json.py
+
+```python
+import json
+
+def pretty_json(obj, indent=2, sort_keys=True):
+    return json.dumps(obj, indent=indent, sort_keys=sort_keys, ensure_ascii=False)
+
+if __name__ == "__main__":
+    data = {"b": 1, "a": [3, 2, 1]}
+    print(pretty_json(data))
+```
+
+### Questions
+
+1. What string is printed for the example `data`?
+2. Explain the effect of `ensure_ascii=False`. When is that useful?
+3. Modify `pretty_json` to stream a large list to a file in pretty JSON format without building the entire string in memory.
+
+---
+
+## Q87
+
+### encode_decode_base64.py
+
+```python
+import base64
+
+def encode_file_to_base64(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode("ascii")
+
+def decode_base64_to_file(b64, path):
+    data = base64.b64decode(b64.encode("ascii"))
+    with open(path, "wb") as f:
+        f.write(data)
+
+if __name__ == "__main__":
+    # not run here, example only
+    b = encode_file_to_base64("image.png")
+    decode_base64_to_file(b, "copy.png")
+```
+
+### Questions
+
+1. Why are files opened in binary mode for base64 encode/decode?
+2. What are memory implications for large files? Suggest an alternative streaming approach.
+3. Implement chunked encode/decode functions that operate on file-like objects without loading entire files.
+
+---
+
+## Q88
+
+### rolling_hash.py
+
+```python
+def rolling_hash(s, k, base=256, mod=2**32):
+    """
+    Compute rolling hash for all substrings of length k in s.
+    Returns list of hash values in order.
+    """
+    n = len(s)
+    if k <= 0 or k > n:
+        return []
+    h = 0
+    power = 1
+    for i in range(k):
+        h = (h * base + ord(s[i])) % mod
+        if i < k - 1:
+            power = (power * base) % mod
+    out = [h]
+    for i in range(k, n):
+        h = (h - ord(s[i-k]) * power) % mod
+        h = (h * base + ord(s[i])) % mod
+        out.append(h)
+    return out
+
+if __name__ == "__main__":
+    print(rolling_hash("abcdefg", 3))
+```
+
+### Questions
+
+1. What does `rolling_hash("abcdefg", 3)` return conceptually?
+2. Explain the role of `power` in the rolling hash update step.
+3. Modify the function to return (hash, substring) pairs and handle Unicode characters robustly.
+
+---
+
+## Q89
+
+### file_signature.py
+
+```python
+import hashlib
+
+def file_sha256(path, block_size=65536):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(block_size), b""):
+            h.update(block)
+    return h.hexdigest()
+
+if __name__ == "__main__":
+    # example usage (file not provided)
+    print(file_sha256("somefile.bin"))
+```
+
+### Questions
+
+1. Why is the file read in blocks instead of all at once?
+2. What guarantees does SHA-256 provide for file integrity?
+3. Add an option to compute and return both MD5 and SHA-256 in one pass.
+
+---
+
+## Q90
+
+### retry_async.py
+
+```python
+import asyncio
+import random
+
+async def unreliable_async():
+    if random.random() < 0.6:
+        raise RuntimeError("fail")
+    return "ok"
+
+async def retry_async(func, attempts=3, delay=0.5):
+    last = None
+    for i in range(attempts):
+        try:
+            return await func()
+        except Exception as e:
+            last = e
+            if i < attempts - 1:
+                await asyncio.sleep(delay)
+    raise last
+
+if __name__ == "__main__":
+    async def main():
+        print(await retry_async(unreliable_async, attempts=5, delay=0.1))
+    asyncio.run(main())
+```
+
+### Questions
+
+1. How does `retry_async` differ from a synchronous retry implementation regarding sleeping?
+2. Why must `retry_async` `await` the function call? What happens if you pass a coroutine object instead of a callable?
+3. Modify `retry_async` to accept either a coroutine function or a callable returning a coroutine, and accept an `on_retry` callback.
+
+---
+
+## Q91
+
+### obfuscate_email.py
+
+```python
+def obfuscate_email(email):
+    """
+    Simple obfuscation: keep first char of local part and domain and replace inner chars with '*'
+    """
+    local, at, domain = email.partition("@")
+    if not at:
+        raise ValueError("invalid email")
+    d_parts = domain.split(".", 1)
+    d0 = d_parts[0]
+    domain_rest = "." + d_parts[1] if len(d_parts) > 1 else ""
+    def mask(s):
+        if len(s) <= 2:
+            return s[0] + "*" * (len(s)-1)
+        return s[0] + "*" * (len(s)-2) + s[-1]
+    return mask(local) + "@" + mask(d0) + domain_rest
+
+if __name__ == "__main__":
+    print(obfuscate_email("alice@example.com"))
+```
+
+### Questions
+
+1. What is the obfuscated result for `alice@example.com`?
+2. Are there corner cases where this breaks (short local parts, missing domain)? Give examples.
+3. Modify `obfuscate_email` to preserve the overall length and replace with visually distinct characters while keeping first and last characters.
+
+---
+
+## Q92
+
+### cache_bust_url.py
+
+```python
+import urllib.parse
+import time
+
+def cache_bust(url, t=None):
+    """
+    Append or update a `_cb` query parameter with current timestamp to bust caches.
+    """
+    if t is None:
+        t = int(time.time())
+    p = urllib.parse.urlparse(url)
+    q = dict(urllib.parse.parse_qsl(p.query))
+    q["_cb"] = str(t)
+    new_q = urllib.parse.urlencode(q)
+    return urllib.parse.urlunparse((p.scheme, p.netloc, p.path, p.params, new_q, p.fragment))
+
+if __name__ == "__main__":
+    print(cache_bust("https://example.com/api?v=1"))
+```
+
+### Questions
+
+1. What query string results from the example call?
+2. How does this function behave if `_cb` already exists?
+3. Modify `cache_bust` to accept a `granularity` parameter (e.g., seconds, minutes) and round the timestamp accordingly.
+
+---
+
+## Q93
+
+### sliding_sum.py
+
+```python
+def sliding_sum(seq, k):
+    """
+    Yield sum of each sliding window of size k.
+    """
+    n = len(seq)
+    if k <= 0 or k > n:
+        return
+    s = sum(seq[:k])
+    yield s
+    for i in range(k, n):
+        s += seq[i] - seq[i-k]
+        yield s
+
+if __name__ == "__main__":
+    print(list(sliding_sum([1,2,3,4,5], 3)))
+```
+
+### Questions
+
+1. What values are yielded for the example?
+2. Explain how constant-time update is achieved for each window.
+3. Modify `sliding_sum` to accept an iterator (not just a sequence) and operate with O(k) memory.
+
+---
+
+## Q94
+
+### weighted_median.py
+
+```python
+def weighted_median(items, weights):
+    """
+    items: list of numbers
+    weights: same-length list of positive weights
+    Returns the weighted median value.
+    """
+    pairs = sorted(zip(items, weights), key=lambda x: x[0])
+    total = sum(weights)
+    cum = 0
+    for v, w in pairs:
+        cum += w
+        if cum >= total / 2:
+            return v
+    return pairs[-1][0] if pairs else None
+
+if __name__ == "__main__":
+    print(weighted_median([1,2,3,4], [1,1,1,1]))
+```
+
+### Questions
+
+1. What is the weighted median for the example equal weights?
+2. Explain behavior when weights sum to an odd or even total and when cumulative equals exactly half.
+3. Modify `weighted_median` to return an interpolated value when cumulative weight equals exactly half (average of current and next item).
+
+---
+
+## Q95
+
+### parse_query_string.py
+
+```python
+import urllib.parse
+
+def parse_qs(qs):
+    """
+    Return dict mapping keys to list of values from a query string (without leading '?').
+    """
+    pairs = urllib.parse.parse_qsl(qs, keep_blank_values=True)
+    out = {}
+    for k, v in pairs:
+        out.setdefault(k, []).append(v)
+    return out
+
+if __name__ == "__main__":
+    print(parse_qs("a=1&a=2&b="))
+```
+
+### Questions
+
+1. What is the returned dict for the example query string?
+2. Why might `keep_blank_values=True` be useful?
+3. Modify `parse_qs` to also decode plus signs and percent-escapes properly (show usage of `urllib.parse` utilities).
+
+---
+
+## Q96
+
+### sample_without_replacement.py
+
+```python
+import random
+
+def sample_without_replacement(iterable, k):
+    """
+    Reservoir sampling: return k items from iterable without replacement.
+    """
+    it = iter(iterable)
+    reservoir = []
+    for i, x in enumerate(it):
+        if i < k:
+            reservoir.append(x)
+        else:
+            j = random.randrange(i + 1)
+            if j < k:
+                reservoir[j] = x
+    return reservoir
+
+if __name__ == "__main__":
+    print(sample_without_replacement(range(100), 5))
+```
+
+### Questions
+
+1. Explain why this reservoir algorithm produces an unbiased sample.
+2. What happens if `k` is greater than the population size? How would you handle it?
+3. Modify the function to raise `ValueError` when `k` is negative and to return a shuffled copy when `k >= population size` but population length is known.
+
+---
+
+## Q97
+
+### safe_eval.py
+
+```python
+import ast
+
+def safe_eval(expr, allowed_names=None):
+    """
+    Evaluate simple arithmetic expressions using AST to avoid eval().
+    allowed_names: dict of allowed names (e.g., math functions)
+    """
+    if allowed_names is None:
+        allowed_names = {}
+    node = ast.parse(expr, mode="eval")
+    def _eval(n):
+        if isinstance(n, ast.Expression):
+            return _eval(n.body)
+        if isinstance(n, ast.Num):
+            return n.n
+        if isinstance(n, ast.BinOp):
+            left = _eval(n.left); right = _eval(n.right)
+            if isinstance(n.op, ast.Add): return left + right
+            if isinstance(n.op, ast.Sub): return left - right
+            if isinstance(n.op, ast.Mult): return left * right
+            if isinstance(n.op, ast.Div): return left / right
+            if isinstance(n.op, ast.Pow): return left ** right
+        if isinstance(n, ast.UnaryOp) and isinstance(n.op, ast.USub):
+            return -_eval(n.operand)
+        if isinstance(n, ast.Name):
+            if n.id in allowed_names:
+                return allowed_names[n.id]
+        raise ValueError("unsupported expression")
+    return _eval(node)
+
+if __name__ == "__main__":
+    print(safe_eval("2 + 3 * 4"))
+```
+
+### Questions
+
+1. What does `safe_eval("2 + 3 * 4")` return?
+2. Identify expression types that are intentionally disallowed and why.
+3. Extend `safe_eval` to allow calling simple math functions (e.g., `sin`, `cos`) passed via `allowed_names`.
+
+---
+
+## Q98
+
+### http_retry_decorator.py
+
+```python
+import time
+import functools
+
+def http_retry(attempts=3, delay=0.5, exceptions=(Exception,)):
+    def deco(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            last = None
+            for i in range(attempts):
+                try:
+                    return func(*args, **kwargs)
+                except exceptions as e:
+                    last = e
+                    if i < attempts - 1:
+                        time.sleep(delay * (2 ** i))
+            raise last
+        return wrapper
+    return deco
+
+if __name__ == "__main__":
+    @http_retry(attempts=4, delay=0.1, exceptions=(RuntimeError,))
+    def flaky():
+        import random
+        if random.random() < 0.8:
+            raise RuntimeError("fail")
+        return "ok"
+    print(flaky())
+```
+
+### Questions
+
+1. How does the decorator implement exponential backoff?
+2. Why might catching `Exception` by default be unsafe? How is that addressed here?
+3. Modify the decorator to accept an optional `on_retry` callback that is invoked with `(attempt, exception)`.
+
+---
+
+## Q99
+
+### json_schema_check.py
+
+```python
+def check_schema(obj, schema):
+    """
+    Simple schema checker: schema is dict mapping key->type (or nested dict).
+    Returns True if obj conforms, else False.
+    """
+    if not isinstance(obj, dict) or not isinstance(schema, dict):
+        return False
+    for k, t in schema.items():
+        if k not in obj:
+            return False
+        val = obj[k]
+        if isinstance(t, dict):
+            if not isinstance(val, dict):
+                return False
+            if not check_schema(val, t):
+                return False
+        else:
+            if not isinstance(val, t):
+                return False
+    return True
+
+if __name__ == "__main__":
+    s = {"name": str, "age": int, "meta": {"id": int}}
+    print(check_schema({"name":"A","age":30,"meta":{"id":1}}, s))
+```
+
+### Questions
+
+1. What does the example check return and why?
+2. What are limitations of this simple type-based schema approach?
+3. Improve `check_schema` to accept optional keys (e.g., by marking schema types as `(type, True)` for optional) and return meaningful error messages.
+
+---
+
+## Q100
+
+### batch_http_get.py
+
+```python
+import concurrent.futures
+import urllib.request
+
+def fetch(url, timeout=5):
+    req = urllib.request.Request(url, headers={"User-Agent": "batch-client"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.getcode(), r.read()[:200]
+
+def batch_fetch(urls, max_workers=5):
+    results = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
+        future_to_url = {ex.submit(fetch, u): u for u in urls}
+        for fut in concurrent.futures.as_completed(future_to_url):
+            url = future_to_url[fut]
+            try:
+                code, data = fut.result()
+                results[url] = (code, len(data))
+            except Exception as e:
+                results[url] = ("err", str(e))
+    return results
+
+if __name__ == "__main__":
+    urls = ["https://example.com", "https://httpbin.org/status/404"]
+    print(batch_fetch(urls, max_workers=3))
+```
+
+### Questions
+
+1. What keys and value types are present in the returned `results` dict?
+2. Why use a thread pool for IO-bound HTTP requests instead of a process pool?
+3. Modify `batch_fetch` to add timeouts per request and overall cancellation if the total time exceeds a given budget.
+
+
+
+
+
+## Q101
+
+### flatten_tuple.py
+
+```python
+def flatten_tuple(t):
+    """
+    Flatten a nested tuple structure into a flat list.
+    """
+    out = []
+    for item in t:
+        if isinstance(item, tuple):
+            out.extend(flatten_tuple(item))
+        else:
+            out.append(item)
+    return out
+
+if __name__ == "__main__":
+    data = (1, (2, 3), (4, (5, 6)))
+    print(flatten_tuple(data))
+```
+
+### Questions
+
+1. What is the output for the sample `data`?
+2. Explain recursion depth concerns for very deep nesting.
+3. Modify to handle lists inside tuples as well.
+
+---
+
+## Q102
+
+### parse_iso8601.py
+
+```python
+from datetime import datetime
+
+def parse_iso8601(s):
+    """
+    Parse a limited set of ISO-8601 datetime strings like 2025-01-02T15:04:05
+    """
+    try:
+        return datetime.strptime(s, "%Y-%m-%dT%H:%M:%S")
+    except ValueError:
+        return None
+
+if __name__ == "__main__":
+    print(parse_iso8601("2025-07-01T12:30:45"))
+    print(parse_iso8601("2025-07-01"))
+```
+
+### Questions
+
+1. What does the function return for the two examples?
+2. Why might full ISO-8601 parsing need a library?
+3. Extend the function to accept optional fractional seconds (e.g., `.123`) when present.
+
+---
+
+## Q103
+
+### char_histogram.py
+
+```python
+def char_hist(s):
+    """
+    Return dict mapping characters to counts.
+    """
+    d = {}
+    for ch in s:
+        d[ch] = d.get(ch, 0) + 1
+    return d
+
+if __name__ == "__main__":
+    print(char_hist("banana"))
+```
+
+### Questions
+
+1. What dictionary is printed for `"banana"`?
+2. How would you ignore whitespace and case?
+3. Rewrite using `collections.Counter`.
+
+---
+
+## Q104
+
+### pluralize.py
+
+```python
+def pluralize(word, n):
+    """
+    Very small pluralizer: naive rules for English (not comprehensive).
+    """
+    if n == 1:
+        return word
+    if word.endswith("y") and word[-2] not in "aeiou":
+        return word[:-1] + "ies"
+    if word.endswith("s") or word.endswith("x") or word.endswith("z") or word.endswith("ch") or word.endswith("sh"):
+        return word + "es"
+    return word + "s"
+
+if __name__ == "__main__":
+    for w in ["box","baby","cat"]:
+        print(w, pluralize(w, 2))
+```
+
+### Questions
+
+1. What are the outputs for the sample words?
+2. Identify words this simplistic approach fails on.
+3. Improve function to handle a small exceptions dictionary (e.g., "mouse" -> "mice").
+
+---
+
+## Q105
+
+### sum_digits.py
+
+```python
+def sum_digits(n):
+    """
+    Sum decimal digits of integer n (handles negative).
+    """
+    s = str(abs(n))
+    total = 0
+    for ch in s:
+        total += ord(ch) - ord('0')
+    return total
+
+if __name__ == "__main__":
+    print(sum_digits(12345))
+    print(sum_digits(-907))
+```
+
+### Questions
+
+1. What are printed results for the examples?
+2. Could this fail for non-integer input? How to validate?
+3. Rewrite using arithmetic (no string conversions).
+
+---
+
+## Q106
+
+### longest_common_prefix.py
+
+```python
+def longest_common_prefix(strs):
+    if not strs:
+        return ""
+    prefix = strs[0]
+    for s in strs[1:]:
+        while not s.startswith(prefix):
+            prefix = prefix[:-1]
+            if not prefix:
+                return ""
+    return prefix
+
+if __name__ == "__main__":
+    print(longest_common_prefix(["flower", "flow", "flight"]))
+```
+
+### Questions
+
+1. What prefix is returned for the example list?
+2. Explain complexity in worst case.
+3. Modify to use binary search on prefix length for efficiency.
+
+---
+
+## Q107
+
+### pairwise_diff.py
+
+```python
+def pairwise_diff(a, b):
+    """
+    Return list of (i, a[i], b[i]) where elements differ; stops at min length.
+    """
+    res = []
+    n = min(len(a), len(b))
+    for i in range(n):
+        if a[i] != b[i]:
+            res.append((i, a[i], b[i]))
+    return res
+
+if __name__ == "__main__":
+    print(pairwise_diff([1,2,3], [1,4,3,5]))
+```
+
+### Questions
+
+1. What is the output for the sample lists?
+2. How would you report extra trailing elements when lengths differ?
+3. Modify to optionally compare up to the longer length and use `None` for missing values.
+
+---
+
+## Q108
+
+### safe_int.py
+
+```python
+def safe_int(s, default=0):
+    try:
+        return int(s)
+    except (ValueError, TypeError):
+        return default
+
+if __name__ == "__main__":
+    print(safe_int("10"))
+    print(safe_int("x", default=-1))
+```
+
+### Questions
+
+1. What do the two example calls return?
+2. Why catch `TypeError` in addition to `ValueError`?
+3. Extend to accept a `base` parameter (e.g., base=16) and validate inputs.
+
+---
+
+## Q109
+
+### heads_or_tails.py
+
+```python
+import random
+
+def flip_n(n):
+    """
+    Return tuple (heads, tails) counts after n fair flips.
+    """
+    heads = tails = 0
+    for _ in range(n):
+        if random.random() < 0.5:
+            heads += 1
+        else:
+            tails += 1
+    return heads, tails
+
+if __name__ == "__main__":
+    print(flip_n(10))
+```
+
+### Questions
+
+1. What is the expected statistical behavior as `n` grows?
+2. How to seed the RNG for reproducible tests?
+3. Change to use `random.choice([0,1])` and measure performance difference.
+
+---
+
+## Q110
+
+### grep_simple.py
+
+```python
+def grep_simple(path, pattern):
+    """
+    Print lines containing pattern (simple substring search).
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        for i, line in enumerate(f, 1):
+            if pattern in line:
+                print(f"{i}:{line.rstrip()}")
+
+if __name__ == "__main__":
+    # usage example: file must exist
+    # grep_simple("sample.txt", "error")
+    pass
+```
+
+### Questions
+
+1. Why is `enumerate(..., 1)` used?
+2. How would you make this case-insensitive?
+3. Replace substring search with regex matching and add an option to invert match.
+
+---
+
+## Q111
+
+### int_to_roman.py
+
+```python
+def int_to_roman(num):
+    vals = [
+        (1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
+        (100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
+        (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")
+    ]
+    res = []
+    for v, sym in vals:
+        while num >= v:
+            num -= v
+            res.append(sym)
+    return "".join(res)
+
+if __name__ == "__main__":
+    print(int_to_roman(1994))
+```
+
+### Questions
+
+1. What Roman numeral does `1994` map to?
+2. What input validation might be needed?
+3. Implement `roman_to_int` to convert back and validate round-trip.
+
+---
+
+## Q112
+
+### sliding_max.py
+
+```python
+from collections import deque
+
+def sliding_max(seq, k):
+    if k <= 0:
+        raise ValueError("k must be positive")
+    dq = deque()
+    res = []
+    for i, x in enumerate(seq):
+        while dq and dq[0] <= i - k:
+            dq.popleft()
+        while dq and seq[dq[-1]] < x:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            res.append(seq[dq[0]])
+    return res
+
+if __name__ == "__main__":
+    print(sliding_max([1,3,-1,-3,5,3,6,7], 3))
+```
+
+### Questions
+
+1. What are the sliding maximums for the example?
+2. Why store indices in deque rather than values?
+3. Modify to handle streaming iterables (yield results).
+
+---
+
+## Q113
+
+### group_by_key.py
+
+```python
+from collections import defaultdict
+
+def group_by(items, keyfunc):
+    out = defaultdict(list)
+    for it in items:
+        out[keyfunc(it)].append(it)
+    return dict(out)
+
+if __name__ == "__main__":
+    people = [{"name":"A","age":20},{"name":"B","age":30},{"name":"C","age":20}]
+    print(group_by(people, lambda p: p["age"]))
+```
+
+### Questions
+
+1. What grouping does the example produce?
+2. Explain why `defaultdict` is convenient here.
+3. Modify to accept an optional `valuefunc` to transform stored values.
+
+---
+
+## Q114
+
+### file_tail.py
+
+```python
+from collections import deque
+
+def tail(path, n=10):
+    with open(path, "r", encoding="utf-8") as f:
+        dq = deque(f, maxlen=n)
+    return [line.rstrip("\n") for line in dq]
+
+if __name__ == "__main__":
+    # tail("large.txt", 5)
+    pass
+```
+
+### Questions
+
+1. How does `deque` with `maxlen` implement tail efficiently?
+2. What happens when file has fewer than `n` lines?
+3. Modify to stream lines and yield as they are added (follow/tail -f behavior).
+
+---
+
+## Q115
+
+### histogram_bins.py
+
+```python
+def histogram_bins(values, bins):
+    """
+    Simple histogram: bins is list of bin edges (ascending),
+    returns list of counts of length len(bins)-1.
+    """
+    counts = [0] * (len(bins) - 1)
+    for v in values:
+        for i in range(len(bins)-1):
+            if bins[i] <= v < bins[i+1]:
+                counts[i] += 1
+                break
+    return counts
+
+if __name__ == "__main__":
+    print(histogram_bins([1,2,3,4,5], [0,2,4,6]))
+```
+
+### Questions
+
+1. What counts are produced for the example?
+2. How are values equal to the last edge handled?
+3. Optimize using `bisect` for large numbers of bins.
+
+---
+
+## Q116
+
+### almost_equal.py
+
+```python
+def almost_equal(a, b, rel_tol=1e-9, abs_tol=0.0):
+    return abs(a - b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
+
+if __name__ == "__main__":
+    print(almost_equal(0.1 + 0.2, 0.3, rel_tol=1e-9))
+```
+
+### Questions
+
+1. Why is direct equality unreliable for floats?
+2. Explain the meaning of `rel_tol` and `abs_tol`.
+3. Provide examples where only `abs_tol` is appropriate.
+
+---
+
+## Q117
+
+### find_anagrams.py
+
+```python
+from collections import defaultdict
+
+def group_anagrams(words):
+    out = defaultdict(list)
+    for w in words:
+        key = "".join(sorted(w))
+        out[key].append(w)
+    return list(out.values())
+
+if __name__ == "__main__":
+    print(group_anagrams(["eat","tea","tan","ate","nat","bat"]))
+```
+
+### Questions
+
+1. What groups are returned for the sample list?
+2. Explain performance considerations for long words.
+3. Modify to ignore case and non-letter characters.
+
+---
+
+## Q118
+
+### ping_pong_server.py
+
+```python
+import socket
+
+def start_echo_server(host="127.0.0.1", port=9000):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.bind((host, port))
+    s.listen(1)
+    conn, addr = s.accept()
+    with conn:
+        while True:
+            data = conn.recv(1024)
+            if not data:
+                break
+            conn.sendall(data)
+    s.close()
+
+if __name__ == "__main__":
+    # start_echo_server()  # network code; run manually
+    pass
+```
+
+### Questions
+
+1. Describe what this server does on a single connection.
+2. What security and robustness issues exist (e.g., blocking accept)?
+3. Modify to handle multiple clients using `threading.Thread`.
+
+---
+
+## Q119
+
+### chunked_combine.py
+
+```python
+def combine_chunks(chunks):
+    """
+    Given iterable of iterables, flatten one level and return list.
+    """
+    out = []
+    for chunk in chunks:
+        for item in chunk:
+            out.append(item)
+    return out
+
+if __name__ == "__main__":
+    print(combine_chunks([[1,2],[3,4],[5]]))
+```
+
+### Questions
+
+1. What does the function return for the example?
+2. How to implement using `itertools.chain.from_iterable`?
+3. Modify to accept generators without exhausting memory (return generator).
+
+---
+
+## Q120
+
+### decode_utf8_safe.py
+
+```python
+def read_utf8(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return data.decode("utf-8", errors="replace")
+
+if __name__ == "__main__":
+    # read_utf8("somefile.txt")
+    pass
+```
+
+### Questions
+
+1. What does `errors="replace"` do on decode errors?
+2. Why might you prefer `errors="strict"` in some contexts?
+3. Change to stream-read and decode incrementally to handle huge files.
+
+---
+
+## Q121
+
+### localized_format.py
+
+```python
+import locale
+
+def format_currency(value, loc="en_US.UTF-8"):
+    try:
+        locale.setlocale(locale.LC_ALL, loc)
+    except locale.Error:
+        return str(value)
+    return locale.currency(value, grouping=True)
+
+if __name__ == "__main__":
+    print(format_currency(12345.67))
+```
+
+### Questions
+
+1. Why can `setlocale` raise `locale.Error`?
+2. What are portability concerns when using locale names?
+3. Modify to not change global locale permanently (use context manager or save/restore).
+
+---
+
+## Q122
+
+### find_cycle_in_list.py
+
+```python
+class Node:
+    def __init__(self, val, nxt=None):
+        self.val = val
+        self.next = nxt
+
+def has_cycle(head):
+    slow = fast = head
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow is fast:
+            return True
+    return False
+
+if __name__ == "__main__":
+    a = Node(1); b = Node(2); c = Node(3)
+    a.next = b; b.next = c; c.next = b
+    print(has_cycle(a))
+```
+
+### Questions
+
+1. What does the example print and why?
+2. Explain Floyd’s cycle-finding algorithm intuition.
+3. Modify to return the node where cycle begins.
+
+---
+
+## Q123
+
+### replace_multiple.py
+
+```python
+def replace_multiple(s, replacements):
+    """
+    replacements: dict old->new, apply sequentially using str.replace
+    """
+    out = s
+    for old, new in replacements.items():
+        out = out.replace(old, new)
+    return out
+
+if __name__ == "__main__":
+    print(replace_multiple("abc abc", {"ab":"x", "x":"y"}))
+```
+
+### Questions
+
+1. What is the result for the example and why might order matter?
+2. How to perform simultaneous non-overlapping replacements safely?
+3. Implement with regex that replaces whole-word keys only.
+
+---
+
+## Q124
+
+### unique_id_generator.py
+
+```python
+import threading
+import time
+
+class IDGen:
+    def __init__(self):
+        self.lock = threading.Lock()
+        self.counter = 0
+
+    def next_id(self):
+        with self.lock:
+            self.counter += 1
+            return f"{int(time.time())}-{self.counter}"
+
+if __name__ == "__main__":
+    g = IDGen()
+    print(g.next_id())
+    print(g.next_id())
+```
+
+### Questions
+
+1. Why is locking needed here?
+2. What happens if system time changes backwards?
+3. Modify to use an epoch-based monotonic counter to avoid collisions.
+
+---
+
+## Q125
+
+### text_wrap.py
+
+```python
+def wrap_text(s, width):
+    words = s.split()
+    lines = []
+    cur = []
+    curlen = 0
+    for w in words:
+        if curlen + len(w) + (1 if cur else 0) > width:
+            lines.append(" ".join(cur))
+            cur = [w]; curlen = len(w)
+        else:
+            cur.append(w); curlen += (len(w) + (1 if cur and len(cur)>1 else 0))
+    if cur:
+        lines.append(" ".join(cur))
+    return lines
+
+if __name__ == "__main__":
+    print(wrap_text("This is a simple wrap example for testing", 10))
+```
+
+### Questions
+
+1. What issues exist in the way `curlen` is updated?
+2. How does `textwrap.wrap` from stdlib solve this?
+3. Fix the bug and handle words longer than `width`.
+
+---
+
+## Q126
+
+### luhn_check.py
+
+```python
+def luhn_checksum(card_number):
+    digits = [int(d) for d in str(card_number)][::-1]
+    total = 0
+    for i, d in enumerate(digits):
+        if i % 2 == 1:
+            d *= 2
+            if d > 9:
+                d -= 9
+        total += d
+    return total % 10 == 0
+
+if __name__ == "__main__":
+    print(luhn_checksum("4532015112830366"))  # valid Visa example
+```
+
+### Questions
+
+1. What does the function validate and what does it return for the example?
+2. Why reverse the digits for processing?
+3. Add a function to compute the check digit for a partial number.
+
+---
+
+## Q127
+
+### safe_json_loads.py
+
+```python
+import json
+
+def safe_json_loads(s):
+    try:
+        return json.loads(s)
+    except json.JSONDecodeError as e:
+        return {"_error": str(e)}
+
+if __name__ == "__main__":
+    print(safe_json_loads('{"a":1}'))
+    print(safe_json_loads('{"a":1'))
+```
+
+### Questions
+
+1. What does the function return on invalid JSON?
+2. Why might swallowing errors be problematic?
+3. Modify to optionally raise the original exception when `raise_on_error=True`.
+
+---
+
+## Q128
+
+### find_missing_number.py
+
+```python
+def find_missing(nums):
+    """
+    Given nums containing unique numbers from 0..n with one missing, find missing.
+    """
+    n = len(nums)
+    total = n * (n + 1) // 2
+    return total - sum(nums)
+
+if __name__ == "__main__":
+    print(find_missing([3,0,1]))  # missing 2
+```
+
+### Questions
+
+1. Why does this formula work?
+2. What assumptions must hold about `nums`?
+3. Modify to work when numbers are not zero-based but given a min/max.
+
+---
+
+## Q129
+
+### dns_lookup.py
+
+```python
+import socket
+
+def resolve(host):
+    try:
+        return socket.gethostbyname(host)
+    except socket.gaierror:
+        return None
+
+if __name__ == "__main__":
+    print(resolve("localhost"))
+    print(resolve("nonexistent.example.invalid"))
+```
+
+### Questions
+
+1. What does `gethostbyname` return for `localhost`?
+2. How to get all addresses (IPv4/IPv6) for a host?
+3. Modify to perform an asynchronous lookup using threads.
+
+---
+
+## Q130
+
+### concat_files.py
+
+```python
+def concat_files(paths, out):
+    with open(out, "w", encoding="utf-8") as outf:
+        for p in paths:
+            with open(p, "r", encoding="utf-8") as inf:
+                for line in inf:
+                    outf.write(line)
+
+if __name__ == "__main__":
+    # concat_files(["a.txt","b.txt"], "combined.txt")
+    pass
+```
+
+### Questions
+
+1. What happens if one input file doesn't exist?
+2. How to make this atomic (avoid partial writes)?
+3. Modify to support binary files and preserve mode per file.
+
+---
+
+## Q131
+
+### topological_detect_cycle.py
+
+```python
+def detect_cycle(edges):
+    from collections import defaultdict
+    g = defaultdict(list)
+    nodes = set()
+    for u, v in edges:
+        g[u].append(v)
+        nodes.add(u); nodes.add(v)
+    visited = set()
+    stack = set()
+    def dfs(u):
+        visited.add(u)
+        stack.add(u)
+        for v in g[u]:
+            if v not in visited:
+                if dfs(v):
+                    return True
+            elif v in stack:
+                return True
+        stack.remove(u)
+        return False
+    for n in nodes:
+        if n not in visited:
+            if dfs(n):
+                return True
+    return False
+
+if __name__ == "__main__":
+    print(detect_cycle([("a","b"),("b","c"),("c","a")]))
+```
+
+### Questions
+
+1. What does the example print and why?
+2. Explain role of `stack` in cycle detection.
+3. Modify to return one cycle path when found.
+
+---
+
+## Q132
+
+### url_join.py
+
+```python
+from urllib.parse import urljoin
+
+def join_paths(base, *parts):
+    url = base
+    for p in parts:
+        url = urljoin(url.rstrip("/") + "/", p)
+    return url
+
+if __name__ == "__main__":
+    print(join_paths("https://api.example.com/v1", "users", "123"))
+```
+
+### Questions
+
+1. How does `urljoin` handle leading slashes in parts?
+2. Why use `rstrip("/") + "/"` in the loop?
+3. Modify to preserve query strings if present in final part.
+
+---
+
+## Q133
+
+### max_subarray.py
+
+```python
+def max_subarray(nums):
+    max_ending = max_so_far = nums[0]
+    for x in nums[1:]:
+        max_ending = max(x, max_ending + x)
+        max_so_far = max(max_so_far, max_ending)
+    return max_so_far
+
+if __name__ == "__main__":
+    print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))
+```
+
+### Questions
+
+1. What is the maximum subarray sum for the example?
+2. Explain Kadane’s algorithm intuition.
+3. Modify to return the start and end indices as well.
+
+---
+
+## Q134
+
+### parse_ini.py
+
+```python
+def parse_ini(path):
+    cfg = {}
+    section = None
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith(";") or line.startswith("#"):
+                continue
+            if line.startswith("[") and line.endswith("]"):
+                section = line[1:-1].strip()
+                cfg[section] = {}
+            elif "=" in line and section is not None:
+                k, v = line.split("=", 1)
+                cfg[section][k.strip()] = v.strip()
+    return cfg
+
+if __name__ == "__main__":
+    # parse_ini("config.ini")
+    pass
+```
+
+### Questions
+
+1. How are comments and sections handled?
+2. What happens if `key=value` occurs before any section?
+3. Modify to support a global (no-section) area and type conversion for integers/floats.
+
+---
+
+## Q135
+
+### compare_versions.py
+
+```python
+def compare_versions(a, b):
+    """
+    return -1 if a<b, 0 if equal, 1 if a>b for dot-separated numeric versions
+    """
+    pa = [int(x) for x in a.split(".")]
+    pb = [int(x) for x in b.split(".")]
+    n = max(len(pa), len(pb))
+    for i in range(n):
+        va = pa[i] if i < len(pa) else 0
+        vb = pb[i] if i < len(pb) else 0
+        if va < vb:
+            return -1
+        if va > vb:
+            return 1
+    return 0
+
+if __name__ == "__main__":
+    print(compare_versions("1.2.3", "1.2"))
+```
+
+### Questions
+
+1. What does the example return and why?
+2. How to handle pre-release tags like `1.2.3-alpha`?
+3. Modify to accept non-numeric parts by comparing alphabetically when numeric parts equal.
+
+---
+
+## Q136
+
+### flatten_dict_values.py
+
+```python
+def flatten_values(d):
+    """
+    Replace any list value with its flattened single-level concatenation of strings.
+    """
+    out = {}
+    for k, v in d.items():
+        if isinstance(v, list):
+            out[k] = "".join(str(x) for x in v)
+        else:
+            out[k] = v
+    return out
+
+if __name__ == "__main__":
+    print(flatten_values({"a":[1,2],"b":"x"}))
+```
+
+### Questions
+
+1. What output does the example print?
+2. Why might joining list items be lossy?
+3. Modify to recursively flatten nested lists and preserve types if requested.
+
+---
+
+## Q137
+
+### find_pairs_sum_k.py
+
+```python
+def find_pairs(nums, k):
+    seen = set()
+    res = set()
+    for x in nums:
+        if k - x in seen:
+            res.add(tuple(sorted((x, k-x))))
+        seen.add(x)
+    return [list(p) for p in res]
+
+if __name__ == "__main__":
+    print(find_pairs([1,2,3,2,4], 4))
+```
+
+### Questions
+
+1. What pairs are returned for the example?
+2. Why use sorted tuple in `res`?
+3. Modify to return indices instead of values.
+
+---
+
+## Q138
+
+### ensure_dir.py
+
+```python
+import os
+
+def ensure_dir(path):
+    if not os.path.exists(path):
+        os.makedirs(path, exist_ok=True)
+    elif not os.path.isdir(path):
+        raise ValueError(f"{path} exists and is not a directory")
+
+if __name__ == "__main__":
+    ensure_dir("tmp/example")
+```
+
+### Questions
+
+1. What does `ensure_dir` do if path already exists as file?
+2. Why use `exist_ok=True`?
+3. Modify to create parent dirs with specific permissions using `os.chmod`.
+
+---
+
+## Q139
+
+### gcd_lcm.py
+
+```python
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return abs(a)
+
+def lcm(a, b):
+    if a == 0 or b == 0:
+        return 0
+    return abs(a // gcd(a, b) * b)
+
+if __name__ == "__main__":
+    print(gcd(48,18))
+    print(lcm(12,15))
+```
+
+### Questions
+
+1. What are gcd(48,18) and lcm(12,15)?
+2. Why use `abs` and check for zero in lcm?
+3. Extend to compute gcd/lcm for a list of numbers.
+
+---
+
+## Q140
+
+### flatten_generator.py
+
+```python
+def flatten_generator(nested):
+    for item in nested:
+        if hasattr(item, "__iter__") and not isinstance(item, (str, bytes)):
+            for x in flatten_generator(item):
+                yield x
+        else:
+            yield item
+
+if __name__ == "__main__":
+    print(list(flatten_generator([1, [2, (3,4)], "x"])))
+```
+
+### Questions
+
+1. What is yielded for the sample input, and why treat strings specially?
+2. What issues might arise with infinite iterables?
+3. Modify to accept a `max_depth` parameter to limit recursion.
+
+---
+
+## Q141
+
+### time_window_aggregation.py
+
+```python
+from collections import deque
+import time
+
+class TimeWindow:
+    def __init__(self, window_seconds):
+        self.window = window_seconds
+        self.events = deque()
+
+    def add(self, value):
+        self.events.append((time.time(), value))
+        self._evict()
+
+    def _evict(self):
+        now = time.time()
+        while self.events and now - self.events[0][0] > self.window:
+            self.events.popleft()
+
+    def sum(self):
+        self._evict()
+        return sum(v for _, v in self.events)
+
+if __name__ == "__main__":
+    tw = TimeWindow(2.0)
+    tw.add(1); tw.add(2)
+    time.sleep(1); tw.add(3)
+    print(tw.sum())
+```
+
+### Questions
+
+1. What does `sum()` compute for recent events?
+2. Explain why `_evict` is necessary on both add and sum.
+3. Modify to return average and count as well.
+
+---
+
+## Q142
+
+### dict_keypath_get.py
+
+```python
+def get_path(d, path, sep="."):
+    keys = path.split(sep) if path else []
+    cur = d
+    for k in keys:
+        if not isinstance(cur, dict) or k not in cur:
+            return None
+        cur = cur[k]
+    return cur
+
+if __name__ == "__main__":
+    cfg = {"a":{"b":{"c":1}}}
+    print(get_path(cfg, "a.b.c"))
+    print(get_path(cfg, "a.x.c"))
+```
+
+### Questions
+
+1. What do the two example calls return?
+2. How to modify to raise a `KeyError` instead of returning `None`?
+3. Add support to set a value at a key path (creating intermediate dicts).
+
+---
+
+## Q143
+
+### split_on_delimiter.py
+
+```python
+def split_once(s, delim):
+    idx = s.find(delim)
+    if idx == -1:
+        return s, ""
+    return s[:idx], s[idx+len(delim):]
+
+if __name__ == "__main__":
+    print(split_once("a=b=c", "="))
+```
+
+### Questions
+
+1. What does the example return?
+2. How to make `split_once` split from the right (last occurrence)?
+3. Modify to return a tuple with both parts trimmed.
+
+---
+
+## Q144
+
+### flatten_json_keys.py
+
+```python
+def flatten_keys(d, parent="", sep="."):
+    out = {}
+    for k, v in d.items():
+        key = parent + sep + k if parent else k
+        if isinstance(v, dict):
+            out.update(flatten_keys(v, key, sep=sep))
+        else:
+            out[key] = v
+    return out
+
+if __name__ == "__main__":
+    print(flatten_keys({"a":{"b":1},"c":2}))
+```
+
+### Questions
+
+1. What output does the example produce?
+2. How to handle lists by including indices in keys?
+3. Modify to optionally ignore `None` values.
+
+---
+
+## Q145
+
+### is_palindrome.py
+
+```python
+def is_palindrome(s):
+    cleaned = "".join(ch.lower() for ch in s if ch.isalnum())
+    return cleaned == cleaned[::-1]
+
+if __name__ == "__main__":
+    print(is_palindrome("A man, a plan, a canal: Panama"))
+```
+
+### Questions
+
+1. What does the example return and why?
+2. Why use `isalnum()`?
+3. Modify to check palindrome for linked lists of characters (no string conversion).
+
+---
+
+## Q146
+
+### clamp_values.py
+
+```python
+def clamp_list(nums, low, high):
+    return [low if x < low else high if x > high else x for x in nums]
+
+if __name__ == "__main__":
+    print(clamp_list([1,-2,5,10], 0, 6))
+```
+
+### Questions
+
+1. What list does the example produce?
+2. How to implement in-place modification?
+3. Modify to accept a per-element clamp function instead of scalar bounds.
+
+---
+
+## Q147
+
+### relative_path.py
+
+```python
+import os
+
+def relative_path(from_path, to_path):
+    return os.path.relpath(to_path, start=os.path.dirname(from_path))
+
+if __name__ == "__main__":
+    print(relative_path("/a/b/c/file.txt", "/a/d/x.txt"))
+```
+
+### Questions
+
+1. What relative path is produced for the example?
+2. How does behavior differ on Windows with drive letters?
+3. Modify to return an absolute path if drives differ on Windows.
+
+---
+
+## Q148
+
+### monotone_stack.py
+
+```python
+def next_greater_elements(nums):
+    """
+    Return list of next greater element for each index, -1 if none.
+    """
+    res = [-1]*len(nums)
+    stack = []
+    for i, x in enumerate(nums):
+        while stack and nums[stack[-1]] < x:
+            idx = stack.pop()
+            res[idx] = x
+        stack.append(i)
+    return res
+
+if __name__ == "__main__":
+    print(next_greater_elements([2,1,2,4,3]))
+```
+
+### Questions
+
+1. What is the output for the example input?
+2. Explain why a monotone decreasing stack is used.
+3. Modify to handle circular arrays (wrap-around).
+
+---
+
+## Q149
+
+### jinstrument.py
+
+```python
+import time
+
+def instrument(func):
+    def wrapper(*args, **kwargs):
+        t0 = time.perf_counter()
+        res = func(*args, **kwargs)
+        t1 = time.perf_counter()
+        print(f"{func.__name__} took {t1 - t0:.6f}s")
+        return res
+    return wrapper
+
+@instrument
+def compute(n):
+    s = 0
+    for i in range(n):
+        s += i*i
+    return s
+
+if __name__ == "__main__":
+    compute(100000)
+```
+
+### Questions
+
+1. What does the decorator print when `compute` runs?
+2. Why use `time.perf_counter()` for timing?
+3. Modify decorator to be usable with optional parameters (e.g., `@instrument(enabled=False)`).
+
+---
+
+## Q150
+
+### group_adjacent_by.py
+
+```python
+def group_adjacent(seq, keyfunc=lambda x:x):
+    """
+    Group adjacent equal keys into lists.
+    """
+    out = []
+    cur_key = None
+    cur_list = []
+    for x in seq:
+        k = keyfunc(x)
+        if cur_list and k != cur_key:
+            out.append(cur_list)
+            cur_list = []
+        cur_list.append(x)
+        cur_key = k
+    if cur_list:
+        out.append(cur_list)
+    return out
+
+if __name__ == "__main__":
+    print(group_adjacent([1,1,2,2,2,3,1,1]))
+```
+
+### Questions
+
+1. What grouping is produced for the example?
+2. How does this differ from grouping all equal values regardless of adjacency?
+3. Modify to return `(key, group)` pairs instead of lists.
 
