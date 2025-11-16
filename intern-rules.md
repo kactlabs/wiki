@@ -37,7 +37,7 @@
 
 - Timesheets and logs must be updated daily before logging out. 
 
-- Link for [Timesheet:] (https://docs.google.com/spreadsheets/d/1elZ90et8sd8ogFFKjPwEbx8S14Vts8BEmNkXrW0GGcU/edit?usp=sharing)
+- Get the Timehseet link from our team
 
 - If you didn't worked on a day enter 'NA' in task details and '0' under working hours
 
