@@ -44,6 +44,5 @@
 12. Praveena - Ratnam
 ![1754282395237](image/testimonials/1754282395237.png)
 
-
 13. Jerin - Accouting to GenAI Engineer
 ![1763290677585](image/testimonials/1763290677585.png)
