@@ -45,5 +45,10 @@ obj2.print_numbers()
 
 
 python simple_2.py
+
+Questions:
+1. Explain the code
+2. Tell me whether it will execute or not
+3. If it is buggy, fix it
 ```
 
