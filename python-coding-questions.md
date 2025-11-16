@@ -8085,3 +8085,3000 @@ if __name__ == "__main__":
 1. What triplets are returned for the example?
 2. Explain why sorting helps and how duplicates are skipped.
 3. Modify to find triplets that sum to a given target instead of zero.
+
+
+
+
+
+
+
+Here are **50 more** Python coding questions, continuing numbering from **Q251** to **Q300**. Each item includes a code file (self-contained) and **three learner questions**. Titles give no hints and there are no emojis.
+
+---
+
+## Q251
+
+### max_heap.py
+
+```python
+import heapq
+
+class MaxHeap:
+    def __init__(self):
+        self._h = []
+
+    def push(self, x):
+        heapq.heappush(self._h, -x)
+
+    def pop(self):
+        if not self._h:
+            raise IndexError("pop from empty heap")
+        return -heapq.heappop(self._h)
+
+    def peek(self):
+        return -self._h[0] if self._h else None
+
+if __name__ == "__main__":
+    h = MaxHeap()
+    h.push(3); h.push(1); h.push(4)
+    print(h.peek(), h.pop(), h.pop())
+```
+
+### Questions
+
+1. What is printed by the example and why?
+2. Why does this use negative values internally?
+3. Modify to support `push_pop` and `replace` methods analogously to `heapq`.
+
+---
+
+## Q252
+
+### find_duplicates_k.py
+
+```python
+def find_duplicates_k(nums, k):
+    """
+    Return elements that appear more than once within distance k.
+    """
+    seen = {}
+    res = set()
+    for i, x in enumerate(nums):
+        if x in seen and i - seen[x] <= k:
+            res.add(x)
+        seen[x] = i
+    return list(res)
+
+if __name__ == "__main__":
+    print(find_duplicates_k([1,2,3,1,2,3], 3))
+```
+
+### Questions
+
+1. What does the example return and why?
+2. How does the `seen` dict enforce the distance constraint?
+3. Modify to return indices of duplicate pairs instead of values.
+
+---
+
+## Q253
+
+### parallel_map.py
+
+```python
+from concurrent.futures import ThreadPoolExecutor
+
+def parallel_map(func, items, max_workers=4):
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = [ex.submit(func, it) for it in items]
+        return [f.result() for f in futures]
+
+if __name__ == "__main__":
+    print(parallel_map(lambda x: x*x, range(6), max_workers=3))
+```
+
+### Questions
+
+1. What output is produced by the example?
+2. Why might ordering of results match input order here? Are there cases it would not?
+3. Modify to stream results as they complete using `as_completed`.
+
+---
+
+## Q254
+
+### sliding_min.py
+
+```python
+from collections import deque
+
+def sliding_min(seq, k):
+    if k <= 0:
+        raise ValueError("k must be positive")
+    dq = deque()
+    res = []
+    for i, x in enumerate(seq):
+        while dq and dq[0] <= i - k:
+            dq.popleft()
+        while dq and seq[dq[-1]] > x:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            res.append(seq[dq[0]])
+    return res
+
+if __name__ == "__main__":
+    print(sliding_min([2,1,3,4,0,5], 3))
+```
+
+### Questions
+
+1. What minima are returned for the example?
+2. Explain why indices (not values) are kept in the deque.
+3. Modify to yield `(window_start, min_value)` tuples.
+
+---
+
+## Q255
+
+### binary_gap_positions.py
+
+```python
+def binary_gap_positions(n):
+    b = bin(n)[2:].strip('0')
+    gaps = []
+    start = 0
+    for i, ch in enumerate(b):
+        if ch == '1':
+            start = i+1
+            break
+    cur = start
+    for i in range(start, len(b)):
+        if b[i] == '1':
+            if i - cur > 0:
+                gaps.append((cur, i-1, i-cur))
+            cur = i+1
+    return gaps
+
+if __name__ == "__main__":
+    print(binary_gap_positions(9))
+```
+
+### Questions
+
+1. What list is printed for `9` and what do tuples mean?
+2. Why strip trailing zeros before computing gaps?
+3. Modify to return gaps relative to original binary string (including leading bits).
+
+---
+
+## Q256
+
+### sparse_add.py
+
+```python
+def sparse_add(a, b):
+    """
+    a, b: dict index->value for sparse vectors. Return new dict.
+    """
+    res = dict(a)
+    for k, v in b.items():
+        res[k] = res.get(k, 0) + v
+        if res[k] == 0:
+            del res[k]
+    return res
+
+if __name__ == "__main__":
+    print(sparse_add({0:1,2:3}, {1:4,2:-3}))
+```
+
+### Questions
+
+1. What is the result for the example?
+2. Why delete zero entries? What trade-offs exist?
+3. Modify to support in-place addition option.
+
+---
+
+## Q257
+
+### rotate_string_kmp.py
+
+```python
+def is_rotation(s, t):
+    """
+    Check if t is rotation of s by KMP-style trick.
+    """
+    if len(s) != len(t):
+        return False
+    return t in (s + s)
+
+if __name__ == "__main__":
+    print(is_rotation("waterbottle", "erbottlewat"))
+```
+
+### Questions
+
+1. Why does the `s+s` trick work?
+2. What complexity does this check have?
+3. Modify to return the rotation offset K if present, else -1.
+
+---
+
+## Q258
+
+### topological_order_safe.py
+
+```python
+from collections import defaultdict, deque
+
+def topo_sort(edges):
+    g = defaultdict(list)
+    indeg = defaultdict(int)
+    nodes = set()
+    for u, v in edges:
+        g[u].append(v)
+        indeg[v] += 1
+        nodes.add(u); nodes.add(v)
+    q = deque([n for n in nodes if indeg.get(n,0)==0])
+    res = []
+    while q:
+        n = q.popleft()
+        res.append(n)
+        for nb in g[n]:
+            indeg[nb] -= 1
+            if indeg[nb] == 0:
+                q.append(nb)
+    if len(res) != len(nodes):
+        return None  # cycle
+    return res
+
+if __name__ == "__main__":
+    print(topo_sort([("a","b"),("b","c")]))
+```
+
+### Questions
+
+1. What is returned for an acyclic graph?
+2. Why return `None` on cycles instead of raising? Pros/cons?
+3. Modify to return one detected cycle when present.
+
+---
+
+## Q259
+
+### partition_even_odd.py
+
+```python
+def partition_even_odd(nums):
+    i = 0
+    for j in range(len(nums)):
+        if nums[j] % 2 == 0:
+            nums[i], nums[j] = nums[j], nums[i]
+            i += 1
+    return nums
+
+if __name__ == "__main__":
+    print(partition_even_odd([3,2,4,1,6]))
+```
+
+### Questions
+
+1. What in-place rearrangement does the example yield?
+2. Is the relative order of evens/pairs preserved? Explain.
+3. Modify to partition by a provided predicate function.
+
+---
+
+## Q260
+
+### download_sim.py
+
+```python
+import time
+
+def simulate_download(size_kb, speed_kb_s=100):
+    downloaded = 0
+    chunk = 10
+    while downloaded < size_kb:
+        time.sleep(chunk / speed_kb_s)
+        downloaded += chunk
+        yield min(downloaded, size_kb)
+
+if __name__ == "__main__":
+    for p in simulate_download(250, 50):
+        print("Downloaded KB:", p)
+```
+
+### Questions
+
+1. What does the generator yield?
+2. How to adapt to display percent complete?
+3. Modify to support pausing/resuming via external signal.
+
+---
+
+## Q261
+
+### safe_divide_list.py
+
+```python
+def safe_divide_list(a, b):
+    """
+    Element-wise divide lists a / b, returns list with None where division invalid.
+    """
+    n = min(len(a), len(b))
+    out = []
+    for i in range(n):
+        try:
+            out.append(a[i] / b[i])
+        except Exception:
+            out.append(None)
+    return out
+
+if __name__ == "__main__":
+    print(safe_divide_list([4,2,0], [2,0,1]))
+```
+
+### Questions
+
+1. What list is produced by the example?
+2. Why use `min(len(a), len(b))`? What happens to extra elements?
+3. Modify to raise on first invalid division if `strict=True`.
+
+---
+
+## Q262
+
+### windowed_max_indices.py
+
+```python
+from collections import deque
+
+def sliding_max_indices(seq, k):
+    dq = deque()
+    res = []
+    for i, x in enumerate(seq):
+        while dq and dq[0] <= i - k:
+            dq.popleft()
+        while dq and seq[dq[-1]] < x:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            res.append(dq[0])
+    return res
+
+if __name__ == "__main__":
+    print(sliding_max_indices([1,3,2,5,4], 3))
+```
+
+### Questions
+
+1. What indices are returned for the example?
+2. How could you use these indices to extract window maxima efficiently?
+3. Modify to return all indices that equal the window maximum (ties).
+
+---
+
+## Q263
+
+### format_bytes.py
+
+```python
+def human_readable(n):
+    units = ["B","KB","MB","GB","TB"]
+    i = 0
+    while n >= 1024 and i < len(units)-1:
+        n /= 1024.0
+        i += 1
+    return f"{n:.2f}{units[i]}"
+
+if __name__ == "__main__":
+    print(human_readable(1234567))
+```
+
+### Questions
+
+1. What string does the example produce?
+2. Why limit units and what happens past TB?
+3. Modify to use powers of 1000 instead of 1024 optionally.
+
+---
+
+## Q264
+
+### json_schema_flatten.py
+
+```python
+def flatten_schema(schema, parent=""):
+    """
+    Given nested dict schema mapping fields -> types, return flat mapping "a.b"->type.
+    """
+    out = {}
+    for k, v in schema.items():
+        key = f"{parent}.{k}" if parent else k
+        if isinstance(v, dict):
+            out.update(flatten_schema(v, key))
+        else:
+            out[key] = v
+    return out
+
+if __name__ == "__main__":
+    print(flatten_schema({"a":{"b":int},"c":str}))
+```
+
+### Questions
+
+1. What flat mapping does the example produce?
+2. How to handle arrays/lists in the schema representation?
+3. Modify to accept a separator argument other than '.'.
+
+---
+
+## Q265
+
+### mask_sensitive_json.py
+
+```python
+def mask_json(obj, keys=("password","ssn")):
+    if isinstance(obj, dict):
+        return {k: ("***" if k.lower() in keys else mask_json(v, keys)) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [mask_json(x, keys) for x in obj]
+    return obj
+
+if __name__ == "__main__":
+    print(mask_json({"user":"a","password":"p","info":{"ssn":"123"}}))
+```
+
+### Questions
+
+1. What masked structure is printed?
+2. Why use case-insensitive matching of keys? Pros/cons?
+3. Modify to mask values by pattern (e.g., regex) rather than by key name.
+
+---
+
+## Q266
+
+### rotate_matrix_copy.py
+
+```python
+def rotate_matrix_copy(mat):
+    rows = len(mat)
+    cols = len(mat[0]) if mat else 0
+    res = [[None]*rows for _ in range(cols)]
+    for i in range(rows):
+        for j in range(cols):
+            res[j][rows-1-i] = mat[i][j]
+    return res
+
+if __name__ == "__main__":
+    print(rotate_matrix_copy([[1,2,3],[4,5,6]]))
+```
+
+### Questions
+
+1. What rotated matrix is produced for the example (rectangular)?
+2. Why is this approach safe for non-square matrices?
+3. Modify to rotate 90° counter-clockwise instead.
+
+---
+
+## Q267
+
+### balanced_multiset.py
+
+```python
+from collections import Counter
+
+def can_make_equal_by_one_move(a, b):
+    ca, cb = Counter(a), Counter(b)
+    # simple check: same multiset or one move swap can make equal
+    return ca == cb
+
+if __name__ == "__main__":
+    print(can_make_equal_by_one_move([1,2,2],[2,1,2]))
+```
+
+### Questions
+
+1. What does the function currently check?
+2. Why is this insufficient to test "one move"?
+3. Modify to check if exchanging a single element from `a` to `b` (and vice versa) can equalize multisets.
+
+---
+
+## Q268
+
+### lexicographic_permutations.py
+
+```python
+import itertools
+
+def kth_permutation(s, k):
+    perms = itertools.permutations(sorted(s))
+    for i, p in enumerate(perms):
+        if i == k:
+            return "".join(p)
+    return None
+
+if __name__ == "__main__":
+    print(kth_permutation("bca", 2))
+```
+
+### Questions
+
+1. What is returned for the example and why?
+2. What are performance issues of this approach?
+3. Modify to compute the k-th permutation directly without generating all prior permutations.
+
+---
+
+## Q269
+
+### parse_ranges.py
+
+```python
+def parse_ranges(s):
+    """
+    Parse string like "1-3,5,7-9" into sorted list of ints.
+    """
+    out = []
+    for part in s.split(","):
+        if "-" in part:
+            a, b = map(int, part.split("-"))
+            out.extend(range(a, b+1))
+        else:
+            out.append(int(part))
+    return sorted(set(out))
+
+if __name__ == "__main__":
+    print(parse_ranges("1-3,5,2,7-8"))
+```
+
+### Questions
+
+1. What list does the example produce?
+2. How are duplicates handled?
+3. Modify to accept whitespace and validate ranges `a<=b`.
+
+---
+
+## Q270
+
+### find_subarray_with_product.py
+
+```python
+def find_subarray_product(nums, target):
+    """
+    Return any contiguous subarray whose product equals target.
+    (Assumes positive integers.)
+    """
+    n = len(nums)
+    for i in range(n):
+        prod = 1
+        for j in range(i, n):
+            prod *= nums[j]
+            if prod == target:
+                return nums[i:j+1]
+            if prod > target:
+                break
+    return None
+
+if __name__ == "__main__":
+    print(find_subarray_product([2,3,1,4], 12))
+```
+
+### Questions
+
+1. What subarray does the example return?
+2. Why does this assume positive integers? What breaks otherwise?
+3. Modify to return start/end indices instead of the slice.
+
+---
+
+## Q271
+
+### flatten_generator_unique.py
+
+```python
+def flatten_unique(nested):
+    seen = set()
+    for item in nested:
+        if isinstance(item, (list, tuple)):
+            for x in flatten_unique(item):
+                if x not in seen:
+                    seen.add(x); yield x
+        else:
+            if item not in seen:
+                seen.add(item); yield item
+
+if __name__ == "__main__":
+    print(list(flatten_unique([1,[2,1],[3,[2]]])))
+```
+
+### Questions
+
+1. What sequence is yielded for the example?
+2. How does `seen` interact with nested order?
+3. Modify to preserve first occurrence ordering across nested levels.
+
+---
+
+## Q272
+
+### http_status_retry.py
+
+```python
+import time
+import random
+
+def retry_on_status(fetch, attempts=3, retry_statuses=(500,502,503)):
+    last = None
+    for i in range(attempts):
+        code, data = fetch()
+        if code not in retry_statuses:
+            return code, data
+        last = (code, data)
+        time.sleep(0.1 * (2 ** i))
+    return last
+
+if __name__ == "__main__":
+    def fake(): return (random.choice([200,500,502]), b"")
+    print(retry_on_status(fake))
+```
+
+### Questions
+
+1. What behavior does `retry_on_status` implement?
+2. Why apply exponential backoff between attempts?
+3. Modify to accept a function deciding whether to retry given `(code, data)`.
+
+---
+
+## Q273
+
+### merge_sorted_iters.py
+
+```python
+import heapq
+
+def merge_sorted_iters(iters):
+    heap = []
+    for idx, it in enumerate(iters):
+        try:
+            val = next(it)
+            heapq.heappush(heap, (val, idx, it))
+        except StopIteration:
+            pass
+    while heap:
+        val, idx, it = heapq.heappop(heap)
+        yield val
+        try:
+            nxt = next(it)
+            heapq.heappush(heap, (nxt, idx, it))
+        except StopIteration:
+            pass
+
+if __name__ == "__main__":
+    a = iter([1,4,7])
+    b = iter([2,3,8])
+    print(list(merge_sorted_iters([a,b])))
+```
+
+### Questions
+
+1. What merged list does the example produce?
+2. Why include `idx` in heap tuples?
+3. Modify to support key functions for custom ordering.
+
+---
+
+## Q274
+
+### longest_common_subsequence.py
+
+```python
+def lcs(a, b):
+    n, m = len(a), len(b)
+    dp = [[0]*(m+1) for _ in range(n+1)]
+    for i in range(n-1,-1,-1):
+        for j in range(m-1,-1,-1):
+            if a[i]==b[j]:
+                dp[i][j] = 1 + dp[i+1][j+1]
+            else:
+                dp[i][j] = max(dp[i+1][j], dp[i][j+1])
+    # reconstruct
+    i=j=0; res=[]
+    while i<n and j<m:
+        if a[i]==b[j]:
+            res.append(a[i]); i+=1; j+=1
+        elif dp[i+1][j] >= dp[i][j+1]:
+            i+=1
+        else:
+            j+=1
+    return "".join(res)
+
+if __name__ == "__main__":
+    print(lcs("AGGTAB","GXTXAYB"))
+```
+
+### Questions
+
+1. What longest common subsequence does the example return?
+2. What is the DP time and space complexity?
+3. Modify to return length only in O(min(n,m)) space.
+
+---
+
+## Q275
+
+### detect_anagram_pairs.py
+
+```python
+from collections import defaultdict
+
+def anagram_pairs(words):
+    d = defaultdict(list)
+    for w in words:
+        key = "".join(sorted(w))
+        d[key].append(w)
+    res = []
+    for group in d.values():
+        if len(group) > 1:
+            res.extend([(group[i], group[j]) for i in range(len(group)) for j in range(i+1, len(group))])
+    return res
+
+if __name__ == "__main__":
+    print(anagram_pairs(["eat","tea","tan","ate"]))
+```
+
+### Questions
+
+1. What pairs are returned for the example?
+2. How does sorting characters serve as a grouping key?
+3. Modify to return indices instead of word pairs.
+
+---
+
+## Q276
+
+### median_of_two_sorted.py
+
+```python
+def median_two_sorted(a, b):
+    merged = []
+    i = j = 0
+    while i < len(a) and j < len(b):
+        if a[i] < b[j]:
+            merged.append(a[i]); i+=1
+        else:
+            merged.append(b[j]); j+=1
+    merged.extend(a[i:]); merged.extend(b[j:])
+    n = len(merged)
+    mid = n//2
+    if n % 2:
+        return merged[mid]
+    return (merged[mid-1]+merged[mid])/2.0
+
+if __name__ == "__main__":
+    print(median_two_sorted([1,3],[2]))
+```
+
+### Questions
+
+1. What median is returned for the example?
+2. What is the time complexity of this merge-based approach?
+3. Modify to achieve O(log(min(n,m))) time using partitioning.
+
+---
+
+## Q277
+
+### merge_k_lists.py
+
+```python
+import heapq
+
+def merge_k_lists(lists):
+    heap = []
+    for idx, lst in enumerate(lists):
+        if lst:
+            heapq.heappush(heap, (lst[0], idx, 0))
+    res = []
+    while heap:
+        val, li, pi = heapq.heappop(heap)
+        res.append(val)
+        if pi+1 < len(lists[li]):
+            heapq.heappush(heap, (lists[li][pi+1], li, pi+1))
+    return res
+
+if __name__ == "__main__":
+    print(merge_k_lists([[1,4],[2,3],[0,5]]))
+```
+
+### Questions
+
+1. What merged list does the example produce?
+2. How does the heap keep track of positions?
+3. Modify to merge generators (iterators) rather than indexable lists.
+
+---
+
+## Q278
+
+### find_missing_positive.py
+
+```python
+def first_missing_positive(nums):
+    n = len(nums)
+    for i in range(n):
+        while 1 <= nums[i] <= n and nums[nums[i]-1] != nums[i]:
+            nums[nums[i]-1], nums[i] = nums[i], nums[nums[i]-1]
+    for i in range(n):
+        if nums[i] != i+1:
+            return i+1
+    return n+1
+
+if __name__ == "__main__":
+    print(first_missing_positive([3,4,-1,1]))
+```
+
+### Questions
+
+1. What value does the example return?
+2. Explain why this algorithm runs in O(n) time and O(1) extra space.
+3. Modify to avoid mutating the original list (use extra array).
+
+---
+
+## Q279
+
+### compress_run_length.py
+
+```python
+def run_length_encode(s):
+    if not s:
+        return ""
+    out = []
+    cur = s[0]; cnt = 1
+    for ch in s[1:]:
+        if ch == cur:
+            cnt += 1
+        else:
+            out.append(f"{cur}{cnt}")
+            cur = ch; cnt = 1
+    out.append(f"{cur}{cnt}")
+    return "".join(out)
+
+if __name__ == "__main__":
+    print(run_length_encode("aaabbc"))
+```
+
+### Questions
+
+1. What encoded string does the example produce?
+2. How would you decode such a string?
+3. Modify to handle binary data (bytes) and return bytes.
+
+---
+
+## Q280
+
+### graph_bfs_levels.py
+
+```python
+from collections import deque, defaultdict
+
+def bfs_levels(graph, start):
+    q = deque([start])
+    seen = {start}
+    levels = defaultdict(list)
+    level = 0
+    while q:
+        for _ in range(len(q)):
+            u = q.popleft()
+            levels[level].append(u)
+            for v in graph.get(u, []):
+                if v not in seen:
+                    seen.add(v); q.append(v)
+        level += 1
+    return dict(levels)
+
+if __name__ == "__main__":
+    g = {"a":["b","c"], "b":["d"], "c":[]}
+    print(bfs_levels(g, "a"))
+```
+
+### Questions
+
+1. What level grouping is returned for the example?
+2. Why use level-order traversal here?
+3. Modify to stop after `max_levels` and return partial result.
+
+
+
+
+## Q281
+
+### compress_run_length.py
+
+```python
+def run_length_encode(s):
+    if not s:
+        return ""
+    out = []
+    cur = s[0]
+    cnt = 1
+    for ch in s[1:]:
+        if ch == cur:
+            cnt += 1
+        else:
+            out.append(f"{cur}{cnt}")
+            cur = ch
+            cnt = 1
+    out.append(f"{cur}{cnt}")
+    return "".join(out)
+
+if __name__ == "__main__":
+    print(run_length_encode("aaabbc"))
+```
+
+### Questions
+
+1. What encoded string is produced for the example?
+2. How would you decode such a string back to the original?
+3. Modify the function to accept bytes (return bytes) instead of strings.
+
+---
+
+## Q282
+
+### graph_bfs_levels.py
+
+```python
+from collections import deque, defaultdict
+
+def bfs_levels(graph, start):
+    q = deque([start])
+    seen = {start}
+    levels = defaultdict(list)
+    level = 0
+    while q:
+        for _ in range(len(q)):
+            u = q.popleft()
+            levels[level].append(u)
+            for v in graph.get(u, []):
+                if v not in seen:
+                    seen.add(v)
+                    q.append(v)
+        level += 1
+    return dict(levels)
+
+if __name__ == "__main__":
+    g = {"a":["b","c"], "b":["d"], "c":[]}
+    print(bfs_levels(g, "a"))
+```
+
+### Questions
+
+1. What level grouping is returned for the example?
+2. Explain why BFS produces level-order grouping.
+3. Modify to stop after `max_levels` and return partial result.
+
+---
+
+## Q283
+
+### find_closest_pair.py
+
+```python
+import math
+
+def closest_pair(points):
+    best = float("inf")
+    pair = None
+    n = len(points)
+    for i in range(n):
+        for j in range(i+1, n):
+            d = math.dist(points[i], points[j])
+            if d < best:
+                best = d
+                pair = (points[i], points[j])
+    return best, pair
+
+if __name__ == "__main__":
+    pts = [(0,0),(1,1),(2,2),(0,1)]
+    print(closest_pair(pts))
+```
+
+### Questions
+
+1. What closest pair is found for the sample points?
+2. Why is this O(n²) and when is that impractical?
+3. Modify to return indices of the closest pair instead of coordinates.
+
+---
+
+## Q284
+
+### redact_sensitive.py
+
+```python
+import re
+
+def redact(text, patterns):
+    out = text
+    for p in patterns:
+        out = re.sub(p, "[REDACTED]", out)
+    return out
+
+if __name__ == "__main__":
+    print(redact("My card 4111-1111-1111-1111", [r"\b\d{4}(?:-\d{4}){3}\b"]))
+```
+
+### Questions
+
+1. How does the example redact the card number?
+2. What are risks of naive regex redaction?
+3. Modify to preserve last four digits and replace preceding digits with `*`.
+
+---
+
+## Q285
+
+### sliding_window_maximum_generator.py
+
+```python
+from collections import deque
+
+def sliding_max_gen(seq, k):
+    dq = deque()
+    for i, x in enumerate(seq):
+        while dq and dq[0] <= i - k:
+            dq.popleft()
+        while dq and seq[dq[-1]] < x:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            yield seq[dq[0]]
+
+if __name__ == "__main__":
+    print(list(sliding_max_gen([1,3,-1,-3,5,3,6,7], 3)))
+```
+
+### Questions
+
+1. What values are yielded for the example?
+2. Why is the deque storing indices rather than values?
+3. Modify to yield `(window_start, max_value)` tuples.
+
+---
+
+## Q286
+
+### paginate_list.py
+
+```python
+def paginate(items, page_size):
+    it = iter(items)
+    while True:
+        page = []
+        try:
+            for _ in range(page_size):
+                page.append(next(it))
+        except StopIteration:
+            pass
+        if not page:
+            break
+        yield page
+
+if __name__ == "__main__":
+    for p in paginate(range(1,13), 5):
+        print(p)
+```
+
+### Questions
+
+1. What pages are printed for range 1..12 with page_size=5?
+2. How would you add a `page_number` argument to fetch a single page?
+3. Modify to return a generator object with `.next_page()` and `.has_next()`.
+
+---
+
+## Q287
+
+### approximate_percentile.py
+
+```python
+import random
+
+def approximate_percentile(seq, q, sample_frac=0.1):
+    if not 0 <= q <= 1:
+        raise ValueError("q between 0 and 1")
+    n = len(seq)
+    if n == 0:
+        return None
+    sample = random.sample(seq, max(1, int(n * sample_frac)))
+    sample.sort()
+    idx = int(q * (len(sample)-1))
+    return sample[idx]
+
+if __name__ == "__main__":
+    print(approximate_percentile(list(range(1000)), 0.95, 0.05))
+```
+
+### Questions
+
+1. What is this function approximating and what are limitations?
+2. How does `sample_frac` affect accuracy and cost?
+3. Modify to use reservoir sampling when `seq` is an iterator.
+
+---
+
+## Q288
+
+### serialize_tree.py
+
+```python
+class Node:
+    def __init__(self, val, children=None):
+        self.val = val
+        self.children = children or []
+
+def serialize(root):
+    if root is None:
+        return ""
+    parts = [str(root.val)]
+    if root.children:
+        parts.append("[")
+        for c in root.children:
+            parts.append(serialize(c))
+        parts.append("]")
+    return " ".join(p for p in parts if p)
+
+if __name__ == "__main__":
+    t = Node(1, [Node(2), Node(3, [Node(4)])])
+    print(serialize(t))
+```
+
+### Questions
+
+1. What string is produced for the sample tree?
+2. How would you design a corresponding `deserialize`?
+3. Modify to emit JSON instead for portability.
+
+---
+
+## Q289
+
+### bracket_sequence_count.py
+
+```python
+from math import comb
+
+def count_valid_sequences(n):
+    return comb(2*n, n) // (n+1)
+
+if __name__ == "__main__":
+    print(count_valid_sequences(3))
+```
+
+### Questions
+
+1. What number is returned for n=3?
+2. What combinatorial object does this compute (name)?
+3. Modify to generate all valid parentheses sequences (instead of counting).
+
+---
+
+## Q290
+
+### multi_key_sort.py
+
+```python
+def multi_sort(items, keys):
+    for key, rev in reversed(keys):
+        items.sort(key=lambda x: x.get(key, None), reverse=rev)
+    return items
+
+if __name__ == "__main__":
+    data = [{"a":2,"b":1},{"a":1,"b":5},{"a":2,"b":0}]
+    print(multi_sort(data, [("a", False), ("b", True)]))
+```
+
+### Questions
+
+1. What order results from the example?
+2. Why are keys applied in reversed order when using `sort` repeatedly?
+3. Modify to accept key functions instead of key names.
+
+---
+
+## Q291
+
+### nearest_neighbors_bruteforce.py
+
+```python
+import math
+
+def k_nearest(points, query, k):
+    dists = [(math.dist(p, query), i, p) for i, p in enumerate(points)]
+    dists.sort()
+    return [p for _, _, p in dists[:k]]
+
+if __name__ == "__main__":
+    pts = [(0,0),(1,1),(2,2),(5,5)]
+    print(k_nearest(pts, (1.5,1.5), 2))
+```
+
+### Questions
+
+1. What two nearest points are returned for the example?
+2. When does brute-force approach become impractical?
+3. Modify to return indices and distances as well.
+
+---
+
+## Q292
+
+### safe_open.py
+
+```python
+import os
+
+def safe_open(path, mode="r", max_size=None):
+    if "w" in mode and os.path.exists(path) and os.path.getsize(path) > (max_size or 0):
+        raise ValueError("file too large to overwrite")
+    return open(path, mode, encoding="utf-8" if "b" not in mode else None)
+
+if __name__ == "__main__":
+    pass
+```
+
+### Questions
+
+1. What safety check is performed before opening for write?
+2. Why conditionally set `encoding`?
+3. Modify to create parent directories when writing if missing.
+
+---
+
+## Q293
+
+### find_subsequence.py
+
+```python
+def is_subsequence(s, t):
+    it = iter(t)
+    return all(c in it for c in s)
+
+if __name__ == "__main__":
+    print(is_subsequence("ace", "abcde"))
+```
+
+### Questions
+
+1. Why does the example return `True`?
+2. Explain why `all(c in it for c in s)` works for subsequence checking.
+3. Modify to return the indices in `t` where the characters matched.
+
+---
+
+## Q294
+
+### url_normalize.py
+
+```python
+from urllib.parse import urlparse, urlunparse
+
+def normalize_url(url):
+    p = urlparse(url)
+    scheme = p.scheme.lower() or "http"
+    netloc = p.netloc.lower().rstrip("/")
+    path = p.path or "/"
+    return urlunparse((scheme, netloc, path, "", "", ""))
+
+if __name__ == "__main__":
+    print(normalize_url("HTTP://Example.COM/Path/"))
+```
+
+### Questions
+
+1. What normalized URL is returned for the example?
+2. What parts are dropped by this normalization?
+3. Modify to preserve and sort query parameters instead of dropping them.
+
+---
+
+## Q295
+
+### replace_in_file.py
+
+```python
+def replace_in_file(path, old, new, inplace=True):
+    with open(path, "r", encoding="utf-8") as f:
+        data = f.read()
+    data2 = data.replace(old, new)
+    if inplace:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(data2)
+    return data2
+
+if __name__ == "__main__":
+    pass
+```
+
+### Questions
+
+1. What risks exist when writing in-place?
+2. How would you make this atomic to avoid partial writes?
+3. Modify to write to a temp file and rename atomically.
+
+---
+
+## Q296
+
+### rank_transform.py
+
+```python
+def rank_transform(arr):
+    uniq = sorted(set(arr))
+    ranks = {v: i+1 for i, v in enumerate(uniq)}
+    return [ranks[v] for v in arr]
+
+if __name__ == "__main__":
+    print(rank_transform([40,10,20,40]))
+```
+
+### Questions
+
+1. What transformed array is produced by the example?
+2. How are ties handled?
+3. Modify to return 0-based ranks and to handle streaming input.
+
+---
+
+## Q297
+
+### sliding_window_find_sum.py
+
+```python
+def find_window_with_sum(nums, k, target):
+    n = len(nums)
+    if k > n:
+        return -1
+    s = sum(nums[:k])
+    if s == target:
+        return 0
+    for i in range(k, n):
+        s += nums[i] - nums[i-k]
+        if s == target:
+            return i - k + 1
+    return -1
+
+if __name__ == "__main__":
+    print(find_window_with_sum([1,2,3,4,5], 3, 9))
+```
+
+### Questions
+
+1. What index is returned for the example and why?
+2. Explain why the sliding update is O(1) per step.
+3. Modify to return all starting indices matching the target instead of first match.
+
+---
+
+## Q298
+
+### prime_factors.py
+
+```python
+def prime_factors(n):
+    i = 2
+    out = []
+    while i * i <= n:
+        while n % i == 0:
+            out.append(i)
+            n //= i
+        i += 1 if i == 2 else 2
+    if n > 1:
+        out.append(n)
+    return out
+
+if __name__ == "__main__":
+    print(prime_factors(360))
+```
+
+### Questions
+
+1. What is the prime factorization list for 360?
+2. Why increment `i` by 1 then by 2 (skip even numbers after 2)?
+3. Modify to return `(prime, exponent)` pairs instead of repeated primes.
+
+---
+
+## Q299
+
+### dict_deep_update.py
+
+```python
+def deep_update(a, b):
+    for k, v in b.items():
+        if k in a and isinstance(a[k], dict) and isinstance(v, dict):
+            deep_update(a[k], v)
+        else:
+            a[k] = v
+    return a
+
+if __name__ == "__main__":
+    a = {"x":1, "y":{"z":2}}
+    b = {"y":{"z":3, "w":4}, "k":5}
+    print(deep_update(a, b))
+```
+
+### Questions
+
+1. What is printed after updating `a` with `b`?
+2. Does this function mutate `a` or create a new dict? Explain.
+3. Modify to optionally return a new merged dict without mutating inputs.
+
+---
+
+## Q300
+
+### list_rotate_inplace.py
+
+```python
+def rotate_inplace(a, k):
+    n = len(a)
+    if n == 0:
+        return a
+    k %= n
+    def rev(l, i, j):
+        while i < j:
+            l[i], l[j] = l[j], l[i]
+            i += 1; j -= 1
+    rev(a, 0, n-1)
+    rev(a, 0, k-1)
+    rev(a, k, n-1)
+    return a
+
+if __name__ == "__main__":
+    arr = [1,2,3,4,5]
+    print(rotate_inplace(arr, 2))
+```
+
+### Questions
+
+1. What list is produced for the example rotation by 2?
+2. Explain why three reversals perform the rotation in-place.
+3. Modify to perform a left-rotation by `k` instead of right-rotation.
+
+
+
+## Q301
+
+### palindrome_pairs.py
+
+```python
+def is_palindrome(s):
+    return s == s[::-1]
+
+def palindrome_pairs(words):
+    res = []
+    d = {w:i for i,w in enumerate(words)}
+    for i, w in enumerate(words):
+        for cut in range(len(w)+1):
+            left, right = w[:cut], w[cut:]
+            if is_palindrome(left) and right[::-1] in d and d[right[::-1]] != i:
+                res.append((d[right[::-1]], i))
+            if cut != len(w) and is_palindrome(right) and left[::-1] in d and d[left[::-1]] != i:
+                res.append((i, d[left[::-1]]))
+    return res
+
+if __name__ == "__main__":
+    print(palindrome_pairs(["bat","tab","cat"]))
+```
+
+Questions:
+
+1. What pair(s) are returned for the sample list and why?
+2. Explain purpose of `cut != len(w)` check.
+3. Modify to avoid duplicate pairs and return unique pairs only.
+
+---
+
+## Q302
+
+### find_cycle_length.py
+
+```python
+def cycle_length(next_fn, start):
+    tortoise = next_fn(start)
+    hare = next_fn(next_fn(start))
+    while tortoise != hare:
+        tortoise = next_fn(tortoise)
+        hare = next_fn(next_fn(hare))
+    # find mu
+    mu = 0
+    tortoise = start
+    while tortoise != hare:
+        tortoise = next_fn(tortoise); hare = next_fn(hare); mu += 1
+    # find lambda
+    lam = 1
+    hare = next_fn(tortoise)
+    while tortoise != hare:
+        hare = next_fn(hare); lam += 1
+    return mu, lam
+
+if __name__ == "__main__":
+    f = lambda x: (x*2)%7
+    print(cycle_length(f, 1))
+```
+
+Questions:
+
+1. What do `mu` and `lam` represent?
+2. Why use two phases (meeting then locating start)?
+3. Adapt `cycle_length` to work on lists using indices as `next_fn`.
+
+---
+
+## Q303
+
+### kth_smallest_heap.py
+
+```python
+import heapq
+
+def kth_smallest(nums, k):
+    if k <= 0 or k > len(nums):
+        return None
+    heap = [-x for x in nums[:k]]
+    heapq.heapify(heap)
+    for x in nums[k:]:
+        if -heap[0] > x:
+            heapq.heapreplace(heap, -x)
+    return -heap[0]
+
+if __name__ == "__main__":
+    print(kth_smallest([7,10,4,3,20,15], 3))
+```
+
+Questions:
+
+1. What value is returned for the example?
+2. Explain why a max-heap of size `k` is used.
+3. Modify to return a sorted list of the k smallest values.
+
+---
+
+## Q304
+
+### group_anagram_indices.py
+
+```python
+from collections import defaultdict
+
+def group_anagram_indices(words):
+    d = defaultdict(list)
+    for i, w in enumerate(words):
+        key = "".join(sorted(w))
+        d[key].append(i)
+    return list(d.values())
+
+if __name__ == "__main__":
+    print(group_anagram_indices(["eat","tea","tan","ate","nat","bat"]))
+```
+
+Questions:
+
+1. What grouping of indices is produced for the example?
+2. Why use indices instead of words? When is that useful?
+3. Modify to group by normalized form ignoring punctuation and case.
+
+---
+
+## Q305
+
+### round_robin_iterators.py
+
+```python
+from collections import deque
+
+def round_robin(*iters):
+    dq = deque(iters)
+    while dq:
+        it = dq.popleft()
+        try:
+            yield next(it)
+            dq.append(it)
+        except StopIteration:
+            pass
+
+if __name__ == "__main__":
+    a = iter([1,2,3]); b = iter(['a','b'])
+    print(list(round_robin(a,b)))
+```
+
+Questions:
+
+1. What sequence is printed for the sample iterators?
+2. Compare memory characteristics vs zipping with `itertools.zip_longest`.
+3. Modify to skip empty iterables gracefully and accept an arbitrary iterable of iterables.
+
+---
+
+## Q306
+
+### validate_ip.py
+
+```python
+def valid_ipv4(s):
+    parts = s.split(".")
+    if len(parts) != 4:
+        return False
+    for p in parts:
+        if not p.isdigit() or not 0 <= int(p) <= 255 or (p[0]=='0' and len(p)>1):
+            return False
+    return True
+
+if __name__ == "__main__":
+    print(valid_ipv4("192.168.0.1"), valid_ipv4("256.0.0.1"))
+```
+
+Questions:
+
+1. Which inputs in the example are valid and why?
+2. Why reject segments with leading zeros? Is that always desirable?
+3. Extend to validate IPv6 addresses (outline approach or implement basic check).
+
+---
+
+## Q307
+
+### xor_linked_list_concept.py
+
+```python
+class XNode:
+    def __init__(self, val, both=0):
+        self.val = val
+        self.both = both
+
+# Note: This is a conceptual example; Python cannot get raw addresses safely.
+def traverse_xor(start, fetch_by_addr):
+    prev_addr = 0
+    cur = start
+    while cur:
+        yield cur.val
+        next_addr = prev_addr ^ cur.both
+        prev_addr = id(cur)  # conceptual
+        cur = fetch_by_addr(next_addr)
+
+if __name__ == "__main__":
+    print("Conceptual only")
+```
+
+Questions:
+
+1. Explain the `both` field and how XOR linked lists work.
+2. Why is this approach unsafe/unnatural in Python?
+3. Propose a safe Python-compatible emulation of XOR linked list behavior.
+
+---
+
+## Q308
+
+### partition_array_k_equal_sum.py
+
+```python
+def can_partition_k_subsets(nums, k):
+    total = sum(nums)
+    if total % k != 0:
+        return False
+    target = total // k
+    nums.sort(reverse=True)
+    if nums[0] > target:
+        return False
+    buckets = [0]*k
+    def dfs(i):
+        if i == len(nums):
+            return len(set(buckets)) == 1
+        v = nums[i]
+        for j in range(k):
+            if buckets[j]+v <= target:
+                buckets[j]+=v
+                if dfs(i+1):
+                    return True
+                buckets[j]-=v
+            if buckets[j] == 0:
+                break
+        return False
+    return dfs(0)
+
+if __name__ == "__main__":
+    print(can_partition_k_subsets([4,3,2,3,5,2,1], 4))
+```
+
+Questions:
+
+1. What does the example indicate (True/False)?
+2. Why sort descending before backtracking?
+3. Modify to return the actual buckets when possible.
+
+---
+
+## Q309
+
+### phone_number_mnemonics.py
+
+```python
+M = {"2":"abc","3":"def","4":"ghi","5":"jkl","6":"mno","7":"pqrs","8":"tuv","9":"wxyz"}
+def mnemonics(digits):
+    if not digits:
+        return [""]
+    res = [""]
+    for d in digits:
+        letters = M.get(d, d)
+        res = [r + c for r in res for c in letters]
+    return res
+
+if __name__ == "__main__":
+    print(mnemonics("23"))
+```
+
+Questions:
+
+1. What mnemonics are returned for "23"?
+2. How does complexity scale with digit length?
+3. Modify to filter mnemonics by a provided dictionary of valid words.
+
+---
+
+## Q310
+
+### detect_peak_element.py
+
+```python
+def find_peak(nums):
+    lo, hi = 0, len(nums)-1
+    while lo < hi:
+        mid = (lo+hi)//2
+        if nums[mid] > nums[mid+1]:
+            hi = mid
+        else:
+            lo = mid+1
+    return lo
+
+if __name__ == "__main__":
+    print(find_peak([1,2,3,1]))
+```
+
+Questions:
+
+1. What index is returned in the example and why?
+2. What assumptions about array shape are required?
+3. Modify to return any peak index and explain correctness.
+
+---
+
+## Q311
+
+### compare_two_files_stream.py
+
+```python
+def compare_files(a_path, b_path):
+    with open(a_path, "rb") as fa, open(b_path, "rb") as fb:
+        while True:
+            a = fa.read(8192); b = fb.read(8192)
+            if a != b:
+                return False
+            if not a:
+                return True
+
+if __name__ == "__main__":
+    print("Usage: compare two files")
+```
+
+Questions:
+
+1. Why read in blocks instead of whole file?
+2. How does this behave for different file lengths?
+3. Modify to return the offset of first difference when files differ.
+
+---
+
+## Q312
+
+### permutations_with_repetition.py
+
+```python
+def permutations_with_repetition(items, r):
+    if r == 0:
+        return [[]]
+    res = []
+    for it in items:
+        for tail in permutations_with_repetition(items, r-1):
+            res.append([it] + tail)
+    return res
+
+if __name__ == "__main__":
+    print(permutations_with_repetition([1,2], 3))
+```
+
+Questions:
+
+1. What sequences are generated for the example?
+2. How does this differ from `itertools.product`?
+3. Modify to yield results lazily (generator).
+
+---
+
+## Q313
+
+### longest_common_prefix_array.py
+
+```python
+def longest_common_prefix_strs(strs):
+    if not strs:
+        return ""
+    min_s = min(strs); max_s = max(strs)
+    for i, ch in enumerate(min_s):
+        if ch != max_s[i]:
+            return min_s[:i]
+    return min_s
+
+if __name__ == "__main__":
+    print(longest_common_prefix_strs(["flower","flow","flight"]))
+```
+
+Questions:
+
+1. Explain why comparing min and max works.
+2. What prefix is returned for the example?
+3. Modify to work on bytes arrays instead of strings.
+
+---
+
+## Q314
+
+### majority_element_moore.py
+
+```python
+def majority_element(nums):
+    count = 0
+    candidate = None
+    for x in nums:
+        if count == 0:
+            candidate = x
+            count = 1
+        elif candidate == x:
+            count += 1
+        else:
+            count -= 1
+    # optional verify candidate
+    return candidate
+
+if __name__ == "__main__":
+    print(majority_element([3,3,4,2,3,3,5]))
+```
+
+Questions:
+
+1. What does Moore's voting algorithm find?
+2. Why might we need to verify the candidate afterward?
+3. Modify to return None if no majority element (> n/2) exists.
+
+---
+
+## Q315
+
+### validate_sudoku.py
+
+```python
+def is_valid_sudoku(board):
+    rows = [set() for _ in range(9)]
+    cols = [set() for _ in range(9)]
+    blocks = [set() for _ in range(9)]
+    for r in range(9):
+        for c in range(9):
+            v = board[r][c]
+            if v == '.': continue
+            b = (r//3)*3 + c//3
+            if v in rows[r] or v in cols[c] or v in blocks[b]:
+                return False
+            rows[r].add(v); cols[c].add(v); blocks[b].add(v)
+    return True
+
+if __name__ == "__main__":
+    print("Provide 9x9 board to validate")
+```
+
+Questions:
+
+1. Which duplicated placements would this detect?
+2. Why compute block index `(r//3)*3 + c//3`?
+3. Modify to also verify that all digits are between '1' and '9'.
+
+---
+
+## Q316
+
+### word_break_dp.py
+
+```python
+def word_break(s, word_dict):
+    n = len(s)
+    dp = [False]*(n+1)
+    dp[0] = True
+    for i in range(1,n+1):
+        for j in range(i):
+            if dp[j] and s[j:i] in word_dict:
+                dp[i] = True; break
+    return dp[n]
+
+if __name__ == "__main__":
+    print(word_break("leetcode", {"leet","code"}))
+```
+
+Questions:
+
+1. What does the example return and why?
+2. Explain time complexity in worst case.
+3. Modify to return one valid segmentation when possible.
+
+---
+
+## Q317
+
+### evaluate_rpn.py
+
+```python
+def eval_rpn(tokens):
+    stack = []
+    for t in tokens:
+        if t in {"+","-","*","/"}:
+            b = stack.pop(); a = stack.pop()
+            if t == "+": stack.append(a+b)
+            elif t == "-": stack.append(a-b)
+            elif t == "*": stack.append(a*b)
+            else: stack.append(int(a/b))
+        else:
+            stack.append(int(t))
+    return stack[0]
+
+if __name__ == "__main__":
+    print(eval_rpn(["2","1","+","3","*"]))
+```
+
+Questions:
+
+1. What result is produced for the example tokens?
+2. Why use `int(a/b)` for division behavior?
+3. Modify to support unary operators and error handling.
+
+---
+
+## Q318
+
+### product_except_self.py
+
+```python
+def product_except_self(nums):
+    n = len(nums)
+    res = [1]*n
+    left = 1
+    for i in range(n):
+        res[i] = left
+        left *= nums[i]
+    right = 1
+    for i in range(n-1,-1,-1):
+        res[i] *= right
+        right *= nums[i]
+    return res
+
+if __name__ == "__main__":
+    print(product_except_self([1,2,3,4]))
+```
+
+Questions:
+
+1. What output is returned for the sample array?
+2. Why does this avoid using division?
+3. Modify to handle zeros correctly and explain behavior.
+
+---
+
+## Q319
+
+### repeated_substring_pattern.py
+
+```python
+def repeated_substring_pattern(s):
+    return (s + s).find(s, 1) != len(s)
+
+if __name__ == "__main__":
+    print(repeated_substring_pattern("abab"))
+```
+
+Questions:
+
+1. Why does `(s+s).find(s,1)` detect repetitions?
+2. What does the function return for "aba"?
+3. Modify to return the smallest repeating unit when present.
+
+---
+
+## Q320
+
+### kth_largest_stream.py
+
+```python
+import heapq
+
+class KthLargest:
+    def __init__(self, k, nums):
+        self.k = k
+        self.heap = nums[:]
+        heapq.heapify(self.heap)
+        while len(self.heap) > k:
+            heapq.heappop(self.heap)
+    def add(self, val):
+        heapq.heappush(self.heap, val)
+        if len(self.heap) > self.k:
+            heapq.heappop(self.heap)
+        return self.heap[0]
+
+if __name__ == "__main__":
+    k = KthLargest(3, [4,5,8,2])
+    print(k.add(3), k.add(5), k.add(10))
+```
+
+Questions:
+
+1. What values are printed by successive `add` calls?
+2. Explain invariant maintained by the heap.
+3. Modify to support a removal operation of arbitrary elements.
+
+---
+
+## Q321
+
+### zigzag_conversion.py
+
+```python
+def convert_zigzag(s, num_rows):
+    if num_rows == 1 or num_rows >= len(s):
+        return s
+    rows = ['']*num_rows
+    cur, step = 0, 1
+    for ch in s:
+        rows[cur] += ch
+        if cur == 0: step = 1
+        elif cur == num_rows-1: step = -1
+        cur += step
+    return ''.join(rows)
+
+if __name__ == "__main__":
+    print(convert_zigzag("PAYPALISHIRING", 3))
+```
+
+Questions:
+
+1. What converted string is produced for the example?
+2. Why handle `num_rows == 1` specially?
+3. Modify to return the 2D row layout (list of strings) instead of concatenated result.
+
+---
+
+## Q322
+
+### valid_palindrome_with_removal.py
+
+```python
+def valid_palindrome_after_removal(s):
+    i, j = 0, len(s)-1
+    while i < j:
+        if s[i] != s[j]:
+            a = s[i+1:j+1]; b = s[i:j]
+            return a == a[::-1] or b == b[::-1]
+        i += 1; j -= 1
+    return True
+
+if __name__ == "__main__":
+    print(valid_palindrome_after_removal("abca"))
+```
+
+Questions:
+
+1. What does the example return and why?
+2. Explain why only two substring checks are needed on mismatch.
+3. Modify to return the index of removal that makes it palindrome (or -1).
+
+---
+
+## Q323
+
+### split_array_largest_sum.py
+
+```python
+def split_array(nums, m):
+    def feasible(cap):
+        cnt, cur = 1, 0
+        for x in nums:
+            if cur + x <= cap:
+                cur += x
+            else:
+                cnt += 1; cur = x
+        return cnt <= m
+    lo, hi = max(nums), sum(nums)
+    while lo < hi:
+        mid = (lo+hi)//2
+        if feasible(mid):
+            hi = mid
+        else:
+            lo = mid+1
+    return lo
+
+if __name__ == "__main__":
+    print(split_array([7,2,5,10,8], 2))
+```
+
+Questions:
+
+1. What minimal largest subarray sum is returned for the example?
+2. Explain role of binary search here.
+3. Modify to return the actual partition boundaries.
+
+---
+
+## Q324
+
+### unique_paths_with_obstacles.py
+
+```python
+def unique_paths_with_obstacles(obstacle_grid):
+    if not obstacle_grid or obstacle_grid[0][0]==1: return 0
+    r, c = len(obstacle_grid), len(obstacle_grid[0])
+    dp = [0]*c
+    dp[0] = 1
+    for i in range(r):
+        for j in range(c):
+            if obstacle_grid[i][j] == 1:
+                dp[j] = 0
+            elif j > 0:
+                dp[j] += dp[j-1]
+    return dp[-1]
+
+if __name__ == "__main__":
+    grid = [[0,0,0],[0,1,0],[0,0,0]]
+    print(unique_paths_with_obstacles(grid))
+```
+
+Questions:
+
+1. What number of paths is returned for the sample grid?
+2. Explain why single-row DP `dp[j]` suffices.
+3. Modify to also return one example path when available.
+
+---
+
+## Q325
+
+### merge_intervals_inplace.py
+
+```python
+def merge_intervals_inplace(intervals):
+    if not intervals: return []
+    intervals.sort()
+    res = [intervals[0]]
+    for s,e in intervals[1:]:
+        last_s, last_e = res[-1]
+        if s <= last_e:
+            res[-1] = (last_s, max(last_e, e))
+        else:
+            res.append((s,e))
+    return res
+
+if __name__ == "__main__":
+    print(merge_intervals_inplace([(1,4),(2,3),(5,6)]))
+```
+
+Questions:
+
+1. What merged intervals are returned?
+2. Why sort first and what about in-place memory?
+3. Modify to merge intervals when they touch (e.g., (1,2) and (2,3)).
+
+---
+
+## Q326
+
+### lowest_common_ancestor_bt.py
+
+```python
+class TreeNode:
+    def __init__(self,val, left=None, right=None):
+        self.val=val; self.left=left; self.right=right
+
+def lca(root, p, q):
+    if not root or root==p or root==q:
+        return root
+    left = lca(root.left, p,q)
+    right = lca(root.right,p,q)
+    return root if left and right else (left or right)
+
+if __name__ == "__main__":
+    print("Provide a tree; function returns LCA node")
+```
+
+Questions:
+
+1. How does recursion determine LCA in a binary tree?
+2. What is returned when one node is ancestor of the other?
+3. Modify to return `None` if either `p` or `q` isn't present in the tree.
+
+---
+
+## Q327
+
+### sum_root_to_leaf_numbers.py
+
+```python
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val=val; self.left=left; self.right=right
+
+def sum_numbers(root):
+    def dfs(node, cur):
+        if not node: return 0
+        cur = cur*10 + node.val
+        if not node.left and not node.right:
+            return cur
+        return dfs(node.left, cur) + dfs(node.right, cur)
+    return dfs(root, 0)
+
+if __name__ == "__main__":
+    print(sum_numbers(Node(1, Node(2), Node(3))))
+```
+
+Questions:
+
+1. What sum is returned for the example tree?
+2. Explain how `cur` accumulates path numbers.
+3. Modify to return the list of all root-to-leaf numbers as well.
+
+---
+
+## Q328
+
+### simulate_calendar_conflicts.py
+
+```python
+def can_attend_all(events):
+    events.sort()
+    for i in range(1, len(events)):
+        if events[i][0] < events[i-1][1]:
+            return False
+    return True
+
+if __name__ == "__main__":
+    print(can_attend_all([(0,30),(5,10),(15,20)]))
+```
+
+Questions:
+
+1. What does the example return and why?
+2. Why is sorting by start time sufficient?
+3. Modify to return a conflicting pair when detected.
+
+---
+
+## Q329
+
+### next_permutation.py
+
+```python
+def next_permutation(nums):
+    i = len(nums)-2
+    while i>=0 and nums[i]>=nums[i+1]:
+        i-=1
+    if i>=0:
+        j = len(nums)-1
+        while nums[j] <= nums[i]:
+            j-=1
+        nums[i], nums[j] = nums[j], nums[i]
+    nums[i+1:] = reversed(nums[i+1:])
+    return nums
+
+if __name__ == "__main__":
+    print(next_permutation([1,2,3]))
+```
+
+Questions:
+
+1. What is produced for the example?
+2. Explain why reversing the tail yields the next permutation.
+3. Modify to return `False` and reset to smallest permutation when no next exists.
+
+---
+
+## Q330
+
+### minimum_window_substring.py
+
+```python
+from collections import Counter
+
+def min_window(s, t):
+    need = Counter(t)
+    missing = len(t)
+    i = start = end = 0
+    for j,ch in enumerate(s,1):
+        if need[ch] > 0:
+            missing -= 1
+        need[ch] -= 1
+        if missing == 0:
+            while i < j and need[s[i]] < 0:
+                need[s[i]] += 1; i += 1
+            if end == 0 or j-i < end-start:
+                start, end = i, j
+            need[s[i]] += 1
+            missing += 1
+            i += 1
+    return s[start:end]
+
+if __name__ == "__main__":
+    print(min_window("ADOBECODEBANC","ABC"))
+```
+
+Questions:
+
+1. What minimal window is returned for the sample?
+2. Explain role of `need` and `missing`.
+3. Modify to return indices `(start,end)` instead of substring.
+
+---
+
+## Q331
+
+### find_all_duplicates_array.py
+
+```python
+def find_duplicates(nums):
+    res = []
+    for i in range(len(nums)):
+        idx = abs(nums[i]) - 1
+        if nums[idx] < 0:
+            res.append(idx+1)
+        else:
+            nums[idx] = -nums[idx]
+    return res
+
+if __name__ == "__main__":
+    print(find_duplicates([4,3,2,7,8,2,3,1]))
+```
+
+Questions:
+
+1. What duplicates are found in the example?
+2. Why mutate array sign bits and what are caveats?
+3. Modify to restore the array to original values before returning.
+
+---
+
+## Q332
+
+### paint_fence_dp.py
+
+```python
+def num_ways(n, k):
+    if n == 0: return 0
+    same = 0
+    diff = k
+    for i in range(2, n+1):
+        same, diff = diff, (same+diff)*(k-1)
+    return same + diff
+
+if __name__ == "__main__":
+    print(num_ways(3,2))
+```
+
+Questions:
+
+1. What does the function compute for paint fence problem?
+2. Explain meanings of `same` and `diff`.
+3. Modify to return sequence of number of ways for all lengths up to `n`.
+
+---
+
+## Q333
+
+### reconstruct_itinerary.py
+
+```python
+from collections import defaultdict
+import heapq
+
+def find_itinerary(tickets):
+    graph = defaultdict(list)
+    for a,b in tickets:
+        heapq.heappush(graph[a], b)
+    route = []
+    def visit(airport):
+        while graph[airport]:
+            visit(heapq.heappop(graph[airport]))
+        route.append(airport)
+    visit("JFK")
+    return route[::-1]
+
+if __name__ == "__main__":
+    print(find_itinerary([["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]))
+```
+
+Questions:
+
+1. What itinerary is produced for the example tickets?
+2. Why use a heap to store destinations?
+3. Modify to start from a configurable origin instead of "JFK".
+
+---
+
+## Q334
+
+### score_of_parentheses.py
+
+```python
+def score_of_parentheses(s):
+    stack = [0]
+    for ch in s:
+        if ch == '(':
+            stack.append(0)
+        else:
+            v = stack.pop()
+            stack[-1] += max(2*v, 1)
+    return stack.pop()
+
+if __name__ == "__main__":
+    print(score_of_parentheses("()()"))
+```
+
+Questions:
+
+1. What score does the example return and why?
+2. Explain role of stack and `max(2*v,1)` expression.
+3. Modify to validate parentheses and raise on invalid input.
+
+---
+
+## Q335
+
+### island_perimeter.py
+
+```python
+def island_perimeter(grid):
+    rows=len(grid); cols=len(grid[0])
+    per=0
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c]==1:
+                per += 4
+                if r>0 and grid[r-1][c]==1: per -=2
+                if c>0 and grid[r][c-1]==1: per -=2
+    return per
+
+if __name__ == "__main__":
+    g=[[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+    print(island_perimeter(g))
+```
+
+Questions:
+
+1. What perimeter value is returned for the sample grid?
+2. Why subtract 2 for each adjacent pair counted twice?
+3. Modify to support multiple disjoint islands and return a dict island_id->perimeter.
+
+---
+
+## Q336
+
+### binary_tree_serialization.py
+
+```python
+def serialize(root):
+    vals=[]
+    def dfs(node):
+        if not node:
+            vals.append("#"); return
+        vals.append(str(node.val))
+        dfs(node.left); dfs(node.right)
+    dfs(root)
+    return ",".join(vals)
+
+def deserialize(s):
+    vals = iter(s.split(","))
+    def dfs():
+        v = next(vals)
+        if v == "#": return None
+        node = TreeNode(int(v))
+        node.left = dfs(); node.right = dfs()
+        return node
+    return dfs()
+```
+
+Questions:
+
+1. Explain preorder serialization with `#` placeholders.
+2. How does deserialization reconstruct shape unambiguously?
+3. Modify to use level-order (BFS) serialization.
+
+---
+
+## Q337
+
+### multiply_strings.py
+
+```python
+def multiply(num1, num2):
+    if num1=="0" or num2=="0": return "0"
+    m, n = len(num1), len(num2)
+    res = [0]*(m+n)
+    for i in range(m-1,-1,-1):
+        for j in range(n-1,-1,-1):
+            res[i+j+1] += int(num1[i])*int(num2[j])
+    for k in range(len(res)-1,0,-1):
+        res[k-1] += res[k]//10
+        res[k] %= 10
+    start = 0
+    while start < len(res) and res[start]==0:
+        start += 1
+    return ''.join(map(str,res[start:]))
+
+if __name__ == "__main__":
+    print(multiply("123","456"))
+```
+
+Questions:
+
+1. What product string is returned for the example?
+2. Explain the convolution-like accumulation into `res`.
+3. Modify to handle signed numbers with optional leading `-`.
+
+---
+
+## Q338
+
+### longest_palindromic_substring_center.py
+
+```python
+def longest_palindrome(s):
+    start = 0; maxlen = 0
+    for i in range(len(s)):
+        for j in (i,i+1):
+            l, r = i, j
+            while l>=0 and r<len(s) and s[l]==s[r]:
+                if r-l+1 > maxlen:
+                    start, maxlen = l, r-l+1
+                l-=1; r+=1
+    return s[start:start+maxlen]
+
+if __name__ == "__main__":
+    print(longest_palindrome("babad"))
+```
+
+Questions:
+
+1. What is a possible longest palindromic substring for "babad"?
+2. Why check both centers `i` and `i+1`?
+3. Modify to use Manacher’s algorithm for linear time.
+
+---
+
+## Q339
+
+### validate_bst_iterative.py
+
+```python
+def is_valid_bst(root):
+    stack=[]; prev=None
+    node=root
+    while stack or node:
+        while node:
+            stack.append(node); node=node.left
+        node=stack.pop()
+        if prev is not None and node.val <= prev:
+            return False
+        prev = node.val
+        node = node.right
+    return True
+```
+
+Questions:
+
+1. Explain why in-order traversal validates BST ordering.
+2. What does `prev` store and why compare `<=`?
+3. Modify to return the violating node pair when invalid.
+
+---
+
+## Q340
+
+### count_islands_dfs.py
+
+```python
+def num_islands(grid):
+    if not grid: return 0
+    rows, cols = len(grid), len(grid[0])
+    def dfs(r,c):
+        if r<0 or c<0 or r>=rows or c>=cols or grid[r][c]=='0': return
+        grid[r][c]='0'
+        for dr,dc in [(1,0),(-1,0),(0,1),(0,-1)]: dfs(r+dr,c+dc)
+    cnt=0
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c]=='1':
+                cnt+=1; dfs(r,c)
+    return cnt
+
+if __name__ == "__main__":
+    g=[list("11110"),list("11010"),list("11000"),list("00000")]
+    print(num_islands(g))
+```
+
+Questions:
+
+1. What island count is returned for the example?
+2. Why mark visited cells to avoid revisiting?
+3. Modify to compute each island’s area as well.
+
+
+
+
+
+
+
+
+
+
+
+Sure — here are **Q341–Q350** (complete). Each question includes a code file and three learner questions. No hints in titles and no emojis.
+
+---
+
+## Q341
+
+### top_k_frequent.py
+
+```python
+from collections import Counter
+
+def top_k_frequent(nums, k):
+    """
+    Return k most frequent elements using Counter.most_common.
+    """
+    if k <= 0:
+        return []
+    freq = Counter(nums)
+    return [num for num, _ in freq.most_common(k)]
+
+if __name__ == "__main__":
+    print(top_k_frequent([1,1,1,2,2,3], 2))
+```
+
+### Questions
+
+1. What list is returned for the example input and why?
+2. Discuss time/space complexity when `k` is much smaller than the number of unique elements.
+3. Modify to return the `k` least frequent elements instead.
+
+---
+
+## Q342
+
+### serialize_deserialize_bst.py
+
+```python
+# Minimal TreeNode for demo
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val; self.left = left; self.right = right
+
+def serialize(root):
+    """Preorder serialize BST with 'N' as null marker."""
+    vals = []
+    def dfs(node):
+        if not node:
+            vals.append("N"); return
+        vals.append(str(node.val))
+        dfs(node.left); dfs(node.right)
+    dfs(root)
+    return ",".join(vals)
+
+def deserialize(s):
+    """Deserialize preorder string into a binary tree."""
+    vals = iter(s.split(","))
+    def dfs():
+        v = next(vals)
+        if v == "N":
+            return None
+        node = TreeNode(int(v))
+        node.left = dfs(); node.right = dfs()
+        return node
+    return dfs()
+
+if __name__ == "__main__":
+    root = TreeNode(2, TreeNode(1), TreeNode(3))
+    s = serialize(root)
+    r2 = deserialize(s)
+    print(s, r2.val, r2.left.val, r2.right.val)
+```
+
+### Questions
+
+1. Explain how preorder plus null markers allows unambiguous reconstruction.
+2. What are trade-offs vs level-order (BFS) serialization?
+3. Modify `serialize` to use a compact binary format (outline steps).
+
+---
+
+## Q343
+
+### longest_consecutive_sequence.py
+
+```python
+def longest_consecutive(nums):
+    """
+    Return length of longest consecutive elements sequence in O(n) time.
+    """
+    num_set = set(nums)
+    best = 0
+    for n in num_set:
+        if n - 1 not in num_set:
+            length = 1
+            cur = n + 1
+            while cur in num_set:
+                length += 1
+                cur += 1
+            best = max(best, length)
+    return best
+
+if __name__ == "__main__":
+    print(longest_consecutive([100,4,200,1,3,2]))
+```
+
+### Questions
+
+1. What value does the example return and why?
+2. Explain why checking `n - 1 not in num_set` keeps the algorithm O(n).
+3. Modify to return the longest consecutive sequence (list) rather than its length.
+
+---
+
+## Q344
+
+### product_array_except_self.py
+
+```python
+def product_except_self(nums):
+    n = len(nums)
+    res = [1] * n
+    left = 1
+    for i in range(n):
+        res[i] = left
+        left *= nums[i]
+    right = 1
+    for i in range(n-1, -1, -1):
+        res[i] *= right
+        right *= nums[i]
+    return res
+
+if __name__ == "__main__":
+    print(product_except_self([1,2,3,4]))
+```
+
+### Questions
+
+1. What output does the example produce and why does it avoid division?
+2. How do prefix and suffix products build the result?
+3. Modify to explicitly handle zeros and explain expected output semantics when zeros are present.
+
+---
+
+## Q345
+
+### minimum_window_substring.py
+
+```python
+from collections import Counter
+
+def min_window(s, t):
+    if not t or not s:
+        return ""
+    need = Counter(t)
+    missing = len(t)
+    left = start = end = 0
+    for right, ch in enumerate(s, 1):
+        if need[ch] > 0:
+            missing -= 1
+        need[ch] -= 1
+        while missing == 0:
+            if end == 0 or right - left < end - start:
+                start, end = left, right
+            need[s[left]] += 1
+            if need[s[left]] > 0:
+                missing += 1
+            left += 1
+    return s[start:end]
+
+if __name__ == "__main__":
+    print(min_window("ADOBECODEBANC", "ABC"))
+```
+
+### Questions
+
+1. What minimal window substring does the example return and why?
+2. Explain roles of `need` and `missing`.
+3. Modify to return window indices `(start, end)` instead of the substring.
+
+---
+
+## Q346
+
+### kth_smallest_in_matrix.py
+
+```python
+import heapq
+
+def kth_smallest(matrix, k):
+    """
+    matrix is n x n with rows and cols sorted ascending.
+    Use min-heap seeded with first element of each row.
+    """
+    n = len(matrix)
+    heap = []
+    for r in range(min(n, k)):
+        heapq.heappush(heap, (matrix[r][0], r, 0))
+    num = None
+    for _ in range(k):
+        num, r, c = heapq.heappop(heap)
+        if c + 1 < n:
+            heapq.heappush(heap, (matrix[r][c+1], r, c+1))
+    return num
+
+if __name__ == "__main__":
+    m = [[1,5,9],[10,11,13],[12,13,15]]
+    print(kth_smallest(m, 8))
+```
+
+### Questions
+
+1. What value does the example return and why?
+2. Why push at most `min(n,k)` rows initially?
+3. Outline how to solve this via binary search on values instead of a heap.
+
+---
+
+## Q347
+
+### word_ladder_bfs.py
+
+```python
+from collections import deque
+
+def ladder_length(begin, end, word_list):
+    word_set = set(word_list)
+    if end not in word_set:
+        return 0
+    q = deque([(begin, 1)])
+    visited = {begin}
+    while q:
+        word, steps = q.popleft()
+        if word == end:
+            return steps
+        for i in range(len(word)):
+            for ch in "abcdefghijklmnopqrstuvwxyz":
+                nxt = word[:i] + ch + word[i+1:]
+                if nxt in word_set and nxt not in visited:
+                    visited.add(nxt)
+                    q.append((nxt, steps+1))
+    return 0
+
+if __name__ == "__main__":
+    print(ladder_length("hit", "cog", ["hot","dot","dog","lot","log","cog"]))
+```
+
+### Questions
+
+1. What length does the example produce and what does it represent?
+2. Why is BFS appropriate here instead of DFS?
+3. Modify to return one transformation path (sequence of words) from `begin` to `end`.
+
+---
+
+## Q348
+
+### max_subarray_kadane.py
+
+```python
+def max_subarray(nums):
+    max_ending = max_so_far = nums[0]
+    for x in nums[1:]:
+        max_ending = max(x, max_ending + x)
+        max_so_far = max(max_so_far, max_ending)
+    return max_so_far
+
+if __name__ == "__main__":
+    print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))
+```
+
+### Questions
+
+1. What maximum subarray sum is returned and which subarray yields it?
+2. Explain intuition behind Kadane’s algorithm.
+3. Modify to return start and end indices of the maximum-sum subarray.
+
+---
+
+## Q349
+
+### find_peak_element.py
+
+```python
+def find_peak(nums):
+    """
+    Find a peak index (element greater than neighbors) in O(log n) time.
+    """
+    lo, hi = 0, len(nums) - 1
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if nums[mid] > nums[mid + 1]:
+            hi = mid
+        else:
+            lo = mid + 1
+    return lo
+
+if __name__ == "__main__":
+    print(find_peak([1,2,3,1]))
+```
+
+### Questions
+
+1. What index is returned for the example and why is it a peak?
+2. Why does comparing `nums[mid]` and `nums[mid+1]` give O(log n) performance?
+3. Modify to return all peak indices in the array (O(n) approach).
+
+---
+
+## Q350
+
+### smallest_missing_positive.py
+
+```python
+def first_missing_positive(nums):
+    """
+    Find the smallest missing positive integer in O(n) time and O(1) extra space.
+    Mutates input array.
+    """
+    n = len(nums)
+    for i in range(n):
+        while 1 <= nums[i] <= n and nums[nums[i]-1] != nums[i]:
+            j = nums[i] - 1
+            nums[i], nums[j] = nums[j], nums[i]
+    for i in range(n):
+        if nums[i] != i + 1:
+            return i + 1
+    return n + 1
+
+if __name__ == "__main__":
+    print(first_missing_positive([3,4,-1,1]))
+```
+
+### Questions
+
+1. What value does the example return and why?
+2. Explain how cyclic placement yields O(n) time and O(1) space.
+3. Modify to avoid mutating the input (describe extra time/space cost).
+
+---
