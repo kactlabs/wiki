@@ -6678,3 +6678,1410 @@ if __name__ == "__main__":
 3. Modify to return all starting indices matching the target instead of first match.
 
 
+
+
+
+
+## Q201
+
+### prime_factors.py
+
+```python
+def prime_factors(n):
+    """
+    Return prime factors of n as a list (with multiplicity).
+    """
+    i = 2
+    out = []
+    while i * i <= n:
+        while n % i == 0:
+            out.append(i)
+            n //= i
+        i += 1 if i == 2 else 2
+    if n > 1:
+        out.append(n)
+    return out
+
+if __name__ == "__main__":
+    print(prime_factors(360))
+```
+
+### Questions
+
+1. What list is printed for 360?
+2. Explain why the loop increments differently after 2.
+3. Modify to return factors as `(prime, exponent)` pairs.
+
+---
+
+## Q202
+
+### dict_deep_update.py
+
+```python
+def deep_update(a, b):
+    """
+    Update dict a with dict b recursively (mutates a).
+    """
+    for k, v in b.items():
+        if k in a and isinstance(a[k], dict) and isinstance(v, dict):
+            deep_update(a[k], v)
+        else:
+            a[k] = v
+    return a
+
+if __name__ == "__main__":
+    a = {"x":1, "y":{"z":2}}
+    b = {"y":{"z":3, "w":4}, "k":5}
+    print(deep_update(a, b))
+```
+
+### Questions
+
+1. What is printed after update?
+2. Does `deep_update` mutate `a` or return a new dict? Explain.
+3. Modify to optionally produce a new merged dict without mutating inputs.
+
+---
+
+## Q203
+
+### list_rotate_inplace.py
+
+```python
+def rotate_inplace(a, k):
+    n = len(a)
+    if n == 0:
+        return a
+    k %= n
+    # reverse helper
+    def rev(l, i, j):
+        while i < j:
+            l[i], l[j] = l[j], l[i]
+            i += 1; j -= 1
+    rev(a, 0, n-1)
+    rev(a, 0, k-1)
+    rev(a, k, n-1)
+    return a
+
+if __name__ == "__main__":
+    arr = [1,2,3,4,5]
+    print(rotate_inplace(arr, 2))
+```
+
+### Questions
+
+1. What transformed list is printed?
+2. Explain why three reversals achieve rotation.
+3. Modify to rotate left by `k` instead of right.
+
+---
+
+## Q204
+
+### file_extension_stats.py
+
+```python
+import os
+from collections import Counter
+
+def extension_stats(root):
+    cnt = Counter()
+    for dirpath, _, files in os.walk(root):
+        for f in files:
+            ext = os.path.splitext(f)[1].lower()
+            cnt[ext] += 1
+    return cnt
+
+if __name__ == "__main__":
+    print(extension_stats("."))
+```
+
+### Questions
+
+1. What does the returned Counter represent?
+2. How are files without an extension counted?
+3. Modify to also report total size per extension.
+
+---
+
+## Q205
+
+### debounce.py
+
+```python
+import time
+import threading
+
+def debounce(wait):
+    def deco(fn):
+        timer = None
+        lock = threading.Lock()
+        def wrapper(*args, **kwargs):
+            nonlocal timer
+            def call():
+                fn(*args, **kwargs)
+            with lock:
+                if timer:
+                    timer.cancel()
+                timer = threading.Timer(wait, call)
+                timer.start()
+        return wrapper
+    return deco
+
+if __name__ == "__main__":
+    @debounce(0.1)
+    def say(x):
+        print("say", x)
+    say(1); say(2); say(3)
+    time.sleep(0.2)
+```
+
+### Questions
+
+1. Describe how the decorator debounces calls.
+2. What output is expected from the example?
+3. Modify to support an option `leading=True` to call immediately on first invocation.
+
+---
+
+## Q206
+
+### table_formatter.py
+
+```python
+def format_table(rows, padding=1):
+    cols = max(len(r) for r in rows)
+    widths = [0]*cols
+    for r in rows:
+        for i, v in enumerate(r):
+            widths[i] = max(widths[i], len(str(v)))
+    lines = []
+    for r in rows:
+        parts = []
+        for i in range(cols):
+            v = str(r[i]) if i < len(r) else ""
+            parts.append(v.ljust(widths[i]+padding))
+        lines.append("".join(parts).rstrip())
+    return "\n".join(lines)
+
+if __name__ == "__main__":
+    print(format_table([["id","name"], ["1","Alice"], ["2","Bob"]]))
+```
+
+### Questions
+
+1. How does padding affect alignment?
+2. What happens with ragged rows?
+3. Modify to allow per-column alignment (left/right/center).
+
+---
+
+## Q207
+
+### build_index.py
+
+```python
+def build_inverted_index(docs):
+    """
+    docs: dict id -> text
+    returns dict word -> set(ids)
+    """
+    idx = {}
+    for doc_id, text in docs.items():
+        for w in set(text.lower().split()):
+            idx.setdefault(w, set()).add(doc_id)
+    return idx
+
+if __name__ == "__main__":
+    docs = {1:"Hello world", 2:"Hello there"}
+    print(build_inverted_index(docs))
+```
+
+### Questions
+
+1. What inverted index is produced?
+2. Why use `set(text.split())` per doc?
+3. Modify to store word frequencies per doc instead of just sets.
+
+---
+
+## Q208
+
+### unique_emails.py
+
+```python
+def canonical_email(email):
+    local, at, domain = email.partition("@")
+    local = local.split("+",1)[0].replace(".", "")
+    return local + "@" + domain.lower()
+
+def unique_emails(emails):
+    return len({canonical_email(e) for e in emails})
+
+if __name__ == "__main__":
+    print(unique_emails(["a.b+x@EX.com","ab@ex.com"]))
+```
+
+### Questions
+
+1. What does the example return and why?
+2. Which email normalization rules are applied?
+3. Modify to handle domains that treat dots as significant (allow override).
+
+---
+
+## Q209
+
+### file_chunk_reader.py
+
+```python
+def read_chunks(path, chunk_size=4096):
+    with open(path, "rb") as f:
+        while True:
+            b = f.read(chunk_size)
+            if not b:
+                break
+            yield b
+
+if __name__ == "__main__":
+    # example usage omitted
+    pass
+```
+
+### Questions
+
+1. Why is binary mode used here?
+2. How can a caller process text lines using these chunks? Outline approach.
+3. Modify to yield overlapping windows of bytes of size `window_size`.
+
+---
+
+## Q210
+
+### flatten_nested_dicts.py
+
+```python
+def flatten_nested(d, parent_key="", sep="."):
+    items = []
+    for k, v in d.items():
+        new_key = parent_key + sep + k if parent_key else k
+        if isinstance(v, dict):
+            items.extend(flatten_nested(v, new_key, sep=sep).items())
+        else:
+            items.append((new_key, v))
+    return dict(items)
+
+if __name__ == "__main__":
+    print(flatten_nested({"a":{"b":1},"c":2}))
+```
+
+### Questions
+
+1. What flattened dict is printed?
+2. How are non-dict iterables (lists) treated?
+3. Modify to support a max depth parameter.
+
+---
+
+## Q211
+
+### sandbox_exec.py
+
+```python
+import ast, types
+
+def safe_exec(expr, allowed_names=None):
+    node = ast.parse(expr, mode="exec")
+    for n in ast.walk(node):
+        if isinstance(n, (ast.Import, ast.ImportFrom, ast.Call)):
+            raise ValueError("disallowed construct")
+    globs = {"__builtins__": {}}
+    if allowed_names:
+        globs.update(allowed_names)
+    locs = {}
+    exec(compile(node, "<string>", "exec"), globs, locs)
+    return locs
+
+if __name__ == "__main__":
+    print(safe_exec("a=1\nb=2\n", {}))
+```
+
+### Questions
+
+1. What constructs are blocked by this simple check?
+2. Why is `__builtins__` set to `{}`? What limitations does that impose?
+3. Discuss security pitfalls and suggest safer alternatives.
+
+---
+
+## Q212
+
+### overlapping_intervals.py
+
+```python
+def has_overlap(intervals):
+    intervals = sorted(intervals, key=lambda x: x[0])
+    last_end = None
+    for s, e in intervals:
+        if last_end is not None and s < last_end:
+            return True
+        last_end = max(last_end, e) if last_end is not None else e
+    return False
+
+if __name__ == "__main__":
+    print(has_overlap([(1,2),(3,4),(2,5)]))
+```
+
+### Questions
+
+1. Will the example return True or False? Explain.
+2. Why sort by start time first?
+3. Modify to return the overlapping pair when found.
+
+---
+
+## Q213
+
+### frequent_elements.py
+
+```python
+from collections import Counter
+
+def top_k(nums, k):
+    cnt = Counter(nums)
+    return [x for x, _ in cnt.most_common(k)]
+
+if __name__ == "__main__":
+    print(top_k([1,1,2,2,2,3], 2))
+```
+
+### Questions
+
+1. What does the example return?
+2. How does `most_common` order ties?
+3. Modify to return elements with counts above a given threshold.
+
+---
+
+## Q214
+
+### nth_prime.py
+
+```python
+def nth_prime(n):
+    if n < 1:
+        return None
+    count = 0
+    num = 1
+    while True:
+        num += 1
+        for i in range(2, int(num**0.5)+1):
+            if num % i == 0:
+                break
+        else:
+            count += 1
+            if count == n:
+                return num
+
+if __name__ == "__main__":
+    print(nth_prime(10))
+```
+
+### Questions
+
+1. What is the 10th prime printed by the example?
+2. Explain complexity and possible optimizations.
+3. Modify to use a simple sieve for better performance.
+
+---
+
+## Q215
+
+### unique_subseqs.py
+
+```python
+def unique_subsequences(s, k):
+    """
+    Return set of all unique substrings of length k.
+    """
+    out = set()
+    for i in range(len(s)-k+1):
+        out.add(s[i:i+k])
+    return out
+
+if __name__ == "__main__":
+    print(unique_subsequences("aaaa", 2))
+```
+
+### Questions
+
+1. What is returned for the example and why?
+2. How would the output differ for "ababa"?
+3. Modify to count occurrences of each substring instead of unique set.
+
+---
+
+## Q216
+
+### chunked_upload_sim.py
+
+```python
+def upload_chunks(chunks, uploader):
+    """
+    uploader: callable(chunk, idx) -> True/False
+    Return list of successful indices.
+    """
+    successes = []
+    for i, c in enumerate(chunks):
+        ok = uploader(c, i)
+        if ok:
+            successes.append(i)
+        else:
+            break
+    return successes
+
+if __name__ == "__main__":
+    def fake(c, i): return i != 2
+    print(upload_chunks([b"a",b"b",b"c",b"d"], fake))
+```
+
+### Questions
+
+1. What indices are returned by the example?
+2. Why might you want retries on failure instead of breaking?
+3. Modify to resume from last successful chunk given a resume index.
+
+---
+
+## Q217
+
+### sum_of_pairs_count.py
+
+```python
+def count_pairs(nums, target):
+    seen = {}
+    count = 0
+    for x in nums:
+        need = target - x
+        count += seen.get(need, 0)
+        seen[x] = seen.get(x, 0) + 1
+    return count
+
+if __name__ == "__main__":
+    print(count_pairs([1,1,2,3], 4))
+```
+
+### Questions
+
+1. What count is printed for the example?
+2. Why does the algorithm use a hashmap to count complements?
+3. Modify to return unique value pairs (unordered) instead of count.
+
+---
+
+## Q218
+
+### secure_compare.py
+
+```python
+import hmac
+
+def secure_equal(a, b):
+    return hmac.compare_digest(str(a), str(b))
+
+if __name__ == "__main__":
+    print(secure_equal("abc", "abc"))
+```
+
+### Questions
+
+1. Why use `compare_digest` instead of `==` for secrets?
+2. What types are safe to pass to `compare_digest`?
+3. Modify to accept bytes input and document encoding expectations.
+
+---
+
+## Q219
+
+### flatten_generator_depth_limited.py
+
+```python
+def flatten_limited(nested, max_depth=1, _depth=0):
+    for item in nested:
+        if _depth < max_depth and isinstance(item, (list, tuple)):
+            for x in flatten_limited(item, max_depth, _depth+1):
+                yield x
+        else:
+            yield item
+
+if __name__ == "__main__":
+    print(list(flatten_limited([1,[2,[3]]], max_depth=1)))
+```
+
+### Questions
+
+1. What is printed for max_depth=1?
+2. How does `max_depth` affect flattening?
+3. Modify to accept `max_items` to stop after yielding a limit.
+
+---
+
+## Q220
+
+### json_key_remap.py
+
+```python
+def remap_keys(d, mapping):
+    """
+    mapping: old_key -> new_key
+    """
+    out = {}
+    for k, v in d.items():
+        new_k = mapping.get(k, k)
+        if isinstance(v, dict):
+            out[new_k] = remap_keys(v, mapping)
+        else:
+            out[new_k] = v
+    return out
+
+if __name__ == "__main__":
+    print(remap_keys({"a":1,"b":{"a":2}}, {"a":"alpha"}))
+```
+
+### Questions
+
+1. What remapped dict is printed?
+2. Does mapping apply recursively? Explain.
+3. Modify so mapping values can be callables that transform the key or value.
+
+---
+
+## Q221
+
+### quantize_values.py
+
+```python
+def quantize(value, step):
+    """
+    Round value to nearest multiple of step.
+    """
+    return round(value / step) * step
+
+def quantize_list(lst, step):
+    return [quantize(x, step) for x in lst]
+
+if __name__ == "__main__":
+    print(quantize_list([0.12, 0.37, 0.89], 0.25))
+```
+
+### Questions
+
+1. What quantized list is produced for the example?
+2. How does `round` handle ties?
+3. Modify `quantize` to always floor or always ceil instead of nearest.
+
+---
+
+## Q222
+
+### url_query_merge.py
+
+```python
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
+
+def merge_query(url, params):
+    p = urlparse(url)
+    q = dict(parse_qsl(p.query))
+    q.update(params)
+    new_q = urlencode(q)
+    return urlunparse((p.scheme, p.netloc, p.path, p.params, new_q, p.fragment))
+
+if __name__ == "__main__":
+    print(merge_query("https://a.com/path?x=1", {"y":"2","x":"9"}))
+```
+
+### Questions
+
+1. What URL is produced by the example?
+2. How are duplicate keys handled?
+3. Modify to preserve multiple values per key (lists) instead of overriding.
+
+---
+
+## Q223
+
+### weighted_random_generator.py
+
+```python
+import random
+import bisect
+
+class WeightedGen:
+    def __init__(self, items, weights):
+        total = 0
+        self.cum = []
+        self.items = items
+        for w in weights:
+            total += w
+            self.cum.append(total)
+        self.total = total
+
+    def sample(self):
+        r = random.random() * self.total
+        i = bisect.bisect_right(self.cum, r)
+        return self.items[i]
+
+if __name__ == "__main__":
+    g = WeightedGen(["a","b"], [0.2, 0.8])
+    print(g.sample())
+```
+
+### Questions
+
+1. How does `sample()` choose an item probabilistically?
+2. What if all weights sum to zero?
+3. Modify to produce an iterator yielding infinite samples.
+
+---
+
+## Q224
+
+### event_bus.py
+
+```python
+from collections import defaultdict
+
+class EventBus:
+    def __init__(self):
+        self.handlers = defaultdict(list)
+
+    def subscribe(self, event, fn):
+        self.handlers[event].append(fn)
+
+    def publish(self, event, *args, **kwargs):
+        for fn in list(self.handlers.get(event, [])):
+            fn(*args, **kwargs)
+
+if __name__ == "__main__":
+    bus = EventBus()
+    bus.subscribe("m", lambda x: print("got", x))
+    bus.publish("m", 42)
+```
+
+### Questions
+
+1. What will the example print?
+2. Why iterate over `list(self.handlers.get(...))` instead of the original list?
+3. Modify to support asynchronous handlers (coroutines).
+
+---
+
+## Q225
+
+### sum_digits_base.py
+
+```python
+def sum_digits_base(n, base=10):
+    n = abs(n)
+    s = 0
+    while n:
+        s += n % base
+        n //= base
+    return s
+
+if __name__ == "__main__":
+    print(sum_digits_base(255, 16))
+```
+
+### Questions
+
+1. What is printed for 255 in base 16?
+2. How would you represent digits > 9 if needed?
+3. Modify to return the digit list instead of their sum.
+
+---
+
+## Q226
+
+### enumerate_recursive.py
+
+```python
+def enumerate_recursive(obj, prefix=()):
+    """
+    Yield (path_tuple, value) for nested dict/list structures.
+    """
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            yield from enumerate_recursive(v, prefix + (k,))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            yield from enumerate_recursive(v, prefix + (i,))
+    else:
+        yield prefix, obj
+
+if __name__ == "__main__":
+    data = {"a":[1, {"b":2}]}
+    for p, v in enumerate_recursive(data):
+        print(p, v)
+```
+
+### Questions
+
+1. What pairs (path, value) are printed?
+2. How are list indices represented in the path?
+3. Modify to accept a callback instead of yielding tuples.
+
+---
+
+## Q227
+
+### sparse_prefix_sum.py
+
+```python
+class SparsePrefix:
+    def __init__(self):
+        self.data = {}  # index->value
+
+    def add(self, idx, val):
+        self.data[idx] = self.data.get(idx, 0) + val
+
+    def prefix_sum(self, idx):
+        s = 0
+        for i, v in self.data.items():
+            if i <= idx:
+                s += v
+        return s
+
+if __name__ == "__main__":
+    sp = SparsePrefix(); sp.add(2,10); sp.add(5,3)
+    print(sp.prefix_sum(4))
+```
+
+### Questions
+
+1. What prefix sum is printed for idx=4?
+2. Why is this naive approach O(n) per query and how to optimize?
+3. Modify to use a Binary Indexed Tree (Fenwick) for faster updates/queries.
+
+---
+
+## Q228
+
+### json_sort_keys.py
+
+```python
+import json
+
+def json_sorted(obj):
+    return json.dumps(obj, sort_keys=True)
+
+if __name__ == "__main__":
+    print(json_sorted({"b":1,"a":2}))
+```
+
+### Questions
+
+1. What string is printed and why is sorting useful?
+2. How does this affect nested dict ordering?
+3. Modify to pretty-print with indentation and stable key order.
+
+---
+
+## Q229
+
+### find_longest_word.py
+
+```python
+def longest_word(words):
+    if not words:
+        return None
+    best = words[0]
+    for w in words[1:]:
+        if len(w) > len(best):
+            best = w
+    return best
+
+if __name__ == "__main__":
+    print(longest_word(["a","abc","ab"]))
+```
+
+### Questions
+
+1. What is the longest word returned?
+2. How to return all words tied for longest?
+3. Modify to handle streaming input (generator of words).
+
+---
+
+## Q230
+
+### normalize_whitespace.py
+
+```python
+import re
+
+def normalize_ws(s):
+    return re.sub(r'\s+', ' ', s).strip()
+
+if __name__ == "__main__":
+    print(normalize_ws("  hello \n\t world  "))
+```
+
+### Questions
+
+1. What is printed after normalization?
+2. Why use regex instead of `split()` + `join()`?
+3. Modify to preserve single newlines while collapsing other whitespace.
+
+---
+
+## Q231
+
+### compute_similarity_jaccard.py
+
+```python
+def jaccard(a, b):
+    sa, sb = set(a), set(b)
+    inter = sa & sb
+    union = sa | sb
+    return len(inter) / len(union) if union else 1.0
+
+if __name__ == "__main__":
+    print(jaccard([1,2,3], [2,3,4]))
+```
+
+### Questions
+
+1. What Jaccard similarity does the example produce?
+2. How is empty-union handled?
+3. Modify to compute weighted Jaccard for multisets.
+
+---
+
+## Q232
+
+### binary_gap.py
+
+```python
+def binary_gap(n):
+    b = bin(n)[2:].strip('0')
+    return max((len(x) for x in b.split('1') if x), default=0)
+
+if __name__ == "__main__":
+    print(binary_gap(9))  # 1001 -> gap 2
+```
+
+### Questions
+
+1. What value is printed for n=9?
+2. Explain why `strip('0')` is used.
+3. Modify to return positions (start,end) of the largest gap.
+
+---
+
+## Q233
+
+### stream_word_count.py
+
+```python
+from collections import Counter
+import sys
+
+def stream_count_words():
+    cnt = Counter()
+    for line in sys.stdin:
+        for w in line.split():
+            cnt[w] += 1
+    return cnt
+
+if __name__ == "__main__":
+    # usage: echo "a b a" | python script.py
+    pass
+```
+
+### Questions
+
+1. How does the function process streaming input?
+2. How to make it memory-bounded (approximate counts)?
+3. Modify to report top-K words periodically (e.g., every N lines).
+
+---
+
+## Q234
+
+### sum_two_largest.py
+
+```python
+def sum_two_largest(nums):
+    if not nums:
+        return 0
+    a = b = float('-inf')
+    for x in nums:
+        if x > a:
+            b = a; a = x
+        elif x > b:
+            b = x
+    return (a if a!=-float('inf') else 0) + (b if b!=-float('inf') else 0)
+
+if __name__ == "__main__":
+    print(sum_two_largest([5,1,3]))
+```
+
+### Questions
+
+1. What is printed by the example?
+2. How does algorithm handle negative numbers and single-element lists?
+3. Modify to return indices of the two largest elements.
+
+---
+
+## Q235
+
+### time_series_resample.py
+
+```python
+from datetime import datetime, timedelta
+
+def resample_daily(points):
+    """
+    points: list of (datetime, value) unsorted. Return dict date->sum.
+    """
+    out = {}
+    for dt, v in points:
+        d = dt.date()
+        out[d] = out.get(d, 0) + v
+    return out
+
+if __name__ == "__main__":
+    print(resample_daily([(datetime(2025,1,1,10),1),(datetime(2025,1,1,22),2)]))
+```
+
+### Questions
+
+1. What daily sums are produced in the example?
+2. How to handle timezone-aware datetimes?
+3. Modify to return a complete uninterrupted date range filling missing dates with zero.
+
+---
+
+## Q236
+
+### second_largest.py
+
+```python
+def second_largest(nums):
+    if len(nums) < 2:
+        return None
+    first = second = float('-inf')
+    for x in nums:
+        if x > first:
+            second = first; first = x
+        elif first > x > second:
+            second = x
+    return None if second == float('-inf') else second
+
+if __name__ == "__main__":
+    print(second_largest([3,1,3,2]))
+```
+
+### Questions
+
+1. What second largest value is returned for the example?
+2. How are duplicates of the largest value treated?
+3. Modify to return the second largest distinct value or `None` if not present.
+
+---
+
+## Q237
+
+### validate_brackets_types.py
+
+```python
+def validate(s, pairs={'(':')','[':']','{':'}'}):
+    stack = []
+    for ch in s:
+        if ch in pairs:
+            stack.append(ch)
+        elif ch in pairs.values():
+            if not stack or pairs[stack.pop()] != ch:
+                return False
+    return not stack
+
+if __name__ == "__main__":
+    print(validate("{[()]}"))
+```
+
+### Questions
+
+1. What does the example return?
+2. Why pop before comparison?
+3. Modify to ignore bracket-like characters inside string literals (quotes).
+
+---
+
+## Q238
+
+### escape_html_text.py
+
+```python
+import html
+
+def escape_html(s):
+    return html.escape(s)
+
+if __name__ == "__main__":
+    print(escape_html('<div class="x">Hello & Goodbye</div>'))
+```
+
+### Questions
+
+1. What does the example print after escaping?
+2. When would you prefer `html.escape(..., quote=False)`?
+3. Modify to selectively escape only `<` and `&` but not quotes.
+
+---
+
+## Q239
+
+### k_closest_points_origin.py
+
+```python
+import heapq
+import math
+
+def k_closest(points, k):
+    heap = []
+    for x, y in points:
+        d = -(x*x + y*y)  # use max-heap via negatives
+        if len(heap) < k:
+            heapq.heappush(heap, (d, (x,y)))
+        else:
+            if d > heap[0][0]:
+                heapq.heapreplace(heap, (d, (x,y)))
+    return [p for _, p in heap]
+
+if __name__ == "__main__":
+    print(k_closest([(1,2),(3,4),(0,1)], 2))
+```
+
+### Questions
+
+1. What two points are returned for the example?
+2. Why use negative squared distance?
+3. Modify to return points sorted by increasing distance.
+
+---
+
+## Q240
+
+### parse_key_value_file.py
+
+```python
+def parse_kv(path):
+    d = {}
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            if not line.strip() or line.strip().startswith("#"):
+                continue
+            if "=" in line:
+                k, v = line.split("=",1)
+                d[k.strip()] = v.strip()
+    return d
+
+if __name__ == "__main__":
+    # usage example omitted
+    pass
+```
+
+### Questions
+
+1. How does parser handle comments and blank lines?
+2. What if a value contains `=` characters?
+3. Modify to support quoted values (strip surrounding quotes).
+
+---
+
+## Q241
+
+### group_by_window.py
+
+```python
+from collections import defaultdict
+
+def group_by_window(items, window_size):
+    out = defaultdict(list)
+    for i, x in enumerate(items):
+        out[i // window_size].append(x)
+    return dict(out)
+
+if __name__ == "__main__":
+    print(group_by_window(list(range(10)), 3))
+```
+
+### Questions
+
+1. What groups does the example produce?
+2. How to handle variable-length final window?
+3. Modify to return list of lists instead of dict keyed by window index.
+
+---
+
+## Q242
+
+### float_histogram.py
+
+```python
+import bisect
+
+def float_hist(vals, edges):
+    counts = [0]*(len(edges)-1)
+    for v in vals:
+        i = bisect.bisect_right(edges, v) - 1
+        if 0 <= i < len(counts):
+            counts[i] += 1
+    return counts
+
+if __name__ == "__main__":
+    print(float_hist([0.5,1.2,3.4], [0,1,2,4]))
+```
+
+### Questions
+
+1. What counts are produced for the example?
+2. Why use `bisect_right` then -1?
+3. Modify to return normalized densities (counts divided by bin width).
+
+---
+
+## Q243
+
+### ordered_unique.py
+
+```python
+def ordered_unique(seq):
+    seen = set()
+    out = []
+    for x in seq:
+        if x not in seen:
+            seen.add(x)
+            out.append(x)
+    return out
+
+if __name__ == "__main__":
+    print(ordered_unique([1,2,1,3,2]))
+```
+
+### Questions
+
+1. What list is printed for the example?
+2. How does this preserve original order?
+3. Modify to allow a key function for uniqueness test.
+
+---
+
+## Q244
+
+### longest_run.py
+
+```python
+def longest_run(nums):
+    best = cur = nums[0] if nums else None
+    best_len = cur_len = 1 if nums else 0
+    for i in range(1, len(nums)):
+        if nums[i] == nums[i-1]:
+            cur_len += 1
+        else:
+            if cur_len > best_len:
+                best_len = cur_len; best = nums[i-1]
+            cur_len = 1
+    if cur_len > best_len:
+        best_len = cur_len; best = nums[-1]
+    return best, best_len
+
+if __name__ == "__main__":
+    print(longest_run([1,1,2,2,2,3]))
+```
+
+### Questions
+
+1. What is the longest run and its length in the example?
+2. How would you adapt to find longest increasing run instead?
+3. Modify to return start and end indices of the longest run.
+
+---
+
+## Q245
+
+### responsive_sleep.py
+
+```python
+import time
+
+def responsive_sleep(total, step=0.1, should_stop=lambda: False):
+    elapsed = 0.0
+    while elapsed < total:
+        if should_stop():
+            return False
+        time.sleep(min(step, total - elapsed))
+        elapsed += step
+    return True
+
+if __name__ == "__main__":
+    print(responsive_sleep(0.5))
+```
+
+### Questions
+
+1. What does the function return when not interrupted?
+2. Why sleep in small steps instead of one long sleep?
+3. Modify to accept an event object (`threading.Event`) to wait on.
+
+---
+
+## Q246
+
+### detect_duplicates_sorted.py
+
+```python
+def has_duplicates_sorted(a):
+    for i in range(1, len(a)):
+        if a[i] == a[i-1]:
+            return True
+    return False
+
+if __name__ == "__main__":
+    print(has_duplicates_sorted([1,2,2,3]))
+```
+
+### Questions
+
+1. What does the example return?
+2. What precondition on `a` is required?
+3. Modify to return the duplicate value(s) found.
+
+---
+
+## Q247
+
+### chunked_json_write.py
+
+```python
+import json
+
+def write_json_array(path, items, chunk_size=1000):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("[")
+        first = True
+        for i, it in enumerate(items):
+            if not first:
+                f.write(",")
+            else:
+                first = False
+            json.dump(it, f)
+        f.write("]")
+
+if __name__ == "__main__":
+    # usage example omitted
+    pass
+```
+
+### Questions
+
+1. How does this avoid building the entire list in memory?
+2. What happens if `items` is a generator?
+3. Modify to pretty-print with newlines after each item for readability.
+
+---
+
+## Q248
+
+### replace_nth_occurrence.py
+
+```python
+def replace_nth(s, old, new, n):
+    idx = -1
+    for _ in range(n):
+        idx = s.find(old, idx+1)
+        if idx == -1:
+            return s
+    return s[:idx] + new + s[idx+len(old):]
+
+if __name__ == "__main__":
+    print(replace_nth("a b a b a", "a", "X", 2))
+```
+
+### Questions
+
+1. What string is produced by the example?
+2. How does the function behave when fewer than `n` occurrences exist?
+3. Modify to replace the nth occurrence from the end.
+
+---
+
+## Q249
+
+### rolling_window_stats.py
+
+```python
+from collections import deque
+
+def rolling_stats(seq, k):
+    dq = deque()
+    s = 0
+    for x in seq:
+        dq.append(x); s += x
+        if len(dq) > k:
+            s -= dq.popleft()
+        if len(dq) == k:
+            yield s / k, min(dq), max(dq)
+
+if __name__ == "__main__":
+    print(list(rolling_stats([1,2,3,4,5], 3)))
+```
+
+### Questions
+
+1. What triples (mean,min,max) are yielded for the example?
+2. Why keep deque of size at most k?
+3. Modify to return variance in addition to mean.
+
+---
+
+## Q250
+
+### find_triplets_sum_zero.py
+
+```python
+def three_sum(nums):
+    nums.sort()
+    res = []
+    n = len(nums)
+    for i in range(n):
+        if i > 0 and nums[i] == nums[i-1]:
+            continue
+        l, r = i+1, n-1
+        while l < r:
+            s = nums[i] + nums[l] + nums[r]
+            if s == 0:
+                res.append([nums[i], nums[l], nums[r]])
+                l += 1; r -= 1
+                while l < r and nums[l] == nums[l-1]:
+                    l += 1
+                while l < r and nums[r] == nums[r+1]:
+                    r -= 1
+            elif s < 0:
+                l += 1
+            else:
+                r -= 1
+    return res
+
+if __name__ == "__main__":
+    print(three_sum([-1,0,1,2,-1,-4]))
+```
+
+### Questions
+
+1. What triplets are returned for the example?
+2. Explain why sorting helps and how duplicates are skipped.
+3. Modify to find triplets that sum to a given target instead of zero.
