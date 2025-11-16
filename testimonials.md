@@ -46,3 +46,7 @@
 
 13. Jerin - Accouting to GenAI Engineer
 ![1763290677585](image/testimonials/1763290677585.png)
+
+
+14. Jerin
+![1763291227255](image/testimonials/1763291227255.png)
