@@ -6,7 +6,7 @@
 
 
 
-### 1
+### 1. Instance vs Class
 ```
 simple_print.py:
 
