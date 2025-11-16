@@ -534,3 +534,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Agenthon
   * [Benfits of Ambassadors](kactii-ambassadors.md)
+
+## Python
+  * [Python Coding Questions](python-coding-questions.md)
