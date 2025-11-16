@@ -58,3 +58,5 @@
 ![1763292744902](image/testimonials/1763292744902.png)
 [Ref](https://www.linkedin.com/posts/meeran23_gratitude-innovation-globalachievement-activity-7394707760988459008-ssja?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
 
+16. Our students become mentors
+[Shaping the next Generation](https://www.linkedin.com/posts/dr-divya-j-77743014b_nextgentech-stjosephsgroupofinstitutions-ugcPost-7153794544717713409-K_V_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
