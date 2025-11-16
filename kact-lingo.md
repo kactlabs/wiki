@@ -21,7 +21,7 @@
 17. WA - WhatsApp
 18. BDB - Big Data Boss / Bigg Data Boss
 19. IA - Independent Agent
-
+20. tcode - Tact code to get more info, references
 
 
 ## Kact Mythraki:
