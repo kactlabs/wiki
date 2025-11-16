@@ -59,4 +59,13 @@
 [Ref](https://www.linkedin.com/posts/meeran23_gratitude-innovation-globalachievement-activity-7394707760988459008-ssja?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
 
 16. Our students become mentors
-[Shaping the next Generation](https://www.linkedin.com/posts/dr-divya-j-77743014b_nextgentech-stjosephsgroupofinstitutions-ugcPost-7153794544717713409-K_V_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
+![1763293166212](image/testimonials/1763293166212.png)
+[Shaping the next Generation - LinkedIn](https://www.linkedin.com/posts/dr-divya-j-77743014b_nextgentech-stjosephsgroupofinstitutions-ugcPost-7153794544717713409-K_V_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
+
+
+17. Our Alumni becomes a mentor and a great influencer - Feb 2025
+![1763293270191](image/testimonials/1763293270191.png)
+[AWS Influencer - Mentor](https://www.linkedin.com/posts/jeevitha-murugan-357979223_one-year-intense-life-changing-year-as-activity-7298951230268002304-PFhJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
+
+
+18. 
