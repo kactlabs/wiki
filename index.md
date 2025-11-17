@@ -506,6 +506,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
   * [LinkedIn GenAI Influencers](linkedin-genai-influencers.md)
   * [Lowkey Founders](lowkey-founders-1.md)
+  * [GenAI Resources](genai-resources.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
