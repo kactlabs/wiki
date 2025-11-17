@@ -507,6 +507,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [LinkedIn GenAI Influencers](linkedin-genai-influencers.md)
   * [Lowkey Founders](lowkey-founders-1.md)
   * [GenAI Resources](genai-resources.md)
+  * [GenAI LinkedIn Posts](genai-linkedin-posts.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
