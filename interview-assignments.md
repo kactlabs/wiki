@@ -211,3 +211,102 @@ Should be done as IA (Independent Agent)
 
 [product-quote1.pdf](product-quote1.pdf)
 [product-quote2.pdf](product-quote2.pdf)
+
+
+22. Rewrite content with DelinkinedLink
+```
+input:
+1. AI-For-Beginners (Microsoft):
+A complete 12-week curriculum covering AI fundamentals from classical AI to ethics.
+Link: https://lnkd.in/ehVdWc5U
+
+2. ML-For-Beginners (Microsoft):
+End-to-end introduction to ML with projects, visual explanations, and Jupyter notebooks.
+Link: https://lnkd.in/eTgeEGNa
+
+3. Generative-AI-For-Beginners (Microsoft):
+A modern guide to generative AI and LLM fundamentals your entry into real-world GenAI.
+Link: https://lnkd.in/ekJ2jDgB
+
+4. AI-Agents-For-Beginners (Microsoft):
+Learn the principles of AI agents and how they work in real-world scenarios.
+Link: https://lnkd.in/ewnSQzxc
+
+𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 𝐋𝐞𝐯𝐞𝐥 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 & 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
+
+5. Learn-AI-Engineering:
+Curated roadmap covering AI/ML fundamentals, LLMs, RAG, and deployment practices.
+Link: https://lnkd.in/e6KqP2qu
+
+6. AI-Engineering-Hub:
+Practical tutorials on RAG, vector databases, and AI agent architectures.
+Link: https://lnkd.in/e6ysXemU
+
+7. EdgeAI-For-Beginners (Microsoft):
+Learn to deploy AI models on edge devices ideal for DevOps or IoT professionals.
+Link: https://lnkd.in/e7SerUbs
+
+
+output:
+
+1. AI-For-Beginners (Microsoft):
+A complete 12-week curriculum covering AI fundamentals from classical AI to ethics.
+Link: https://lnkd.in/ehVdWc5U
+
+2. ML-For-Beginners (Microsoft):
+End-to-end introduction to ML with projects, visual explanations, and Jupyter notebooks.
+Link: https://lnkd.in/eTgeEGNa
+
+3. Generative-AI-For-Beginners (Microsoft):
+A modern guide to generative AI and LLM fundamentals your entry into real-world GenAI.
+Link: https://lnkd.in/ekJ2jDgB
+
+4. AI-Agents-For-Beginners (Microsoft):
+Learn the principles of AI agents and how they work in real-world scenarios.
+Link: https://lnkd.in/ewnSQzxc
+
+𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 𝐋𝐞𝐯𝐞𝐥 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 & 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
+
+5. Learn-AI-Engineering:
+Curated roadmap covering AI/ML fundamentals, LLMs, RAG, and deployment practices.
+Link: https://lnkd.in/e6KqP2qu
+
+6. AI-Engineering-Hub:
+Practical tutorials on RAG, vector databases, and AI agent architectures.
+Link: https://lnkd.in/e6ysXemU
+
+7. EdgeAI-For-Beginners (Microsoft):
+Learn to deploy AI models on edge devices ideal for DevOps or IoT professionals.
+Link: https://lnkd.in/e7SerUbs
+
+output:
+1. AI-For-Beginners (Microsoft):
+A complete 12-week curriculum covering AI fundamentals from classical AI to ethics.
+Link: https://github.com/microsoft/AI-For-Beginners
+
+2. ML-For-Beginners (Microsoft):
+End-to-end introduction to ML with projects, visual explanations, and Jupyter notebooks.
+Link: https://github.com/microsoft/ML-For-Beginners
+
+3. Generative-AI-For-Beginners (Microsoft):
+A modern guide to generative AI and LLM fundamentals your entry into real-world GenAI.
+Link: https://lnkd.in/ekJ2jDgB
+
+4. AI-Agents-For-Beginners (Microsoft):
+Learn the principles of AI agents and how they work in real-world scenarios.
+Link: https://github.com/microsoft/ai-agents-for-beginners
+
+𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 𝐋𝐞𝐯𝐞𝐥 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 & 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
+
+5. Learn-AI-Engineering:
+Curated roadmap covering AI/ML fundamentals, LLMs, RAG, and deployment practices.
+Link: https://lnkd.in/e6KqP2qu
+
+6. AI-Engineering-Hub:
+Practical tutorials on RAG, vector databases, and AI agent architectures.
+Link: https://github.com/patchy631/ai-engineering-hub
+
+7. EdgeAI-For-Beginners (Microsoft):
+Learn to deploy AI models on edge devices ideal for DevOps or IoT professionals.
+Link: https://github.com/microsoft/edgeai-for-beginners
+```
