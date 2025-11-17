@@ -3,12 +3,12 @@
 ## Kact Alumni list
 
 
-### Season 1
+### Season 1: 2018 Nov - Jan 2019
 ```
 2019: Nov 2018 - Jan 2019: Sathyabama
-1. Divya - AP - Settled down in California
-2. Vinay - https://www.linkedin.com/in/srivinaya/
-3. TBD
+1. Divya Maddipudi - AP - Settled down in California - AWS - [Divya LinkedIn](https://www.linkedin.com/in/satyadivya-maddipudi/)
+2. Vinay - [Vinay - LinkedIn](https://www.linkedin.com/in/srivinaya/)
+3. Sreenath
 ```
 
 
@@ -25,10 +25,10 @@
 7. Purnima
 ```
 
-### Season 3
+### Season 3: Jan 2019 - March 2019
 ```
 2019:
-8. Rakesh
+8. Rakesh Asapanna - [Rakesh](https://www.linkedin.com/in/asapanna-rakesh/)
     - Working in ML
 ```
 
@@ -55,11 +55,11 @@
 ```
 2020:
 
-16. Alvis
-17. Vaishnavi
-18. Kamal - Studying in Germany
-19. Charles Samuel R
-20. Vaishnavi Katikala
+16. Alvis - [Alvis - LinkedIn](https://www.linkedin.com/in/alvisf/)
+17. Vaishnavi - [Vaishnavi - LinkedIn](https://www.linkedin.com/in/vaishnavi-v-8a2512319/)
+18. Kamal - Studying in Germany - [Kamal - LinkedIn](https://www.linkedin.com/in/kamal-khumar/)
+19. Charles Samuel R - [Charles Samuel - LinkedIn](https://www.linkedin.com/in/charliecsr15/)
+20. Vaishnavi Katikala - [Vaishnavi](https://www.linkedin.com/in/vyshnavi-katikala/)
 
 17 in this batch
 ```
@@ -131,6 +131,11 @@ Darince
 
 ### Misc:
 ```
+Snekha
+https://www.linkedin.com/in/snekhasuresh21/
+https://www.linkedin.com/posts/snekhasuresh21_internship-tactlabs-tech-activity-7009883050117382144-CXxm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8
+January 4, 2022 to September 24, 2022
+
 https://www.linkedin.com/in/aishwarya-ramaswami-69425b178/
 Jul 2020 - Oct 2020
 4 mos
