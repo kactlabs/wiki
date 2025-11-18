@@ -310,3 +310,20 @@ Link: https://github.com/patchy631/ai-engineering-hub
 Learn to deploy AI models on edge devices ideal for DevOps or IoT professionals.
 Link: https://github.com/microsoft/edgeai-for-beginners
 ```
+
+
+
+## 23.
+```
+.gitignore:
+
+uploads
+!uploads/.gitkeep
+static/generated/
+!static/generated/.gitkeep
+logs/
+*.log
+
+
+Explain this
+```
