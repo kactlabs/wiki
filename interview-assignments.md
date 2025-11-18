@@ -313,7 +313,7 @@ Link: https://github.com/microsoft/edgeai-for-beginners
 
 
 
-## 23.
+## 23. Git Ignore
 ```
 .gitignore:
 
