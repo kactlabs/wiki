@@ -45,4 +45,10 @@
 
 16.how do you create a "requirements.txt" file
 
-17.
+17.send me your mylearning
+
+18.create a branch
+
+19.how to change the branch
+
+20.how do you record the video to the clound on zoom

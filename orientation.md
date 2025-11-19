@@ -28,11 +28,13 @@
 
 - openrouter
 
+- Zoom
+
 - Sublime
 
 - GitHub
 
-- GitBook 
+- GitBook (mylearning created)
 
 - Kaggle
 
@@ -50,6 +52,7 @@
 
 - pynotes
 
+- kact folder created
 
 - Maintain Gitbook for 7-30 days
 	https://stevejoe1412s-personal.gitbook.io/mylearning/
