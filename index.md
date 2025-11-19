@@ -98,7 +98,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Orientation
   * [Daily Log](daily-log.md)
   * [Employee Orientation](employee-orientation.md)
-  * [Oreintation Test](orientation-test)
+  * [Orientation Test](orientation-test)
 ## Documentation
   * [Docker with Langfuse Local Setup Guide](docker-with-langfuse-local-setup-guide.md)
 
