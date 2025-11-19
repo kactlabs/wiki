@@ -7,7 +7,7 @@
 
 ### Sample Starting Post:
 ```
-I have started my GenAI Learning Challenge initiated by Kactii Academy.
+I have started my 100 Days GenAI Learning Challenge initiated by Kactii Academy.
 
 You will see my regular posts for the next 100 days. My posts will be related to my learning in GenAI and Python.
 You may not see any sequence but random topics that I will be learning in GenAI.
@@ -20,7 +20,7 @@ Let's Learn GenAI together!
 
 ### Tags:
 ```
-#GenAIAgents #GenAILearning
+#GenAI #GenAIAgents #GenAILearning
 #Learning #EdTech
 #KactiiAcademy #Kactii
 ```
