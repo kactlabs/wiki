@@ -150,6 +150,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## StanfordNLP
   * [Stanford-NLP](stanford-nlp.md)
 
+## Orientation Test
+  * [Oreintation Test](orientation-test)
 
 ## Git
   * [Git Commands](git-commands.md)
