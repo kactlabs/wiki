@@ -52,3 +52,7 @@
 19.how to change the branch
 
 20.how do you record the video to the clound on zoom
+
+21.what you have to do when you first login 
+
+22.what you have to when you are a host?
