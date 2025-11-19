@@ -539,3 +539,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Python
   * [Python Coding Questions](python-coding-questions.md)
+
+## CSP
+  * [CSP - PyPI](csp-pypi.md)
