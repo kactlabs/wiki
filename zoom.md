@@ -63,6 +63,10 @@ Or here:
 4. NEVER END THE MEET unless explicitly told to do so. (Donot end the meet when other interns are working)
     host/co-host should leave the meet only after assigning host to one of the other interns working in the meet.
 5. If you loggedin as admin, please log out when you leave to avoid login back conflicts
+6. If you are a host you have to give co-host to the respected people.
+7. Make sure to ask the and educate the team members that they also should come and ask to the Host for a co-host permission.
+8. If you are joining the meet and you need a co-host go and ask the host for a co-host.
+9. When you are a co-host and someone with unknown name or the person you do not know do not let him in.
 
 ### Zoom Room Rules:
 1. Every room should have a decent name (pick random topics like islands)
