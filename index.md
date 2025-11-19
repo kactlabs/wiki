@@ -458,6 +458,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Jina AI Challenge](jina-ai.md)
   * [100 Days of Gamified Learning Challenge](100-days-gamified-learning-challenge.md)
   * [Gamified GenAI and Data Collection](gamified-genai.md)
+  * [100 Days Kactii GenAI Learning Challenge](100-days-kactii-genai-learning-challenge.md)
 
 ## Azure
   * [Azure Container Apps Commands](azure-container-apps-commands.md)
@@ -508,7 +509,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Lowkey Founders](lowkey-founders-1.md)
   * [GenAI Resources](genai-resources.md)
   * [GenAI LinkedIn Posts](genai-linkedin-posts.md)
-  * [100 Days Kactii GenAI Learning Challenge](100-days-kactii-genai-learning-challenge.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
