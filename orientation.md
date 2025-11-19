@@ -8,17 +8,48 @@
 
 
 ```
-- DL Log
+- dl Log
 
-- 
+- error-archive
+
+- effort logs
+
+- Googlesheet to update the logs(Personal Timesheet)
+
+- Googlesheet access for Employee-Intern Timesheet
 
 - Python, Miniconda, Jupyter
 
-- 
+- kiro
 
-- GitHub, GitBook, Kaggle, HuggingFace, DockerHub
+- VS code
+
+- Gemini api key 
+
+- openrouter
+
+- Sublime
+
+- GitHub
+
+- GitBook 
+
+- Kaggle
+
+- HuggingFace 
+
+- DockerHub
+
+- Substack
+
+- pypinindia
 
 - Git and SSH
+
+- Slack
+
+- pynotes
+
 
 - Maintain Gitbook for 7-30 days
 	https://stevejoe1412s-personal.gitbook.io/mylearning/
@@ -26,5 +57,4 @@
 - Python 100 Assignments
 	- Finish within 2 days
 
-- Flast 10 Assignments
 ```
