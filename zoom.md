@@ -66,7 +66,7 @@ Or here:
 
 ### Zoom Room Rules:
 1. Every room should have a decent name (pick random topics like islands)
-2. 8-20 rooms should be created
+2. 11-20 rooms should be created
 3. Private room must be there and keep it as last room. Private room is only for Manager/Guest. Don't come into private room without any prior approvals.
 4. Room number count should be a prime number
     ```
@@ -74,6 +74,22 @@ Or here:
     2	3	5	7	11	13	17	19	23	29
     31	37	41	43	47	53	59	61	67	71
     ```
+
+## How to record on zoom
+
+1.click on the record option below
+
+![alt text](zoom-record.png)
+
+2.choose "record to the cloud" option and record the sessions to the cloud not your local.
+
+## Note 
+* If you are not in the main room and click on the record option the recoding will be save to Your local,it will not be saved to cloud
+
+* If you want to record the session in the cloud make sure you are in the main room
+
+
+
 
 
 ### Zoom Recording Saving Format
