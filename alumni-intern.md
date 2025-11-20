@@ -16,7 +16,7 @@
 | 10 | 5 | 2019 | Sanjana | - |
 | 11 | 5 | 2019 | Rohith | - |
 | 12 | 5 | 2019 | Hariprasad | [LinkedIn](https://www.linkedin.com/in/hari-prasad-gurunathan/), [GitHub](https://github.com/hariprasad1003) |
-| 13 | 5 | 2019 | Eswaraprasad | - |
+| 13 | 5 | 2019 | Eswaraprasad | [https://www.linkedin.com/in/eswara-prasad/](https://www.linkedin.com/in/eswara-prasad/) |
 | 14 | 5 | 2019 | Divya | - |
 | 15 | 5 | 2019 | Gokul | - |
 | 16 | 6 | 2020 | Alvis | [LinkedIn](https://www.linkedin.com/in/alvisf/) |
@@ -55,4 +55,9 @@
 | 49 | 9 | 2023 | Roshan | - |
 | 50 | 9 | 2023 | Ashmi | - |
 | 51 | 9 | 2023 | Darince | - |
+| 52 | 10 | 2025 | Jerin | [https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/](https://www.linkedin.com/in/jerin-arockia-dass-aa7944271/) |
+| 53 | 10 | 2025 | Gajalakshmi | [https://www.linkedin.com/in/gajalakshmi-samayadurai-a9832b232/](https://www.linkedin.com/in/gajalakshmi-samayadurai-a9832b232/) |
+| 54 | 10 | 2025 | Meeran | [https://www.linkedin.com/in/meeran23/](https://www.linkedin.com/in/meeran23/) |
+| 55 | 10 | 2025 | Stefina | [https://www.linkedin.com/in/stefina1109/](https://www.linkedin.com/in/stefina1109/) |
+| 56 | 10 | 2025 | Sara Sakeena | [https://www.linkedin.com/in/sara-sakeena-07ba09353/](https://www.linkedin.com/in/sara-sakeena-07ba09353/) |
 
