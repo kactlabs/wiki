@@ -41,10 +41,10 @@ You should see like this:
 (base) 
 
 Run this command:
-conda create -n py38 -y python=3.8
+conda create -n py12 -y python=3.12
 
 To activate conda:
-conda activate py38
+conda activate py12
 
 To deactivate:
 conda deactivate
