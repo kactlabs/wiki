@@ -24,18 +24,18 @@
 | 18 | 6 | 2020 | Kamal | Studying in Germany, [LinkedIn](https://www.linkedin.com/in/kamal-khumar/) |
 | 19 | 6 | 2020 | Charles Samuel R | [LinkedIn](https://www.linkedin.com/in/charliecsr15/) |
 | 20 | 6 | 2020 | Vaishnavi Katikala | [LinkedIn](https://www.linkedin.com/in/vyshnavi-katikala/) |
-| 21 | 6 | 2020 | Ajesh | - |
-| 22 | 6 | 2020 | Roughit | - |
-| 23 | 6 | 2020 | Prakash | - |
+| 21 | 6 | 2020 | Ajesh | [https://www.linkedin.com/in/ajesh-martin/](https://www.linkedin.com/in/ajesh-martin/) |
+| 22 | 6 | 2020 | Roughit | [https://www.linkedin.com/in/roughit-srinivasan-39a70120a/](https://www.linkedin.com/in/roughit-srinivasan-39a70120a/) |
+| 23 | 6 | 2020 | Prakash Ramanathan | [https://www.linkedin.com/in/prakashramanathan1211/](https://www.linkedin.com/in/prakashramanathan1211/) |
 | 24 | 6 | 2020 | Vedha | [GitHub](https://github.com/VedhaSankar) |
-| 25 | 6 | 2020 | Talha | - |
-| 26 | 6 | 2020 | Ishitha | - |
+| 25 | 6 | 2020 | Talha Abdur Rahman | [https://www.linkedin.com/in/talhaabdurrahman/](https://www.linkedin.com/in/talhaabdurrahman/) |
+| 26 | 6 | 2020 | Ishita Gopalakrishnan | [https://www.linkedin.com/in/ishitagopalakrishnan/](https://www.linkedin.com/in/ishitagopalakrishnan/) |
 | 27 | 6 | 2020 | Aishwarya Ramaswami | Jul 2020 - Oct 2020 (4 mos), [LinkedIn](https://www.linkedin.com/in/aishwarya-ramaswami-69425b178/) |
 | 28 | 7 | 2021 | Harini | - |
-| 29 | 7 | 2021 | Sanjju | - |
+| 29 | 7 | 2021 | Sanjjushri Varshini | [https://www.linkedin.com/in/sanjjushri/](https://www.linkedin.com/in/sanjjushri/) |
 | 30 | 7 | 2021 | Chaaya | [GitHub](https://github.com/orgs/kactvee/people/chaayagirimon) |
 | 31 | 7 | 2021 | Rajarajeswari | - |
-| 32 | 7 | 2021 | Saaisri | - |
+| 32 | 7 | 2021 | Saaisri | [https://www.linkedin.com/in/saaisri-v-n-a97768207/](https://www.linkedin.com/in/saaisri-v-n-a97768207/) |
 | 33 | 7 | 2021 | Elakia | [GitHub](https://github.com/orgs/kactvee/people/elakiavm) |
 | 34 | 7 | 2021 | Ishita Gopalakrishnan | Apr 2021 - Jun 2022 (1 yr 3 mos), [LinkedIn](https://www.linkedin.com/in/ishitagopalakrishnan/) |
 | 35 | 8 | 2022 | Nagul | [GitHub](https://github.com/orgs/kactvee/people/Nagulraj) |
