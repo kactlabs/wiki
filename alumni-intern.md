@@ -42,10 +42,10 @@
 | 36 | 8 | 2022 | Santhosh | - |
 | 37 | 8 | 2022 | Vikram | - |
 | 38 | 8 | 2022 | Snekha | - |
-| 39 | 8 | 2022 | Jeevitha | - |
-| 40 | 8 | 2022 | Shevanie | - |
-| 41 | 8 | 2022 | Kishore | - |
-| 42 | 8 | 2022 | Sivaraam | - |
+| 39 | 8 | 2022 | Jeevitha Murugan | [https://www.linkedin.com/in/jeevitha-murugan-357979223/](https://www.linkedin.com/in/jeevitha-murugan-357979223/) |
+| 40 | 8 | 2022 | Shevanie Shupreeya | [https://www.linkedin.com/in/shevanie-shupreeya-p/](https://www.linkedin.com/in/shevanie-shupreeya-p/) |
+| 41 | 8 | 2022 | Kishore | [https://www.linkedin.com/in/harshankumarhrk/](https://www.linkedin.com/in/harshankumarhrk/) |
+| 42 | 8 | 2022 | Sivaraam TK | [https://www.linkedin.com/in/sivaraam-t-k-323b2b208/](https://www.linkedin.com/in/sivaraam-t-k-323b2b208/) |
 | 43 | 8 | 2022 | Sudhir | [GitHub](https://github.com/orgs/kactvee/people/sudir-hash) |
 | 44 | 8 | 2022 | Snekha Suresh | Jan 2022 - Sep 2022 (9 mos), [LinkedIn](https://www.linkedin.com/in/snekhasuresh21/) |
 | 45 | 8 | 2022 | Jeevitha M | Jan 2022 - Oct 2022 (10 mos), [LinkedIn](https://www.linkedin.com/in/jeevitha-m-357979223/) |
