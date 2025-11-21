@@ -153,7 +153,8 @@
 ```
 
 
-### Python Basics to Advanced:
+## Course: Python Basics to Advanced
+
 ### Chapter: 1 | Virtual Environment
 1. Miniconda Setup
 2. Create env
