@@ -5,20 +5,20 @@
 | Index | Season | Year | Name | Other Info |
 |-------|--------|------|------|------------|
 | 1 | 1 | 2018-2019 | Divya Maddipudi | Settled in California, AWS, [LinkedIn](https://www.linkedin.com/in/satyadivya-maddipudi/) |
-| 2 | 1 | 2018-2019 | Vinay | [https://www.linkedin.com/in/srivinaya/](https://www.linkedin.com/in/srivinaya/) |
+| 2 | 1 | 2018-2019 | Vinay A | Nov 2018 - Jan 2019, San Francisco Bay Area, [LinkedIn](https://www.linkedin.com/in/srivinaya/) |
 | 3 | 1 | 2018-2019 | Sreenath | - |
 | 4 | 2 | 2019 | Samyuktha Prasanna | Author, [Book](https://bluerosepublishers.com/product/count-my-lucky-stars/), [LinkedIn](https://www.linkedin.com/in/samyuktha-prasanan-94532b173/), [Blog](https://writewithsamyu.wordpress.com/) |
 | 5 | 2 | 2019 | Sudha | - |
-| 6 | 2 | 2019 | Purnima | - |
+| 6 | 2 | 2019 | Purnima R S | Jan 2019 - Aug 2019, [LinkedIn](https://www.linkedin.com/in/purnimars1999/), [GitHub](https://github.com/purnimasurya) |
 | 7 | 3 | 2019 | Rakesh Asapanna | Working in ML, [https://www.linkedin.com/in/asapanna-rakesh/](https://www.linkedin.com/in/asapanna-rakesh/) |
 | 8 | 4 | 2019 | Revanth | Dec 2019 |
 | 9 | 4 | 2019 | Muthu Mani | - |
 | 10 | 5 | 2019 | Sanjana | - |
-| 11 | 5 | 2019 | Rohith | [https://www.linkedin.com/in/rohithmahadevan/](https://www.linkedin.com/in/rohithmahadevan/) |
-| 12 | 5 | 2019 | Hariprasad | [https://www.linkedin.com/in/hari-prasad-gurunathan/), [GitHub](https://github.com/hariprasad1003](https://www.linkedin.com/in/hari-prasad-gurunathan/), [GitHub](https://github.com/hariprasad1003) |
-| 13 | 5 | 2019 | Eswaraprasad | [https://www.linkedin.com/in/eswara-prasad/](https://www.linkedin.com/in/eswara-prasad/) |
-| 14 | 5 | 2019 | Divya | [https://www.linkedin.com/in/p-divya/](https://www.linkedin.com/in/p-divya/) |
-| 15 | 5 | 2019 | Gokul | [https://www.linkedin.com/in/gokul-a-c/](https://www.linkedin.com/in/gokul-a-c/) |
+| 11 | 5 | 2019 | Rohith Mahadevan | [LinkedIn](https://www.linkedin.com/in/rohithmahadevan/) |
+| 12 | 5 | 2019 | Hari Prasad Gurunathan | Nov 2020 - May 2021, NHS Business Services Authority, Newcastle Upon Tyne, England, [LinkedIn](https://www.linkedin.com/in/hari-prasad-gurunathan/), [GitHub](https://github.com/hariprasad1003) |
+| 13 | 5 | 2019 | Eswara Prasad | May 2020 - June 2021, Presidio, Chennai, [LinkedIn](https://www.linkedin.com/in/eswara-prasad/) |
+| 14 | 5 | 2019 | Divya Perumal | [LinkedIn](https://www.linkedin.com/in/p-divya/) |
+| 15 | 5 | 2019 | Gokul | [LinkedIn](https://www.linkedin.com/in/gokul-a-c/) |
 | 16 | 6 | 2020 | Alvis | [https://www.linkedin.com/in/alvisf/](https://www.linkedin.com/in/alvisf/) |
 | 17 | 6 | 2020 | Vaishnavi | [https://www.linkedin.com/in/vaishnavi-v-8a2512319/](https://www.linkedin.com/in/vaishnavi-v-8a2512319/) |
 | 18 | 6 | 2020 | Kamal | Studying in Germany, [https://www.linkedin.com/in/kamal-khumar/](https://www.linkedin.com/in/kamal-khumar/) |
