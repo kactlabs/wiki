@@ -67,6 +67,7 @@ Or here:
 7. Make sure to ask the and educate the team members that they also should come and ask to the Host for a co-host permission.
 8. If you are joining the meet and you need a co-host go and ask the host for a co-host.
 9. When you are a co-host and someone with unknown name or the person you do not know do not let him in.
+10. If you are expecting a short break, find the react option near the chat icon -> choose "Be right back" (This will mute your audio and stop your video). Once you are back, click on "I'm Back".
 
 ### Zoom Room Rules:
 1. Every room should have a decent name (pick random topics like islands)
