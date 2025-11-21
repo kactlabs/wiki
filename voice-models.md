@@ -15,4 +15,6 @@
 
 
 
-
+### Reference:
+- [Whisper models](https://github.com/openai/whisper/blob/main/whisper/__init__.py)
+- [2](https://github.com/openai/whisper#available-models-and-languages)
