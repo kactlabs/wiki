@@ -509,6 +509,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Lowkey Founders](lowkey-founders-1.md)
   * [GenAI Resources](genai-resources.md)
   * [GenAI LinkedIn Posts](genai-linkedin-posts.md)
+  * [Voice Models](voice-models.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
