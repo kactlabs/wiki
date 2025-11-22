@@ -55,28 +55,49 @@ alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
 
 CSP Alias - Mac - 2025 Nov
 ```
-# Define a variable for the common path
 USER_BASE_PATH="$HOME/rj"
 KACT_BASE_PATH="$HOME/kact"
 
 alias py="python"
+
+# Zshco and soume
+alias zshco="code ~/.zshrc"
+alias zeco="zshco"
+alias zco="zeco"
+alias zshko="kiro ~/.zshrc"
+alias zeko="zshko"
+alias zko="zeko"
+alias rmf="rm -rf"
 alias soume="source ~/.zshrc"
 alias sourcez="soume"
-alias gh="gush"
+alias sme="soume"
+
+# absolete
 alias txts="cd /Users/tactlabs/d/txts"
 alias txti="cd /Users/tactlabs/d/txts"
 alias txt="cd /Users/tactlabs/d/txts"
 alias tactxi="cd /Users/tactlabs/d/tact_space/tact_txts"
+
+# ip
 alias wip="curl https://ifconfig.me/ -w '\n'"
 alias ip="curl https://ifconfig.me/ -w '\n'"
+
 alias bashing="code ~/.zshrc"
 alias bashin="code ~/.zshrc"
 alias zsin="code ~/.zshrc"
 alias bashcat="cat ~/.bash_profile"
+
+# pipi
 alias pipi="pip install -r requirements.txt"
 alias piper="pipi"
+alias pi="pipi"
+alias pipim="pip install -r requirements_macos.txt"
+alias pim="pipim"
+
 alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
-alias tip="python /Users/tactlabs/d/kaipulla_space/pythonvil/tactpip/tinstaller.py -p "
+alias tip="python $KACT_BASE_PATH/tactpip/tinstaller.py -p "
+alias tup="python $KACT_BASE_PATH/tactpip/tinstaller.py -u "
+alias tshow="python $KACT_BASE_PATH/tactpip/tshow.py "
 alias cate="conda activate"
 alias nb="jupyter notebook"
 alias jlab="jupyter lab"
@@ -98,6 +119,7 @@ alias dexec="docker exec -it"
 alias goprod="ssh -i ~/.tact/creds/tact1_key.pem ubuntu@54.186.8.196"
 alias co="code"
 alias ko="kiro"
+alias k="ko"
 
 # kactii
 alias goka="ssh -i /Users/csp/.creds/kactii/kactii-2025.pem azureuser@57.151.97.192"
@@ -125,15 +147,7 @@ alias dpy="dipsy"
 alias genbranch="$USER_BASE_PATH/myshell/generate_branches_md.sh"
 alias genb="genbranch"
 
-# borrowed from tact
-alias zshco="code ~/.zshrc"
-alias zeco="zshco"
-alias soume="source ~/.zshrc"
-alias sourcez="soume"
-alias gush="/Users/csp/kact/tools/gitmagic/gu.sh"
-alias gh="gush"
-alias ghi="gh ignorechatgpt"
-alias rmf="rm -rf"
+
 
 # conda
 alias ml312="conda activate ml312"
@@ -161,6 +175,8 @@ alias gad="git add ."
 alias gcm="git commit -m"
 alias gish="git push"
 alias gush="$USER_BASE_PATH/gitmagic/gu.sh"
+alias gh="gush"
+alias ghi="gh ignorechatgpt"
 alias gimmit="git commit -m "
 alias gull="git pull"
 alias gcm="gimmit"
@@ -182,8 +198,10 @@ alias gcf="git clean -fd"
 alias gsh="git stash"
 alias gsa="gsh apply"
 
-# zshco 
-alias sme="soume"
+alias rj="cd $USER_BASE_PATH"
+alias gitmagic=""
+
+
 
 
 # csp personal
@@ -216,6 +234,7 @@ alias mir="mkdir"
 alias branches="$USER_BASE_PATH/myshell/branch_finder.sh"
 alias bes="branches"
 alias smon="$USER_BASE_PATH/myshell/submodule_or_not.sh"
+alias op="open ."
 
 # git 
 alias gow="git show"
@@ -247,12 +266,12 @@ alias ol="ollama"
 
 # misc
 alias tp="cd ~/kact/tact-python"
-alias pipi="pip install -r requirements.txt"
-alias pi="pipi"
+
 
 # 
 alias grepa="alias | grep"
 alias gpa="grepa"
+alias greph="history | grep"
 
 # vercel
 alias vpr="vercel --prod"
@@ -271,80 +290,16 @@ unset gostage
 unset gost
 
 # 
+alias kact="cd $KACT_BASE_PATH"
 alias wiki="cd $KACT_BASE_PATH/wiki"
 alias html="cd $KACT_BASE_PATH/tact-html"
 
 # kact
 alias ta="cd $KACT_BASE_PATH/"
 alias tct="ta"
-```
 
-
-CSP Alias - Old - 2025 Oct
-```
-alias gad="git add ."
-alias gcm="git commit -m"
-alias gish="git push"
-alias gush="/Users/kactlabs/d/gitmagic/gu.sh"
-alias py39="conda activate py39"
-alias py37="conda activate py37"
-alias c39="conda activate py39"
-alias ml39="conda activate ml39"
-alias cact="conda activate"
-alias clist="conda env list"
-alias py="python"
-alias gimmit="git commit -m "
-alias gull="git pull"
-alias gcm="gimmit"
-alias soume="source ~/.zshrc"
-alias sourcez="soume"
-alias gh="gush"
-alias txts="cd /Users/kactlabs/d/txts"
-alias txti="cd /Users/kactlabs/d/txts"
-alias txt="cd /Users/kactlabs/d/txts"
-alias kactxi="cd /Users/kactlabs/d/kact_space/kact_txts"
-alias wip="curl https://ifconfig.me/ -w '\n'"
-alias ip="curl https://ifconfig.me/ -w '\n'"
-alias bashing="code ~/.zshrc"
-alias bashin="code ~/.zshrc"
-alias zsin="code ~/.zshrc"
-alias bashcat="cat ~/.bash_profile"
-alias pipi="pip install -r requirements.txt"
-alias piper="pipi"
-alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
-alias tip="python /Users/kactlabs/d/kaipulla_space/pythonvil/kactpip/tinstaller.py -p "
-alias cate="conda activate"
-alias gp="git pull"
-alias gck="git checkout"
-alias nb="jupyter notebook"
-alias jlab="jupyter lab"
-alias jlad="jlab --debug"
-alias py38="conda activate py38"
-alias py39="conda activate py39"
-alias ml38="conda activate ml38"
-alias gcl="git clone"
-alias eli="clear"
-alias app="py app.py"
-alias dcup="docker-compose up"
-alias dcub="docker-compose up --build"
-alias play="py cricket.py"
-alias cls="clear"
-alias cde="conda deactivate"
-alias gus="git status"
-alias gid="git diff"
-alias gpl="git pull"
-alias ls2="ls -hal"
-alias ho38="conda activate ho38"
-alias ktl="kubectl"
-alias ktx="kubectx"
-alias kai="cd /Users/kactlabs/d/kaipulla_space"
-alias awsl="aws --endpoint-url=http://localhost:4566"
-alias codez="code ~/.zshrc"
-alias gip="git pull"
-alias kexec="ktl exec -it"
-alias dexec="docker exec -it"
-alias goprod="ssh -i ~/.kact/creds/kact1_key.pem ubuntu@54.186.8.196"
-alias co="code"
+# jupyter
+alias jl="jupyter lab"
 ```
 
 
