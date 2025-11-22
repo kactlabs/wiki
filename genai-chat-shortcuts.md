@@ -34,3 +34,98 @@
 - /𝗣𝗜𝗧𝗙𝗔𝗟𝗟𝗦 identifies possible traps and errors.
 - /𝗠𝗘𝗧𝗥𝗜𝗖𝗦 𝗠𝗢𝗗𝗘 expresses answers with measures and indicators.
 - /𝗚𝗨𝗔𝗥𝗗𝗥𝗔𝗜𝗟 sets strict boundaries not to cross.
+- /𝗣𝗥𝗜𝗢𝗥𝗜𝗧𝗜𝗭𝗘 ranks information by importance.
+- /𝗟𝗔𝗬𝗘𝗥𝗘𝗗 breaks content into hierarchical levels.
+- /𝗗𝗘𝗘𝗣 𝗗𝗜𝗩𝗘 explores a topic with maximum detail.
+- /𝗦𝗜𝗠𝗣𝗟𝗜𝗙𝗬 reduces complexity for easy understanding.
+- /𝗧𝗘𝗔𝗖𝗛 𝗠𝗘 explains as if educating a student.
+- /𝗟𝗢𝗚𝗜𝗖 𝗠𝗢𝗗𝗘 enforces strict logical consistency.
+- /𝗦𝗧𝗢𝗥𝗬 𝗠𝗢𝗗𝗘 narrates the answer as a story.
+- /𝗗𝗔𝗧𝗔 𝗙𝗢𝗖𝗨𝗦 emphasizes facts and statistics only.
+- /𝗡𝗔𝗥𝗥𝗔𝗧𝗜𝗩𝗘 reframes the answer as a flowing narrative.
+- /𝗛𝗘𝗨𝗥𝗜𝗦𝗧𝗜𝗖 uses rule-of-thumb based reasoning.
+- /𝗥𝗘𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗢𝗗𝗘 responds like an academic paper.
+- /𝗖𝗢𝗡𝗧𝗥𝗔𝗦𝗧 highlights differences sharply.
+- /𝗔𝗦𝗦𝗨𝗠𝗣𝗧𝗜𝗢𝗡 𝗖𝗛𝗘𝗖𝗞 lists hidden assumptions.
+- /𝗣𝗥𝗢𝗢𝗙 𝗠𝗢𝗗𝗘 attempts to formally justify claims.
+- /𝗘𝗫𝗔𝗠𝗣𝗟𝗘-𝗗𝗥𝗜𝗩𝗘𝗡 uses concrete examples heavily.
+- /𝗖𝗢𝗥𝗘 𝗜𝗗𝗘𝗔 isolates the fundamental concept.
+- /𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞 𝗠𝗢𝗗𝗘 presents structured models.
+- /𝗠𝗜𝗡𝗗-𝗠𝗔𝗣 outputs content as a conceptual map.
+- /𝗡𝗘𝗨𝗧𝗥𝗔𝗟 𝗧𝗢𝗡𝗘 removes emotional bias.
+- /𝗣𝗘𝗥𝗦𝗨𝗔𝗦𝗜𝗩𝗘 reframes to convince the reader.
+- /𝗖𝗢𝗨𝗡𝗧𝗘𝗥𝗔𝗥𝗚𝗨𝗠𝗘𝗡𝗧 generates the opposing view.
+- /𝗦𝗨𝗠𝗠𝗔𝗥𝗬+ expands slightly beyond a normal summary.
+- /𝗣𝗥𝗜𝗡𝗖𝗜𝗣𝗟𝗘 𝗠𝗔𝗣 connects ideas to core principles.
+- /𝗧𝗘𝗖𝗛 𝗕𝗥𝗜𝗘𝗙 writes in technical documentation style.
+- /𝗦𝗢𝗞𝗥𝗔𝗧𝗜𝗖 asks guiding questions instead of answering.
+- /𝗙𝗘𝗬𝗡𝗠𝗔𝗡 explains like teaching a curious beginner.
+- /𝗥𝗜𝗦𝗞 𝗔𝗡𝗔𝗟𝗬𝗦𝗜𝗦 highlights potential dangers.
+- /𝗗𝗘𝗖𝗜𝗦𝗜𝗢𝗡 𝗧𝗥𝗘𝗘 structures options logically.
+- /𝗛𝗬𝗣𝗢𝗧𝗛𝗘𝗦𝗜𝗦 𝗠𝗢𝗗𝗘 explores possible theories.
+- /𝗣𝗥𝗘𝗗𝗜𝗖𝗧𝗜𝗩𝗘 speculates on future outcomes.
+- /𝗕𝗥𝗜𝗘𝗙+ short answer with essential context added.
+- /𝗘𝗟𝗜𝟱+ ultra-simple with slight technical depth.
+- /𝗙𝗢𝗥𝗠𝗔𝗟𝗜𝗭𝗘 rewrites into formal structure.
+- /𝗖𝗥𝗜𝗦𝗜𝗦 𝗠𝗢𝗗𝗘 responds for emergency situations.
+- /𝗔𝗟𝗚𝗢𝗥𝗜𝗧𝗛𝗠𝗜𝗖 presents solution as procedural logic.
+- /𝗧𝗘𝗥𝗠𝗜𝗡𝗢𝗟𝗢𝗚𝗬 𝗙𝗢𝗖𝗨𝗦 defines key terms precisely.
+- /𝗘𝗫𝗣𝗟𝗢𝗥𝗔𝗧𝗢𝗥𝗬 encourages open-ended analysis.
+- /𝗗𝗘𝗖𝗢𝗡𝗦𝗧𝗥𝗨𝗖𝗧 breaks down into smallest components.
+- /𝗦𝗬𝗡𝗧𝗛𝗘𝗦𝗜𝗭𝗘 merges multiple ideas into one insight.
+- /𝗖𝗟𝗔𝗥𝗜𝗧𝗬 𝗠𝗢𝗗𝗘 removes ambiguity aggressively.
+- /𝗘𝗙𝗙𝗜𝗖𝗜𝗘𝗡𝗖𝗬 𝗠𝗢𝗗𝗘 optimizes for shortest useful output.
+- /𝗜𝗡𝗧𝗘𝗥𝗣𝗥𝗘𝗧𝗔𝗧𝗜𝗢𝗡 explores meaning variations.
+- /𝗦𝗜𝗟𝗘𝗡𝗧 𝗥𝗘𝗩𝗜𝗘𝗪 reviews without commentary.
+- /𝗦𝗧𝗥𝗔𝗧𝗘𝗚𝗜𝗖 𝗠𝗢𝗗𝗘 aligns answer toward long-term thinking.
+- /𝗢𝗨𝗧𝗖𝗢𝗠𝗘 𝗙𝗢𝗖𝗨𝗦 stresses results over process.
+- /𝗟𝗢𝗪-𝗟𝗘𝗩𝗘𝗟 dives into implementation detail.
+- /𝗛𝗜𝗚𝗛-𝗟𝗘𝗩𝗘𝗟 stays conceptual and abstract.
+- /𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡 structures content into components.
+- /𝗖𝗢𝗡𝗗𝗘𝗡𝗦𝗘 compresses aggressively while keeping meaning.
+- /𝗥𝗨𝗟𝗘-𝗕𝗔𝗦𝗘𝗗 outputs as if following strict policies.
+- /𝗧𝗜𝗠𝗘𝗟𝗜𝗡𝗘 builds a chronological sequence of events.
+- /𝗣𝗔𝗧𝗧𝗘𝗥𝗡 𝗗𝗘𝗧𝗘𝗖𝗧 identifies recurring trends or structures.
+- /𝗙𝗔𝗖𝗧 𝗖𝗛𝗘𝗖𝗞 verifies claims for accuracy.
+- /𝗗𝗜𝗔𝗚𝗡𝗢𝗦𝗧𝗜𝗖 analyzes root causes of a problem.
+- /𝗦𝗬𝗡𝗢𝗣𝗦𝗜𝗦 produces a condensed narrative overview.
+- /𝗨𝗡𝗖𝗘𝗥𝗧𝗔𝗜𝗡𝗧𝗬 𝗠𝗢𝗗𝗘 highlights ambiguous areas.
+- /𝗗𝗘𝗠𝗢𝗡𝗦𝗧𝗥𝗔𝗧𝗜𝗢𝗡 shows how something works practically.
+- /𝗢𝗕𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗟𝗘𝗡𝗦 removes subjective interpretation.
+- /𝗜𝗡𝗧𝗨𝗜𝗧𝗜𝗢𝗡 𝗠𝗢𝗗𝗘 responds based on inferred reasoning.
+- /𝗖𝗢𝗡𝗦𝗘𝗡𝗦𝗨𝗦 aggregates common viewpoints.
+- /𝗘𝗗𝗚𝗘 𝗖𝗔𝗦𝗘 considers extreme or rare scenarios.
+- /𝗦𝗜𝗠𝗨𝗟𝗔𝗧𝗜𝗢𝗡 𝗠𝗢𝗗𝗘 models potential situations.
+- /𝗗𝗜𝗔𝗚𝗥𝗔𝗠 𝗠𝗢𝗗𝗘 expresses information visually.
+- /𝗦𝗣𝗢𝗧𝗟𝗜𝗚𝗛𝗧 emphasizes a single critical point.
+- /𝗠𝗜𝗡𝗜𝗠𝗔𝗟𝗜𝗦𝗧 strips response to bare essentials.
+- /𝗣𝗥𝗢𝗧𝗢𝗧𝗬𝗣𝗘 builds a rough conceptual version.
+- /𝗥𝗘𝗩𝗘𝗥𝗦𝗘 𝗟𝗘𝗡𝗦 analyzes from outcome back to cause.
+- /𝗜𝗗𝗘𝗔𝗧𝗜𝗢𝗡 encourages creative expansion.
+- /𝗖𝗢𝗡𝗦𝗧𝗥𝗔𝗜𝗡𝗘𝗗 restricts response within tight rules.
+- /𝗥𝗘𝗦𝗧𝗔𝗧𝗘 paraphrases without adding new meaning.
+- /𝗩𝗜𝗦𝗜𝗢𝗡 𝗠𝗢𝗗𝗘 imagines future possibilities boldly.
+- /𝗙𝗔𝗦𝗧 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘 prioritizes speed over depth.
+- /𝗦𝗟𝗢𝗪 𝗠𝗢𝗗𝗘 favors depth over speed.
+- /𝗗𝗜𝗩𝗘𝗥𝗚𝗘𝗡𝗧 explores multiple creative branches.
+- /𝗖𝗢𝗡𝗩𝗘𝗥𝗚𝗘𝗡𝗧 narrows toward a single conclusion.
+- /𝗜𝗡𝗦𝗜𝗚𝗛𝗧 𝗘𝗫𝗧𝗥𝗔𝗖𝗧 pulls key realizations only.
+- /𝗙𝗨𝗡𝗗𝗔𝗠𝗘𝗡𝗧𝗔𝗟𝗦 focuses on first-level truth.
+- /𝗘𝗟𝗔𝗕𝗢𝗥𝗔𝗧𝗘 expands ideas thoroughly.
+- /𝗣𝗥𝗔𝗖𝗧𝗜𝗖𝗔𝗟 applies theory to real-world usage.
+- /𝗧𝗛𝗘𝗢𝗥𝗘𝗧𝗜𝗖𝗔𝗟 explores abstract reasoning.
+- /𝗕𝗘𝗛𝗔𝗩𝗜𝗢𝗥 𝗠𝗢𝗗𝗘 analyzes actions and tendencies.
+- /𝗠𝗔𝗧𝗛 𝗠𝗢𝗗𝗘 focuses on quantitative logic.
+- /𝗟𝗜𝗡𝗚𝗨𝗜𝗦𝗧𝗜𝗖 analyzes language structure.
+- /𝗟𝗘𝗚𝗔𝗟 𝗠𝗢𝗗𝗘 writes with formal legal framing.
+- /𝗘𝗧𝗛𝗜𝗖𝗔𝗟 𝗥𝗘𝗩𝗜𝗘𝗪 evaluates moral implications.
+- /𝗖𝗨𝗟𝗧𝗨𝗥𝗔𝗟 𝗟𝗘𝗡𝗦 adapts to cultural context.
+- /𝗣𝗘𝗥𝗦𝗢𝗡𝗔 𝗦𝗛𝗜𝗙𝗧 switches identity style.
+- /𝗦𝗣𝗘𝗖 𝗚𝗘𝗡 creates technical specification format.
+- /𝗦𝗖𝗘𝗡𝗔𝗥𝗜𝗢 𝗕𝗨𝗜𝗟𝗗 crafts hypothetical situations.
+- /𝗣𝗥𝗘𝗖𝗜𝗦𝗜𝗢𝗡 𝗠𝗢𝗗𝗘 enforces exactness and detail.
+- /𝗣𝗥𝗜𝗢𝗥 𝗘𝗫𝗣𝗟𝗔𝗡𝗔𝗧𝗜𝗢𝗡 provides background before answering.
+- /𝗔𝗙𝗧𝗘𝗥𝗧𝗛𝗢𝗨𝗚𝗛𝗧 adds reflective commentary.
+- /𝗜𝗠𝗣𝗔𝗖𝗧 𝗠𝗔𝗣 shows cause-and-effect chains.
+- /𝗗𝗘𝗖𝗢𝗥𝗥𝗘𝗟𝗔𝗧𝗘 separates loosely connected ideas.
+- /𝗔𝗗𝗩𝗜𝗦𝗢𝗥𝗬 𝗠𝗢𝗗𝗘 offers guidance and recommendations.
