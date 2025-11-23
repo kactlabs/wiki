@@ -1,13 +1,10 @@
 / [Home](index.md)
 
-## LangChain Expert Certificate
-
-**Note:** Get LangChain Expert at Kactii Academy and start your GenAI Career in GenAI.
-
-
 # LangChain Expert Certification
 
 ## By Kactii Academy
+
+### Get LangChain Expert at Kactii Academy and start your GenAI Career in GenAI.
 
 Position yourself as an industry-verified **LangChain Specialist** and demonstrate real-world mastery of one of the most critical frameworks powering modern GenAI systems.
 
