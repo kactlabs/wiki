@@ -180,6 +180,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact Coding Rules](coding-rules.md)
   * [Productivity Improvements Guideliness](Productivity-Guideliness.md)
 
+## Session Rules
+  * [Session Rules](session-rules.md)
+
 
 ## Interview
   * [Kact Interview Process: TIP](interview-process.md)
