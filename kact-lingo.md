@@ -22,7 +22,7 @@
 18. BDB - Big Data Boss / Bigg Data Boss
 19. IA - Independent Agent
 20. tcode - Tact code to get more info, references
-
+21. gush - one way git push shortcut to speed up git transactions
 
 ## Kact Mythraki:
 1. Jestor - Admin
