@@ -305,23 +305,50 @@ alias jl="jupyter lab"
 
 CSP Alias Ubuntu
 ```
-USER_BASE_PATH="/home/rajaraman/csp"
+USER_BASE_PATH="$HOME/rj"
+KACT_BASE_PATH="$HOME/kact"
 
 alias py="python"
+
+# Zshco and soume
+alias zshco="code ~/.zshrc"
+alias zeco="zshco"
+alias zco="zeco"
+alias zshko="kiro ~/.zshrc"
+alias zeko="zshko"
+alias zko="zeko"
+alias rmf="rm -rf"
 alias soume="source ~/.zshrc"
 alias sourcez="soume"
-alias gh="gush"
-alias kactxi="cd /Users/kactlabs/d/kact_space/kact_txts"
+alias sme="soume"
+
+# absolete
+alias txts="cd /Users/tactlabs/d/txts"
+alias txti="cd /Users/tactlabs/d/txts"
+alias txt="cd /Users/tactlabs/d/txts"
+alias tactxi="cd /Users/tactlabs/d/tact_space/tact_txts"
+
+# ip
 alias wip="curl https://ifconfig.me/ -w '\n'"
-alias myip="curl https://ifconfig.me/ -w '\n'"
+alias ip="curl https://ifconfig.me/ -w '\n'"
+
 alias bashing="code ~/.zshrc"
 alias bashin="code ~/.zshrc"
 alias zsin="code ~/.zshrc"
 alias bashcat="cat ~/.bash_profile"
+
+# pipi
 alias pipi="pip install -r requirements.txt"
 alias piper="pipi"
 alias pi="pipi"
+alias pipim="pip install -r requirements_macos.txt"
+alias pim="pipim"
+
 alias sshb="ssh-add -K ~/.ssh/id_rsa" # ssh base (for emergency purpose only)
+alias tip="python $KACT_BASE_PATH/tactpip/tinstaller.py -p "
+alias tup="python $KACT_BASE_PATH/tactpip/tinstaller.py -u "
+alias tshow="python $KACT_BASE_PATH/tactpip/tshow.py "
+alias cate="conda activate"
 alias nb="jupyter notebook"
 alias jlab="jupyter lab"
 alias jlad="jlab --debug"
@@ -329,116 +356,77 @@ alias eli="clear"
 alias app="py app.py"
 alias play="py cricket.py"
 alias cls="clear"
+alias cde="conda deactivate"
 alias ls2="ls -hal"
-alias ls3="ls -hl"
+alias ho38="conda activate ho38"
 alias ktl="kubectl"
 alias ktx="kubectx"
-alias kai="cd /Users/kactlabs/d/kaipulla_space"
+alias kai="cd /Users/tactlabs/d/kaipulla_space"
 alias awsl="aws --endpoint-url=http://localhost:4566"
 alias codez="code ~/.zshrc"
 alias kexec="ktl exec -it"
 alias dexec="docker exec -it"
+alias goprod="ssh -i ~/.tact/creds/tact1_key.pem ubuntu@54.186.8.196"
 alias co="code"
-alias zshco="code ~/.zshrc"
-alias ghi="gh ignorechatgpt"
-alias cl="cls"
-alias sz="sourcez"
-alias pykee="cd /home/rajaraman/projects/pythonkee"
-alias cvlist="conda env list"
-alias cvl="cvlist"
-alias cote="cte"
-alias gacm="gad && gcm"
-alias rmf="rm -rf"
-alias rjwiki="cd ~/csp/rjwiki"
-alias rjw="rjwiki"
-alias mlk="mlkee11"
-alias slit="streamlit run app.py"
-alias cvl="cvlist"
-alias cpr="cp -r"
-alias req="pigar generate"
-alias strap="streamlit run app.py"
-alias twiki="cd /home/rajaraman/tprojects/kact-wiki"
-alias tw="twiki"
-alias linescount="wc -l"
-alias linecount="linescount"
-alias lc="linecount"
-alias slitrun="streamlit run"
-alias sr="slitrun"
-alias gofolder="nautilus ."
-alias gof="nautilus ."
+alias ko="kiro"
+alias k="ko"
 
-alias mlb="cd $USER_BASE_PATH/mlbooks"
-alias pshow="pip show"
-alias zshb="zshbkp"
-alias mlbooks="cd $USER_BASE_PATH/mlbooks"
-alias mlbooks="mlb"
-alias sk9="sudo kill -9"
+# kactii
+alias goka="ssh -i /Users/csp/.creds/kactii/kactii-2025.pem azureuser@57.151.97.192"
+alias gok="goka"
+alias gk1="gok"
+alias goka2="ssh -i /Users/csp/.creds/kactii/kactii-2025.pem azureuser@20.55.89.108"
+alias gok2="goka2"
+alias gk2="goka2"
 
-# CD
-alias rjwiki="cd $USER_BASE_PATH/rjwiki"
-alias wiki="rjwiki"
-alias plogs="cd $USER_BASE_PATH/riversand-logs"
-alias txts="cd /Users/kactlabs/d/txts"
-alias txti="cd /Users/kactlabs/d/txts"
-alias txt="cd /Users/kactlabs/d/txts"
-alias mai="cd /home/rajaraman/tprojects/mai"
-alias tp="cd /home/rajaraman/tprojects"
-alias myr="cd $USER_BASE_PATH/raja-resume"
-
-# mysh
-alias zshbkp="cp ~/.zshrc $USER_BASE_PATH/myshell/."
-alias cignore="$USER_BASE_PATH/myshell/cignore.sh"
-alias czem="$USER_BASE_PATH/myshell/czem.sh"
-alias ctem="$USER_BASE_PATH/myshell/ctem.sh"
-alias mvd="$USER_BASE_PATH/myshell/mvd.sh"
-alias revrt="$USER_BASE_PATH/myshell/revert.sh" # this is not working properly
-alias myshel="cd $USER_BASE_PATH/myshell"
-alias mysh="cd $USER_BASE_PATH/myshell"
-alias myerr="cd $USER_BASE_PATH/myerrors"
-alias myrr="cd $USER_BASE_PATH/myerrors"
-alias libfinder="$USER_BASE_PATH/myshell/libenv.sh"
-alias lf="libfinder"
-alias rdf="$USER_BASE_PATH/myshell/rdf.sh"
-alias gmirror="$USER_BASE_PATH/myshell/gmirror.sh"
-alias gmr="gmirror"
-alias pyexec="$USER_BASE_PATH/myshell/pyexec_counter.sh"
-alias pyx="pyexec"
-alias pyx7="$USER_BASE_PATH/myshell/pyx7.sh"
-alias py7="pyx7"
-alias filesize="$USER_BASE_PATH/myshell/filesize.sh"
-alias fss="filesize"
-alias codi="code-insiders"
-alias ci="codi"
-alias hardkill="$USER_BASE_PATH/myshell/kil.sh"
-alias hkill="hardkill"
-alias lsfull="$USER_BASE_PATH/myshell/lsfull.sh"
-alias gitbase="$USER_BASE_PATH/myshell/gitbase.sh"
-alias gitbash="gitbase"
-alias gba="gitbash"
-alias ff="$USER_BASE_PATH/myshell/folder_finder.sh"
-
-# Work Folders
-alias mli="cd /home/rajaraman/tprojects/mler-index"
-alias mi="mli"
-alias pykee="cd /home/rajaraman/projects/pythonkee"
-alias pyk="pykee"
-
-# Docker
+# docker
 alias dcup="docker-compose up"
-alias dcub="dcup --build"
-alias dcurb="dcub --remove-orphans"
-alias dcurbon="dcub --remove-orphans --no-cache"
-alias docit="docker exec -it"
+alias dcub="docker-compose up --build"
 alias dps="docker ps"
-alias dub="docker-compose up --build"
-alias ddcup="docker-compose -f docker-compose.dev.deploy.yml up"
-alias ddcub="docker-compose -f docker-compose.dev.deploy.yml up --build"
+alias dipsy='docker ps --format "table {{.Names}}\t{{.Status}}" | while read line; do 
+    if [[ "$line" =~ "Up" ]]; then
+        echo -e "\033[32m$line\033[0m"  # Green for running containers
+    elif [[ "$line" =~ "Exited" ]]; then
+        echo -e "\033[31m$line\033[0m"  # Red for stopped containers
+    else
+        echo -e "$line"
+    fi
+done'
+alias dpy="dipsy"
 
-# git alias
+alias genbranch="$USER_BASE_PATH/myshell/generate_branches_md.sh"
+alias genb="genbranch"
+
+
+
+# conda
+alias ml312="conda activate ml312"
+alias ml12="ml312"
+alias py39="conda activate py39"
+alias py37="conda activate py37"
+alias c39="conda activate py39"
+alias ml39="conda activate ml39"
+alias py38="conda activate py38"
+alias py311="conda activate py311"
+alias py11="conda activate py311"
+alias p11="conda activate py311"
+alias ml38="conda activate ml38"
+alias cact="conda activate"
+alias clist="conda env list"
+alias cvl="clist"
+
+# git alias - borrowed from tact
+alias gsus="git status"
+alias gacm="gad && gcm"
+alias gbra="git branch -a"
+alias gull="git pull"
+alias gul="gull"
 alias gad="git add ."
 alias gcm="git commit -m"
 alias gish="git push"
 alias gush="$USER_BASE_PATH/gitmagic/gu.sh"
+alias gh="gush"
+alias ghi="gh ignorechatgpt"
 alias gimmit="git commit -m "
 alias gull="git pull"
 alias gcm="gimmit"
@@ -448,61 +436,122 @@ alias gcl="git clone"
 alias gus="git status"
 alias gid="git diff"
 alias gpl="git pull"
-alias gip="git pull"
-alias gsus="git status"
 alias gdiff="git diff"
-alias gbra="git branch -a"
-alias gibra="gbra"
-alias rmg="rmf .git"
+alias gdf="gdiff"
+alias gip="git pull"
+alias rmg="rm -rf .git"
+alias git-https-url="git remote get-url --push origin | sed 's/git@github.com:/https:\/\/github.com\//' | sed 's/\.git$//'"
+alias gurl="git-https-url"
+alias gl2="git log -2"
 alias grh="git reset --hard"
-alias gcd="git clean -fd"
+alias gcf="git clean -fd"
+alias gsh="git stash"
+alias gsa="gsh apply"
+
+alias rj="cd $USER_BASE_PATH"
+alias gitmagic=""
+
+
+
+
+# csp personal
+alias csp="cd $USER_BASE_PATH"
+alias plogs="cd $USER_BASE_PATH/dailylogs"
+alias plog="plogs"
+alias plg="plog"
+
+# mysh
+alias zshbkp="cp ~/.zshrc $USER_BASE_PATH/myshell/."
+alias cignore="$USER_BASE_PATH/myshell/cignore.sh"
+alias czem="$USER_BASE_PATH/myshell/czem.sh"
+alias ctem="$USER_BASE_PATH/myshell/ctem.sh"
+alias cfa="$USER_BASE_PATH/myshell/copy_fastapi_template.sh"
+alias myshel="cd $USER_BASE_PATH/myshell"
+alias mysh="cd $USER_BASE_PATH/myshell"
+alias libfinder="$USER_BASE_PATH/myshell/libenv.sh"
+alias lf="libfinder"
+alias rdf="$USER_BASE_PATH/myshell/rdf.sh"
+alias lsfull="$USER_BASE_PATH/myshell/lsfull.sh"
+alias gitbase="$USER_BASE_PATH/myshell/gitbase.sh"
+alias pshow2="$USER_BASE_PATH/myshell/pshow2.sh"
+alias pshow3="$USER_BASE_PATH/myshell/pshow3.sh"
+alias pshow4="$USER_BASE_PATH/myshell/pshow4.sh"
+alias ps2="pshow2"
+alias ps3="pshow3"
+alias ps4="pshow4"
+alias gilly="gitbase kactlabs"
+alias gcsp="gitbase rajacsp"
+alias mir="mkdir"
+alias branches="$USER_BASE_PATH/myshell/branch_finder.sh"
+alias bes="branches"
+alias smon="$USER_BASE_PATH/myshell/submodule_or_not.sh"
+alias op="open ."
+
+# git 
+alias gow="git show"
 alias gl="git log"
 alias gl2="gl -2"
-alias pym="py model_entrypoint.py"
+alias gl2="gl -2"
+alias gmirror="$USER_BASE_PATH/myshell/gmirror.sh"
+alias gmr="gmirror"
 
-# conda
-alias clist="conda env list"
-alias py39="conda activate py39"
-alias py37="conda activate py37"
-alias c39="conda activate py39"
-alias ml39="conda activate ml39"
-alias cact="conda activate"
-alias cate="conda activate"
-alias py38="conda activate py38"
-alias py39="conda activate py39"
-alias ml38="conda activate ml38"
-alias py311="conda activate py311"
-alias cde="conda deactivate"
-alias ho38="conda activate ho38"
-alias ml311="conda activate ml311"
-alias ml312="conda activate ml312"
-alias cte="conda deactivate"
-alias ml310="conda activate ml310"
-alias ml397="conda activate ml397"
-alias py36="conda activate py36"
-alias ml310="conda activate ml310"
-alias mlkee11="conda activate mlkee11"
-alias ner39="conda activate ner39"
-alias n39="ner39"
-alias mai311="conda activate mai311"
-alias m11="mai311"
-alias ml312="conda activate ml312"
-alias m12="ml312"
-alias ner12="conda activate ner12"
-alias n12="ner12"
-alias evidently312="conda activate evidently312"
-alias ev312="evidently312"
-alias ner="cd /home/rajaraman/rprojects/ecolab-ner-csp"
-alias pgen="pigar generate"
-alias pygpt="conda activate gpt"
-alias gpt="pygpt"
-alias untar="tar -xzvf"
-alias pyle="pylint *.py"
-alias pylintrc="co ~/.pylintrc"
-alias mai="cd /home/rajaraman/tprojects/mai"
+# 
+alias tct="$HOME/kact"
+alias tt="tct"
+alias pyv="python version"
+alias cpe="cp .env.sample .env"
 
-# Python alias
-alias pyv="python --version"
+# 
+alias cu="cursor"
+
+# fastapi
+alias uvan="uvicorn app:app"
+alias uv="uvan"
+alias uvr="uv --reload"
+
+# venv
+alias ded="deactivate"
+
+# ollama
+alias ol="ollama"
+alias opl="ollama pull"
+
+# misc
+alias tp="cd ~/kact/tact-python"
+
+
+# 
+alias grepa="alias | grep"
+alias gpa="grepa"
+alias greph="history | grep"
+
+# vercel
+alias vpr="vercel --prod"
+
+# odin 
+# alias od="cd ~/odin"
+# alias odp="cd ~/odin/odin-playground"
+# alias dow="~/Downloads"
+# alias wenv='[ -f .env ] && source .env && echo "${SERVER_ENV:-staging}" | tr "[:upper:]" "[:lower:]"'
+# alias goprod="cp .env.prod .env"
+# alias gop="goprod"
+# alias gostage="cp .env.staging .env"
+# alias gost="gostage"
+# alias gos="gost"
+unset gostage
+unset gost
+
+# 
+alias kact="cd $KACT_BASE_PATH"
+alias wiki="cd $KACT_BASE_PATH/wiki"
+alias html="cd $KACT_BASE_PATH/tact-html"
+
+# kact
+alias ta="cd $KACT_BASE_PATH/"
+alias tct="ta"
+
+# jupyter
+alias jl="jupyter lab"
 
 ```
 

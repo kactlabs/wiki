@@ -14,14 +14,20 @@ sudo apt install snapd
 sudo snap install docker
 ```
 
-How to install Docker in Mac
+How to install Docker in Mac?
 ```
 brew install --cask docker
 
 or
 
 brew cask install docker
+
+# verify
+docker --version
+Docker version 28.4.0, build d8eb465
 ```
+
+How to install Docker Compose in Mac?
 
 
 How to install Docker in Windows
