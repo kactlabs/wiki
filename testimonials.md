@@ -68,4 +68,5 @@
 [AWS Influencer - Mentor](https://www.linkedin.com/posts/jeevitha-murugan-357979223_one-year-intense-life-changing-year-as-activity-7298951230268002304-PFhJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
 
 
-18. 
+18. Rakesh
+![1764050517143](image/testimonials/1764050517143.png)
