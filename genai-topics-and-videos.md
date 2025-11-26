@@ -62,8 +62,8 @@
 
 ### Videos
 1. Claude Code
-- 1. [Claude Code Masterclass: Become a ONE-Person Company](https://www.youtube.com/watch?v=6qJsw0n0GGw)
-- 2. [Introducing Claude Code](https://www.youtube.com/watch?v=AJpK3YTTKZ4)
+    1. [Claude Code Masterclass: Become a ONE-Person Company](https://www.youtube.com/watch?v=6qJsw0n0GGw)
+    2. [Introducing Claude Code](https://www.youtube.com/watch?v=AJpK3YTTKZ4)
 
 
 2. Agentic AI
