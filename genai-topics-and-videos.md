@@ -56,3 +56,16 @@
 48. AI Governance & Model Oversight  
 49. Prompt Lifecycle Management  
 50. Distributed Agent Coordination  
+
+
+----
+
+### Videos
+1. Claude Code
+- 1. [Claude Code Masterclass: Become a ONE-Person Company](https://www.youtube.com/watch?v=6qJsw0n0GGw)
+- 2. [Introducing Claude Code](https://www.youtube.com/watch?v=AJpK3YTTKZ4)
+
+
+2. Agentic AI
+- [What is Agentic AI? An Easy Explanation For Everyone](https://www.youtube.com/watch?v=-pqzyvRp3Tc)
+- [Generative vs Agentic AI: Shaping the Future of AI Collaboration](https://www.youtube.com/watch?v=EDb37y_MhRw)
