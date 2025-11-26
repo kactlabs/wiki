@@ -10,7 +10,7 @@
 6. LangChain  
 7. A2A
 8. AutoGPT  
-9. CrewAI  
+9. LLM
 10. LangGraph  
 
 11. Prompt Engineering  
@@ -58,8 +58,18 @@
 50. Distributed Agent Coordination  
 
 51. Bedrock
-52. 
-52. Toolformer
+52. LangSmith
+53. Toolformer
+54. CrewAI
+55. AI Agent
+56. Misc
+57. Deep Agents
+58. LlamaIndex
+59. Ollama
+60. HuggingFace
+
+61. Semantic Kernel
+62. LangServe
 
 ----
 
@@ -84,18 +94,62 @@
     1. [MCP + Agent Development Kit (ADK): Crash Course](https://www.youtube.com/watch?v=HkzOrj2qeXI)
     2. [Building AI Agents with ADK Go](https://www.youtube.com/watch?v=u5sQDKot0qE)
     3. [How to Build Multi AI Agents with Google Agent Development Kit (ADK) For Beginners](https://www.youtube.com/watch?v=cz2pKLPw994)
+    4. [Google Agent Development Kit (ADK): How to deploy Your First Agent to Vertex AI Agent Engine](https://www.youtube.com/watch?v=bPtKnDIVEsg)
+    5. [Agent Development Kit (ADK) Masterclass: Build AI Agents & Automate Workflows (Beginner to Pro)](https://www.youtube.com/watch?v=P4VFL9nIaIA)
 
 
 5. MCP  
     1. [MCP In 26 Minutes (Model Context Protocol)](https://www.youtube.com/watch?v=kOhLoixrJXo)
     2. [What is MCP? Integrate AI Agents with Databases & APIs](https://www.youtube.com/watch?v=eur8dUO9mvE)
     3. [MCP Crash Course: What Python Developers Need to Know](https://www.youtube.com/watch?v=5xqFjh56AwM)
-
+    4. [Model Context Protocol (MCP), clearly explained (why it matters)](https://www.youtube.com/watch?v=7j_NE6Pjv-E)
+    5. [Model Context Protocol (MCP) Explained for Beginners: AI Flight Booking Demo!](https://www.youtube.com/watch?v=E2DEHOEbzks)
 
 6. LangChain
-    1. []()
+    1. [LangChain Full Crash Course - AI Agents in Python](https://www.youtube.com/watch?v=J7j5tCB_y4w)
+    2. [What is LangChain?](https://www.youtube.com/watch?v=1bUy-1hGZpI)
+    3. [LangChain Mastery in 2025 | Full 5 Hour Course [LangChain v0.3]](https://www.youtube.com/watch?v=Cyv-dgv80kE)
+    4. [LangChain Master Class For Beginners 2024 [+20 Examples, LangChain V0.2]
+](https://www.youtube.com/watch?v=yF9kGESAi3M)
+    5. [LangChain Explained In 15 Minutes - A MUST Learn For Python Programmers](https://www.youtube.com/watch?v=mrjq3lFz23s)
+    6. [The LangChain Cookbook - Beginner Guide To 7 Essential Concepts](https://www.youtube.com/watch?v=2xxziIWmaSA)
+    7. [Build With LangChain](https://www.youtube.com/watch?v=mmBo8nlu2j0&list=PLfaIDFEXuae06tclDATrMYY0idsTdLg9v)
+    8. [Python Advanced AI Agent Tutorial - LangGraph, LangChain, Firecrawl & More!](https://www.youtube.com/watch?v=xekw62yQu14)
+    9. [LangChain Academy New Course: LangChain Essentials](https://www.youtube.com/watch?v=IvjudWNfgIc)
+    10. [What is LangChain? 101 Beginner's Guide Explained with Animations](https://www.youtube.com/watch?v=P3MAbZ2eMUI)
 
 7. A2A
     1. [Agent2Agent (A2A) Crash Course: Full Walkthrough With Real Multi-Agent Examples](https://www.youtube.com/watch?v=mFkw3p5qSuA)
     2. [[Session] MCP vs ACP vs A2A: Comparing Agent Protocols with Laurie Voss from LlamaIndex](https://www.youtube.com/watch?v=kqB_xML1SfA)
     3. 
+
+9. LLM
+    1. [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
+
+10. LangGraph
+    1. [LangGraph: Intro](https://www.youtube.com/watch?v=5h-JBkySK34&list=PLfaIDFEXuae16n2TWUkKq5PgJ0w6Pkwtg)
+    2. [LangChain vs LangGraph: Which One Should You Use?](https://www.youtube.com/watch?v=gyBxdNpFM-8)
+    3. [LangGraph Tutorial - How to Build Advanced AI Agent Systems](https://www.youtube.com/watch?v=1w5cCXlh7JQ)
+
+12. RAG
+    1. [How to Build Your First RAG Agent with Agent Development Kit (ADK + Vertex AI RAG Service)](https://www.youtube.com/watch?v=TvW4A0a75mw)
+
+52. LangSmith
+    1. [LangSmith Tutorial - LLM Evaluation for Beginners](https://www.youtube.com/watch?v=tFXm5ijih98)
+    2. [LangChain Academy New Course: LangSmith Essentials](https://www.youtube.com/watch?v=h0bfKnBdjbs)
+
+55. AI Agent
+    1. [Build an AI Agent From Scratch in Python - Tutorial for Beginners](https://www.youtube.com/watch?v=bTMPwUgLZf0)
+
+56. Misc
+    1. [Turn ANY File into LLM Knowledge in SECONDS](https://www.youtube.com/watch?v=fg0_0M8kZ8g)
+
+57. Deep Agents
+    1. [What are Deep Agents?](https://www.youtube.com/watch?v=IVts6ztrkFg)
+
+58. LlamaIndex
+    1. [LangChain vs LlamaIndex (2025) - Which One is Better?](https://www.youtube.com/watch?v=sw_IK4M7S0A)
+
+
+62. LangServe
+    1. []()
