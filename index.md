@@ -516,6 +516,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Voice Models](voice-models.md)
   * [GenAI Chat Shortcut](genai-chat-shortcuts.md)
   * [LangChain Expert Certificate](langchain-expert-certificate.md)
+  * [GenAI Topics and Videos](genai-topics-and-videos.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
