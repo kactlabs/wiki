@@ -8,11 +8,15 @@
 ```
 sudo apt update
 sudo apt install git-lfs
+
+git lfs version
 ```
 
 ### Install LFS - MacOS
 ```
 brew install git-lfs
+
+git lfs version
 ```
 
 
