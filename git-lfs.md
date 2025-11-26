@@ -4,10 +4,19 @@
 
 **Note:** git for large file systems
 
+### Install LFS - Ubuntu
+```
+sudo apt update
+sudo apt install git-lfs
+```
+
+### Install LFS - MacOS
+```
+brew install git-lfs
+```
+
 
 ```bash
-# Install Git LFS if you haven't already
-# On macOS: brew install git-lfs
 git lfs install
 
 # Track the large PDF files
