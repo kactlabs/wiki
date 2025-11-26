@@ -4,7 +4,7 @@
 
 1. Claude Code  
 2. Agentic AI  
-3. Stranz  
+3. Strands  
 4. ADK  
 5. MCP  
 6. LangChain  
@@ -57,6 +57,8 @@
 49. Prompt Lifecycle Management  
 50. Distributed Agent Coordination  
 
+51. Bedrock
+52. 
 
 ----
 
@@ -69,3 +71,17 @@
 2. Agentic AI
 - [What is Agentic AI? An Easy Explanation For Everyone](https://www.youtube.com/watch?v=-pqzyvRp3Tc)
 - [Generative vs Agentic AI: Shaping the Future of AI Collaboration](https://www.youtube.com/watch?v=EDb37y_MhRw)
+
+
+3. Strands  
+    1. [Building Intelligent Agents with Strands: A Hands-On Guide](https://www.youtube.com/watch?v=TD2ihEBkdkY)
+    2. [Integrating Model Context Protocol (MCP) Tools with Strands Agents (How-to)](https://www.youtube.com/watch?v=bHSbjCZZFjE)
+4. ADK  
+    1. [MCP + Agent Development Kit (ADK): Crash Course](https://www.youtube.com/watch?v=HkzOrj2qeXI)
+    2. [Building AI Agents with ADK Go](https://www.youtube.com/watch?v=u5sQDKot0qE)
+5. MCP  
+    1. [MCP In 26 Minutes (Model Context Protocol)](https://www.youtube.com/watch?v=kOhLoixrJXo)
+    2. [What is MCP? Integrate AI Agents with Databases & APIs](https://www.youtube.com/watch?v=eur8dUO9mvE)
+    3. [MCP Crash Course: What Python Developers Need to Know](https://www.youtube.com/watch?v=5xqFjh56AwM)
+6. LangChain
+    1. []()
