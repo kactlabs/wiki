@@ -517,6 +517,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Chat Shortcut](genai-chat-shortcuts.md)
   * [LangChain Expert Certificate](langchain-expert-certificate.md)
   * [GenAI Topics and Videos](genai-topics-and-videos.md)
+  * [Prompt Engineering](prompt-engineering.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
