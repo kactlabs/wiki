@@ -11,6 +11,20 @@ How to enable VS Code in ZSH in Mac
 Install 'code' command in PATH** command.
 ```
 
+### Code Issues:
+```
+code .
+zsh: command not found
+
+Solution:
+Cmd+Shift+P
+
+Shell Command: Install 'code' command in PATH
+
+
+source:
+https://www.kimi.com/share/19ab8f0d-9662-87dc-8000-000006b30ecc
+```
 
 #### VSCode Extensions
 ```
