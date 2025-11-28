@@ -15,6 +15,12 @@ Verify Docker is running before proceeding.
 Run n8n:
 ```bash
 docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+
+docker run -it --rm --name n8n \
+  -p 5678:5678 \
+  -v n8n_data:/home/node/.n8n \
+  docker.n8n.io/n8nio/n8n
+
 ```
 
 Access: http://localhost:5678
