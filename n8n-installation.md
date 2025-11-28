@@ -23,6 +23,10 @@ docker run -it --rm --name n8n \
 
 ```
 
+Note: If you face any issues, use this repo to set the N8n up:
+[https://github.com/kactlabs/n8n-basics](https://github.com/kactlabs/n8n-basics)
+
+
 Access: http://localhost:5678
 
 Stop: `CTRL + C`
