@@ -189,3 +189,12 @@ http://gofile.me/6UZP3/Y3D7QNlUQ
 
 #### 17. VSCode Extensions
 * [VSCode Extensions](vscode-and-extensions.md)
+
+
+#### 18. NCDU - NCurses Disk Usage
+```
+ncdu - mac:
+brew install ncdu
+
+ncdu --color dark 
+```
