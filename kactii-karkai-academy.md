@@ -106,9 +106,5 @@ Every qualified introduction directly translates to strengthened Canadian innova
 ---
 
 **KACTII ACADEMY**  
-Toronto, Canada  
-Contact: [Your Name, Title]  
-Email: [Your Email] | Mobile: [Your Phone]  
-Calendly: [Booking Link] | Website: [URL]
 
 *Building Canada's GenAI Engineering Workforce, One Intern at a Time.*
