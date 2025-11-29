@@ -7,7 +7,9 @@
 
 ## EXECUTIVE SUMMARY
 
-Kactii Academy is a Toronto-based technical training institute addressing Canada's critical shortage of affordable GenAI engineering talent. We recruit, train, and certify exceptional software engineering interns through 1,100 hours of intensive instruction in Generative AI, Python, and production-grade software development. Our innovative placement model provides Canadian startups with **100 hours of complimentary engineering support**, followed by a seamless, low-risk subscription hiring program at **$200 CAD/month**—with full payroll administration managed by Kactii Academy.
+Kactii Academy is a Toronto-based technical training institute addressing Canada's critical shortage of affordable GenAI engineering talent. We recruit, train, and certify exceptional software engineering interns through 1,100 hours of intensive instruction in Generative AI, Python, and production-grade software development. 
+
+Our innovative placement model provides Canadian startups with **100 hours of complimentary engineering support**, followed by a seamless, low-risk subscription hiring program at **$200 CAD/month**—with full payroll administration managed by Kactii Academy.
 
 ---
 
@@ -55,6 +57,18 @@ Kactii Academy operates a **complete talent pipeline** that converts high-potent
    - Employment standards compliance  
    - Benefits administration  
    - Performance monitoring and ongoing mentorship
+
+---
+
+## TALENT ZONES FOR CANADIAN STARTUPS
+
+We have two zones for Canadian startups to get the talents from:
+
+**Zone A - Only Local Talents**  
+Where Canadians can hire local talents who studied in Canada at least for 1 year
+
+**Zone B - International Talents**  
+Where Canadian startups can hire anyone in the world for an affordable pricing
 
 ---
 
