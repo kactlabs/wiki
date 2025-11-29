@@ -468,3 +468,15 @@ ollama rm tinyllama
 ollama rm phi
 ollama rm gemma:2b
 ```
+
+
+### How to publish to Ollama?
+```
+ollama create rajacsp/kollywood-expert:v7.0.4 -f Modelfile.v7.0.4
+
+ollama push rajacsp/kollywood-expert:v7.0.4
+
+ollama cp rajacsp/kollywood-expert:v7.0.4 rajacsp/kollywood-expert:latest
+
+ollama push rajacsp/kollywood-expert:latest
+```
