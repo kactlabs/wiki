@@ -452,18 +452,15 @@ curl -X POST http://localhost:11434/api/generate -d '{
 
 
 
-
+### How to delete all models in ollama
 ```
-how to delete all models in ollama
-
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama rm
 ```
 
 
 
+### Delete one by one:
 ```
-Delete one by one:
-
 ollama rm tinyllama
 ollama rm phi
 ollama rm gemma:2b
