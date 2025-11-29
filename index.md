@@ -518,6 +518,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [LangChain Expert Certificate](langchain-expert-certificate.md)
   * [GenAI Topics and Videos](genai-topics-and-videos.md)
   * [Prompt Engineering](prompt-engineering.md)
+  * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
