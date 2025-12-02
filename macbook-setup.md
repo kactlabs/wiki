@@ -198,3 +198,13 @@ brew install ncdu
 
 ncdu --color dark 
 ```
+
+### 19. Aria2
+```
+brew install aria2
+
+https://aria2.github.io/
+https://formulae.brew.sh/formula/aria2
+
+aria2c --seed-time=0 --max-overall-download-limit=10M --file-allocation=none https://academictorrents.com/download/e49d5881291a30f3ef4dd77dc39d749dd1fcef94.torrent
+```
