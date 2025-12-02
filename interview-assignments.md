@@ -327,3 +327,13 @@ logs/
 
 Explain this
 ```
+
+
+### 24.
+```
+https://academictorrents.com/users.php
+
+Collect all users by web scraping
+Sort the users by total GB uploaded
+Use FastAPI
+```
