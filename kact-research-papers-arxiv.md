@@ -123,14 +123,15 @@ https://arxiv.org/abs/2404.10678
 ### 8
 ```
 Speckle Noise Analysis for Synthetic Aperture Radar (SAR) Space Data
-?
+https://arxiv.org/abs/2408.08774
 
-	Authors: Sanjjushri Varshini R, Rohith Mahadevan, Bagiya Lakshmi S, Mathivanan Periasamy, Raja CSP Raman , Lokesh M
-	?
-	Submitted: 17 August, 2024
-	Published: ?
+	Authors: Sanjjushri Varshini R, Rohith Mahadevan, Bagiya Lakshmi S, Mathivanan Periasamy, Raja CSP Raman. Lokesh M
+	Machine Learning (cs.LG)
+	
+	Submitted: 16 August, 2024
+	Published: 24 August, 2024
 
-  ?
+	https://arxiv.org/pdf/2408.08774
 
 	Note:
 	published with raja.csp@gmail.com
