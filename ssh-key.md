@@ -2,9 +2,6 @@
 
 # SSH Key
 
-**Note:** 
-
-
 
 ### How to generate ssh key on Ubuntu or GitSCM (Windows)?
 ```
