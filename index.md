@@ -521,6 +521,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Prompt Engineering](prompt-engineering.md)
   * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
+  * [GenAI Interview Questions](genai-interview-questions.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
