@@ -404,7 +404,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [SigPy](sigpy.md)
   * [Env Keys / envkeys](envkeys.md)
   * [Trendy Topics](trendy-topics.md)
-  * [Raja CSP Raman Profile](raja-csp-profile.md)
   * [Engineering Blogs](engineering-blogs.md)
   * [Engineering Laws](engineering-laws.md)
   * [Book Reading](book-reading.md)
@@ -561,3 +560,4 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## CSP
   * [CSP - PyPI](csp-pypi.md)
   * [GitBook - CSP](gitbook-csp.md)
+  * [Raja CSP Raman Profile](raja-csp-profile.md)
