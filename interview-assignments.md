@@ -337,3 +337,11 @@ Collect all users by web scraping
 Sort the users by total GB uploaded
 Use FastAPI
 ```
+
+
+### 25. 
+```
+Clone this branch: https://github.com/kactlabs/object-guessing-game-course/tree/python-assignment-20251205
+Undersand use cases
+Fix the existing Issues
+```
