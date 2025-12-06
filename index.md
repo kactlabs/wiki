@@ -521,7 +521,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
   * [GenAI Interview Questions](genai-interview-questions.md)
-  * [Kactii Academy - Cousre Maker Revenue](course-maker-revenue.md)
+  * [Kactii Academy - Course Maker Revenue](course-maker-revenue.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
