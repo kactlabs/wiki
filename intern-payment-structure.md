@@ -4,7 +4,7 @@
 
 ### Intern Payment Structure – Markdown Tables
 
-#### First Year Interns
+#### Contract Year 1:
 
 | Category               | Count                           | Monthly Pay (INR) |
 | ---------------------- | ------------------------------- | ----------------- |
@@ -16,7 +16,7 @@
 
 ---
 
-#### Second Year Interns
+#### Contract Year 2:
 
 | Category               | Count                           | Monthly Pay (INR) |
 | ---------------------- | ------------------------------- | ----------------- |
@@ -28,7 +28,7 @@
 
 ---
 
-#### Third Year Interns
+#### Contract Year 3:
 
 | Category               | Count                           | Monthly Pay (INR) |
 | ---------------------- | ------------------------------- | ----------------- |
