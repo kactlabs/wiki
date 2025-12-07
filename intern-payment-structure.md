@@ -2,8 +2,6 @@
 
 ## Intern Payment Structure
 
-### Intern Payment Structure – Markdown Tables
-
 #### Contract Year 1:
 
 | Category               | Count                           | Monthly Pay (INR) |
