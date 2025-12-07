@@ -562,3 +562,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [CSP - PyPI](csp-pypi.md)
   * [GitBook - CSP](gitbook-csp.md)
   * [Raja CSP Raman Profile](raja-csp-profile.md)
+
+## Investments
+  * [Mini Angels](miniangels-club.md)
