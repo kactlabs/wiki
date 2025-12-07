@@ -1,14 +1,17 @@
-graph TD
+flowchart TB
+
+    %% Invisible nodes for spacing
+    X1[ ]:::invisible
+    X2[ ]:::invisible
 
     A[Top Performer<br/>1 Intern<br/>2K-6K / 3K-7K / 5K-10K]
 
-    B1[Medium Performers<br/>2 Interns<br/>2K-3K / 2K-5K / 2K-5K]
+    B[Medium Performers<br/>2 Interns<br/>2K-3K / 2K-5K / 2K-5K]
 
-    C1[Regular<br/>7 Interns<br/>1K / 1K-2K / 1K-2K]
+    C[Regular<br/>7 Interns<br/>1K / 1K-2K / 1K-2K]
 
-    A --> B1
-    B1 --> C1
+    X1 --- A --- X2
+    A --- B
+    B --- C
 
-    style A fill:#1f1f1f,stroke:#bbb,stroke-width:1px
-    style B1 fill:#1f1f1f,stroke:#bbb,stroke-width:1px
-    style C1 fill:#1f1f1f,stroke:#bbb,stroke-width:1px
+    classDef invisible fill:transparent,stroke:transparent;

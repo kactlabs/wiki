@@ -326,10 +326,13 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Public & Community Support
   * [Give Back To School](give-back-to-school.md)
   * [Finding India's Simone Giertz](finding-simone-giertz-in-india.md)
-  * [Hustlers' Club](hustlers-club.md)
-  * [HustlerML](hustlerml.md)
   * [Drum Effect](drum-effect.md)
   * [Student Developer Advocates](student-developer-advocate.md)
+
+## Hustler
+  * [Hustlers' Club](hustlers-club.md)
+  * [HustlerML](hustlerml.md)
+  * [Hustler Scholarship](hustler-scholarship.md)
 
 ## Events
   * [Micro Hackathon - Internal](micro-hackthon.md)
