@@ -475,7 +475,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [AI Agents Stack](ai-agent-stack.md)
   * [Course Translator with Python](course-traslator-with-python.md)
   * [LangChain Basics & Intermediate](langchain-basics-and-intermediate.md)
-
+  * [Course - Supabase](course-supabase.md)
 
 ## Timeline
   * [Timeline of GenAI Tools and Libs](timeline-tools-libs.md)
