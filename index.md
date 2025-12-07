@@ -476,6 +476,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Course Translator with Python](course-traslator-with-python.md)
   * [LangChain Basics & Intermediate](langchain-basics-and-intermediate.md)
   * [Course - Supabase](course-supabase.md)
+  * [Kactii Academy - Course Maker Revenue](course-maker-revenue.md)
+  * [Kactii Academy - Video Course Revenue](video-courses-revenue.md)
 
 ## Timeline
   * [Timeline of GenAI Tools and Libs](timeline-tools-libs.md)
@@ -521,7 +523,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
   * [GenAI Interview Questions](genai-interview-questions.md)
-  * [Kactii Academy - Course Maker Revenue](course-maker-revenue.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
