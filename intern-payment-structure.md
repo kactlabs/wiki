@@ -1,10 +1,6 @@
 / [Home](index.md)
 
-## Intern Payment Pyramid
-
-Below is the **Intern Payment Pyramid** represented in both **Markdown Table Format** and **Pyramid Diagram**.
-
----
+## Intern Payment Structure
 
 ### Intern Payment Structure – Markdown Tables
 

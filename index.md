@@ -478,7 +478,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Course - Supabase](course-supabase.md)
   * [Kactii Academy - Course Maker Revenue](course-maker-revenue.md)
   * [Kactii Academy - Video Course Revenue](video-courses-revenue.md)
-  * [Intern Payment Pyramid](intern-payment-pyramid.md)
+  * [Intern Payment Structure](intern-payment-structure.md)
 
 ## Timeline
   * [Timeline of GenAI Tools and Libs](timeline-tools-libs.md)
