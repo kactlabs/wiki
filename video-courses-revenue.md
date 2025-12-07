@@ -1,8 +1,6 @@
 / [Home](index.md)
 
-## Kactii Academy - Video Course Revenue Map
-
-## Course Maker Program: 2-Year Revenue Projection (Markdown Format)
+## Kactii Academy - Video Course Revenue Map - 2 Years
 
 This projection assumes the following:
 
