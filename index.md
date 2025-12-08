@@ -89,7 +89,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [FPR Color Theme - Macbook](fpr-color-theme-macbook.md)
   * [FPR Mac History](fpr-mac-history.md)
   * [Mac Club](mac-club.md)
-
+  * [Log Stream MacOS / logstream](log-stream-macos.md)
 
 ## Zorin OS
 
