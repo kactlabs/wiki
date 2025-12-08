@@ -17,6 +17,9 @@ cat ~/.ssh/id_rsa.pub
 copy and paste the ssh key on Github/Gitlab
 ```
 
+### Windows 
+![1765180829954](image/ssh-key/1765180829954.png)
+
 ### How to generate ssh key on MacOs?
 ```
 ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
