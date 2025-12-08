@@ -10,6 +10,7 @@
 | Medium Performers      | 2                               | 2,000 – 3,000     |
 | Regular                | 7                               | 1,000             |
 | **Total Interns**      | **10**                          | **-**             |
+| **Total Monthly Budget** | **-**                         | **13,000 – 19,000** |
 | Internship Certificate | After 550 hours of contribution | -                 |
 
 ---
@@ -22,6 +23,7 @@
 | Medium Performers      | 2                               | 2,000 – 5,000     |
 | Regular                | 7                               | 1,000 – 2,000     |
 | **Total Interns**      | **10**                          | **-**             |
+| **Total Monthly Budget** | **-**                         | **14,000 – 31,000** |
 | Internship Certificate | After 550 hours of contribution | -                 |
 
 ---
@@ -34,6 +36,7 @@
 | Medium Performers      | 2                               | 2,000 – 5,000     |
 | Regular                | 7                               | 1,000 – 2,000     |
 | **Total Interns**      | **10**                          | **-**             |
+| **Total Monthly Budget** | **-**                         | **16,000 – 34,000** |
 | Internship Certificate | After 550 hours of contribution | -                 |
 
 ---
