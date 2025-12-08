@@ -365,7 +365,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Featurepreneur Responsibilities and Beneifits](featurepreneur-benefits-and-responsibilities.md)
   * [How to view courses on Featurepreneur](how-to-view-courses.md)
   * [Micro Investor Contibution Framework](micro-investor-contribution-framework.md)
-  * [Student Side Hustle](student-side-hustle.md)
   * [Featurepreneur Requirements](fpr-requirements.md)
   * [Course Video Rules](course-video-rules.md)
   * [Featurepreneur FAQ](featurepreneur-faq.md)
@@ -571,3 +570,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Investments
   * [Mini Angels](miniangels-club.md)
+
+### SSH / Student Side Hustle
+  * [Student Side Hustle](student-side-hustle.md)
+  * [Student Side Hustle Mentors](student-side-hustle-mentors.md)
