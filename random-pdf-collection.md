@@ -118,6 +118,79 @@ site:mas.gov.sg filetype:pdf
 site:singstat.gov.sg filetype:pdf
 site:sgx.com filetype:pdf
 
+
+India:
+site:rbi.org.in filetype:pdf
+site:finmin.nic.in filetype:pdf
+site:dea.gov.in filetype:pdf
+site:sebi.gov.in filetype:pdf
+site:cga.nic.in filetype:pdf
+site:mca.gov.in filetype:pdf
+site:indiabudget.gov.in filetype:pdf
+
+site:mospi.gov.in filetype:pdf
+site:censusindia.gov.in filetype:pdf
+site:uidai.gov.in filetype:pdf
+site:niti.gov.in filetype:pdf
+
+site:bseindia.com filetype:pdf
+site:nseindia.com filetype:pdf
+site:ccilindia.com filetype:pdf
+
+
+Ireland:
+site:centralbank.ie filetype:pdf
+site:finance.gov.ie filetype:pdf
+site:ntma.ie filetype:pdf
+site:cs0.ie filetype:pdf          (Central Statistics Office)
+site:cso.ie filetype:pdf          (Correct CSO domain)
+site:euronext.com filetype:pdf    (Irish Stock Exchange under Euronext)
+
+
+South Africa:
+site:resbank.co.za filetype:pdf
+site:treasury.gov.za filetype:pdf
+site:fsca.co.za filetype:pdf       (Financial Sector Conduct Authority)
+site:statssa.gov.za filetype:pdf
+site:jse.co.za filetype:pdf
+
+
+Hong Kong:
+site:hkma.gov.hk filetype:pdf
+site:fstb.gov.hk filetype:pdf
+site:sfc.hk filetype:pdf
+site:hkex.com.hk filetype:pdf
+site:censusandstatistics.gov.hk filetype:pdf
+
+
+United Arab Emirates:
+site:cbuae.gov.ae filetype:pdf
+site:mf.gov.ae filetype:pdf
+site:sca.gov.ae filetype:pdf        (Securities and Commodities Authority)
+site:adx.ae filetype:pdf
+site:dfm.ae filetype:pdf
+site:fcsa.gov.ae filetype:pdf       (Statistics)
+
+
+English-Speaking Caribbean:
+site:cima.ky filetype:pdf           (Monetary Authority)
+site:eso.ky filetype:pdf            (Economics & Statistics Office)
+
+
+Bermuda:
+site:bma.bm filetype:pdf            (Monetary Authority)
+
+
+Global Multilateral Financial Institutions (English primary)
+site:imf.org filetype:pdf
+site:worldbank.org filetype:pdf
+site:oecd.org filetype:pdf
+site:bis.org filetype:pdf
+site:adb.org filetype:pdf
+site:wto.org filetype:pdf
+site:un.org filetype:pdf
+
+
 ```
 
 ### Screenshots
