@@ -15,6 +15,9 @@ Slack
 
 Sublime
 
+Git SCM
+  https://git-scm.com/install/windows
+
 GitHub Account
   - name should not have any numbers
   - first_name, last_name
