@@ -14,8 +14,16 @@ git clone git@github.com:kactlabs/brave-search-custom.git
 python app.py
 
 # check http://0.0.0.0:8899/ 
+
 ```
 
+
+### Extract PDF and Save in your Destination Folder
+```
+py pdf_file_migration.py
+
+# make sure you have SOURCE_FOLDER and DEST_FOLDER set properly 
+```
 
 ### Sample websites:
 ```
@@ -195,3 +203,5 @@ site:un.org filetype:pdf
 
 ### Screenshots
 ![1765172037425](image/random-pdf-collection/1765172037425.png)
+
+
