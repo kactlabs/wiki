@@ -10,11 +10,7 @@ Free and Open Source Software (FOSS) has shaped the modern software ecosystem—
 
 As an alumnus and a technology professional committed to open knowledge, I have been in discussion with **Prof. Karthikeyan, TCE**, and we are aligned on moving forward to support and scale FOSS-focused activities at the college.
 
-To kickstart this initiative, **I am committing INR 50,000 per year** personally toward **FOSS-TCE**.
-
-**My Profile:**
-[https://app.kactii.com/c/raja](https://app.kactii.com/c/raja)
-[https://linktr.ee/rajacsp](https://linktr.ee/rajacsp)
+To kickstart this initiative, **I am committing ₹ 50,000 per year** personally toward **FOSS-TCE**.
 
 ---
 
@@ -46,6 +42,12 @@ Our vision is to transform TCE into a **hub for open-source excellence**—where
 ## Call for Collaborators, Contributors, and Supporters
 
 If you believe in open knowledge, shared progress, and accessible technical education, I invite you to join us. Your support—whether financial, advisory, or mentoring—can enable students to innovate and contribute to the technologies shaping the world.
+
+---
+
+**CSP Profile:**
+- [https://app.kactii.com/c/raja](https://app.kactii.com/c/raja)
+- [https://linktr.ee/rajacsp](https://linktr.ee/rajacsp)
 
 If you are interested in supporting **FOSS-TCE**, please reach out to me directly.
 
