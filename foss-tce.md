@@ -18,9 +18,9 @@ To kickstart this initiative, **I am committing ₹ 50,000 per year** personally
 
 FOSS stands for **Free and Open Source Software**—software that is free to use, modify, share, and improve. The success of transformative tools and platforms—from Linux to Python, Kubernetes, Hugging Face Transformers, PostgreSQL, and Blender—demonstrates the power of open innovation and distributed contribution.
 
-**References:**
-[https://en.wikipedia.org/wiki/Free_and_open-source_software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
-[https://www.fosshub.com/](https://www.fosshub.com/)
+### References:
+- [https://en.wikipedia.org/wiki/Free_and_open-source_software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+- [https://www.fosshub.com/](https://www.fosshub.com/)
 
 ---
 
