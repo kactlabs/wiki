@@ -575,3 +575,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ### SSH / Student Side Hustle
   * [Student Side Hustle](student-side-hustle.md)
   * [Student Side Hustle Mentors](student-side-hustle-mentors.md)
+
+### TCE
+  * [FOSS TCE](foss-tce.md)
