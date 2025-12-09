@@ -41,6 +41,19 @@ git push origin main
 
 ---
 
+
+
+## Chunk and Merge log files along with lfs
+```
+
+csp_mac_syslog-20251208_part_aa
+
+git lfs track "csp_mac_syslog*"
+
+cat csp_mac_syslog* > csp_mac_syslog.log
+
+```
+
 # Special Git Features Similar to Git LFS
 
 Git offers several specialized mechanisms—native and external—that solve challenges around large files, repository scale, dependency management, workflow automation, and data governance.
