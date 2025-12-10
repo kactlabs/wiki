@@ -414,6 +414,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [TV Shows](tv-shows.md)
   * [Git Fork and Bring Changes](git-fork-and-bring-changes.md)
   * [Random PDF Collection](random-pdf-collection.md)
+  * [SubStack](substack.md)
 
 ## Data
   * [100 Datasets](100-datasets.md)
