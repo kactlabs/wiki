@@ -2,29 +2,43 @@
 
 ## TV Shows
 
-**Note:** tbw
-
+**Note:** Improve your communication skills via American TV Shows
 
 
 ### Famous
-```
-The office
-Brooklyn 99
-Two and a half men
-Friends
-Wednesday
-How i met your mother
-that 70s show
-Prince of Belair
-Seinfeld
-Modern family
-Stranger things
-Dark
-The queen’s gambit
-New girl
-Peaky blinders
-the umbrella academy
-```
+**Two and a Half Men** [https://www.imdb.com/title/tt0369179/](https://www.imdb.com/title/tt0369179/)
+
+**Friends** [https://www.imdb.com/title/tt0108778/](https://www.imdb.com/title/tt0108778/)
+
+**How I Met Your Mother** [https://www.imdb.com/title/tt0460649/](https://www.imdb.com/title/tt0460649/)
+
+**That '70s Show** [https://www.imdb.com/title/tt0165598/](https://www.imdb.com/title/tt0165598/)
+
+**The Fresh Prince of Bel-Air** [https://www.imdb.com/title/tt0098800/](https://www.imdb.com/title/tt0098800/)
+
+**Modern Family** [https://www.imdb.com/title/tt1442437/](https://www.imdb.com/title/tt1442437/)
+
+**Stranger Things** [https://www.imdb.com/title/tt4574334/](https://www.imdb.com/title/tt4574334/)
+
+**Dark** [https://www.imdb.com/title/tt5753856/](https://www.imdb.com/title/tt5753856/)
+
+**New Girl** [https://www.imdb.com/title/tt1826940/](https://www.imdb.com/title/tt1826940/)
+
+**Peaky Blinders** [https://www.imdb.com/title/tt2442560/](https://www.imdb.com/title/tt2442560/)
+
+**The Umbrella Academy** [https://www.imdb.com/title/tt1312171/](https://www.imdb.com/title/tt1312171/)
+
+**The Office** [https://www.imdb.com/title/tt0386676/](https://www.imdb.com/title/tt0386676/)
+
+**Brooklyn Nine-Nine** [https://www.imdb.com/title/tt2467372/](https://www.imdb.com/title/tt2467372/)
+
+**Men at Work** [https://www.imdb.com/title/tt1942919/](https://www.imdb.com/title/tt1942919/)
+
+**Better Off Ted** [https://www.imdb.com/title/tt1235547/](https://www.imdb.com/title/tt1235547/)
+
+**Seinfeld** [https://www.imdb.com/title/tt0098904/](https://www.imdb.com/title/tt0098904/)
+
+**My Boys** [https://www.imdb.com/title/tt0496356/](https://www.imdb.com/title/tt0496356/)
 
 
 ### Low Key
