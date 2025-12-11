@@ -571,7 +571,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Raja CSP Raman Profile](raja-csp-profile.md)
 
 ## Investments
-  * [Mini Angels](miniangels-club.md)
+  * [Mini Angels / MiniAngels](miniangels-club.md)
 
 ### SSH / Student Side Hustle
   * [Student Side Hustle](student-side-hustle.md)
