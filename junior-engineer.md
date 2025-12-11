@@ -7,9 +7,13 @@
 ## Looking for Junior Software / GenAI Engineer (Frontend + AI) at Kactii
 
 **Location:** Remote (Tamil Nadu, India)
+<br>
 **Company:** Kactii (Canadian Startup)
+<br>
 **Type:** Full-time
+<br>
 **Experience Level:** Fresh Graduates Welcome
+<br>
 **Equipment:** Must have personal laptop + reliable internet; MacBook provided after 3-month probation
 
 ---
