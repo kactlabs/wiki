@@ -583,3 +583,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ### Bootcamp
   * [Kactii Link Bank / linkbank](kactii-linkbank.md)
   * [HustleCamp](hustlecamp.md)
+
+### Hiring
+  * [Hiring Junior Engineer at Kactii](junior-engineer.md)
