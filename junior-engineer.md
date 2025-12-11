@@ -100,3 +100,9 @@ This is an ideal role for fresh graduates who want to combine UI engineering wit
 * Exposure to real customers and funded startups from North America and Asia.
 
 ---
+
+## How to Apply
+
+Interested candidates can send their resume and a brief cover letter to: **info@kactii.com**
+
+---
