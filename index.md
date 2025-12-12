@@ -586,3 +586,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Hiring
   * [Hiring Junior Engineer at Kactii](junior-engineer.md)
+
+### Podcastaing
+  * [Podcasting - 1 - Dec 12, 2025](podcasting-1-20251212)
