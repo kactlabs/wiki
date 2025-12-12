@@ -345,3 +345,25 @@ Clone this branch: https://github.com/kactlabs/object-guessing-game-course/tree/
 Undersand use cases
 Fix the existing Issues
 ```
+
+### 26.
+```
+Folder Rename:
+
+I need to index all main folders (don't go into sub folders) like:
+
+132-jerin-toolkit
+
+133-kactii-hustlecamp-learning-analytics
+
+start with 141 as the latest number is 140 (140-meeran-gajalakshmi-image-creator)
+
+don't touch if the folder already indexed like <n>-abc
+
+if the folder name has space, replace with "-"
+
+if the folder name has Capital letter, replace it with small
+
+do this in folder_migration.py
+
+```
