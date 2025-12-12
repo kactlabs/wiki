@@ -589,3 +589,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Podcastaing
   * [Podcasting - 1 - Dec 12, 2025](podcasting-1-20251212)
+
+### CSP - Books
+  * [Building RESTful Web Services with Spring 5 - Second Edition: Leverage the power of Spring 5.0, Java SE 9, and Spring Boot 2.0 - Jan 29, 2018](https://www.amazon.ca/Building-Restful-Web-Services-Spring/dp/1788475895)
+  * [The Risk Taking Gene](the-risk-taking-gene.md)
