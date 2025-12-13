@@ -31,19 +31,31 @@ change the necessary changes to update:
     SOCIAL          : (use your github links)
 
 ```
+
+### Verify Local
+```
+python make.py
+
+PELICAN_ENV=local pelican content
+
+pelican --listen
+    this will run the local server
+    http://127.0.0.1:8000
+```
+
 ### Create Sample file 
 ```
 Create notebooks folder (leave it if it is already created)
 
 And add any other folder related to your work 
 
-And do the assignments in jupyter lab
+And do the assignments in jupyter lab (needs installation of jupyterlab) by running the command: jupyter lab
 
 Once done follow the below steps
 
 ```
 
-### How to puplish Changes
+### How to publish Changes
 ```
 python make.py
 
@@ -61,7 +73,7 @@ select "main" branch and "docs" folder
 ```
 Once you are set and started to work
 
-After evry 5 files you have to puplish the chages
+After every 5 files you have to publish the changes
 ```
 ### How to push your changes?
 ```
