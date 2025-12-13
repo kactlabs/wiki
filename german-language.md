@@ -34,8 +34,8 @@
 
 ## 2. Introductions
 
-9. **Ich heiße Sandhiya.**
-   My name is Sandhiya.
+9. **Ich heiße John.**
+   My name is John.
 
 10. **Wie heißen Sie?**
     What is your name? (formal)
