@@ -368,3 +368,15 @@ do this in folder_migration.py
 
 
 ```
+
+
+### 27. CodeVectra Improvements
+```
+1. Fork this repo: https://github.com/kactlabs/code-vectra
+
+2. Understand the code
+
+3. Make improvements
+
+4. Send PR with your changes
+```
