@@ -597,3 +597,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Foreign Languages
   * [German - Basic Conversations](german-language.md)
+
+### Startup
+  * [Startup Videos](startup-videos.md)
