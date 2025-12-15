@@ -41,6 +41,10 @@ git push origin main
 
 ---
 
+### Ref:
+[https://git-lfs.com/](https://git-lfs.com/)
+
+---
 
 
 ## Chunk and Merge log files along with lfs
