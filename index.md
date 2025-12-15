@@ -603,3 +603,4 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Random PDF Collection](random-pdf-collection.md)
   * [SubStack](substack.md)
   * [HTML Theme Collection / html-theme-collection](html-theme-collection.md)
+  * [Data Collection Tasks / data-collection-tasks](data-collection-tasks.md)
