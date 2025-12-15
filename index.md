@@ -390,33 +390,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## ReD
   * [ReD Brainstorming 1](red.md)
 
-## Misc
-  * [Hinglish](hinglish.md)
-  * [TV shows to watch to improve communication skills](improving-communication-skills.md)
-  * [Linfluencers](linfluencers.md)
-  * [Case Studies](case-studies.md)
-  * [Data Bees](data-bees.md)
-  * [Database Analysis](database-analysis.md)
-  * [Data Collection Sequence](data-collection-sequence.md)
-  * [Escalation Template](escalation-template.md)
-  * [Kact Lingo](kact-lingo.md)
-  * [Mock Interviews](mock-interviews.md)
-  * [IIT Secrets](iit-secrets.md)
-  * [AIML Roadmap](aiml-roadmap.md)
-  * [SigPy](sigpy.md)
-  * [Env Keys / envkeys](envkeys.md)
-  * [Trendy Topics](trendy-topics.md)
-  * [Engineering Blogs](engineering-blogs.md)
-  * [Engineering Laws](engineering-laws.md)
-  * [Book Reading](book-reading.md)
-  * [GenAI Roadmap - Vrishank](genai-roadmap-vrishank.md)
-  * [Books 4 Entrepreneurs](books-4-entrepreneurs.md)
-  * [Learning Levels](learning-levels.md)
-  * [TV Shows](tv-shows.md)
-  * [Git Fork and Bring Changes](git-fork-and-bring-changes.md)
-  * [Random PDF Collection](random-pdf-collection.md)
-  * [SubStack](substack.md)
-
 ## Data
   * [100 Datasets](100-datasets.md)
   * [poseai - Data Collection](poseai-data-collection.md)
@@ -600,3 +573,33 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ### Startup
   * [Startup Videos](startup-videos.md)
+
+  
+
+## Misc
+  * [Hinglish](hinglish.md)
+  * [TV shows to watch to improve communication skills](improving-communication-skills.md)
+  * [Linfluencers](linfluencers.md)
+  * [Case Studies](case-studies.md)
+  * [Data Bees](data-bees.md)
+  * [Database Analysis](database-analysis.md)
+  * [Data Collection Sequence](data-collection-sequence.md)
+  * [Escalation Template](escalation-template.md)
+  * [Kact Lingo](kact-lingo.md)
+  * [Mock Interviews](mock-interviews.md)
+  * [IIT Secrets](iit-secrets.md)
+  * [AIML Roadmap](aiml-roadmap.md)
+  * [SigPy](sigpy.md)
+  * [Env Keys / envkeys](envkeys.md)
+  * [Trendy Topics](trendy-topics.md)
+  * [Engineering Blogs](engineering-blogs.md)
+  * [Engineering Laws](engineering-laws.md)
+  * [Book Reading](book-reading.md)
+  * [GenAI Roadmap - Vrishank](genai-roadmap-vrishank.md)
+  * [Books 4 Entrepreneurs](books-4-entrepreneurs.md)
+  * [Learning Levels](learning-levels.md)
+  * [TV Shows](tv-shows.md)
+  * [Git Fork and Bring Changes](git-fork-and-bring-changes.md)
+  * [Random PDF Collection](random-pdf-collection.md)
+  * [SubStack](substack.md)
+  * [HTML Theme Collection / html-theme-collection](html-theme-collection.md)
