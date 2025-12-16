@@ -503,6 +503,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
   * [GenAI Interview Questions](genai-interview-questions.md)
   * [Kiro](kiro.md)
+  * [LMStudio Commands](lmstudio-commands.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
