@@ -39,6 +39,17 @@ git push origin main
 ```
 
 
+```bash
+
+git config --global --list | grep lfs
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+```
+
+
 ---
 
 ### Ref:
