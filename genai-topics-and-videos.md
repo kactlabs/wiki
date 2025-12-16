@@ -91,6 +91,29 @@
 77. Mixed Precision Inference
 78. Early Exit / Token-Level Pruning
 
+--- 
+### OCR Landscape
+1. HunyuanOCR
+2. PaddleOCR-VL
+3. MinerU2.5
+4. Qwen3-VL-235B-Instruct
+5. MonkeyOCR-pro-3B
+6. dots.ocr
+7. Gemini-2.5-Pro
+8. Deepseek-OCR
+9. olmOCR
+10. Mistral-OCR
+11. GPT-4o
+12. Dolphin BaiduOCR
+13. PaddleOCR
+14. Qwen3-VL-2B-Instruct
+15. InternVL3.5-4B
+16. MiniMonkey
+17. Seed1.6-Vision
+18. Marker-1.8.2
+19. Qwen3-VL-4B-Instruct
+20. Qwen3-VL-8B-Instruct
+
 ---
 Other Random Topics
 - 
