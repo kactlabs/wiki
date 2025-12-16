@@ -15,3 +15,4 @@
 | 9 | Reddit Analyzer | https://docs.google.com/spreadsheets/d/1FWwWlWQgQ2_Dubtl-r7UIQk9nWLtADT950aNwSaTeZE/edit?gid=0#gid=0 |
 | 10 | GenAI Engineer & General LinkedIn Profile Collector | https://docs.google.com/spreadsheets/d/1yIzlQKNCGoSWPsZOz0Ppv9KbNszRXoDNePAQRZhijnk/edit?gid=0#gid=0 |
 | 11 | Random PDF Collection | https://wiki.kactii.com/random-pdf-collection.html |
+| 12 | Kaggle Data Collection | https://www.kaggle.com/datasets |
