@@ -279,6 +279,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact Learning Research](kact-learning-research.md)
   * [ML Research Papers Ideas](ml-research-papers-ideas.md)
   * [Research Contract](research-paper-contract.md)
+  * [Research Index](research-index.md)
 
 ## Testimonials
   * [Testimonials](testimonials.md)
