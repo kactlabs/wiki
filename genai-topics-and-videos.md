@@ -73,6 +73,25 @@
 
 
 ---
+### Learn these LLM Stack to improve:
+63. Quantization
+64. KV-Cache Quantization
+65. Flash Attention
+66. Speculative Decoding
+67. LoRA (Low-Rank Adaptation)
+68. Pruning
+69. Knowledge Distillation
+70. Weight Sharing
+71. Sparse Attention
+72. Batching & Dynamic Batching
+73. Model Serving Optimization
+74. Tensor Parallelism
+75. Pipeline Parallelism
+76. Paged Attention
+77. Mixed Precision Inference
+78. Early Exit / Token-Level Pruning
+
+---
 Other Random Topics
 - 
 
