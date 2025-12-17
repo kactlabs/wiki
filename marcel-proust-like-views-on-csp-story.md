@@ -1,30 +1,14 @@
 / [Home](index.md)
 
-## Template
+## Marcel Proust like View on CSP Story 
 
-**Note:** tbw
-
-
-
-
+1. Random - Chennai
+```
+TBD
 ```
 
-```
 
-![image](images/Chromatius.png)
+2. 
 
-### Subtitlte:
-
-* [ABC](link)
-
-* [XYZ](link)
-
-### Ref :
-
-  * []()
-
-
-![1753337625129](image/zzemplate/1753337625129.png)
-
-
-![1765745960893](image/zzemplate/1765745960893.png)
+### Ref
+[https://rajacsp.medium.com/my-darkest-challenging-days-in-india-b03ddc625116](https://rajacsp.medium.com/my-darkest-challenging-days-in-india-b03ddc625116)
