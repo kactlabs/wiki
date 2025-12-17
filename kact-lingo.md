@@ -40,4 +40,16 @@
 1. What is CodeVectra?
     It's like grep.app but in local folder
 
-2. 
+2. What is TinD info / TinD ID?
+    TinD stands for Tact Unique ID + Date.
+
+    Sample:
+    2025-12-17 08:08:30
+    e97afb39-93f5-47b9-bfd7-30b224962e7c 
+    
+    First line is the date and time when added/updated (format: 2025-12-17 08:08:30). 
+    Second line is a unique identifier (like e97afb39-93f5-47b9-bfd7-30b224962e7c) 
+    
+    so we can find entries in our local info database.
+
+3. 
