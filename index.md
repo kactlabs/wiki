@@ -48,6 +48,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [LMStudio Commands](lmstudio-commands.md)
   * [Image Generation With GenAI Tools](image-generation-with-genai-tools.md)
 
+## Python
+  * [PyEnv / pyenv](pyenv.md)
+
 ## TACT General Tools
   * [Nginx Installation](nginx-installation-ubuntu.md)
   * [How to Instlal Virtualenv](how-to-install-virtualenv.md)
