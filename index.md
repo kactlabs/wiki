@@ -606,3 +606,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [SubStack](substack.md)
   * [HTML Theme Collection / html-theme-collection](html-theme-collection.md)
   * [Data Collection Tasks / data-collection-tasks](data-collection-tasks.md)
+
+## Math
+  * [Prime Numbers](prime-numbers.md)
