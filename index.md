@@ -505,6 +505,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Interview Questions](genai-interview-questions.md)
   * [Kiro](kiro.md)
   * [LMStudio Commands](lmstudio-commands.md)
+  * [Image Generation With GenAI Tools](image-generation-with-genai-tools.md)
 
 ### Assignments
   * [Python Assignments](python-assignments.md)
