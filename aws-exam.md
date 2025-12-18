@@ -1,6 +1,14 @@
 / [Home](index.md)
 
 # AWS Exam
+| # | Certification | Link | Cost |
+|---|---------------|------|------|
+| 1 | AWS Certified Generative AI Developer - Professional | https://aws.amazon.com/certification/certified-generative-ai-developer-professional/ | 150 USD |
+| 2 | AWS Certified AI Practitioner | https://aws.amazon.com/certification/certified-ai-practitioner/ | 100 USD |
+
+
+### Kact AWS Exam Fund
+- This funding is applicable only for whoever finished 550 hours at Kactii
 
 - Post your points, online links about the exam topic
 
@@ -17,6 +25,6 @@
 	
 - Weekly Leaderboard will be maintained.  
 
-- Every month, we will fund one student to write an exam.
+- Every season, we will fund one student to write an exam.
 
 - Funding offer will expire for the selected student within 30 days.
