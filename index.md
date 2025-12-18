@@ -610,6 +610,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Random Speech Lines](random-speech-lines.md)
   * [Gropu Discussion Topics](group-discussion-topics.md)
   * [Random Voices](random-voices.md)
+  * [Tamil TTS](tamil-tts.md)
 
 ## Tools
   * [Misc Tools](misc-tools.md)
