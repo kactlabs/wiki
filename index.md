@@ -609,6 +609,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Data Collection Tasks / data-collection-tasks](data-collection-tasks.md)
   * [Random Speech Lines](random-speech-lines.md)
   * [Gropu Discussion Topics](group-discussion-topics.md)
+  * [Random Voices](random-voices.md)
 
 ## Tools
   * [Misc Tools](misc-tools.md)
