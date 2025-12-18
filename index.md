@@ -90,7 +90,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Updating PyPi Package](pypi.md)
   * [Pretty Metrics](prettymetrics.md)
   * [Learning Analytics](Learning-analytics.md)
-  * [AWS Exam](aws_exam.md)
+  * [AWS Exam](aws-exam.md)
   * [Error Log / Error Archive](error-log.md)
   * [New Profile creation in Terminal](kact-terminal-profile.md)
   * [Snap Issues](snap-issues.md)
