@@ -608,6 +608,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [HTML Theme Collection / html-theme-collection](html-theme-collection.md)
   * [Data Collection Tasks / data-collection-tasks](data-collection-tasks.md)
   * [Random Speech Lines](random-speech-lines.md)
+  * [Gropu Discussion Topics](group-discussion-topics.md)
 
 ## Tools
   * [Misc Tools](misc-tools.md)
