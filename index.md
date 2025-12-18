@@ -75,7 +75,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kact S3 file upload and CloudFront](kact-s3-cloudfront.md)
   * [Conda Commands](conda-commands.md)
   * [Miniconda Commands](miniconda.md)
-  * [Linux Misc Commands](linux-misc-commands.md)
+  * [Linux Commands](linux-commands.md)
   * [PM2 Commands](pm2-commands.md)
   * [Min Browser](min-browser.md)
   * [Elastic Search](elastic-search.md)
@@ -122,10 +122,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 
 
-## Tools
-  * [Misc Tools](misc-tools.md)
-  * [Image Gallery](image-gallery.md)
-  * [Turtle Colors](turtle-colors.md)
+
 
 ## Mac
   * [macOS](macos.md)
@@ -582,8 +579,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ### Startup
   * [Startup Videos](startup-videos.md)
 
-  
-
 ## Misc
   * [Hinglish](hinglish.md)
   * [TV shows to watch to improve communication skills](improving-communication-skills.md)
@@ -612,6 +607,12 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [SubStack](substack.md)
   * [HTML Theme Collection / html-theme-collection](html-theme-collection.md)
   * [Data Collection Tasks / data-collection-tasks](data-collection-tasks.md)
+  * [Random Speech Lines](random-speech-lines.md)
+
+## Tools
+  * [Misc Tools](misc-tools.md)
+  * [Image Gallery](image-gallery.md)
+  * [Turtle Colors](turtle-colors.md)
 
 ## Math
   * [Prime Numbers](prime-numbers.md)
