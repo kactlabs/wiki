@@ -22,14 +22,11 @@ git lfs version
 ```
 # tldr; 
 
-
 git lfs install
 
 git lfs track "*.pdf"
 
 git add .gitattributes
-
-git add --renormalize *.pdf
 
 git commit -m "Move large PDFs to Git LFS"
 git push origin main
