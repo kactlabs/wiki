@@ -468,6 +468,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Certificate Processing](certificate-processing.md)
   * [Daily Habits](daily-habits.md)
   * [Employee Variable Pay and Agreement](employee-variable-pay-and-agreement.md)
+  * [Turtle Score](turtle-score.md)
 
 ## Social Support
   * [DFI - District Forward Index](dfi.md)
@@ -611,6 +612,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Gropu Discussion Topics](group-discussion-topics.md)
   * [Random Voices](random-voices.md)
   * [Tamil TTS](tamil-tts.md)
+  * [Web Table 2 Json Converter](webtable2json.md)
 
 ## Tools
   * [Misc Tools](misc-tools.md)
