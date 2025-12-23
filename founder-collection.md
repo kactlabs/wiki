@@ -14,7 +14,7 @@
 
 
 #### File Name format
-demper-<region>-<username>-<yyyymmdd>.txt
+demper-(region)-(username)-(yyyymmdd).txt
 
 Sample:
 <br>
