@@ -44,12 +44,3 @@
 * **Enterprise / large-scale training:**
 
   * H100 PCIe / NVL / SXM (NVLink + SXM best for multi-GPU training)
-
-If you want, I can also:
-
-* Rank these GPUs by **LLM training suitability**
-* Recommend **best RunPod GPU for 7B / 13B / 70B models**
-* Convert this into **CSV / JSON**
-* Map GPUs to **CUDA compute capability & tensor core generation**
-
-Just tell me how you want to use this data.
