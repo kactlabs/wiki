@@ -47,6 +47,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kiro](kiro.md)
   * [LMStudio Commands](lmstudio-commands.md)
   * [Image Generation With GenAI Tools](image-generation-with-genai-tools.md)
+  * [GPU Compare](gpu-compare.md)
 
 ## Python
   * [PyEnv / pyenv](pyenv.md)
