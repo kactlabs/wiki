@@ -13,3 +13,9 @@ Thought-provoking (adjective) refers to content, ideas, or experiences that stim
 | 2 | Jeremy Rifkin - The Third Industrial Revolution: A Radical New Sharing Economy | [https://www.youtube.com/watch?v=QX3M8Ka9vUA](https://www.youtube.com/watch?v=QX3M8Ka9vUA) | 2024-12-23 |
 | 3 | Ajay Agrawal - The AI Economist: The Skill You Need to Stay Employed in the Age of AI | [https://www.youtube.com/watch?v=UhfpHwcrx6c](https://www.youtube.com/watch?v=UhfpHwcrx6c) | 2024-12-23 |
 
+
+
+
+
+#### Tind:
+f28846a9-1233-4784-9248-7009625e3e08
