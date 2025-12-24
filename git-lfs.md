@@ -63,6 +63,74 @@ filter.lfs.required=true
 ```
 
 
+```
+git lfs env
+
+git-lfs/3.7.1 (GitHub; darwin arm64; go 1.25.3)
+git version 2.39.5 (Apple Git-154)
+
+Endpoint=https://github.com/kactlabs/minibooks.git/info/lfs (auth=none)
+  SSH=git@github.com:kactlabs/minibooks.git
+LocalWorkingDir=/Users/csp/kact/minibooks
+LocalGitDir=/Users/csp/kact/minibooks/.git
+LocalGitStorageDir=/Users/csp/kact/minibooks/.git
+LocalMediaDir=/Users/csp/kact/minibooks/.git/lfs/objects
+LocalReferenceDirs=
+TempDir=/Users/csp/kact/minibooks/.git/lfs/tmp
+ConcurrentTransfers=8
+TusTransfers=false
+BasicTransfersOnly=false
+SkipDownloadErrors=false
+FetchRecentAlways=false
+FetchRecentRefsDays=7
+FetchRecentCommitsDays=0
+FetchRecentRefsIncludeRemotes=true
+PruneOffsetDays=3
+PruneVerifyRemoteAlways=false
+PruneVerifyUnreachableAlways=false
+PruneRemoteName=origin
+LfsStorageDir=/Users/csp/kact/minibooks/.git/lfs
+AccessDownload=none
+AccessUpload=none
+DownloadTransfers=basic,lfs-standalone-file,ssh
+UploadTransfers=basic,lfs-standalone-file,ssh
+GIT_EXEC_PATH=/Applications/Xcode.app/Contents/Developer/usr/libexec/git-core
+git config filter.lfs.process = "git-lfs filter-process"
+git config filter.lfs.smudge = "git-lfs smudge -- %f"
+git config filter.lfs.clean = "git-lfs clean -- %f"
+```
+
+
+```
+git lfs ls-files
+
+d277fc6db5 * 1766540434140-langchain-snippets-20251224.pdf
+b5eefa9ddc * 81-ai-agents-use-cases-20251116-1763313557925.pdf
+a62d55e4c7 * GenAI Agents Marketplace for super-lazy.pdf
+f791e815d3 * agent-quality-20251115.pdf
+ba250ad8f5 * agentic-ai-an-executive-playbook-20251116-1763265171723.pdf
+e98ee6f2e4 * agentic-ai–the-new-frontier-in-genai-20251026-1760535844138.pdf
+b88fd3534e * ai-agents-65-use-cases-transforming-enterprises-20251114-1763091041771.pdf
+5fd98ba272 * ai-engineer-roadmap-20251117.pdf
+d44b7cff38 * artificial-intelligence-with-python-20251026-1760966923259.pdf
+e9198e01f9 * build-a-voice-ai-agent-that-actually-sounds-human-step-by-step-tutorial-20251026-1761245957795.pdf
+044add4505 * building-ai-voice-agents-20251115.pdf
+0850af264a * chunking-techniques-1760239205095.pdf
+c19044acc9 * context-engineering-sessions-memory-20251115.pdf
+3d437da64b * genai-roadmap-1760050986776.pdf
+3d437da64b * genai-roadmap-20251012-1760050986776.pdf
+4bd0366ddf * introduction-to-agents-2025125.pdf
+1091d429ee * kwikee-2-vision-final.pdf
+3aa18d167e * llm-cheat-sheet-20251004-1759457996101.pdf
+42772c3873 * mastering-llm-as-a-judge-20251026-1761450709978.pdf
+ce6500bd59 * prototype-to-production-20251115.pdf
+bed7179a1f * python-Cheatsheet-for-machine-learning-20251026-1761583696414.pdf
+48d904bde6 * python-basics-sample-chapters.pdf
+5b00bcb6ee * rag-playbook-1762748140720.pdf
+9f3c9e395f * various-prompting-1759317813767.pdf
+9f3c9e395f * various-prompting-20251012-1759317813767.pdf
+```
+
 ---
 
 ### Ref:
