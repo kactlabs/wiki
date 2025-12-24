@@ -8,7 +8,7 @@
 
 Your `MyLearning` URL should be like this:
 <br>
-https://<username>.gitbook.io/mylearning
+https://(username).gitbook.io/mylearning
 
 <br><br>
 Your Daily Learning Entries should be like this:
