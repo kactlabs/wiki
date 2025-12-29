@@ -1,10 +1,5 @@
 / [Home](index.md)
 
-## GHI Testing - Resource Management
-
-
----
-
 ## GHI Testing — A Startup Contract-Hiring Heuristic
 
 **GHI Testing** is a pragmatic hiring classification model used by startups to allocate talent based on **stage, budget pressure, and quality tolerance**. It intentionally prioritizes **economic survival over theoretical perfection**.
