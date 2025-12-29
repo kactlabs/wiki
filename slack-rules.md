@@ -1,8 +1,18 @@
 / [Home](index.md)
 
-## Slack rules
+## Slack Setup and Rules
+
+### How to send an inviation?
+
+Go to Inviation Section 
+![1767018388508](image/slack-rules/1767018388508.png)
+
+Generate Link
+![1767018423695](image/slack-rules/1767018423695.png)
 
 
+
+### Slack Rules
 
 ```
 - Everyone must reply messages in Slack
