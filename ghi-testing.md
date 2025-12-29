@@ -72,6 +72,6 @@ GHI Testing explicitly rejects the myth that early startups must chase excellenc
 
 ---
 
-## One-Line Definition (Tweet-worthy)
+## One-Line Definition
 
 **“GHI Testing: Use God-tier talent sparingly, high-competency talent consistently, and incremental talent unapologetically—especially when you’re broke.”**
