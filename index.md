@@ -120,7 +120,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Poetry Commands](poetry-commands.md)
   * [Sublime Index Commands](sublime-index.md)
   * [Render Deployment Setup](render-deployment.md)
-
+  * [GHI Testing - Resource Management](ghi-testing.md)
 
 
 
