@@ -122,6 +122,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Render Deployment Setup](render-deployment.md)
   * [GHI Testing - Resource Management](ghi-testing.md)
   * [MP4 to Gif / mp42gif](mp4togif.md)
+  * [Brave Commands](brave-commands.md)
 
 
 ## Mac
