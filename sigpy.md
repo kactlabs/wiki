@@ -126,6 +126,8 @@ python make.py
 
 pelican content
 
+git add . && git commit -m "new changes" && git push
+
 go to GitHub -> Pages -> Source
 
 select "Deploy from  branch"
