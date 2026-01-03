@@ -116,7 +116,7 @@ Once done follow the below steps
 python make.py
 
 # 2. use this for Windows
-set PELICAN_ENV=local
+set PELICAN_ENV=prod
 
 # 3. verify 
 echo %PELICAN_ENV%
