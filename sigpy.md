@@ -121,6 +121,9 @@ set PELICAN_ENV=local
 # 3. verify 
 echo %PELICAN_ENV%
 
+# 3.1 verify with python
+python -c "import os; print(os.getenv('PELICAN_ENV'))"
+
 # 4. run pelican
 pelican content
 
