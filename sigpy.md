@@ -6,7 +6,7 @@
 
 
 
-### How to setup?
+### 1. How to setup?
 ```
 1. Go to this url
     https://github.com/kactlabs/sigpy
@@ -19,7 +19,10 @@
 
 5. Git clone the newly created repo
 ```
-### Once Created the repo 
+
+
+
+### 2. PyNotes Configuration Setup 
 ```
 1.go to pelicanconf.py
 
@@ -32,6 +35,9 @@ change the necessary changes to update:
 
 ```
 
+
+
+
 ### Verify Local
 ```
 python make.py
@@ -42,6 +48,25 @@ pelican --listen
     this will run the local server
     http://127.0.0.1:8000
 ```
+
+
+
+### Setup Jupyter Lab
+```
+pip install jupyterlab
+
+# verify 
+jupyter lab --version
+
+jupyter lab
+```
+You will see like this:
+![1767449737573](image/sigpy/1767449737573.png)
+
+You will see Jupyter Lab on browser:
+![1767449770876](image/sigpy/1767449770876.png)
+
+
 
 ### Create Sample file 
 ```
@@ -54,6 +79,20 @@ And do the assignments in jupyter lab (needs installation of jupyterlab) by runn
 Once done follow the below steps
 
 ```
+
+### How to push your changes?
+```
+1. py make.py
+
+2. pelican content
+
+3. git add . && git commit -m "new changes" && git push
+```
+
+### Screenshot
+![1767450056896](image/sigpy/1767450056896.png)
+
+
 
 ### How to publish Changes
 ```
@@ -69,20 +108,20 @@ Go to branch on the same page
 
 select "main" branch and "docs" folder
 ```
+
+
 ### Important Note
 ```
 Once you are set and started to work
 
 After every 5 files you have to publish the changes
 ```
-### How to push your changes?
-```
-1. py make.py
 
-2. pelican content
 
-3. git add . && git commit -m "new changes" && git push
-```
+
+
+
+
 ### Get Archive Link
 ```
 Once you push your changes
@@ -90,9 +129,13 @@ Once you push your changes
 Go to your repository -> Pynotes -> Actions -> pages-build-deployment -> Get the deploy link
 ```
 
+
+
 ### Script
 ```
 (TBD)
 
 sigpush
 ```
+
+
