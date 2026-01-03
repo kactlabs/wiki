@@ -64,7 +64,9 @@ python make.py
 PELICAN_ENV=local pelican content
 
 # use this for Windows
-$env:PELICAN_ENV="local"; pelican content
+set PELICAN_ENV=local
+# and then run 
+pelican content
 
 pelican --listen
     this will run the local server
