@@ -65,6 +65,10 @@ PELICAN_ENV=local pelican content
 
 # use this for Windows
 set PELICAN_ENV=local
+
+# verify 
+echo %PELICAN_ENV%
+
 # and then run 
 pelican content
 
@@ -108,11 +112,20 @@ Once done follow the below steps
 
 ### How to push your changes?
 ```
-1. py make.py
+# 1. Run python
+python make.py
 
-2. pelican content
+# 2. use this for Windows
+set PELICAN_ENV=local
 
-3. git add . && git commit -m "new changes" && git push
+# 3. verify 
+echo %PELICAN_ENV%
+
+# 4. run pelican
+pelican content
+
+# 5. git push 
+git add . && git commit -m "new changes" && git push
 ```
 
 ### Screenshot
