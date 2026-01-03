@@ -22,7 +22,19 @@
 
 
 
-### 2. PyNotes Configuration Setup 
+### 2. Install requirements
+```
+pip install -r requirements.txt
+
+# also install jupyter lab as you need it later
+pip install jupyterlab
+
+# verify jupyter lab
+jupyter lab --version
+```
+
+
+### 3. PyNotes Configuration Setup 
 ```
 1.go to pelicanconf.py
 
@@ -30,15 +42,21 @@ change the necessary changes to update:
     AUTHOR          : (your name)
     SITENAME        : (My Python Notes)
     GITHUB_USERNAME : (Your username)
-    LINKS           : (update these fields)
-    SOCIAL          : (use your github links)
+
+
+Go to `# Social widget` and update your social links
+SOCIAL = (
+    ("GitHub", "<your github link>"),
+    ("LinkedIn", "<your linkedin link>"),
+) 
 
 ```
+Sample:
+![1767450444603](image/sigpy/1767450444603.png)
 
 
 
-
-### Verify Local
+### 4. Verify Local Server
 ```
 python make.py
 
@@ -49,6 +67,8 @@ pelican --listen
     http://127.0.0.1:8000
 ```
 
+You should see like this:
+![1767450601257](image/sigpy/1767450601257.png)
 
 
 ### Setup Jupyter Lab
@@ -110,6 +130,7 @@ select "main" branch and "docs" folder
 ```
 
 
+
 ### Important Note
 ```
 Once you are set and started to work
@@ -119,23 +140,12 @@ After every 5 files you have to publish the changes
 
 
 
-
-
-
 ### Get Archive Link
 ```
 Once you push your changes
 
 Go to your repository -> Pynotes -> Actions -> pages-build-deployment -> Get the deploy link
 ```
-
-
-
-### Script
-```
-(TBD)
-
-sigpush
-```
-
+### Sample
+![1767451510474](image/sigpy/1767451510474.png)
 
