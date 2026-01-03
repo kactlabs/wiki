@@ -60,7 +60,11 @@ Sample:
 ```
 python make.py
 
+# only on Ubuntu/Mac
 PELICAN_ENV=local pelican content
+
+# use this for Windows
+$env:PELICAN_ENV="local"; pelican content
 
 pelican --listen
     this will run the local server
