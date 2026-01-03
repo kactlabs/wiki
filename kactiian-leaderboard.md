@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 
 ### 2. Download this timehseet:
-![https://docs.google.com/spreadsheets/d/1elZ90et8sd8ogFFKjPwEbx8S14Vts8BEmNkXrW0GGcU/edit](https://docs.google.com/spreadsheets/d/1elZ90et8sd8ogFFKjPwEbx8S14Vts8BEmNkXrW0GGcU/edit)
+https://docs.google.com/spreadsheets/d/1elZ90et8sd8ogFFKjPwEbx8S14Vts8BEmNkXrW0GGcU/edit
 
 ### 2.1. Save it in local in this format:
 Employee-Intern-timesheet-20260102
