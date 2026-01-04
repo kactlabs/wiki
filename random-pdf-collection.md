@@ -201,7 +201,71 @@ site:un.org filetype:pdf
 
 ```
 
+
+### Fintech Websites:
+```
+# US Stock Market – Private / Commercial Companies
+
+site:bloomberg.com filetype:pdf
+site:reuters.com filetype:pdf
+site:morningstar.com filetype:pdf
+site:spglobal.com filetype:pdf
+site:msci.com filetype:pdf
+site:factset.com filetype:pdf
+site:refinitiv.com filetype:pdf
+site:marketwatch.com filetype:pdf
+site:wsj.com filetype:pdf
+site:barrons.com filetype:pdf
+site:seekingalpha.com filetype:pdf
+site:yahoo.com/finance filetype:pdf
+site:zacks.com filetype:pdf
+site:gurufocus.com filetype:pdf
+site:macrotrends.net filetype:pdf
+site:investopedia.com filetype:pdf
+site:koyfin.com filetype:pdf
+site:finviz.com filetype:pdf
+site:benzinga.com filetype:pdf
+site:thestreet.com filetype:pdf
+site:morningbrew.com filetype:pdf
+site:cfraresearch.com filetype:pdf
+site:valueinvestorsclub.com filetype:pdf
+site:hedgeye.com filetype:pdf
+site:datatrekresearch.com filetype:pdf
+
+site:capitaliq.com filetype:pdf
+site:valueline.com filetype:pdf
+site:morningstar.co.uk filetype:pdf
+site:trefis.com filetype:pdf
+site:tipranks.com filetype:pdf
+site:investors.com filetype:pdf
+site:marketbeat.com filetype:pdf
+site:simplywall.st filetype:pdf
+site:wallstreetprep.com filetype:pdf
+site:corporatefinanceinstitute.com filetype:pdf
+site:alphaspread.com filetype:pdf
+site:quiverquant.com filetype:pdf
+site:insiderintelligence.com filetype:pdf
+site:sentimentinvestor.com filetype:pdf
+site:equityclock.com filetype:pdf
+site:fred.stlouisfed.org filetype:pdf
+site:tradingeconomics.com filetype:pdf
+site:ycharts.com filetype:pdf
+site:finnotes.org filetype:pdf
+site:advisorperspectives.com filetype:pdf
+site:realinvestmentadvice.com filetype:pdf
+site:longtermtrends.net filetype:pdf
+site:marketintelligencecenter.com filetype:pdf
+site:etftrends.com filetype:pdf
+site:stockanalysis.com filetype:pdf
+
+
+
+```
+
 ### Screenshots
 ![1765172037425](image/random-pdf-collection/1765172037425.png)
 
 
+
+#### Tind:
+9be6f2cd-6559-4256-bfb8-25a546a56eb7
