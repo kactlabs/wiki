@@ -124,6 +124,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [MP4 to Gif / mp42gif](mp4togif.md)
   * [Brave Commands](brave-commands.md)
   * [Kactiian Leaderboard](kactiian-leaderboard.md)
+  * [LLM Errors](llm-errors.md)
 
 ## Mac
   * [macOS](macos.md)
