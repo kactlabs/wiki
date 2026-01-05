@@ -2,6 +2,9 @@
 
 ## Kactiian Leaderboard
 
+### Repo
+[https://github.com/kactlabs/turtle-score](https://github.com/kactlabs/turtle-score)
+
 ### 1. Clone the repo
 ```
 git clone git@github.com:kactlabs/turtle-score.git
