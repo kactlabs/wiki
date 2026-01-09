@@ -50,6 +50,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GPU Compare](gpu-compare.md)
   * [MyLearning / mylearning](mylearning.md)
   * [Azure Foundry Local](azure-foundry-local.md)
+  * [Author -  Books - Journalism](author-books-journalism.md)
 
 ## Python
   * [PyEnv / pyenv](pyenv.md)
