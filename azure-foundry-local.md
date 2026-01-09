@@ -104,3 +104,6 @@ qwen2.5-7b                     GPU        chat, tools    5.20 GB      apache-2.0
 ------------------------------------------------------------------------------------------------------------------------
 gpt-oss-20b                    CPU        chat           12.26 GB     MIT          gpt-oss-20b-generic-cpu:1
 ```
+
+### Ref:
+- [Azure Foundry Local](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/reference/reference-cli?view=foundry-classic)
