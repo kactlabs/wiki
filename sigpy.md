@@ -56,12 +56,27 @@ Sample:
 
 
 
-### 4. Verify Local Server
+### 4. Verify Local Server (Ubuntu/Mac)
 ```
 python make.py
 
 # only on Ubuntu/Mac
 PELICAN_ENV=local pelican content
+
+# verify 
+echo %PELICAN_ENV%
+
+# and then run 
+pelican content
+
+pelican --listen
+    this will run the local server
+    http://127.0.0.1:8000
+```
+
+### 4. Verify Local Server (Windows)
+```
+python make.py
 
 # use this for Windows
 set PELICAN_ENV=local
@@ -110,7 +125,31 @@ Once done follow the below steps
 
 ```
 
-### How to push your changes?
+
+### How to push your changes? (Ubuntu/Mac)
+```
+# 1. Run python
+python make.py
+
+# 2. use this for Windows
+set PELICAN_ENV=prod
+
+# 3. verify 
+echo %PELICAN_ENV%
+
+# 3.1 verify with python
+python -c "import os; print(os.getenv('PELICAN_ENV'))"
+
+# 4. run pelican
+pelican content
+
+# 5. git push 
+git add . && git commit -m "new changes" && git push
+```
+
+
+
+### How to push your changes? (Windows)
 ```
 # 1. Run python
 python make.py
