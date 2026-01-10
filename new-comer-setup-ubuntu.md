@@ -1,18 +1,52 @@
 / [Home](index.md)
 
-## Newcomer Setup - Windows
+## Newcomer Setup - Ubuntu
 
 **Note:** Let's setup things for Kactii
 
 
 
-
+### Brave
+```
+TBD
 ```
 
-Brave
 
-Slack
 
+
+#### Slack
+```
+sudo apt update
+sudo snap install slack
+```
+
+
+
+### Sublime
+```
+sudo snap install sublime-text --classic
+
+# verify
+subl --version
+  # you should see something like this
+  Sublime Text Build 4200
+```
+
+
+### DailyLogs
+- [Daily Log](daily-log.md)
+
+
+
+
+
+
+
+
+
+
+
+```
 Sublime
 
 GitHub Account
@@ -22,7 +56,7 @@ GitHub Account
 
 SSH Key
 
-daily-logs Repo
+
 	dl-<name>.txt
 	error-archive.txt
 
