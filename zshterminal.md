@@ -2,7 +2,24 @@
 
 # Zsh Terminal 
 
-Zsh Terminal
+
+### Check your default shell
+```
+echo $0
+
+# this should show zsh as your default shell
+zsh
+
+# if not, run the below commands to install zshrc
+```
+
+
+### Run these if you don't have zsh shell as your default
+```
+```
+
+
+### Zsh Terminal
 ```
 sudo apt-get update
 sudo apt upgrade

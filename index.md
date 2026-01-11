@@ -439,9 +439,10 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## ReD
   * [ReD Brainstorming 1](red.md)
 
-## Data
+## Data / Data Collection
   * [100 Datasets](100-datasets.md)
   * [poseai - Data Collection](poseai-data-collection.md)
+  * [Scrutinium Data Collection](scrutinium-data-collection.md)
 
 ## Badges
   * [Badges](badges.md)
