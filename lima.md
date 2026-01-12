@@ -76,6 +76,7 @@ WARN[0000] No instance found. Run `limactl create` to create an instance.
 ```
 
 
+### System Information and Available Templates
 ```
 limactl info
 
