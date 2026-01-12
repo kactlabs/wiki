@@ -54,6 +54,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [System Info / system-info](system-info.md)
   * [Llama.cpp / Llama CPP](llama.cpp.md)
 
+## OS
+  * [lima](lima.md)
+
 ## Python
   * [PyEnv / pyenv](pyenv.md)
 
