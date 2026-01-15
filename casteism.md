@@ -7,3 +7,4 @@
 - [SHOCKING - Indian CASTE System in Canada (It's BAD)](https://www.youtube.com/watch?v=gPTP-0J6CLM)
 - [Inside Canada's Indian Metropolis](https://www.youtube.com/watch?v=pPbu_XcjFnQ)
 - [SHOCKING - Indian Explains Caste System in CANADA](https://www.youtube.com/watch?v=fW2YXNMQ5Gw)
+- [Did brahmin eat beef in old centuries? whey did they stop?](https://chatgpt.com/share/695d3954-9f98-8002-87af-81b0381da05c)
