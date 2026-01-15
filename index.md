@@ -148,6 +148,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
   * [Zorin OS Installation](zorin-install.md)
 
+## Language
+  * [Learning German](learning-german.md)
+
 ## Orientation
   * [Daily Log](daily-log.md)
   * [Employee Orientation](employee-orientation.md)
