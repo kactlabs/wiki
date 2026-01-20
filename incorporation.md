@@ -6,6 +6,11 @@
 
 ```
 Entity Name: 17603118 CANADA INC.
+
+Corporate name: 17603118 CANADA INC.
+Corporation number: 1760311-8
+Business number (BN): 710965765RC0001
+
 OCN: 1001470316
 Transaction Number: APP-A11003980507
 
