@@ -14,7 +14,7 @@ git clone git@github.com:kactlabs/myshell.git
 
 ### Get into your desired folder
 ```
-cd ~/kact/myshell
+cd ~/kact/{your-desired-folder}
 
 ~/kact/myshell/kactii_custom_precommit_hook.sh
 ```
