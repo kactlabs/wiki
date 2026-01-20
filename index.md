@@ -630,6 +630,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Founder Collection](founder-collection.md)
   * [Random Food GTA](random-food-gta.md)
   * [786](786.md)
+  * [Date Format / date-format / dateformat](date-format.md)
 
 ## Tools
   * [Misc Tools](misc-tools.md)
