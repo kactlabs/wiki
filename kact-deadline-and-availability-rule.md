@@ -71,3 +71,29 @@ If you can't complete a task in 3 hrs, you can ask help from Manager and then pr
 
 
 
+
+
+---
+
+## Weekly Availability Rules
+
+Share your weekly availability on every Saturday.
+
+**Sample Format:**
+```
+2026.01.25  - Sun  -   10:00 AM IST
+2026.01.26  - Mon  -   10:00 AM IST
+2026.01.27  - Tue  -   7:00 PM IST
+2026.01.28  - Wed  -   7:00 PM IST
+2026.01.29  - Thu  -   7:00 PM IST
+2026.01.30  - Fri  -   7:00 PM IST
+2026.01.31  - Sat  -   7:00 PM IST
+```
+
+**Important Guidelines:**
+
+- Don't change your slot at the last minute. If you mentioned that you will be available at 7pm on Thu, be there at 7pm.
+
+- Be flexible on your availability based on your Manager's schedule. As some of your managers are on different time zones and they are volunteering their hours, make yourself available to match their free time.
+
+- If you need to change the slot at the last minute, you need a strong reason for it and you must state the reason in the group. However, you can change the slot 2 hours before.

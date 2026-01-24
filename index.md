@@ -219,7 +219,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Kact Rules / Core Values / Policies
   * [Kact Rules](kact-rules.md)
-  * [Kact Deadline Rules](kact-deadline-rule.md)
+  * [Kact Deadline Rules and Availability Rules](kact-deadline-and-availability-rule.md)
   * [Availability Schedule](availability-schedule.md)
   * [Recording Session](recording-session.md)
   * [Equality](equality.md)
