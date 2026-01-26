@@ -4,20 +4,29 @@
 
 **Note:** tbw
 
-
-
 ### Install - MacOS
+
 ```
 brew search llama.cpp
 
+if not installed before
+brew install llama.cpp
+
+```
+
+
+### Install Ubuntu
+```
+TBD
 ```
 
 ### Install - Windows
 ```
+TBD
 ```
 
-
 ### Set HF_TOKEN in Zshrc to download HF models - MacOS
+
 ```
 
 export HF_TOKEN=<your hf token>
@@ -29,6 +38,7 @@ echo $HF_TOKEN
 ```
 
 ### Download and play with model
+
 ```
 llama-cli -hf TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
 
@@ -87,8 +97,8 @@ available commands:
 
 ![1768052378128](image/llama.cpp/1768052378128.png)
 
-
 ### Chat with your HF Model
+
 ```
 > tell me about first Cricket Match
 
@@ -96,4 +106,25 @@ The Cricket World Cup 2019 is the 14th edition of the global Cricket tournament.
 
 [ Prompt: 550.5 t/s | Generation: 226.2 t/s ]
 ```
+
 ![1768052436828](image/llama.cpp/1768052436828.png)
+
+
+
+### Run llama server
+```
+llama-server -hf TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF --port 8080
+```
+
+
+### Access Server:
+```
+curl http://127.0.0.1:8080/
+
+Error: gzip is not supported by this browser%
+
+curl http://127.0.0.1:8080/v1/models
+
+{"models":[{"name":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","model":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","modified_at":"","size":"","digest":"","type":"model","description":"","tags":[""],"capabilities":["completion"],"parameters":"","details":{"parent_model":"","format":"gguf","family":"","families":[""],"parameter_size":"","quantization_level":""}}],"object":"list","data":[{"id":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","object":"model","created":1769461734,"owned_by":"llamacpp","meta":{"vocab_type":1,"n_vocab":32000,"n_ctx_train":2048,"n_embd":2048,"n_params":1100048384,"size":481406976}}]}%
+```
+
