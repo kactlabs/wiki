@@ -119,12 +119,16 @@ llama-server -hf TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF --port 8080
 
 ### Access Server:
 ```
-curl http://127.0.0.1:8080/
+curl http://127.0.0.1:8080/health
 
-Error: gzip is not supported by this browser%
+#You should see this
+{"status":"ok"}
 
 curl http://127.0.0.1:8080/v1/models
+
+#You should see like this
 
 {"models":[{"name":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","model":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","modified_at":"","size":"","digest":"","type":"model","description":"","tags":[""],"capabilities":["completion"],"parameters":"","details":{"parent_model":"","format":"gguf","family":"","families":[""],"parameter_size":"","quantization_level":""}}],"object":"list","data":[{"id":"TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF","object":"model","created":1769461734,"owned_by":"llamacpp","meta":{"vocab_type":1,"n_vocab":32000,"n_ctx_train":2048,"n_embd":2048,"n_params":1100048384,"size":481406976}}]}%
 ```
 
+![1769462249846](image/llama.cpp/1769462249846.png)
