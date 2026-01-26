@@ -133,6 +133,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [LLM Errors / llm-errors](llm-errors.md)
   * [Pre Commit Validator / pre-commit-validator](precommit-validator.md)
   * [Incorporation](incorporation.md)
+  * [FOSS - Free and open-source software](foss.md)
+  * []()
 
 ## Mac
   * [macOS](macos.md)
