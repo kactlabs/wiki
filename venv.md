@@ -8,6 +8,8 @@
 sudo apt update
 sudo apt install python3
 
+sudo apt install python3.12-venv
+
 Ref:
 https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
 https://linuxize.com/post/how-to-install-python-on-ubuntu-22-04/
