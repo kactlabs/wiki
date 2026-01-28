@@ -17,7 +17,13 @@ brew install llama.cpp
 
 ### Install Ubuntu
 ```
-TBD
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+brew --version
+
 ```
 
 ### Install - Windows
@@ -132,3 +138,13 @@ curl http://127.0.0.1:8080/v1/models
 ```
 
 ![1769462249846](image/llama.cpp/1769462249846.png)
+
+### Models
+
+- https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF
+- https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF
+- https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF
+- https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
+- https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF
+- https://huggingface.co/bartowski/gemma-2-9b-it-GGUF
