@@ -41,8 +41,6 @@ Profile Pic:
 
 ### 
 
-
-
 ### My Coding Waves
 ```
 Wave1 
