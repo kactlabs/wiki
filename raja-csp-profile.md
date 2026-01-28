@@ -40,3 +40,44 @@ Profile Pic:
 ![image](image/rajacsp-profile.jpeg)
 
 ### 
+
+
+
+### My Coding Waves
+```
+Wave1 
+	1999
+		Kalanignar + AKalam
+
+		Friday 5 minutes
+			8th time
+
+Wave2
+	TCE
+		EEE
+			Matlab
+			55K = 2.5L
+
+		11
+		12th - 
+
+		Dheena
+			YSR 
+
+W3
+	Srilankan
+	Canada
+
+W4:
+	IELTS - 2nd 
+	Reader Digest
+		40 
+		Higging 
+
+W5:
+	2yr IT
+
+W6:
+	Thiruvengadam
+		CSP is so good JSP ()
+```
