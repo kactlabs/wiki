@@ -12,6 +12,9 @@ Sample .gitignore
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
@@ -151,11 +154,35 @@ venv/
 #ML
 *.onnx
 
-# Ollama related
-source_documents/
-db/
+venv3
 
+# Project specific
+uploads/*
+!uploads/.gitkeep
 
+# sample ui themes
+sample/
+sampleui/
+sample_ui/
+
+# Media
+*.mp4
+*.mov
+*.avi
+
+# Documents
+# *.pdf
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Models
+*.safetensors
+*.bin
+*.pt
+*.ckpt
 ```
 
 
