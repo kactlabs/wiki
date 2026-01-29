@@ -2,6 +2,36 @@
 
 # Deploy a flask app with Vercel
 
+
+### How to setup Vercel CLI (MacOS)
+```
+node -v
+npm -v
+
+brew install node
+
+npm install -g vercel
+
+# verify
+vercel --version
+```
+
+### How to setup Vercel CLI (Ubuntu)
+```
+
+```
+
+### How to setup Vercel CLI (Windows)
+```
+
+```
+
+
+### How login on vercel?
+```
+vercel login
+```
+
 ### Flask app
 
 - create a folder named "api"
@@ -497,4 +527,50 @@ vercel inspect https://slack-kbot.vercel.app
 
 # Promote deployment to production
 vercel promote <deployment-url>
+```
+
+
+### Vercel CLI 
+```
+vercel login
+
+vercel link
+Vercel CLI 48.2.9
+? Set up “~/kact/slack-kbot”? yes
+? Which scope should contain your project? TactEditor's projects
+? Found project “tacteditors-projects/slack-kbot”. Link to it? yes
+✅  Linked to tacteditors-projects/slack-kbot (created .vercel)
+
+
+vercel ls
+
+Vercel CLI 48.2.9
+> Deployments for tacteditors-projects/slack-kbot [165ms]
+
+  Age     Deployment                                                       Status      Environment     Duration     Username
+  3m      https://slack-kbot-qpvvd0z1l-tacteditors-projects.vercel.app     ● Ready     Production      24s          tacteditor
+  6m      https://slack-kbot-1cvohw9m6-tacteditors-projects.vercel.app     ● Ready     Production      13s          tacteditor
+
+vercel logs <deployment-url>
+
+vercel logs https://slack-kbot.vercel.app
+
+vercel --prod
+
+vercel env rm UNIQUE_COUNTRY production
+printf "india" | vercel env add UNIQUE_COUNTRY production
+
+vercel --prod
+
+vercel --prod --force
+
+vercel switch vipranan
+
+vercel whoami
+vercel teams ls
+
+vercel logs
+
+# Re-link to your personal account or correct team
+vercel link
 ```
