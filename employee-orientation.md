@@ -5,11 +5,8 @@
 **Note:** version 1.2 | July 2024
 
 
-
-
-
 ### Work hours:
-9 am - 7 pm
+Flexible hours but confirm with your manager
 
 ### Lunch break:
 - 45 minutes (anytime)
@@ -29,14 +26,6 @@
 - When you are on day off, update the status with your rejoining date/time.
 - If someone sent a message in the group, please use emojis as a cofirmation that you read the message.
 
-
-### Trello
-- 2 tasks per day
-- You should mention hours you worked like this format "Contribution: 2hrs"
-- Before moving the task to "testing", update your contribution hours
-- If you worked on any specific github repo, keep the link in the activity section
-- Sprint starts on Monday and ends with after 10 days of currrent sprint, usually on Saturday. We will analyze employees' contribution hours and discuss with them in person on how to improve the productivity
-
 ### Internal Hackathon
 - Bi-weekly hackathon will get you 500-1000 INR credits towards productivity related gifts.
 - 30 hours in 3 days is expected as minimum hours to be eligible to win the prize
@@ -50,3 +39,19 @@
 - Most of the time we do PR("Pull Requests") on GitHub. If you create a PR, you are not supposed to review the code and merge. Someone else has to do it.
 - At rare times, the same developer will be merging the PR with Manager approval
 
+### Zoom Rules
+- When you share your screen, never show Creds related screen
+
+
+### Slack Rules
+- When you send code in Slack, use code block
+
+### Trello (not yet implemented)
+- 2 tasks per day
+- You should mention hours you worked like this format "Contribution: 2hrs"
+- Before moving the task to "testing", update your contribution hours
+- If you worked on any specific github repo, keep the link in the activity section
+- Sprint starts on Monday and ends with after 10 days of currrent sprint, usually on Saturday. We will analyze employees' contribution hours and discuss with them in person on how to improve the productivity
+
+### Switch The Language (STL)
+- TBD

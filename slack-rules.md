@@ -2,6 +2,12 @@
 
 ## Slack Setup and Rules
 
+
+### How to setup?
+```
+
+```
+
 ### How to send an inviation?
 
 Go to Inviation Section 

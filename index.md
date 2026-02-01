@@ -54,6 +54,18 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [System Info / system-info](system-info.md)
   * [Llama.cpp / Llama CPP](llama.cpp.md)
 
+## Orientation
+  * [Employee Orientation](employee-orientation.md)
+  * [Orientation - Windows](orientation-windows.md)
+  * [Daily Log](daily-log.md)
+  
+  * [Orientation Test](orientation-test)
+  * [Orientation Setup Details](orientation.md)
+
+## Employee
+  * []
+
+
 ## OS
   * [lima](lima.md)
 
@@ -89,7 +101,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Elastic Search](elastic-search.md)
   * [Postgres client setup](postgres-client.md)
   * [Install Guide for freshers - Mac](install-guide-fresher-mac.md)
-  * [](orientation-windows.md)
+  
   * [Hadoop Setup](hadoop-setup.md)
   * [PySpark Setup](pyspark-setup.md)
   * [Applied ML](applied-ml.md)
@@ -154,11 +166,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Language
   * [Learning German](learning-german.md)
 
-## Orientation
-  * [Daily Log](daily-log.md)
-  * [Employee Orientation](employee-orientation.md)
-  * [Orientation Test](orientation-test)
-  * [Orientation Setup Details](orientation.md)
+
 ## Documentation
   * [Docker with Langfuse Local Setup Guide](docker-with-langfuse-local-setup-guide.md)
 
@@ -471,7 +479,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Ngrok Installation on Windows](ngrok-windows.md)
   * [How to Document Your Learning](how-to-document-learning.md)
   * [Daily Agent Analytics](daily-agent-analytics.md)
-  * [Slack rules](slack-rules.md)
+  * [Slack Setup and Rules](slack-rules.md)
   * [Trello Rules](trello-rules.md)
   * [Scrum Rules](scrum-rules.md)
   * [Real Addresses](real-addresses.md)
