@@ -62,6 +62,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Orientation Test](orientation-test)
   * [Orientation Setup Details](orientation.md)
 
+## Gamified Learning
+  * [ChatMate](chatmate.md)
+
 ## Employee
   * []
 
