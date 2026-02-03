@@ -1192,3 +1192,258 @@ alias gpa="grepa"
 alias ara="cd $SYSEM_BASE_PATH/aracor"
 alias ar="ara"
 ```
+
+
+---
+
+# ❌ Things You Should NOT Do in Shell Aliases (bash / zsh)
+
+Aliases are simple text substitutions. Misusing them causes bugs and confusion.
+
+---
+
+## 1. ❌ Do not use special characters in alias names
+
+Alias names must be valid shell identifiers.
+
+Invalid characters include:
+
+* `.` `-` `/` `!` `@` `#` `$` `%` `^` `&` `*`
+* `(` `)` `+` `=` `{` `}` `[` `]`
+* `|` `\` `:` `;` `'` `"` `<` `>` `?` `,`
+
+Bad examples:
+
+```
+alias ga.="git add ."
+alias git-push="git push"
+alias my/alias="ls"
+```
+
+Good examples:
+
+```
+alias ga="git add ."
+alias git_push="git push"
+```
+
+---
+
+## 2. ❌ Do not start alias names with numbers
+
+Bad:
+
+```
+alias 1st="cd .."
+```
+
+Good:
+
+```
+alias first="cd .."
+alias a1="cd .."
+```
+
+---
+
+## 3. ❌ Do not override core shell built-ins
+
+Bad:
+
+```
+alias cd="cd .."
+alias exit="shutdown now"
+alias rm="rm -rf"
+```
+
+Why this is dangerous:
+
+* Breaks scripts
+* Breaks muscle memory
+* Makes recovery difficult
+
+Better:
+
+```
+alias ..="cd .."
+alias rmf="rm -rf"
+```
+
+---
+
+## 4. ❌ Do not override commands used by scripts
+
+Aliases only work in interactive shells.
+
+Bad:
+
+```
+alias python="python3"
+alias ls="ls --color=auto"
+```
+
+Better:
+
+```
+alias py="python3"
+alias ll="ls -lah"
+```
+
+Or fix PATH instead:
+
+```
+export PATH="/usr/local/bin:$PATH"
+```
+
+---
+
+## 5. ❌ Do not expect aliases to accept arguments
+
+Bad:
+
+```
+alias mkcd="mkdir $1 && cd $1"
+```
+
+Correct approach (use a function):
+
+```
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
+```
+
+Rule:
+
+* No arguments → alias
+* Arguments or logic → function
+
+---
+
+## 6. ❌ Do not put complex logic in aliases
+
+Bad:
+
+```
+alias deploy="cd /app && git pull && npm install && pm2 restart all"
+```
+
+Better:
+
+```
+deploy() {
+  set -e
+  cd /app
+  git pull
+  npm install
+  pm2 restart all
+}
+```
+
+---
+
+## 7. ❌ Do not rely on aliases inside scripts
+
+Bad (works only interactively):
+
+```
+ga
+```
+
+Good (script-safe):
+
+```
+git add .
+```
+
+---
+
+## 8. ❌ Do not shadow existing binaries accidentally
+
+Bad:
+
+```
+alias code="nano"
+```
+
+Always check first:
+
+```
+type code
+which code
+```
+
+---
+
+## 9. ❌ Do not forget alias expansion rules
+
+Alias expansion:
+
+1. Interactive shells only
+2. First word only
+3. Happens early
+
+Problematic:
+
+```
+alias sudo="sudo "
+alias rm="rm -i"
+```
+
+Breaks:
+
+```
+sudo rm file
+```
+
+Bypass aliases:
+
+```
+command rm file
+```
+
+---
+
+## 10. ❌ Do not create unreadable abbreviations
+
+Bad:
+
+```
+alias gcmrhp="git commit -m && git reset --hard && git push"
+```
+
+Guideline:
+
+* ≤ 4 characters → muscle memory
+* Longer names → clarity
+
+---
+
+## ✅ Safe Alias Design Rules
+
+* lowercase only
+* letters, numbers, underscore only
+* no arguments
+* no logic
+* no overriding core commands
+* human-readable
+
+---
+
+## 🚫 When NOT to Use Aliases
+
+| Situation       | Use instead          |
+| --------------- | -------------------- |
+| Needs arguments | Function             |
+| Reusable logic  | Script               |
+| Cross-platform  | Makefile             |
+| Git shortcuts   | `git config alias.*` |
+
+---
+
+## 🧠 Bottom line
+
+Aliases are shortcuts, not programs.
+When in doubt, use a function.
+
+---

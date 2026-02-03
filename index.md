@@ -66,11 +66,14 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [ChatMate](chatmate.md)
 
 ## Employee
-  * []
-
+  * TBD
 
 ## OS
+  * Mac (TBD)
+  * Ubuntu
+  * MintOS
   * [lima](lima.md)
+  * 
 
 ## Python
   * [PyEnv / pyenv](pyenv.md)
