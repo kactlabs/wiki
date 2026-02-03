@@ -73,7 +73,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * Ubuntu
   * MintOS
   * [lima](lima.md)
-  * 
+  * [Windows WSL / windows-wsl](windows-wsl.md)
 
 ## Python
   * [PyEnv / pyenv](pyenv.md)
