@@ -43,4 +43,6 @@ Files installed (hidden in .git/hooks/):
 
 ![1768331610631](image/precommit-validator/1768331610631.png)
 
+![1770129562527](image/precommit-validator/1770129562527.png)
+
 This will avoid committing .env or big file into our repo.
