@@ -1,30 +1,87 @@
 / [Home](index.md)
 
-## Template
+# Kactii Gamified Learning System v1.0
 
-**Note:** tbw
+## Overview
+A gamified learning platform that transforms education into team-based competition through credits, battles, and rewards.
 
+---
 
+## Group Structure
 
+| Element | Specification |
+|---------|-------------|
+| **Group Size** | Up to 20 members |
+| **Team Size** | 2-6 members per team |
+| **Teams per Group** | 3-10 teams |
 
-```
+---
 
-```
+## Credit Earning System
 
-![image](images/Chromatius.png)
+### Daily Activities
+| Activity | Credits |
+|----------|---------|
+| Upload learning content | Variable |
+| Host **public** session | 1 credit |
+| Host **private** session | 2 credits |
+| Answer random quiz question | Per correct answer* |
+| Open-source contribution (1 hour) | 200 credits |
 
-### Subtitlte:
+&gt; *Bonus credits for first correct answer
 
-* [ABC](link)
+---
 
-* [XYZ](link)
+## Weekly Battle System
 
-### Ref :
+- **Schedule**: Every Saturday
+- **Format**: Team vs. Team match
+- **Wagering**: 50% of credits protected, 50% wagered
+- **Outcome**:
+  - **Win** → Wagered credits **doubled**
+  - **Lose** → Wagered credits **forfeited**
 
-  * []()
+---
 
+## Rewards & Recognition
 
-![1753337625129](image/zzemplate/1753337625129.png)
+### Leaderboards
+- Daily rankings
+- Weekly rankings
+- Visible via mobile/web app
 
+### Spin Wheel Prizes
+| Detail | Description |
+|--------|-------------|
+| **Frequency** | Bi-weekly or monthly |
+| **Eligibility** | Teams with sufficient credits |
+| **Prizes** | T-shirts, phone tags, mouse pads, AI-generated books |
+| **Delivery** | Within 1 week |
 
-![1765745960893](image/zzemplate/1765745960893.png)
+### Resume Improvement Service
+- Mentor feedback sessions
+- Costs credits to access
+
+---
+
+## Participation Rules
+
+| Scenario | Penalty |
+|----------|---------|
+| Skip weekly battle | -10% of total credits |
+| Inactive 5+ months | -20% credits per week |
+
+&gt; **Exceptions**: Exams and special circumstances accepted
+
+---
+
+## Core Principles
+
+1. **Education-First** — Gamification enhances, not replaces, learning
+2. **Team Accountability** — Small teams drive peer motivation
+3. **Consistent Engagement** — Daily actions compound into weekly results
+4. **Real-World Value** — Open source contributions and career development integrated
+
+---
+
+*Version 1.0 — Framework designed for iterative improvement*
