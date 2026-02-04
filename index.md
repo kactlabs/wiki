@@ -63,6 +63,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Orientation Setup Details](orientation.md)
 
 ## Gamified Learning
+  * [Kactii Gamified Learning](kactii-gamified-learning.md)
   * [ChatMate](chatmate.md)
 
 ## Employee
