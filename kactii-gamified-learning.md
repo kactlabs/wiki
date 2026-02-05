@@ -20,15 +20,16 @@ A gamified learning platform that transforms education into team-based competiti
 ## Credit Earning System
 
 ### Daily Activities
+
 | Activity | Credits |
 |----------|---------|
 | Upload learning content | Variable |
-| Host **public** session | 1 credit |
-| Host **private** session | 2 credits |
+| Host **public** session | 100 credits |
+| Host **private** session | 80 credits |
 | Answer random quiz question | Per correct answer* |
 | Open-source contribution (1 hour) | 200 credits |
 
-&gt; *Bonus credits for first correct answer
+*Bonus credits for first correct answer
 
 ---
 
@@ -51,6 +52,7 @@ A gamified learning platform that transforms education into team-based competiti
 - Visible via mobile/web app
 
 ### Spin Wheel Prizes
+
 | Detail | Description |
 |--------|-------------|
 | **Frequency** | Bi-weekly or monthly |
@@ -71,7 +73,7 @@ A gamified learning platform that transforms education into team-based competiti
 | Skip weekly battle | -10% of total credits |
 | Inactive 5+ months | -20% credits per week |
 
-&gt; **Exceptions**: Exams and special circumstances accepted
+**Exceptions**: Exams and special circumstances accepted
 
 ---
 
