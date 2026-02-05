@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Kactii Gamified Learning System v1.0
+# Kactii Gamified Learning Framework v1.0
 
 ## Overview
 A gamified learning platform that transforms education into team-based competition through credits, battles, and rewards.
