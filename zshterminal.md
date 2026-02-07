@@ -73,11 +73,11 @@ code ~/.zshrc
 or
 gedit ~/.zshrc
 
-ZSH_THEME="agnoster"
+# delete or comment out the old theme (as will add them later)
+# ZSH_THEME
 
 # hide the username
 DEFAULT_USER prompt_context(){}
-
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL10K_DISABLE_RPROMPT=true
