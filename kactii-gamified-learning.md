@@ -21,21 +21,46 @@ A gamified learning platform that transforms education into team-based competiti
 
 ### Daily Activities
 
-| Activity | Credits |
-|----------|---------|
-| Upload learning content | Variable |
-| Host **public** session | 100 credits |
-| Host **private** session | 80 credits |
-| Answer random quiz question | Per correct answer* |
-| Open-source contribution (1 hour) | 200 credits |
+| Activity                            | Credits |
+|-------------------------------------|---------|
+| Upload learning content             | *       |
+| Host public session                 | 100     |
+| Host private session                | 80      |
+| Answer random quiz question         | 5 each  |
+| Open-source contribution (1 hour)   | 30      |
+| 2-4 hours on a day                  | 5       |
+| 4-6 hours on a day                  | 15      |
+| 6-8 hours on a day                  | 25      |
+| 6-8 hours on a day                  | 35      |
+| 8+ hours on a day                   | 50      |
+| 12+ hours on a day                  | 80      |
+| 6 days Streak.                      | 30      |
+| Referral (after 1 months only)      | 50      |
+| 7 Articles per week (LinkedIn Tag)  | 5 each  |
+| Article Daily Streak (7th day)      | 30      |
+| 3 Code snippetes - Pynotes          | 5 each  |
+| Snippets Daily Streak (7th day)     | 5       |
+| 7 Articles per week                 | 5 each  |
 
 *Bonus credits for first correct answer
 
 ---
 
-## Weekly Battle System
 
-- **Schedule**: Every Saturday
+### Knowledge Bidding War:
+- Minium 3 days or Daily
+- We will share a task in the group
+- Highest bidder will get to do the task
+- If they can't do on time, they will lose the credits
+- If they finish the task on time, they will double the credits
+
+
+### Tech/Mixed/Non-Tech Game every 2 months
+- AOE like games (4 hours)
+- Serkiniti (Bi-Weekly)
+
+## Weekly Battle System
+- **Schedule**: Every Saturday/Sunday
 - **Format**: Team vs. Team match
 - **Wagering**: 50% of credits protected, 50% wagered
 - **Outcome**:
@@ -45,7 +70,6 @@ A gamified learning platform that transforms education into team-based competiti
 ---
 
 ## Rewards & Recognition
-
 ### Leaderboards
 - Daily rankings
 - Weekly rankings
