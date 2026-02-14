@@ -113,4 +113,7 @@ A gamified learning platform that transforms education into team-based competiti
 
 ---
 
+### Kactii Credits and Levels
+- [Kactii Credits and Levels](kactii-credits.md)
+
 *Version 1.0 — Framework designed for iterative improvement*

@@ -6,27 +6,20 @@
 
 **Conversion** 1 INR = 29 TC
 
+## Certification Levels & Credits
 
-### Option 1
-```
-- Engage the Random Challenge
-- Give us the proof
-- During spin time, we will review and give credits 
-```
+| Level | Title | Hours Required | Credits per Session | INR Value |
+|-------|-------|-----------------|-------------------|-----------|
+| L1 | Cadet | 5 | 750 | 25 |
+| L2 | Corporal | 50 | 1500 | 50 |
+| L3 | Sergeant | 250 | 3000 | 100 |
+| L4 | Lieutenant | 400 | 6000 | 200 |
+| L5 | Field Marshal | 550 | 8000 | 250 |
 
-### Option 2
-```
-- Create a feature and publish with us
-- Get at least 10 likes from your circle
-```
+### Certification Requirements
 
-### Option 3
-```
-- Write medium article
-```
+- After contributing the required hours for each level, candidates must pass an exam to earn the certificate
+- Certificate holders receive credits for each session they conduct
+- Example: An L2 Corporal certificate holder earns 1500 credits per session they conduct
 
 
-### Option 4:
-```
-- Play games (AOE 2, Poker, Any Kact Games) with our Tech Experts and get Kact Credits
-```
