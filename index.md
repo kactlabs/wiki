@@ -53,6 +53,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Author -  Books - Journalism](author-books-journalism.md)
   * [System Info / system-info](system-info.md)
   * [Llama.cpp / Llama CPP](llama.cpp.md)
+  * [Picoclaw](picoclaw.md)
 
 ## Orientation
   * [Employee Orientation](employee-orientation.md)
