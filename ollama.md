@@ -54,6 +54,37 @@ Ollama is running%
 ```
 
 
+```
+curl http://localhost:11434/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{"model":"llama2","messages":[{"role":"user","content":"2+2?"}]}' | jq
+
+{
+  "id": "chatcmpl-589",
+  "object": "chat.completion",
+  "created": 1771099849,
+  "model": "llama2",
+  "system_fingerprint": "fp_ollama",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The answer to 2 + 2 is 4."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 24,
+    "completion_tokens": 13,
+    "total_tokens": 37
+  }
+}
+
+
+```
+
 
 
 ```
