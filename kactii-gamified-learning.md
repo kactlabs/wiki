@@ -41,6 +41,9 @@ A gamified learning platform that transforms education into team-based competiti
 | 3 Code snippetes - Pynotes          | 5 each  |
 | Snippets Daily Streak (7th day)     | 5       |
 | 7 Articles per week                 | 5 each  |
+| Share and Talk (every 2-3 days)     | 5 each  |
+| Reffer Credits                      | 5       |
+| Reffer Credits                      | 5       |
 
 *Bonus credits for first correct answer
 
