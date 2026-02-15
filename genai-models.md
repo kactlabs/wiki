@@ -170,9 +170,43 @@
 | whisper-1 | 1677532384 | openai-internal |
 | text-embedding-ada-002 | 1671217299 | openai-internal |
 
-### Ollama
+### HuggingFace
 
-### Grok
+| Model Name | Downloads | Likes | Private | Max Position Embeddings | Vocab Size |
+|------------|-----------|-------|---------|------------------------|------------|
+| Qwen/Qwen2.5-7B-Instruct | 12,142,981 | 1,071 | No | 32,768 | 152,064 |
+| Qwen/Qwen3-0.6B | 10,034,367 | 1,074 | No | 40,960 | 151,936 |
+| openai-community/gpt2 | 7,605,873 | 3,113 | No | - | 50,257 |
+| Qwen/Qwen2.5-3B-Instruct | 7,385,115 | 403 | No | 32,768 | 151,936 |
+| Qwen/Qwen2.5-1.5B-Instruct | 6,748,326 | 616 | No | 32,768 | 151,936 |
+| meta-llama/Llama-3.1-8B-Instruct | 5,633,386 | 5,455 | No | - | - |
+| openai/gpt-oss-20b | 5,486,839 | 4,360 | No | 131,072 | 201,088 |
+| Qwen/Qwen2.5-0.5B-Instruct | 5,214,633 | 462 | No | 32,768 | 151,936 |
+| Qwen/Qwen3-4B | 5,090,184 | 552 | No | 40,960 | 151,936 |
+| Qwen/Qwen3-8B | 4,642,058 | 932 | No | 40,960 | 151,936 |
+| Qwen/Qwen2.5-32B-Instruct | 4,369,323 | 327 | No | 32,768 | 152,064 |
+| facebook/opt-125m | 4,234,362 | 233 | No | 2,048 | 50,272 |
+| dphn/dolphin-2.9.1-yi-1.5-34b | 4,153,587 | 54 | No | 8,192 | 64,000 |
+| Qwen/Qwen3-1.7B | 4,101,586 | 421 | No | 40,960 | 151,936 |
+| trl-internal-testing/tiny-Qwen2ForCausalLM-2.5 | 3,741,537 | 3 | No | 32,768 | 151,665 |
+| Qwen/Qwen3-Embedding-0.6B | 3,482,546 | 876 | No | 32,768 | 151,669 |
+| Qwen/Qwen3-4B-Instruct-2507 | 3,373,708 | 722 | No | 262,144 | 151,936 |
+| openai/gpt-oss-120b | 3,326,846 | 4,487 | No | 131,072 | 201,088 |
+| vikhyatk/moondream2 | 2,916,482 | 1,373 | No | - | - |
+| meta-llama/Llama-3.2-1B-Instruct | 2,910,782 | 1,291 | No | - | - |
+| Qwen/Qwen2.5-Coder-0.5B-Instruct | 2,664,054 | 64 | No | 32,768 | 151,936 |
+| Qwen/Qwen2-1.5B-Instruct | 2,656,109 | 157 | No | 32,768 | 151,936 |
+| mistralai/Mistral-7B-Instruct-v0.2 | 2,391,103 | 3,074 | No | 32,768 | 32,000 |
+| llm-jp/llm-jp-3-3.7b-instruct | 2,236,022 | 13 | No | 4,096 | 99,584 |
+| meta-llama/Llama-3.2-3B-Instruct | 2,224,882 | 1,985 | No | - | - |
+| Qwen/Qwen3-30B-A3B-Instruct-2507 | 2,208,742 | 763 | No | 262,144 | 151,936 |
+| mlx-community/Kimi-K2.5 | 1,987,558 | 28 | No | - | - |
+| distilbert/distilgpt2 | 1,975,302 | 609 | No | - | 50,257 |
+| meta-llama/Llama-3.2-1B | 1,928,616 | 2,293 | No | - | - |
+| meta-llama/Meta-Llama-3-8B | 1,861,598 | 6,455 | No | 8,192 | 128,256 |
+
+
+## Grok
 
 | Model ID | Owner | Context Window | Max Completion Tokens | Active |
 |----------|-------|-----------------|----------------------|--------|
