@@ -47,6 +47,18 @@ A gamified learning platform that transforms education into team-based competiti
 
 *Bonus credits for first correct answer
 
+### Late Night Warriors
+
+Whoever stayed up to 2am will be considered as Late Night Warrior and they will be given credits. They have to stay up to 2am to be considered as LNW.
+
+| Level | Nights Required | Credits | INR Value |
+|-------|-----------------|---------|-----------|
+| L1 | 10 Nights | 8000 | 250 |
+| L2 | 20 Nights | 15000 | 500 |
+| L3 | 50 Nights | 22000 | 750 |
+| L4 | 100 Nights | 30000 | 1000 |
+| L5 | 250 Nights | 60000 | 2000 |
+
 ---
 
 
