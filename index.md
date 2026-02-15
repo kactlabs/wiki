@@ -54,6 +54,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [System Info / system-info](system-info.md)
   * [Llama.cpp / Llama CPP](llama.cpp.md)
   * [Picoclaw](picoclaw.md)
+  * [GenAI Models / genai-models](genai-models.md)
 
 ## Orientation
   * [Employee Orientation](employee-orientation.md)
