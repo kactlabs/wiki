@@ -2,9 +2,6 @@
 
 ## Precommit Validator
 
-**Note:** tbw
-
-
 
 ### If you don't have Myshell folder in local, do this
 ```
