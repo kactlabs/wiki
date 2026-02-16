@@ -132,6 +132,9 @@ vercel env add SLACK_BOT_TOKEN production
 
 vercel env add SLACK_SIGNING_SECRET production
 # Paste your secret when prompted
+
+
+printf "india" | vercel env add UNIQUE_COUNTRY production
 ```
 
 ### Update Environment Variables
