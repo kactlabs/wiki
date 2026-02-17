@@ -2,7 +2,7 @@
 
 ## Our Mission
 
-We identify and train 25 exceptional founders under the age of 25 through an intensive 25-month program. Those who pass our rigorous Founder Test earn our commitment to support them for the next 25 years.
+Every season, we identify and train 25 exceptional founders under the age of 25 through an intensive 25-month program. Those who pass our rigorous Founder Test earn our commitment to support them for the next 25 years.
 
 ## Program Overview
 
