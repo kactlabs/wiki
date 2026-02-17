@@ -1,4 +1,4 @@
-# 25F25 - 25 Founders Under 25
+# 25 Founders Under 25
 
 ## Our Mission
 
