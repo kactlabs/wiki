@@ -157,6 +157,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [FOSS - Free and open-source software](foss.md)
   * [Levels and Base](levels-and-base.md)
   * [Founder 25](founder25.md)
+  * [Kiro Spec / kiro-spec](kiro-spec.md)
 
 ## Mac
   * [macOS](macos.md)
