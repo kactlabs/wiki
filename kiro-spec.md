@@ -18,3 +18,34 @@ inclusion: always
 - If any documention, update README.md
 ```
 
+
+### Steering - ui-guidelines.md
+```
+---
+inclusion: manual
+---
+
+# General Rules
+
+## Documentation
+
+Never add any new .md file for documenting anything.
+
+# UI Guidelines
+
+## Modal vs Alert
+
+When a page has any popup option, use modal instead of `js-alert` (JavaScript alert dialogs).
+
+**Why:** Modals provide better UX with custom styling, accessibility, and control over the interaction flow.
+
+## Notifications
+
+For notifications and user feedback, use a top-right toaster component instead of alerts.
+
+**Implementation:**
+- Display toaster notifications in the top-right corner of the viewport
+- Use appropriate toast types: success, error, warning, info
+- Auto-dismiss after appropriate duration (typically 3-5 seconds)
+- Allow manual dismissal via close button
+```
