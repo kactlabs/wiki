@@ -159,6 +159,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Founder 25](founder25.md)
   * [Kiro Spec / kiro-spec](kiro-spec.md)
   * [Design Patterns](design-patterns.md)
+  * [ReRanking Algorithms / reranking-algorithms](reranking-algorithms.md)
 
 ## Mac
   * [macOS](macos.md)
