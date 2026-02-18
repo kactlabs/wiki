@@ -43,7 +43,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Prompt Engineering](prompt-engineering.md)
   * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
-  * [GenAI Interview Questions](genai-interview-questions.md)
+  * [GenAI Interview Questions / genai-ivq](genai-interview-questions.md)
   * [Kiro](kiro.md)
   * [LMStudio Commands](lmstudio-commands.md)
   * [Image Generation With GenAI Tools](image-generation-with-genai-tools.md)

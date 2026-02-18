@@ -19,6 +19,18 @@
 
 ---
 
+### IVQ - Customized:
+1. what is top_k?
+2. What is MMR search in LLM and why is it better?
+3. In am using Qdrant and dumping my pdfs with embedding. I want to see how many PDF files are dumped by using command
+4. What is Meta Structure in LLM?
+5. What is Inference 
+6. Inference vs Prediciton
+7. What is Feed forward in LLM?
+8. What is back propagation on LLM?
+
+---
+
 ### **GenAI Architecture, Concepts, and Foundations**
 
 1. Explain the architecture of a Large Language Model (LLM) and how it differs from traditional deep learning models.
