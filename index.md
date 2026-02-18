@@ -55,6 +55,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Llama.cpp / Llama CPP](llama.cpp.md)
   * [Picoclaw](picoclaw.md)
   * [GenAI Models / genai-models](genai-models.md)
+  * [GenAI Temperature / genai-temperature](genai-temperature.md)
+  * [ReRanking Algorithms / reranking-algorithms](reranking-algorithms.md)
 
 ## Orientation
   * [Employee Orientation](employee-orientation.md)
@@ -159,7 +161,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Founder 25](founder25.md)
   * [Kiro Spec / kiro-spec](kiro-spec.md)
   * [Design Patterns](design-patterns.md)
-  * [ReRanking Algorithms / reranking-algorithms](reranking-algorithms.md)
 
 ## Mac
   * [macOS](macos.md)
