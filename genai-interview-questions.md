@@ -4,19 +4,6 @@
 
 **Note:** 1000 GenAI Questions
 
-
-### Misc
-1. Compare RAG with simple Google Search
-
-2. I have Ollama Model which I need to fine tune. Tell me the steps to fine tune. Also, how would I measure the improvement on before fine-tuning and after fine-tuning
-
-3. RAG vs BERT
-
-4. What is LangChain
-
-5. How to load a model in LangChain and start using it for your RAG
-
-
 ---
 
 ### IVQ - Customized:
@@ -28,6 +15,11 @@
 6. Inference vs Prediciton
 7. What is Feed forward in LLM?
 8. What is back propagation on LLM?
+9. Compare RAG with simple Google Search
+10. I have Ollama Model which I need to fine tune. Tell me the steps to fine tune. Also, how would I measure the improvement on before fine-tuning and after fine-tuning
+11. RAG vs BERT
+12. What is LangChain
+13. How to load a model in LangChain and start using it for your RAG
 
 ---
 
