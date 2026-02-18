@@ -31,7 +31,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Voice Agents](voice-agents.md)
   * [GenAI with Document](genai-with-document.md)
   * [Ollama](ollama.md)
-  * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
   * [LinkedIn GenAI Influencers](linkedin-genai-influencers.md)
   * [Lowkey Founders](lowkey-founders-1.md)
   * [GenAI Resources](genai-resources.md)
@@ -43,7 +42,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Prompt Engineering](prompt-engineering.md)
   * [Kactii - Karkai - Academy](kactii-karkai-academy.md)
   * [Kactii Karkai - College Integraion](kactii-karkai-college-integration.md)
-  * [GenAI Interview Questions / genai-ivq](genai-interview-questions.md)
   * [Kiro](kiro.md)
   * [LMStudio Commands](lmstudio-commands.md)
   * [Image Generation With GenAI Tools](image-generation-with-genai-tools.md)
@@ -264,8 +262,11 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Session Rules
   * [Session Rules](session-rules.md)
 
-
-## Interview
+## Interview / Interview Questions / IVQ / ivq
+  * [GenAI Interview Questions / genai-ivq](genai-interview-questions.md)
+  * [DS Interview Questions](ds-interview-questions)
+  * [Mock Interviews](mock-interviews.md)
+  * [Python Interview Questions / ivq / IVQ](python-interview-questions.md)
   * [Kact Interview Process: TIP](interview-process.md)
   * [Interview Assignments](interview-assignments.md)
 
@@ -275,6 +276,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 
 ## Linkedin 
   * [Linkedin profile Update](linkedin-profile-update.md)
+  
 ## TACT ML / DL
   * [TACT ML Wiki / mlwiki](https://kactlabs.github.io/mlwiki/)
   * [100 ML Libraries](100-ml-libraries.md)
@@ -295,7 +297,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Acoustics](acoustics.md)
   * [Recommender System](recommender-system.md)
   * [Facial Attributes](facial-attributes.md)
-  * [DS Interview Questions](ds-interview-questions)
   * [DL Libraries](dl-libraries.md)
   * [Hugo Commands](hugo-commands.md)
   * [ML Notes with Hugo](mlnotes-with-hugo.md)
@@ -628,7 +629,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Data Collection Sequence](data-collection-sequence.md)
   * [Escalation Template](escalation-template.md)
   * [Kact Lingo](kact-lingo.md)
-  * [Mock Interviews](mock-interviews.md)
   * [IIT Secrets](iit-secrets.md)
   * [AIML Roadmap](aiml-roadmap.md)
   * [SigPy](sigpy.md)
