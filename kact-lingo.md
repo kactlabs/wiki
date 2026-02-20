@@ -26,6 +26,7 @@
 | 20 | tcode | Tact code to get more info, references |
 | 21 | gush | one way git push shortcut to speed up git transactions |
 | 22 | TT / T2 | Trello Task |
+| 23 | EOD | End of the Day |
 
 ## Kact Mythraki:
 1. Jestor - Admin
