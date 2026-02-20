@@ -56,6 +56,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Temperature / genai-temperature](genai-temperature.md)
   * [ReRanking Algorithms / reranking-algorithms](reranking-algorithms.md)
   * [GenAI Twisters](genai-twisters.md)
+  * [GenAI Visual / genai-visual](genai-visual.md)
 
 ## Orientation
   * [Employee Orientation](employee-orientation.md)
