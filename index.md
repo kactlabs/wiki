@@ -113,7 +113,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Elastic Search](elastic-search.md)
   * [Postgres client setup](postgres-client.md)
   * [Install Guide for freshers - Mac](install-guide-fresher-mac.md)
-  
   * [Hadoop Setup](hadoop-setup.md)
   * [PySpark Setup](pyspark-setup.md)
   * [Applied ML](applied-ml.md)
@@ -162,6 +161,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Founder 25](founder25.md)
   * [Kiro Spec / kiro-spec](kiro-spec.md)
   * [Design Patterns](design-patterns.md)
+  * [Everyday Assignment](everyday-assignment.md)
 
 ## Mac
   * [macOS](macos.md)
