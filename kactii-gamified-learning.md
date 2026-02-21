@@ -128,4 +128,33 @@ Whoever stayed up to 2am will be considered as Late Night Warrior and they will 
 ### Kactii Credits and Levels
 - [Kactii Credits and Levels](kactii-credits.md)
 
+---
+
+## Weekend Gamification Proposals
+
+### Learning Formats
+
+| Owner | Category | Format | Description |
+|-------|----------|--------|-------------|
+| **Viprannan** | Vip | Explorable Learning | Self-paced deep dives into emerging technologies |
+| **Vishnu** | Vis | Weekly Discovery & Weekend Submission | Find new technologies during weekdays, submit findings and insights during weekends |
+| **Vishnu** | Vis | GenAI Debate Tool | Structured debates on trending AI topics (e.g., "Will Rust occupy 50% of GenAI usecases within 5 years?") |
+| **Vishnu** | Vis | Language Variants Discussion | Explore language ecosystems (OpenClaw, PicoClaw, ZeroClaw) and comparative analysis |
+| **Varun** | Va | Variant Tools | Hands-on exploration of alternative tools and frameworks |
+| **Vishnu** | Vis | Open Source Discussion & Contribution | Community-driven open source projects and contribution tracking |
+| **Ashwin** | A | Complicated Problem Puzzles | Complex algorithmic and system design challenges |
+| **I** | I | Interactive Sessions | TBD |
+| **P** | P | Project-Based Learning | TBD |
+| **CSP** | C | Content Sessions | Curated learning content and expert talks |
+
+### Content Sessions (C)
+
+| Session | Duration | Description |
+|---------|----------|-------------|
+| **Pulikaesi (23rd)** | 10 mins | Pure Tamil language learning session |
+| **Social Session** | Variable | Raja sir sharing experience and insights |
+| **Lingo Learning** | 10 mins | Language and terminology deep-dive |
+| **General Talk** | Variable | Ponnudurai's general knowledge session |
+| **Coderama** | Variable | One-liner questions, code snippets, and puzzle challenges |
+
 *Version 1.0 — Framework designed for iterative improvement*
