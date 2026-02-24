@@ -162,6 +162,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kiro Spec / kiro-spec](kiro-spec.md)
   * [Design Patterns](design-patterns.md)
   * [Everyday Assignment](everyday-assignment.md)
+  * [Pathway Influencers / pi / pathway-influencers](pathway-influencers.md)
 
 ## Mac
   * [macOS](macos.md)
