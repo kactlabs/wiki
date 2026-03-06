@@ -166,6 +166,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Design Patterns](design-patterns.md)
   * [Everyday Assignment](everyday-assignment.md)
   * [Pathway Influencers / pi / pathway-influencers](pathway-influencers.md)
+  * [Education 4 Everyone / e4e](e4e.md)
 
 ## Mac
   * [macOS](macos.md)
