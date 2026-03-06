@@ -11,7 +11,7 @@
 - Based on the student's learning, we will upgrade the laptop to MacBook after 12 months (MacBook is worth 30–60K ₹)
 
 ### Eligible Criteria
-- Must have got at least 1st 20+ times from Grade 1 to Grade 8
+- Must have got at least 1st rank 20+ times from Grade 1 to Grade 8
 - Must be 13+ years old
 - Household income should be less than 8L/year
 
