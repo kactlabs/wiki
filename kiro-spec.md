@@ -16,6 +16,9 @@ inclusion: always
 
 - Never add any new .md/.txt file for documenting anything.
 - If any documention, update README.md
+
+## Acronym
+- SS - Screenshots; when I type SS, assume I am talking about screenshots
 ```
 
 
