@@ -168,6 +168,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Pathway Influencers / pi / pathway-influencers](pathway-influencers.md)
   * [Education 4 Everyone / e4e](e4e.md)
   * [Diamond Sharpening Program / dsp / DSP](dsp.md)
+  * [Intern / Employee Rulebook / intern-employee-rulebook](intern-employee-rulebook.md)
 
 ## Mac
   * [macOS](macos.md)

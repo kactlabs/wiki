@@ -2,8 +2,6 @@
 
 ## DSP - Diamond Sharpening Program
 
-
-
 ## Eligibility
 
 - You must have 95+ marks in Science and Maths
