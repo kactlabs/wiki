@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-# Game
+# Mythraki Game
 
 ## Description  
 

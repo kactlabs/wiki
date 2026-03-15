@@ -358,6 +358,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [DevOps Bootcamp](devops-bootcamp.md)
   * [ML Engineering Bootcamp](ml-engineering-bootcamp.md)
   * [Gamified Learning - One Day Workshop](gamified-learnining-workshop.md)
+  * [GenAI Bootcamp - 4](genai-bootcamp-4.md)
 
 ## TACT Research
   * [Research papers](research-papers.md)
