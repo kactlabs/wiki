@@ -22,6 +22,281 @@ git diff HEAD [filename]
 
 
 
+### Git Basic and Medium Commands
+```
+# Git Commands Reference
+
+---
+
+## 🔵 Basic Commands
+
+---
+
+### Check current branch
+
+```bash
+git branch
+```
+
+Lists all local branches. The **active branch** is highlighted (usually green with an asterisk `*`).
+
+---
+
+### Switch to another branch
+
+```bash
+git checkout branch-name
+
+# Example
+git checkout agentscope-react-integration
+```
+
+Moves your working directory to the specified branch. All files update to reflect that branch's state.
+
+---
+
+### Pull latest changes from remote
+
+```bash
+git pull
+```
+
+Fetches changes from the remote (e.g. GitHub) and merges them into your current branch. Equivalent to `git fetch` + `git merge`.
+
+---
+
+### View recent commit history
+
+```bash
+git log -2          # Last 2 commits
+git log -5          # Last 5 commits
+git log --oneline   # Compact one-line view
+```
+
+Shows commit hash, author, date, and message. `--oneline` is great for a quick overview.
+
+---
+
+### Discard changes to a specific file
+
+```bash
+git checkout sample.py
+```
+
+Reverts `sample.py` back to the last committed version. Any unsaved edits to that file are **permanently lost**.
+
+---
+
+### Discard changes to all modified files
+
+```bash
+git checkout .
+```
+
+Reverts **all modified tracked files** in the current directory back to their last committed state. Does **not** remove new (untracked) files.
+
+---
+
+### Delete all new (untracked) files
+
+```bash
+git clean -fd
+```
+
+Removes all **untracked files and directories**. Use with caution — this cannot be undone.
+
+| Flag | Meaning |
+|------|---------|
+| `-f` | Force (required by default) |
+| `-d` | Also remove untracked directories |
+
+Dry-run first with `git clean -nfd` to preview what will be deleted.
+
+---
+
+## 🟡 Medium Commands
+
+---
+
+### Create and switch to a new branch
+
+```bash
+git checkout -b new-branch-name
+
+# Example
+git checkout -b feature/agent-memory
+```
+
+Creates a new branch from your current position and immediately switches to it. Shorthand for `git branch` + `git checkout`.
+
+---
+
+### Stage files for commit
+
+```bash
+git add sample.py        # Stage a specific file
+git add .                # Stage all changes in current directory
+git add src/             # Stage all changes in a folder
+```
+
+Moves changes into the **staging area** (index), ready to be committed.
+
+---
+
+### Commit staged changes
+
+```bash
+git commit -m "Your commit message here"
+```
+
+Saves a snapshot of all staged changes to the local repository. Good messages follow: `type: short description` (e.g. `feat: add memory agent`).
+
+---
+
+### Push a branch to remote
+
+```bash
+git push origin branch-name
+
+# Example
+git push origin feature/agent-memory
+```
+
+Uploads your local branch to the remote repository. First push of a new branch may require `-u` to set upstream:
+
+```bash
+git push -u origin feature/agent-memory
+```
+
+---
+
+### View status of working directory
+
+```bash
+git status
+```
+
+Shows which files are modified, staged, or untracked. Run this constantly — it's your ground truth.
+
+---
+
+### View what actually changed (diff)
+
+```bash
+git diff                  # Unstaged changes
+git diff --staged         # Staged changes (ready to commit)
+git diff branch-a branch-b  # Compare two branches
+```
+
+Shows line-by-line what was added (`+`) or removed (`-`).
+
+---
+
+### Stash work-in-progress
+
+```bash
+git stash           # Save current changes temporarily
+git stash pop       # Restore the most recent stash
+git stash list      # View all stashes
+git stash drop      # Delete the most recent stash
+```
+
+Stashing lets you set aside dirty work without committing, so you can switch branches cleanly and come back later.
+
+---
+
+### Merge another branch into current branch
+
+```bash
+git merge branch-name
+
+# Example (from main, pull in a feature branch)
+git merge feature/agent-memory
+```
+
+Combines the history of `branch-name` into your current branch. If there are conflicts, Git will flag them for manual resolution.
+
+---
+
+### Rebase current branch onto another
+
+```bash
+git rebase main
+```
+
+Replays your branch's commits on top of `main`, giving a **linear history** instead of a merge commit. Preferred in many teams for cleaner logs. Avoid rebasing shared/public branches.
+
+---
+
+### Undo the last commit (keep changes)
+
+```bash
+git reset --soft HEAD~1
+```
+
+Moves `HEAD` back one commit but **keeps your changes staged**. Useful if you committed too early.
+
+```bash
+git reset --mixed HEAD~1   # Unstages changes but keeps files
+git reset --hard HEAD~1    # ⚠️ Discards changes entirely
+```
+
+---
+
+### View remote URLs
+
+```bash
+git remote -v
+```
+
+Shows the fetch and push URLs for your configured remotes (usually `origin`).
+
+---
+
+### Fetch without merging
+
+```bash
+git fetch origin
+```
+
+Downloads changes from remote but does **not** merge them. Lets you inspect before integrating. Use `git log origin/main` after to review.
+
+---
+
+### Tag a commit (e.g. a release)
+
+```bash
+git tag v1.0.0
+git tag v1.0.0 abc1234    # Tag a specific commit hash
+git push origin v1.0.0    # Push tag to remote
+```
+
+Tags mark specific points in history — typically used for releases or milestones.
+
+---
+
+## 🔑 Quick Reference
+
+| Command | What it does |
+|--------|--------------|
+| `git branch` | List branches |
+| `git checkout branch` | Switch branch |
+| `git checkout -b branch` | Create + switch |
+| `git pull` | Fetch + merge from remote |
+| `git status` | Show working directory state |
+| `git add .` | Stage all changes |
+| `git commit -m "msg"` | Commit staged changes |
+| `git push origin branch` | Push to remote |
+| `git diff` | Show unstaged diffs |
+| `git log --oneline` | Compact history |
+| `git stash` | Temporarily save changes |
+| `git merge branch` | Merge a branch in |
+| `git rebase main` | Replay commits on top of main |
+| `git reset --soft HEAD~1` | Undo last commit, keep changes |
+| `git checkout .` | Discard all modified tracked files |
+| `git clean -fd` | Remove all untracked files/dirs |
+```
+
 
 ### Configure user details on Git
 ```
