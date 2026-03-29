@@ -37,6 +37,18 @@
 1. ACA - Azure Container App
 2.
 
+## For Mugs / TShirts
+**Atokenophobia** *(n.)*
+
+> The fear of running out of GenAI tokens while vibecoding.
+
+Just like **Abibliophobia** mirrors it perfectly:
+
+| | Word | Fear |
+|---|---|---|
+| 📚 | Abibliophobia | Running out of books to read |
+| 🤖 | Atokenophobia | Running out of tokens to vibecode |
+
 
 ### FAQ:
 1. What is CodeVectra?
