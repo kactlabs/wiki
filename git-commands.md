@@ -23,7 +23,7 @@ git diff HEAD [filename]
 
 
 ### Git Basic and Medium Commands
-```
+
 # Git Commands Reference
 
 ---
