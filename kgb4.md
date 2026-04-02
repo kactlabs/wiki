@@ -5,6 +5,7 @@
 **Note:** Military Style Gamified Learning Framework
 
 ### Syllabus
+Updated: March 1, 2025
 
 **Chapter 1: Introduction to GenAI Engineering**
 Start your journey into GenAI engineering. Understand the key concepts and tools used in the industry. Gain a comprehensive overview of AI and machine learning technologies. Set the stage for advanced learning and practical application. Lay a strong foundation for your GenAI career.
