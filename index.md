@@ -360,6 +360,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Gamified Learning - One Day Workshop](gamified-learnining-workshop.md)
   * [GenAI Bootcamp - 4 / kbc4 / genai-bootcamp-4](genai-bootcamp-4.md)
 
+## Bootcamp
+  * [Kactii GenAI Bootcamp Season 4 - KGB4 / kgb4 ](kgb4.md)
+
 ## TACT Research
   * [Research papers](research-papers.md)
   * [Kact Reserach Papers on Arxiv - Detailed Info](kact-research-papers-arxiv.md)
