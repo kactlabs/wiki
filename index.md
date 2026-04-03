@@ -87,7 +87,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Python
   * [PyEnv / pyenv](pyenv.md)
 
-## TACT General Tools
+## TACT / Kact General Tools
   * [Nginx Installation](nginx-installation-ubuntu.md)
   * [How to Instlal Virtualenv](how-to-install-virtualenv.md)
   * [How to Install venv](venv.md)
@@ -169,6 +169,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Education 4 Everyone / e4e](e4e.md)
   * [Diamond Sharpening Program / dsp / DSP](dsp.md)
   * [Intern / Employee Rulebook / intern-employee-rulebook](intern-employee-rulebook.md)
+  * [Swags And Designs](swags-and-designs.md)
 
 ## Mac
   * [macOS](macos.md)
