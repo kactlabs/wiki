@@ -2,9 +2,11 @@
 
 ## Kiro Spec
 
-
-
 ### Steering - always.md
+
+Location: .kiro/steering/always.md
+
+
 ```
 ---
 inclusion: always
@@ -31,8 +33,10 @@ inclusion: always
 - reqs/REQs/REQS - requirements.txt
 ```
 
-
 ### Steering - ui-guidelines.md
+
+Location: .kiro/streeting/ui-guidelines.md
+
 ```
 ---
 inclusion: manual
@@ -63,8 +67,10 @@ For notifications and user feedback, use a top-right toaster component instead o
 - Allow manual dismissal via close button
 ```
 
-
 ### Steering - Python Environment
+
+Location: .kiro/streeting/python-environment.md
+
 ```
 # Python Environment
 
