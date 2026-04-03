@@ -46,8 +46,8 @@ Just like **Abibliophobia** mirrors it perfectly:
 
 | | Word | Fear |
 |---|---|---|
-| 📚 | Abibliophobia | Running out of books to read |
-| 🤖 | Atokenophobia | Running out of tokens to vibecode |
+| 📚 | Abibliophobia | Running out of books to read | |
+| 🤖 | Atokenophobia | Running out of tokens to vibecode | [Swags And Designs](swags-and-designs.md) |
 
 
 ### FAQ:
