@@ -4,12 +4,11 @@
 
 **Note:** Sigte Generator Python
 
-
-
 ### 1. How to setup?
+
 ```
 1. Go to this url
-    https://github.com/kactlabs/sigpy
+    https://github.com/kactlabs/pynotes
 
 2. Create a new repository under "Use this template" option
 
@@ -20,9 +19,8 @@
 5. Git clone the newly created repo
 ```
 
-
-
 ### 2. Install requirements
+
 ```
 pip install -r requirements.txt
 
@@ -33,8 +31,8 @@ pip install jupyterlab
 jupyter lab --version
 ```
 
+### 3. PyNotes Configuration Setup
 
-### 3. PyNotes Configuration Setup 
 ```
 1.go to pelicanconf.py
 
@@ -51,12 +49,12 @@ SOCIAL = (
 ) 
 
 ```
+
 Sample:
 ![1767450444603](image/sigpy/1767450444603.png)
 
-
-
 ### 4. Verify Local Server (Ubuntu/Mac)
+
 ```
 python make.py
 
@@ -75,6 +73,7 @@ pelican --listen
 ```
 
 ### 4. Verify Local Server (Windows)
+
 ```
 python make.py
 
@@ -95,8 +94,8 @@ pelican --listen
 You should see like this:
 ![1767450601257](image/sigpy/1767450601257.png)
 
-
 ### Setup Jupyter Lab
+
 ```
 pip install jupyterlab
 
@@ -105,15 +104,15 @@ jupyter lab --version
 
 jupyter lab
 ```
+
 You will see like this:
 ![1767449737573](image/sigpy/1767449737573.png)
 
 You will see Jupyter Lab on browser:
 ![1767449770876](image/sigpy/1767449770876.png)
 
+### Create Sample file
 
-
-### Create Sample file 
 ```
 Create notebooks folder (leave it if it is already created)
 
@@ -125,8 +124,8 @@ Once done follow the below steps
 
 ```
 
-
 ### How to push your changes? (Ubuntu/Mac)
+
 ```
 # 1. Run python
 python make.py
@@ -147,9 +146,8 @@ pelican content
 git add . && git commit -m "new changes" && git push
 ```
 
-
-
 ### How to push your changes? (Windows)
+
 ```
 # 1. Run python
 python make.py
@@ -171,11 +169,11 @@ git add . && git commit -m "new changes" && git push
 ```
 
 ### Screenshot
+
 ![1767450056896](image/sigpy/1767450056896.png)
 
-
-
 ### How to publish Changes
+
 ```
 python make.py
 
@@ -192,23 +190,22 @@ Go to branch on the same page
 select "main" branch and "docs" folder
 ```
 
-
-
 ### Important Note
+
 ```
 Once you are set and started to work
 
 After every 5 files you have to publish the changes
 ```
 
-
-
 ### Get Archive Link
+
 ```
 Once you push your changes
 
 Go to your repository -> Pynotes -> Actions -> pages-build-deployment -> Get the deploy link
 ```
-### Sample
-![1767451510474](image/sigpy/1767451510474.png)
 
+### Sample
+
+![1767451510474](image/sigpy/1767451510474.png)

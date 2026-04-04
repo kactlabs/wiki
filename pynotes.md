@@ -6,7 +6,7 @@
 
 ### Follow sigpy (Site Generatora Python) page to setup pynotes
 
-- [Sigpy](sigpy.md)
+- [Pynotes / Sigpy](sigpy.md)
 
 ## Sample PyNotes:
 
