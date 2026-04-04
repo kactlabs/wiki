@@ -28,7 +28,25 @@ brew --version
 
 ### Install - Windows
 ```
-TBD
+winget --version
+
+winget --info
+
+winget install llama.cpp
+
+llama-cli --version
+llama-server --version
+
+# cluster / block
+./llama-server \
+  --model models/llama-3.2-3b-instruct.gguf \
+  --port 8080
+
+llama-server -hf ggml-org/gemma-3-1b-it-GGUF --port 8080
+
+llama-server -hf TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF --port 8080
+
+http://localhost:8080/
 ```
 
 ### Set HF_TOKEN in Zshrc to download HF models - MacOS
