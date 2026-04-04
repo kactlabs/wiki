@@ -24,6 +24,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 brew --version
 
+brew install llama.cpp
 ```
 
 ### Install - Windows
@@ -33,15 +34,16 @@ winget --version
 winget --info
 
 winget install llama.cpp
+```
 
+### Verify
+```
 llama-cli --version
 llama-server --version
+```
 
-# cluster / block
-./llama-server \
-  --model models/llama-3.2-3b-instruct.gguf \
-  --port 8080
-
+### Run Server
+```
 llama-server -hf ggml-org/gemma-3-1b-it-GGUF --port 8080
 
 llama-server -hf TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF --port 8080
