@@ -216,3 +216,14 @@ Complete your GenAI journey by publishing 1-3 research papers on ArXiv and build
 
 
 
+## Project Ideas
+
+| # | Project Idea | Repo |
+|---|---|---|
+| 1 | Cricket Commentary with LLM | |
+| 2 | Stock Market | |
+| 3 | 2 Comedians Conversation | |
+| 4 | VP and Head of Corporate - Conversation | |
+| 5 | Karaoke Judge | [karaoke-icycup-scoring-engine](https://github.com/kactlabs/karaoke-icycup-scoring-engine) |
+| 6 | Badminton Judge | |
+| 7 | Tennis Judge | |
