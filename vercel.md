@@ -7,13 +7,21 @@
 
 ```
 
+sudo apt install nodejs npm
+
 node -v
      v20.19.6
 
 npm --version
      10.8.2
 
-npm install -g pnpm
+sudo npm install -g pnpm
+
+pnpm setup
+
+source ~/.bashrc
+OR
+source ~/.zshrc
 
 pnpm i -g vercel
 
@@ -25,14 +33,13 @@ vercel -v
 Vercel CLI 48.2.9
      48.2.9
 
-vercel --prod
-
 vercel login
 
 vercel whoami
 
-vercel add env:
+vercel --prod
 
+vercel add env:
 printf "india" | vercel env add UNIQUE_COUNTRY production
 
 ```
