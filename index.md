@@ -171,6 +171,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Intern / Employee Rulebook / intern-employee-rulebook](intern-employee-rulebook.md)
   * [Swags And Designs](swags-and-designs.md)
   * [Vercel / vercel-commands](vercel.md)
+  * [Oh My Posh / ohmyposh](ohmyposh.md)
 
 ## Mac
   * [macOS](macos.md)
