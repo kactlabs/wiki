@@ -31,4 +31,4 @@ add these tags:
 ![1775701093253](image/linkedin-post-format/1775701093253.png)
 
 ### Publisehd sample
-[Sample Publised Article - CSP](https://www.linkedin.com/posts/raja-csp-raman_learninggenai-genai-learning4ever-activ[…]m=member_desktop&rcm=ACoAAD5F3uMB2tvzIBm)
+[Sample Publised Article - CSP](https://www.linkedin.com/posts/raja-csp-raman_learninggenai-genai-learning4ever-activity-7447828306537672705-S4_u?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5F3uMB2tvzIBmbU9Rb_OEMKElvBmlQ3u8)
