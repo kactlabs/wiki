@@ -172,6 +172,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Swags And Designs](swags-and-designs.md)
   * [Vercel / vercel-commands](vercel.md)
   * [Oh My Posh / ohmyposh](ohmyposh.md)
+  * [LinkedIn Post Format/linkedin-post-format](linkedin-post-format.md)
 
 ## Mac
   * [macOS](macos.md)
