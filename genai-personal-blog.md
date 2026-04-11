@@ -16,7 +16,10 @@
 
 5. Open Terminal or Powershell and navigate to your workspace directory:
 ```
+# Linux or Mac
 cd ~/kactor
+
+# window
 cd c:\kact
 ```
 
