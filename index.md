@@ -173,6 +173,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Vercel / vercel-commands](vercel.md)
   * [Oh My Posh / ohmyposh](ohmyposh.md)
   * [LinkedIn Post Format/linkedin-post-format](linkedin-post-format.md)
+  * [GenAI Personal Blog / genai-personal-blog](genai-personal-blog.md)
 
 ## Mac
   * [macOS](macos.md)
