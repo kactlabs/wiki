@@ -508,7 +508,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Internal Hackathon](internal-hackathon.md)
   * [Internal Team Discussions](internal-team-discussions.md)
   * [How to use ChatGPT at work](how-to-use-chatgpt.md)
-  * [Linux Installation History](linux-ubuntu-installation-history.md)
+  * [Linux Installation History](linux-ubuntu-baptism-history.md)
   * [file-upload-storage-types.md](file-upload-storage-types.md)
   * [MentorAI Internal](mentorai-internal.md)
   * [Ngrok](ngrok.md)
