@@ -6,13 +6,19 @@
 
 ### Steps to Set Up Your Personal Blog
 
-1. Visit the template repository at https://github.com/rajacsp/rajacsp.github.io
+1. Visit the template repository at 
+    ```
+    https://github.com/rajacsp/rajacsp.github.io
+    ```
 
 2. Create a new repository from the template by clicking "Use this template" on the top right green button, then select "Create a new repository"
 
 3. Name your repository using your Github Handle. For example, if your Github link is like this "https://github.com/apgprem", create a repo like this: apgprem.github.io
 
-4. Your final repository link would look like this: https://github.com/apgprem/apgprem.github.io
+4. Your final repository link would look like this: 
+```
+    https://github.com/apgprem/apgprem.github.io
+```
 
 5. Open Terminal or Powershell and navigate to your workspace directory:
 ```
@@ -21,7 +27,7 @@ cd ~/kactor
 
 # window
 cd c:\kact
-```
+``
 
 6. Clone your newly created repository:
 ```
