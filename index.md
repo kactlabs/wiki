@@ -58,6 +58,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Twisters](genai-twisters.md)
   * [GenAI Visual / genai-visual](genai-visual.md)
   * [N as Code / N-As-Code](n-as-code.md)
+  * [Magic Shortcuts / magiccuts](magiccuts.md)
 
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
