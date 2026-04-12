@@ -1,6 +1,6 @@
 / [Home](index.md)
 
-## Magiccuts
+## MagicCuts / MC
 
 Shortcuts (magiccuts) we use to speed up our project work.
 
@@ -30,7 +30,7 @@ MYSHELL_PATH="$KACT_BASE_PATH/myshell"
 
 ### gilly
 
-Git base shortcut for kactlabs.
+Add git basic things.
 
 ```bash
 alias gitbase="$MYSHELL_PATH/gitbase.sh"
@@ -40,13 +40,15 @@ alias gly="gilly"
 
 ### cant
 
+Copy .ant (admin notes file).
+
 ```bash
 alias cant="$MYSHELL_PATH/cant.sh"
 ```
 
 ### cig
 
-Shortcut for cignore.
+Copy gitignore.
 
 ```bash
 alias cignore="$MYSHELL_PATH/cignore.sh"
@@ -66,4 +68,19 @@ alias cfa5="$MYSHELL_PATH/copy_fastapi_template.sh 5"
 alias cfa6="$MYSHELL_PATH/copy_fastapi_template.sh 6"
 alias cfa7="$MYSHELL_PATH/copy_fastapi_template.sh 7"
 alias cfa8="$MYSHELL_PATH/copy_fastapi_template.sh 8"
+```
+
+### gmr
+
+Git mirror.
+
+```bash
+alias gmirror="$MYSHELL_PATH/gmirror.sh"
+alias gmr="gmirror"
+```
+
+How to use:
+
+```bash
+gmr git@github.com:tactlabs/fastapi-owasp.git git@github.com:rajacsp/fastapi-owasp.git
 ```
