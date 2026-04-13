@@ -176,6 +176,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [LinkedIn Post Format/linkedin-post-format](linkedin-post-format.md)
   * [GenAI Personal Blog / genai-personal-blog](genai-personal-blog.md)
   * [Blog sample / blog-sample](blog-sample.md)
+  * [Kactii Micro Investors / kactii-micro-investors](kactii-micro-investors.md)
 
 ## Mac
   * [macOS](macos.md)
