@@ -63,3 +63,27 @@ Your deliverables:
 - Mentor validation session
 
 15–60 minutes. That's it.
+
+### Day 4 Task:
+
+MongoDB Connection & Persistent Storage
+
+Goal: Connect Python to a real MongoDB instance — Atlas or local — and build the persistence layer that all your future AI pipelines will rely on. By the end of this session, your app saves, retrieves, and manages data without losing it when the process dies.
+
+What you're doing:
+
+- MongoDB Atlas setup — Free tier cluster, IP whitelist, connection string
+- PyMongo connection from Python — MongoClient, db/collection handles, ping check
+- insert_one / insert_many — Save structured dicts, capture inserted_id
+- find_one / find with filters — Query by field, equality, and projection
+- Environment variable secrets — python-dotenv, .env file, never hardcode credentials
+- Saving AI output to MongoDB — Persist llama.cpp response + prompt + timestamp as one document
+
+Your deliverables:
+
+- ☐ Code snippets in your pynotes
+- ☐ Article on your GitHub Pages blog
+- ☐ LinkedIn post — share your win publicly
+- ☐ Mentor validation session
+
+15–60 minutes. That's it.
