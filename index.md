@@ -59,6 +59,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Visual / genai-visual](genai-visual.md)
   * [N as Code / N-As-Code](n-as-code.md)
   * [Magic Shortcuts / magiccuts](magiccuts.md)
+  * [7 Days Learning Challenge / 7-days-learning-challgene-history](7-days-learning-challgene-history.md)
 
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
