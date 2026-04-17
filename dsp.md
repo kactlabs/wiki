@@ -39,7 +39,7 @@ District: Theni
 
 We just discovered our Diamond #1 from Theni 💎
 
-She’s only 13 years old, and already beginning her journey with Lubuntu on a sponsored laptop.
+She’s only 13 years old, and already beginning her journey with Lubuntu (Lighter Ubuntu) on a sponsored laptop.
 
 Huge thanks to Packiaraj for identifying this raw talent.
 
