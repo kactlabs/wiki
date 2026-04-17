@@ -62,4 +62,4 @@ E4E - Education 4 Everyone.
 
 ---
 
-*Note: This program is designed for students from public schools in Tamil Nadu who are interested in engineering and technology fields.*
+*Note: This program is designed for students from public schools or under-privileged in Tamil Nadu who are interested in engineering and technology fields.*
