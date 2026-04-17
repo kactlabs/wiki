@@ -27,4 +27,26 @@ Email your details to info@kactii.com
 
 ---
 
+History:
+
+### DSP#1 - Sarvadha
+
+Hometown: Chinnamanur
+
+District: Theni
+
+![1776384587183](image/dsp/1776384587183.png)
+
+As a part of our DSP (Diamond Sharpening Program), we discovered Sarvadha from Chinnamanur, Theni District, Tamil Nadu, India. Her father is an auto driver, and despite the humble background, Sarvadha has proven herself to be an exceptionally talented student. She has held the first rank consistently from 4th grade through 8th grade — an incredible streak of 60 months without ever missing the top spot.
+
+A special thanks to our Director Packiaraj for identifying Sarvadha through the DSP program. She proudly became our very first DSP scholar — DSP#1.
+
+We shipped Sarvadha a used Lubuntu OS-based laptop, and she is already learning Lubuntu during her vacation. A bright start to a bright future.
+
+Who knows, Sarvadha might end up joining NASA in her future and transforming our earth. 
+
+E4E - Education 4 Everyone.
+
+---
+
 *Note: This program is designed for students from public schools in Tamil Nadu who are interested in engineering and technology fields.*

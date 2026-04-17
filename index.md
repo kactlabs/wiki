@@ -60,6 +60,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [N as Code / N-As-Code](n-as-code.md)
   * [Magic Shortcuts / magiccuts](magiccuts.md)
   * [7 Days Learning Challenge / 7-days-learning-challgene-history](7-days-learning-challgene-history.md)
+  * [KGB4 Leaderboard / kgb4-leaderboard](kgb4-leaderboard.md)
 
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
