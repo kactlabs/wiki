@@ -5,7 +5,7 @@
 ## Eligibility
 
 - You must have 95+ marks in Science and Maths
-- You must be from any Public School in Tamil Nadu
+- You must be from any Public School or Under-privileged background in Tamil Nadu
 - You must be interested in Engineering (GenAI / CSE / AIDS / AIML / IT)
 - You must be fluent in writing/speaking Tamil
 - You must be willing to learn English quickly
@@ -62,4 +62,4 @@ E4E - Education 4 Everyone.
 
 ---
 
-*Note: This program is designed for students from public schools or under-privileged in Tamil Nadu who are interested in engineering and technology fields.*
+*Note: This program is designed for students from public schools or under-privileged in Tamil Nadu who are interested in STEM / engineering and technology fields.*
