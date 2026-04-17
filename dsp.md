@@ -23,7 +23,7 @@
 
 ## How to Apply
 
-Email your details to info@kactii.com
+Email your details to info@kactii.com or Call this Indian Number: +91 959 767 1116
 
 ---
 
