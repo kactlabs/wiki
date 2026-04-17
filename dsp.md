@@ -37,6 +37,19 @@ District: Theni
 
 ![1776384587183](image/dsp/1776384587183.png)
 
+We just discovered our Diamond #1 from Theni 💎
+
+She’s only 13 years old, and already beginning her journey with Lubuntu on a sponsored laptop.
+
+Huge thanks to Packiaraj for identifying this raw talent.
+
+This is exactly why DSP exists —
+to find brilliance where the world isn’t looking and give it the tools to shine.
+
+Let’s give back to society. Let’s build the next generation.
+
+--
+
 As a part of our DSP (Diamond Sharpening Program), we discovered Sarvadha from Chinnamanur, Theni District, Tamil Nadu, India. Her father is an auto driver, and despite the humble background, Sarvadha has proven herself to be an exceptionally talented student. She has held the first rank consistently from 4th grade through 8th grade — an incredible streak of 60 months without ever missing the top spot.
 
 A special thanks to our Director Packiaraj for identifying Sarvadha through the DSP program. She proudly became our very first DSP scholar — DSP#1.
