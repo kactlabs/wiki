@@ -54,7 +54,7 @@ As a part of our DSP (Diamond Sharpening Program), we discovered Sarvadha from C
 
 A special thanks to our Director Packiaraj for identifying Sarvadha through the DSP program. She proudly became our very first DSP scholar — DSP#1.
 
-We shipped Sarvadha a used Lubuntu OS-based laptop, and she is already learning Lubuntu during her vacation. A bright start to a bright future.
+We shipped Sarvadha a used Lubuntu OS-based laptop, and she is already learning Lubuntu, Python and GenAI Basics during her vacation. A bright start to a bright future.
 
 Who knows, Sarvadha might end up joining NASA in her future and transforming our earth. 
 
