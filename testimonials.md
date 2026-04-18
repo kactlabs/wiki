@@ -79,3 +79,6 @@
 
 21. Session Testimonial - March 21, 2026
 ![1774221333921](image/testimonials/1774221333921.png)
+
+222. Chaaya - Appreciation Letter
+![1776481335746](image/testimonials/1776481335746.png)
