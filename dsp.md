@@ -5,9 +5,9 @@
 ## Eligibility
 
 - You must have 95+ marks in Science and Maths
-- You must be from any Public School or Under-privileged background in Tamil Nadu
+- You must be from any Public School or Under-privileged background in South India
 - You must be interested in Engineering (GenAI / CSE / AIDS / AIML / IT)
-- You must be fluent in writing/speaking Tamil
+- You must be fluent in writing/speaking any South Indian language (Tamil / Telugu / Kannada / Malayalam)
 - You must be willing to learn English quickly
 
 ## How do we train you?
