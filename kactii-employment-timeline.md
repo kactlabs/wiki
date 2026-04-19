@@ -2,8 +2,6 @@
 
 # Kactii Employment Timeline
 
-## Kactii Academy Employment Table
-
 16 hrs a day / 6 days a week = 72 hours per week
 
 ### 🔥 Crazy Learning
@@ -21,19 +19,19 @@
 
 | Hours per Day | Hours per Week | Estimated Time to Employment |
 |---|---|---|
-| 10 | 60 | 10 months |
-| 9 | 54 | 12 months |
-| 8 | 48 | 14 months |
-| 7 | 42 | 16 months |
-| 6 | 36 | 18 months |
+| 10 | 60 | 11 months |
+| 9 | 54 | 13 months |
+| 8 | 48 | 15 months |
+| 7 | 42 | 17 months |
+| 6 | 36 | 19 months |
 
 ### 🍃 Casual Learning
 
 | Hours per Day | Hours per Week | Estimated Time to Employment |
 |---|---|---|
-| 5 | 30 | 22 months |
-| 4 | 24 | 26 months |
-| 2 | 12 | 30 months |
-| 1 | 6 | 34 months |
+| 5 | 30 | 23 months |
+| 4 | 24 | 27 months |
+| 2 | 12 | 31 months |
+| 1 | 6 | 35 months |
 
 If you work 16 hrs a day and 6 days a week, we can help you get a job in 4 months.
