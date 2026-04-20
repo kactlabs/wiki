@@ -35,7 +35,7 @@ conda info
 conda info --envs
 conda env list
 
-conda create -n py311 python=3.11
+conda create -n test12 python=3.12
 
 conda activate py311
 
