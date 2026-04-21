@@ -91,7 +91,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## Python
   * [PyEnv / pyenv](pyenv.md)
 
-## TACT / Kact General Tools
+## TACT / KACT / Kact General Tools
   * [Nginx Installation](nginx-installation-ubuntu.md)
   * [How to Instlal Virtualenv](how-to-install-virtualenv.md)
   * [How to Install venv](venv.md)
@@ -180,6 +180,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [GenAI Personal Blog / genai-personal-blog](genai-personal-blog.md)
   * [Blog sample / blog-sample](blog-sample.md)
   * [Kactii Micro Investors / kactii-micro-investors](kactii-micro-investors.md)
+  * [KGifts / EdTech Gifts](kgifts-edtech-gifts.md)
 
 ## Mac
   * [macOS](macos.md)
