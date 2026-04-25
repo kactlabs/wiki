@@ -182,6 +182,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Kactii Micro Investors / kactii-micro-investors](kactii-micro-investors.md)
   * [KGifts / EdTech Gifts](kgifts-edtech-gifts.md)
   * [Alias CSP / alias-csp](alias-csp.md)
+  * [Kactii Principles / KaP](kactii-principles-kap.md)
 
 ## Mac
   * [macOS](macos.md)
