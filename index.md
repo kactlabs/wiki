@@ -62,7 +62,8 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [7 Days Learning Challenge / 7-days-learning-challgene-history](7-days-learning-challgene-history.md)
   * [KGB4 Leaderboard / kgb4-leaderboard](kgb4-leaderboard.md)
   * [Kactii Employment Timeline / ket ](kactii-employment-timeline.md)
-
+  * [T-Shirt Image Generation](tshirt-image-generation.md)
+  
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
 
