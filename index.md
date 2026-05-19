@@ -722,3 +722,6 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   22. [Data Bee Game](index.md)
   23. [Book Reading Game](book-reading-game.md)
   24. [Phrase Genius](phrase-genius.md)
+
+### Newsletter Service Analysis 
+  * [Newsletter Service Analysis](newsletter-service-analysis.md)
