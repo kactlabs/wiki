@@ -186,6 +186,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Alias CSP / alias-csp](alias-csp.md)
   * [Kactii Principles / KaP](kactii-principles-kap.md)
   * [Employee Perks](employee-perks.md)
+  * [Generational Cohort](generational-cohort.md)
 
 ## Mac
   * [macOS](macos.md)
