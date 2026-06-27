@@ -188,6 +188,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Employee Perks](employee-perks.md)
   * [Generational Cohort](generational-cohort.md)
   * [Audience Engagement Platform](audience-engagement-platform.md)
+  * [App Checklist](app-checklist.md)
 
 ## Mac
   * [macOS](macos.md)
