@@ -25,3 +25,5 @@
   - Text
   - HandWritten
 - New Feature with .env control
+- App Waiting list
+- Referral Tree and Admin view on Tree
