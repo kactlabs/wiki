@@ -8,6 +8,8 @@
 - Gmail Registration
 - Gmail Login
 - Email with Providers
+  - Gmail
+  - 
 - Google Analytics
 - KWebtics - [https://github.com/kactlabs/kweb-analytics](https://github.com/kactlabs/kweb-analytics)
 - BYOK - For only GenAI related apps
