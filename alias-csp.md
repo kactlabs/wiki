@@ -3,6 +3,7 @@
 ## Alias CSP / alias-csp
 
 ### Updated Date: 20260423
+
 ```
 # Define a variable for the common path
 USER_BASE_PATH="$HOME/rj"
@@ -411,6 +412,10 @@ alias cla="claude"
 alias mds="make devserver"
 alias mp="make publish"
 
+# vercel
+alias vpr="vercel --prod"
+alias vprd="vercel --prod --debug"
+
 # gab
 alias gab="cd $KACT_BASE_PATH/rajacsp.github.io"
 
@@ -419,4 +424,3 @@ git-opts() {
   git "$1" --help | grep -E '^\s+(-[a-zA-Z]|--[a-zA-Z])' | grep -oE '(-[a-zA-Z]|--[a-zA-Z][a-zA-Z-]*)' | sort -u
 }
 ```
-
