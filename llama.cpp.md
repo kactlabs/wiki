@@ -161,6 +161,17 @@ curl http://127.0.0.1:8080/v1/models
 
 ![1769462249846](image/llama.cpp/1769462249846.png)
 
+## curl llama.cpp
+```
+curl http://127.0.0.1:8080/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "messages": [{"role": "user", "content": "What'\''s the capital of Canada?"}],
+    "max_tokens": 100
+  }' | jq
+```
+![1785480895855](image/llama.cpp/1785480895855.png)
+
 ### Models
 
 - https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF
