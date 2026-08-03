@@ -170,6 +170,43 @@ curl http://127.0.0.1:8080/v1/chat/completions \
     "max_tokens": 100
   }' | jq
 ```
+
+## You should get like this
+```
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The capital of Canada is Ottawa, located in the province of Ontario."
+      }
+    }
+  ],
+  "created": 1785772880,
+  "model": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+  "system_fingerprint": "b7910-4d5e97267",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 16,
+    "prompt_tokens": 25,
+    "total_tokens": 41
+  },
+  "id": "chatcmpl-5InSTiUxS7MoYFJMNAssd5w1L2wz5ABA",
+  "timings": {
+    "cache_n": 24,
+    "prompt_n": 1,
+    "prompt_ms": 14.273,
+    "prompt_per_token_ms": 14.273,
+    "prompt_per_second": 70.06235549639179,
+    "predicted_n": 16,
+    "predicted_ms": 62.438,
+    "predicted_per_token_ms": 3.902375,
+    "predicted_per_second": 256.25420417053715
+  }
+}
+```
 ![1785480895855](image/llama.cpp/1785480895855.png)
 
 ### Models
