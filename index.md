@@ -65,6 +65,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [T-Shirt Image Generation](tshirt-image-generation.md)
   * [GenAI 4 GenZs](genai4genzs-program.md)
 
+## Azure Deployment
+  * [How to deploy in Azure](how-to-deploy-in-azure.md)
+
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
 
