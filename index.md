@@ -71,6 +71,9 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
 ## InHouse Book
   * [LangChain-4-Beginners / l4b](l4b.md)
 
+## Electron
+  * [Electron Setup](electron-setup.md)
+
 ## Orientation
   * [Employee Orientation](employee-orientation.md)
   * [Orientation - Windows](orientation-windows.md)
