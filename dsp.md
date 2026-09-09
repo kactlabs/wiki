@@ -29,6 +29,28 @@ Email your details to info@kactii.com or Call this Indian Number: +91 959 767 11
 
 ## History:
 
+### DSP#2 - P.G.Prasanna
+
+Hometown: Ulundurpet
+
+State: Tamil Nadu, India
+
+![1788926638075](https://rajacsp.github.io/image/2026-09-07-dsp-2-pg-prasanna/1788926638075.png)
+
+We found our second diamond via our DSP: Prasanna 💎
+
+Based in Ulundurpet, Tamil Nadu, India, Prasanna is the recipient of DSP #2. As a gesture of appreciation for his efforts and dreams, we handed over a used MacBook — the second device in the history of the program.
+
+The DSP is built on the idea of a community lifting up its own. We are not looking for the most accomplished or the most credentialed — we are looking for genuine effort and honest dreams, wherever they come from. A used MacBook may seem modest, but its real value is the message behind it: someone sees your effort, believes in your dreams, and wants you to keep going.
+
+Every device in this program is personally funded by Raja CSP Raman through Kactii. This is not a grant, a scholarship, or a contract — it is simply a community gesture, given with no strings attached.
+
+We are proud to welcome Prasanna into the growing DSP family. He is the second of many.
+
+E4E - Education 4 Everyone.
+
+---
+
 ### DSP#1 - Sarvadha
 
 Hometown: Chinnamanur
