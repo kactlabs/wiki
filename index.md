@@ -196,6 +196,7 @@ We do simple and smart apps mostly for POC purposes with scaling options which c
   * [Audience Engagement Platform](audience-engagement-platform.md)
   * [App Checklist](app-checklist.md)
   * [Session Protocol](session-protocol.md)
+  * [VisualPatti / visualpatti / visual-patti](visualpatti.md)
 
 ## Mac
   * [macOS](macos.md)
